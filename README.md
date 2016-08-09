@@ -1,2 +1,4 @@
-# tcga
-Microbial analysis in TCGA data
+## TCGA Analysis
+Workflow to rapidly search TCGA data for microbial presence.
+
+
