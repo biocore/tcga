@@ -86,7 +86,7 @@ for diseaseTypeLabel in diseaseTypeList:
 
 	print("Writing metadata to output path...")
 	# Write to output path
-	outputFileName = 'joinedMetaDF' + '_' + d_type_label["disease_type"].replace(" ","") + '.csv'
-	outputFilePathName = outputFilePath + 'joinedMetaDF' + '_' + d_type_label["disease_type"].replace(" ","") + '.csv'
+	outputFileName = 'joinedMetaDF' + '__' + d_type_label["disease_type"].replace(" ","") + '.csv'
+	outputFilePathName = outputFilePath + 'joinedMetaDF' + '__' + d_type_label["disease_type"].replace(" ","") + '.csv'
 	joinedMetaDF.to_csv(path_or_buf = outputFilePathName)
 	print("Complete! Saved as %r in the output directory. \n" % outputFileName)
