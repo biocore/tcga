@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/bin/env py
 # ----------------------------------------------------------------------------
 # Copyright (c) 2016--, Gregory Poore.
 #
@@ -37,11 +37,11 @@ diseaseTypeList = args.diseaseTypeList
 
 # #['-o', '--outputFilePath', '-p','--cgcProjectName', '-u', '--cgcUserName', '-d', '--diseaseTypeList']
 
-print("\n")
-print("Output directory         :%r" % outputFilePath)
-print("CGC project name         :%r" % cgcProjectName)
-print("CGC user name            :%r" % cgcUserName)
-print("Selected disease type(s) :%r" % diseaseTypeList)
+print "\n"
+print "Output directory         :%r" % outputFilePath
+print "CGC project name         :%r" % cgcProjectName
+print "CGC user name            :%r" % cgcUserName
+print "Selected disease type(s) :%r" % diseaseTypeList
 
 for diseaseTypeLabel in diseaseTypeList:
 
@@ -53,16 +53,16 @@ for diseaseTypeLabel in diseaseTypeList:
 	config_file = sbg.Config(profile='cgc')
 	api = sbg.Api(config=config_file)
 
-	print("\n")
-	print("Grabbing list of files, their names, and IDs for "+diseaseTypeLabel+"...")
+	print "\n"
+	print "Grabbing list of files, their names, and IDs for "+diseaseTypeLabel+"..."
 	# Grab list of files, their names and IDs
 	file_list = api.files.query(
 	    project=cgcUserName+'/'+cgcProjectName,
 	    #limit = 1000, # Based on API calling limit of 1000 per hour
 	    metadata = d_type_label)
-	print("Extracting file names...")
+	print "Extracting file names..."
 	f_names = [f.name for f in file_list.all()] # Grab filenames
-	print("Extracting file IDs...")
+	print "Extracting file IDs..."
 	f_id = [f.id for f in file_list.all()] # Grab file IDs
 
 	# Grab and store filenames; convert from Unicode to Python strings
@@ -73,7 +73,7 @@ for diseaseTypeLabel in diseaseTypeList:
 	# Store filename strings in DF
 	filenamesDF = pd.DataFrame(filenames, columns = ['filename'])
 
-	print("Grabbing files' metadata...")
+	print "Grabbing files' metadata..."
 	# Grab metadata for files of desired disease type
 	metaDF = pd.concat( json_normalize(api.files.get(id=f_id[k]).metadata) for k in trange(0,len(f_id)) )
 
@@ -84,9 +84,9 @@ for diseaseTypeLabel in diseaseTypeList:
 	# Merge with filenames DF
 	joinedMetaDF = pd.concat([filenamesDF, metaDF], axis=1)
 
-	print("Writing metadata to output path...")
+	print "Writing metadata to output path..."
 	# Write to output path
 	outputFileName = 'joinedMetaDF' + '_' + d_type_label["disease_type"].replace(" ","") + '.csv'
 	outputFilePathName = outputFilePath + 'joinedMetaDF' + '_' + d_type_label["disease_type"].replace(" ","") + '.csv'
 	joinedMetaDF.to_csv(path_or_buf = outputFilePathName)
-	print("Complete! Saved as %r in the output directory. \n" % outputFileName)
+	print "Complete! Saved as %r in the output directory. \n" % outputFileName
