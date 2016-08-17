@@ -1,2 +1,2 @@
 # tcga
-Microbial analysis in TCGA data
+Microbial analysis of TCGA data
