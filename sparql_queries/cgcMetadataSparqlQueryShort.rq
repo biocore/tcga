@@ -1,0 +1,28 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX tcga: <https://www.sbgenomics.com/ontologies/2014/11/tcga#>
+
+select distinct ?file_name ?experimental_strategy_label ?data_type_label ?data_format_label 
+where
+{
+  
+  ?file a tcga:File .
+  ?file rdfs:label ?file_name .
+ 
+  ?file tcga:hasSample ?sample .
+  ?sample tcga:hasSampleType ?st .
+  ?st rdfs:label ?sample_type_label 
+  filter(?sample_type_label='Primary Tumor' || ?sample_type_label='Additional - New Primary' || ?sample_type_label='Additional Metastatic' || ?sample_type_label='Metastatic' || ?sample_type_label='Primary Blood Derived Cancer - Peripheral Blood' || ?sample_type_label='Recurrent Tumor' || ?sample_type_label='Blood Derived Normal' || ?sample_type_label='Bone Marrow Normal' || ?sample_type_label='Buccal Cell Normal' || ?sample_type_label='Solid Tissue Normal')
+  
+  
+  ?file tcga:hasExperimentalStrategy ?xs .
+  ?xs rdfs:label ?experimental_strategy_label .
+  filter(?experimental_strategy_label='RNA-Seq' || ?experimental_strategy_label='WGS') .
+  
+  ?file tcga:hasDataType ?type .
+  ?type rdfs:label ?data_type_label .
+  filter(?data_type_label='Raw sequencing data') .
+  
+  ?file tcga:hasDataFormat ?format .
+  ?format rdfs:label ?data_format_label .
+  filter(?data_format_label='BAM') .
+  }
