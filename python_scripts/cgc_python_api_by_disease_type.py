@@ -68,7 +68,7 @@ for diseaseTypeLabel in diseaseTypeList:
 	# Grab and store filenames; convert from Unicode to Python strings
 	filenames = []
 	for ind, val in enumerate(f_names):
-	    filenames.append(unicodedata.normalize('NFKD', f_names[ind]).encode('latin-1','ignore'))
+	    filenames.append(unicodedata.normalize('NFKD', f_names[ind]).encode('latin-1','ignore').decode("utf-8"))
 
 	# Store filename strings in DF
 	filenamesDF = pd.DataFrame(filenames, columns = ['filename'])
