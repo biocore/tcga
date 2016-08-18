@@ -58,7 +58,7 @@ for diseaseTypeLabel in diseaseTypeList:
 	# Grab list of files, their names and IDs
 	file_list = api.files.query(
 	    project=cgcUserName+'/'+cgcProjectName,
-	    #limit = 1000, # Based on API calling limit of 1000 per hour
+	    #limit = 1000, # Based on API calling limit of 1000 per 5 minutes
 	    metadata = d_type_label)
 	print("Extracting file names...")
 	f_names = [f.name for f in file_list.all()] # Grab filenames
