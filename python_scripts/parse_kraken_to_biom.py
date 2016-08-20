@@ -94,35 +94,6 @@ def prepare_dataframe(kraken_translate_report_fp,
                 taxonomies.add(taxonomy)
     return sample_ids, taxonomies
 
-
-def output_biom_table(abundances,
-                      organs_list,
-                      reports_dp,
-                      taxa_level,
-                      taxonomy_report_dp,
-                      metadata):
-    """Output BIOM table.
-    """
-    output_biom_fp = join(reports_dp, "tcga_output_%s.biom" % (taxa_level))
-    with open(output_biom_fp, 'w') as output_f:
-        # output BIOM tsv file
-        output_f.write("# Constructed from biom file\n")
-        output_f.write("# OTU ID\t")
-        for file_n in metadata:
-            if isfile(join(taxonomy_report_dp, "%s_kraken.report_mpa" % file_n)):
-                output_f.write("%s\t" % metadata[file_n][3])
-        output_f.write("\n")
-
-        # print out sample IDs
-        for taxa in abundances:
-            taxa1 = taxa.replace("d__", "k__")
-            taxa2 = taxa1.replace("|", ";")
-            output_f.write("%s\t" % taxa2)
-            for abundance in abundances[taxa]:
-                output_f.write("%s\t" % abundance)
-            output_f.write("\n")   
-
-
 @click.command()
 @click.argument('kraken-translate-report-fp', required=True,
                 type=click.Path(resolve_path=True, readable=True, exists=True,
