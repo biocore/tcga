@@ -24,7 +24,7 @@ parser.add_argument('-o', '--outputFilePath',
 	default = './', 
 	dest = 'outputFilePath')
 parser.add_argument('-p', '--cgcProjectName', 
-	help = 'Enter name of CGC Sevenbridges project. Note that project names CANNOT contain underscores ("_") but can contain dashes ("-"), 
+	help = 'Enter name of CGC Sevenbridges project. Note that project names CANNOT contain underscores ("_") but can contain dashes ("-")',
 	default = 'cgc-metadata-to-qiime-mapping-file-project',
 	dest = 'cgcProjectName')
 parser.add_argument('-u', '--cgcUserName', 
@@ -32,9 +32,14 @@ parser.add_argument('-u', '--cgcUserName',
 	default = 'gregpoore',
 	dest = 'cgcUserName')
 parser.add_argument('-f', '--filenameSuffix',
-	help = 'Enter new filename suffix (e.g. if converting from BAM files to Fasta files enter ".fasta" ',
+	help = 'Enter new filename suffix (e.g. if converting from BAM files to Fasta files enter ".fasta") ',
 	default = '.fasta',
 	dest = 'filenameSuffix')
+parser.add_argument('-a', '--authToken',
+	help = 'Enter your CGC auth token',
+	default = '',
+	dest = 'authToken',
+	required=True)
 # parser.add_argument('-m', '--metadataFilter',
 # 	help = 'Enter ')
 # parser.add_argument('-d', '--diseaseTypeList', help = 'Enter desired disease name from which to pull metadata (surround with "")',
@@ -51,6 +56,7 @@ outputFilePath = args.outputFilePath
 cgcProjectName = args.cgcProjectName
 cgcUserName = args.cgcUserName
 filenameSuffix = args.filenameSuffix
+authToken = args.authToken
 # diseaseTypeList = args.diseaseTypeList
 
 # #['-o', '--outputFilePath', '-p','--cgcProjectName', '-u', '--cgcUserName', '-d', '--diseaseTypeList']
@@ -60,10 +66,12 @@ print("Output directory         :%r" % outputFilePath)
 print("CGC project name         :%r" % cgcProjectName)
 print("CGC user name            :%r" % cgcUserName)
 
-# Use config file for login. See here if you have questions: 
-# https://github.com/sbg/okAPI/blob/aa8a097c6f0be24170b0a0c800460c6defd0d6c9/Recipes/SBPLAT/Setup_API_environment.ipynb
-config_file = sbg.Config(profile='cgc')
-api = sbg.Api(config=config_file)
+# Set up API configuration
+os.environ['API_URL'] = 'https://cgc-api.sbgenomics.com/v2'
+os.environ['AUTH_TOKEN'] = authToken
+
+api_config = sbg.Config()
+api = sbg.Api(config=api_config)
 
 print("\n")
 print("Grabbing list of files, their names, and IDs...")
