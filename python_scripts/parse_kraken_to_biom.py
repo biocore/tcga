@@ -12,23 +12,20 @@
 Parse output of "kraken translate" and generate single BIOM table.
 """
 
-import sys
-import os
-from os.path import isfile, join
-import random
 import click
 import pandas as pd
 import numpy as np
 from biom.table import Table
+from biom.util import biom_open, HAVE_H5PY
 
 
-def compute_abundances_biom(kraken_translate_report_fp,
-                            qiime_metadata_fp,
-                            taxonomic_rank,
-                            taxa_levels,
-                            taxa_levels_idx,
-                            columns,
-                            index):
+def compute_biom_table(kraken_translate_report_fp,
+                       qiime_metadata_fp,
+                       taxonomic_rank,
+                       taxa_levels,
+                       taxa_levels_idx,
+                       columns,
+                       index):
     """Absolute abundance of number of reads matching a defined taxa level.
 
     Parameters
@@ -39,6 +36,14 @@ def compute_abundances_biom(kraken_translate_report_fp,
         filepath to QIIME metadata file
     taxonomic_rank: string
         taxonomy level (e.g., genus or species)
+    taxa_levels: dictionary
+        keys are full name taxonomic ranks and values are abbreviated ranks
+    taxa_levels_idx: dictionary
+        2-way dict storing integer depths for abbreviated taxonomic ranks
+    columns: list
+        sample IDs list
+    index: list
+        observation IDs (taxonomy strings) list
 
     Returns
     -------
@@ -64,10 +69,13 @@ def compute_abundances_biom(kraken_translate_report_fp,
                     abundances.set_value(taxonomy, sample_id, 1.)
                 else:
                     abundances.set_value(taxonomy, sample_id, value+1.)
-    values = abundances.values()
-    #table = Table(abundances.values(), abundances.index.values.tolist(), abundances.columns.values.tolist())
-    #print(table)
-    #return table
+    sample_ids = abundances.index.values.tolist()
+    for i in range(len(sample_ids)):
+        sample_ids[i] = sample_ids[i].replace("d__", "k__")
+        sample_ids[i] = sample_ids[i].replace("|", ";")
+    return Table(abundances.fillna(0.).as_matrix(),
+                 sample_ids,
+                 abundances.columns.values.tolist())
 
 
 def prepare_dataframe(kraken_translate_report_fp,
@@ -94,23 +102,42 @@ def prepare_dataframe(kraken_translate_report_fp,
                 taxonomies.add(taxonomy)
     return sample_ids, taxonomies
 
+
+def write_biom_table(table, biom_output_fp):
+    """Write BIOM table to file.
+
+    Parameters
+    ----------
+    table: biom.Table
+        an instance of a BIOM table
+    biom_output_fp: string
+        filepath to output BIOM table
+    """
+    with biom_open(biom_output_fp, 'w') as f:
+        if HAVE_H5PY:
+            table.to_hdf5(h5grp=f, generated_by="tcga-kraken-translate")
+        else:
+            table.to_json(direct_io=f, generated_by="tcga-kraken-translate")
+
+
 @click.command()
-@click.argument('kraken-translate-report-fp', required=True,
-                type=click.Path(resolve_path=True, readable=True, exists=True,
-                                file_okay=True))
-@click.argument('qiime-metadata-fp', required=False,
-                type=click.Path(resolve_path=True, readable=True, exists=True,
-                                file_okay=True))
+@click.option('--kraken-translate-report-fp', required=True,
+              type=click.Path(resolve_path=True, readable=True, exists=True,
+                              file_okay=True))
+@click.option('--qiime-metadata-fp', required=False,
+              type=click.Path(resolve_path=True, readable=True, exists=True,
+                              file_okay=True))
 @click.option('--taxonomic-rank', type=click.Choice(['genus', 'species',
                                                      'family', 'order',
                                                      'class', 'phylum',
                                                      'domain']),
               required=False, default=['genus'], show_default=True,
               help="Taxonomic rank at which to generate summary")
-@click.option('--biom-output-fp', required=False,
+@click.option('--biom-output-fp', required=True,
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
-              help="Filepath to output BIOM table (default HDF5 format)")
+              help="Filepath to output BIOM table (default HDF5 format, "
+                   "otherwise JSON)")
 def main(kraken_translate_report_fp,
          qiime_metadata_fp,
          taxonomic_rank,
@@ -132,8 +159,8 @@ def main(kraken_translate_report_fp,
         taxonomic_rank=taxonomic_rank,
         taxa_levels=taxa_levels,
         taxa_levels_idx=taxa_levels_idx)
-    abundances =\
-        compute_abundances_biom(
+    biom_table =\
+        compute_biom_table(
             kraken_translate_report_fp=kraken_translate_report_fp,
             qiime_metadata_fp=qiime_metadata_fp,
             taxonomic_rank=taxonomic_rank,
@@ -141,13 +168,8 @@ def main(kraken_translate_report_fp,
             taxa_levels_idx=taxa_levels_idx,
             columns=columns,
             index=index)
-
-    #output_biom_table(abundances=abundances,
-    #                  organs_list=organs_list,
-    #                  reports_dp=reports_dp,
-    #                  taxa_level=taxa_level,
-    #                  taxonomy_report_dp=taxonomy_report_dp,
-    #                  metadata=metadata)
+    # output table
+    write_biom_table(biom_table, biom_output_fp)
 
 
 if __name__ == "__main__":
