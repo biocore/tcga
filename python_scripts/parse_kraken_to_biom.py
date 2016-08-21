@@ -20,7 +20,6 @@ from biom.util import biom_open, HAVE_H5PY
 
 
 def compute_biom_table(kraken_translate_report_fp,
-                       qiime_metadata_fp,
                        taxonomic_rank,
                        taxa_levels,
                        taxa_levels_idx,
@@ -32,8 +31,6 @@ def compute_biom_table(kraken_translate_report_fp,
     ----------
     kraken_translate_report_fp: string
         filepath to output of "kraken translate"
-    qiime_metadata_fp: string
-        filepath to QIIME metadata file
     taxonomic_rank: string
         taxonomy level (e.g., genus or species)
     taxa_levels: dictionary
@@ -55,7 +52,11 @@ def compute_biom_table(kraken_translate_report_fp,
     abundances = pd.DataFrame(columns=columns, index=index)    
     taxonomic_rank_level_str = taxa_levels[taxonomic_rank]
     taxonomic_rank_level_int = taxa_levels_idx[taxonomic_rank_level_str]
-    split_on_level = taxa_levels_idx[str(taxonomic_rank_level_int + 1)]
+    if taxonomic_rank_level_int < 6:
+        split_on_level = taxa_levels_idx[str(taxonomic_rank_level_int + 1)]
+    else:
+        # keep full string (to species level)
+        split_on_level = '\t'
     with open(kraken_translate_report_fp) as kraken_translate_report_f:
         for line in kraken_translate_report_f:
             label, taxonomy = line.strip().split('\t')
@@ -83,11 +84,33 @@ def prepare_dataframe(kraken_translate_report_fp,
                       taxa_levels,
                       taxa_levels_idx):
     """Return sets for sample IDs and taxonomy strings.
+
+    Parameters
+    ----------
+    kraken_translate_report_fp: string
+        filepath to output of "kraken translate"
+    taxonomic_rank: string
+        taxonomy level (e.g., genus or species)
+    taxa_levels: dictionary
+        keys are full name taxonomic ranks and values are abbreviated ranks
+    taxa_levels_idx: dictionary
+        2-way dict storing integer depths for abbreviated taxonomic ranks
+
+    Returns
+    -------
+    sample_ids: list
+        all unique sample IDs in file
+    taxonomies: list
+        all unique taxonomies in file
     """
     total_levels = len(taxa_levels)
     taxonomic_rank_level_str = taxa_levels[taxonomic_rank]
     taxonomic_rank_level_int = taxa_levels_idx[taxonomic_rank_level_str]
-    split_on_level = taxa_levels_idx[str(taxonomic_rank_level_int + 1)]
+    if taxonomic_rank_level_int < 6:
+        split_on_level = taxa_levels_idx[str(taxonomic_rank_level_int + 1)]
+    else:
+        # keep full string (to species level)
+        split_on_level = '\t'
     sample_ids = set()
     taxonomies = set()
     with open(kraken_translate_report_fp) as kraken_translate_report_f:
@@ -100,7 +123,7 @@ def prepare_dataframe(kraken_translate_report_fp,
                 # keep taxonomy string up to specified level
                 taxonomy = taxonomy.split(split_on_level)[0]
                 taxonomies.add(taxonomy)
-    return sample_ids, taxonomies
+    return list(sample_ids), list(taxonomies)
 
 
 def write_biom_table(table, biom_output_fp):
@@ -122,9 +145,6 @@ def write_biom_table(table, biom_output_fp):
 
 @click.command()
 @click.option('--kraken-translate-report-fp', required=True,
-              type=click.Path(resolve_path=True, readable=True, exists=True,
-                              file_okay=True))
-@click.option('--qiime-metadata-fp', required=False,
               type=click.Path(resolve_path=True, readable=True, exists=True,
                               file_okay=True))
 @click.option('--taxonomic-rank', type=click.Choice(['genus', 'species',
@@ -162,7 +182,6 @@ def main(kraken_translate_report_fp,
     biom_table =\
         compute_biom_table(
             kraken_translate_report_fp=kraken_translate_report_fp,
-            qiime_metadata_fp=qiime_metadata_fp,
             taxonomic_rank=taxonomic_rank,
             taxa_levels=taxa_levels,
             taxa_levels_idx=taxa_levels_idx,
