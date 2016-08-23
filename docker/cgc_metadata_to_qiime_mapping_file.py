@@ -19,10 +19,6 @@ parser = argparse.ArgumentParser(description="""
 	metadata calls, giving a minimum wall-time of ~(#files*5)/1000 minutes; projects with less than 1000 files will run normally.
 	"""
 	)
-parser.add_argument('-o', '--outputFilePath', 
-	help = 'Enter output file path (ending in /)', 
-	default = './', 
-	dest = 'outputFilePath')
 parser.add_argument('-p', '--cgcProjectName', 
 	help = 'Enter name of CGC Sevenbridges project. Note that project names CANNOT contain underscores ("_") but can contain dashes ("-")',
 	default = 'cgc-metadata-to-qiime-mapping-file-project',
@@ -40,6 +36,10 @@ parser.add_argument('-a', '--authToken',
 	default = '',
 	dest = 'authToken',
 	required=True)
+parser.add_argument('-d', '--dataFormatFilter', 
+	help = 'Enter the data format you want to select for in your CGC directory (e.g. "BAM")',
+	default = 'BAM',
+	dest='dataFormatFilter')
 # parser.add_argument('-m', '--metadataFilter',
 # 	help = 'Enter ')
 # parser.add_argument('-d', '--diseaseTypeList', help = 'Enter desired disease name from which to pull metadata (surround with "")',
@@ -52,17 +52,18 @@ parser.add_argument('-a', '--authToken',
 # 'Lung Adenocarcinoma', 'Colon Adenocarcinoma', 'Head and Neck Squamous Cell Carcinoma', 'Uterine Corpus Endometrial Carcinoma',
 # 'Kidney Renal Clear Cell Carcinoma', 'Ovarian Serous Cystadenocarcinoma', 'Breast Invasive Carcinoma'])
 args = parser.parse_args()
-outputFilePath = args.outputFilePath
+outputFilePath = './'
 cgcProjectName = args.cgcProjectName
 cgcUserName = args.cgcUserName
 filenameSuffix = args.filenameSuffix
 authToken = args.authToken
+dataFormatFilter = args.dataFormatFilter
 # diseaseTypeList = args.diseaseTypeList
 
-# #['-o', '--outputFilePath', '-p','--cgcProjectName', '-u', '--cgcUserName', '-d', '--diseaseTypeList']
+dataFormatFilterLabel = {'data_format': dataFormatFilter}
+
 
 print("\n")
-print("Output directory         :%r" % outputFilePath)
 print("CGC project name         :%r" % cgcProjectName)
 print("CGC user name            :%r" % cgcUserName)
 
@@ -77,7 +78,8 @@ print("\n")
 print("Grabbing list of files, their names, and IDs...")
 # Grab list of files, their names and IDs
 file_list = api.files.query(
-    project=cgcUserName+'/'+cgcProjectName)
+    project=cgcUserName+'/'+cgcProjectName,
+    metadata = dataFormatFilterLabel)
 print("Extracting file names...")
 f_names = [f.name for f in file_list.all()] # Grab filenames
 print("Extracting file IDs...")
