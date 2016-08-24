@@ -40,17 +40,18 @@ parser.add_argument('-d', '--dataFormatFilter',
 	help = 'Enter the data format you want to select for in your CGC directory (e.g. "BAM")',
 	default = 'BAM',
 	dest='dataFormatFilter')
-# parser.add_argument('-m', '--metadataFilter',
-# 	help = 'Enter ')
-# parser.add_argument('-d', '--diseaseTypeList', help = 'Enter desired disease name from which to pull metadata (surround with "")',
-#  default = '', required=True, nargs='+', dest='diseaseTypeList', choices = ['Cholangiocarcinoma', 'Lymphoid Neoplasm Diffuse Large B-cell Lymphoma', 'Uterine Carcinosarcoma',
-# 'Adrenocortical Carcinoma', 'Mesothelioma', 'Uveal Melanoma', 'Thymoma', 'Kidney Chromophobe', 'Testicular Germ Cell Tumors',
-# 'Pancreatic Adenocarcinoma', 'Pheochromocytoma and Paraganglioma', 'Sarcoma', 'Rectum Adenocarcinoma', 'Glioblastoma Multiforme', 
-# 'Kidney Renal Papillary Cell Carcinoma','Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma', 'Acute Myeloid Leukemia',
-# 'Esophageal Carcinoma', 'Liver Hepatocellular Carcinoma', 'Skin Cutaneous Melanoma', 'Bladder Urothelial Carcinoma', 
-# 'Brain Lower Grade Glioma', 'Stomach Adenocarcinoma', 'Prostate Adenocarcinoma', 'Thyroid Carcinoma', 'Lung Squamous Cell Carcinoma',
-# 'Lung Adenocarcinoma', 'Colon Adenocarcinoma', 'Head and Neck Squamous Cell Carcinoma', 'Uterine Corpus Endometrial Carcinoma',
-# 'Kidney Renal Clear Cell Carcinoma', 'Ovarian Serous Cystadenocarcinoma', 'Breast Invasive Carcinoma'])
+parser.add_argument('-t', '--diseaseTypeFilter',
+	help = 'Enter the disease type you want to select surrounded by quotes ("). If you have multiple diseases, surround each one with quotes (") and separate with a space',
+	dest = 'diseaseTypeFilter',
+	nargs='+',
+	default = ['Cholangiocarcinoma', 'Lymphoid Neoplasm Diffuse Large B-cell Lymphoma', 'Uterine Carcinosarcoma',
+	'Adrenocortical Carcinoma', 'Mesothelioma', 'Uveal Melanoma', 'Thymoma', 'Kidney Chromophobe', 'Testicular Germ Cell Tumors',
+	'Pancreatic Adenocarcinoma', 'Pheochromocytoma and Paraganglioma', 'Sarcoma', 'Rectum Adenocarcinoma', 'Glioblastoma Multiforme', 
+	'Kidney Renal Papillary Cell Carcinoma','Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma', 'Acute Myeloid Leukemia',
+	'Esophageal Carcinoma', 'Liver Hepatocellular Carcinoma', 'Skin Cutaneous Melanoma', 'Bladder Urothelial Carcinoma', 
+	'Brain Lower Grade Glioma', 'Stomach Adenocarcinoma', 'Prostate Adenocarcinoma', 'Thyroid Carcinoma', 'Lung Squamous Cell Carcinoma',
+	'Lung Adenocarcinoma', 'Colon Adenocarcinoma', 'Head and Neck Squamous Cell Carcinoma', 'Uterine Corpus Endometrial Carcinoma',
+	'Kidney Renal Clear Cell Carcinoma', 'Ovarian Serous Cystadenocarcinoma', 'Breast Invasive Carcinoma'])
 args = parser.parse_args()
 outputFilePath = './'
 cgcProjectName = args.cgcProjectName
@@ -58,14 +59,24 @@ cgcUserName = args.cgcUserName
 filenameSuffix = args.filenameSuffix
 authToken = args.authToken
 dataFormatFilter = args.dataFormatFilter
-# diseaseTypeList = args.diseaseTypeList
+diseaseTypeFilter = args.diseaseTypeFilter
 
 dataFormatFilterLabel = {'data_format': dataFormatFilter}
+diseaseTypeFilter = {'disease_type': diseaseTypeFilter}
+
+# Combine metadata fields into one dictionary
+metadataFilter = dict(dataFormatFilterLabel)
+metadataFilter.update(diseaseTypeFilter)
 
 
 print("\n")
 print("CGC project name         :%r" % cgcProjectName)
 print("CGC user name            :%r" % cgcUserName)
+print("Selected disease type(s) :%r" % diseaseTypeFilter)
+print(metadataFilter.items())
+# for k, v in metadataFilter.iteritems():
+#     print(k, v)
+
 
 # Set up API configuration
 os.environ['API_URL'] = 'https://cgc-api.sbgenomics.com/v2'
@@ -79,7 +90,7 @@ print("Grabbing list of files, their names, and IDs...")
 # Grab list of files, their names and IDs
 file_list = api.files.query(
     project=cgcUserName+'/'+cgcProjectName,
-    metadata = dataFormatFilterLabel)
+    metadata = metadataFilter)
 print("Extracting file names...")
 f_names = [f.name for f in file_list.all()] # Grab filenames
 print("Extracting file IDs...")
