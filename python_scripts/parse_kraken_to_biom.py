@@ -16,7 +16,7 @@ import click
 import pandas as pd
 import numpy as np
 from biom.table import Table
-from biom.util import biom_open, HAVE_H5PY
+from biom.util import biom_open
 
 
 def compute_biom_table(kraken_translate_report_fp,
@@ -29,13 +29,13 @@ def compute_biom_table(kraken_translate_report_fp,
 
     Parameters
     ----------
-    kraken_translate_report_fp: string
+    kraken_translate_report_fp: str
         filepath to output of "kraken translate"
-    taxonomic_rank: string
+    taxonomic_rank: str
         taxonomy level (e.g., genus or species)
-    taxa_levels: dictionary
+    taxa_levels: dict
         keys are full name taxonomic ranks and values are abbreviated ranks
-    taxa_levels_idx: dictionary
+    taxa_levels_idx: dict
         2-way dict storing integer depths for abbreviated taxonomic ranks
     columns: list
         sample IDs list
@@ -70,12 +70,12 @@ def compute_biom_table(kraken_translate_report_fp,
                     abundances.set_value(taxonomy, sample_id, 1.)
                 else:
                     abundances.set_value(taxonomy, sample_id, value+1.)
-    sample_ids = abundances.index.values.tolist()
-    for i in range(len(sample_ids)):
-        sample_ids[i] = sample_ids[i].replace("d__", "k__")
-        sample_ids[i] = sample_ids[i].replace("|", ";")
+    obs_ids = abundances.index.values.tolist()
+    for i in range(len(obs_ids)):
+        obs_ids[i] = obs_ids[i].replace("d__", "k__")
+        obs_ids[i] = obs_ids[i].replace("|", ";")
     return Table(abundances.fillna(0.).as_matrix(),
-                 sample_ids,
+                 obs_ids,
                  abundances.columns.values.tolist())
 
 
@@ -87,13 +87,13 @@ def prepare_dataframe(kraken_translate_report_fp,
 
     Parameters
     ----------
-    kraken_translate_report_fp: string
+    kraken_translate_report_fp: str
         filepath to output of "kraken translate"
-    taxonomic_rank: string
+    taxonomic_rank: str
         taxonomy level (e.g., genus or species)
-    taxa_levels: dictionary
+    taxa_levels: dict
         keys are full name taxonomic ranks and values are abbreviated ranks
-    taxa_levels_idx: dictionary
+    taxa_levels_idx: dict
         2-way dict storing integer depths for abbreviated taxonomic ranks
 
     Returns
@@ -133,14 +133,11 @@ def write_biom_table(table, biom_output_fp):
     ----------
     table: biom.Table
         an instance of a BIOM table
-    biom_output_fp: string
+    biom_output_fp: str
         filepath to output BIOM table
     """
     with biom_open(biom_output_fp, 'w') as f:
-        if HAVE_H5PY:
             table.to_hdf5(h5grp=f, generated_by="tcga-kraken-translate")
-        else:
-            table.to_json(direct_io=f, generated_by="tcga-kraken-translate")
 
 
 @click.command()
@@ -156,8 +153,7 @@ def write_biom_table(table, biom_output_fp):
 @click.option('--biom-output-fp', required=True,
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
-              help="Filepath to output BIOM table (default HDF5 format, "
-                   "otherwise JSON)")
+              help="Filepath to output BIOM table")
 def main(kraken_translate_report_fp,
          qiime_metadata_fp,
          taxonomic_rank,
