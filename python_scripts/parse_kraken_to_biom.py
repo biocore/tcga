@@ -155,7 +155,6 @@ def write_biom_table(table, biom_output_fp):
                               file_okay=True),
               help="Filepath to output BIOM table")
 def main(kraken_translate_report_fp,
-         qiime_metadata_fp,
          taxonomic_rank,
          biom_output_fp):
     taxa_levels = {"domain": "d__",
