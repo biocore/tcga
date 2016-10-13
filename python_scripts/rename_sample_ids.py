@@ -38,7 +38,7 @@ def rename_sample_ids(mapping_file_fp,
     id_map = {}
     modified_id = count_start
     with open(output_mapping_file_fp, 'w') as output_f:
-        with open(mapping_file_fp) as mapping_f:
+        with open(mapping_file_fp, 'r') as mapping_f:
             for line in mapping_f:
                 if line.startswith('#SampleID'):
                     output_f.write(line)
@@ -69,7 +69,7 @@ def rename_sample_ids(mapping_file_fp,
               type=click.Path(resolve_path=True, readable=True, exists=True,
                               file_okay=True),
               help='Filepath to BIOM table')
-@click.option('--count_start', required=True, type=int,
+@click.option('--count-start', required=True, type=int,
               help='First new sample ID name (ascending in order)')
 def main(mapping_file_fp,
          biom_fp,
