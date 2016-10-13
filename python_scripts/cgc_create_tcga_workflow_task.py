@@ -17,6 +17,7 @@ import logging, yaml
 import click
 import sevenbridges as sb
 from sevenbridges.errors import SbgError
+from os.path import join
 
 
 def load_config(yaml_fp):
@@ -81,39 +82,42 @@ def create_task_cgc(local_mapping_fp,
         Total size of all TCGA files
     """
     inputs = {"input_bam_file" : all_files,
-              "bacterial_database_idx" : ,
-              "bacterial_nodes_dmp": ,
-              "bacterial_names_dmp": ,
-              "bacterial_database_kdb": ,
-              "viral_database_idx": ,
-              "viral_names_dmp": ,
-              "viral_nodes_dmp": ,
-              "viral_database_kdb": ,
-              "fasta_file_input": ,
-              "qiime_mapping_file_1": }
+              "bacterial_database_idx" : '',
+              "bacterial_nodes_dmp": '',
+              "bacterial_names_dmp": '',
+              "bacterial_database_kdb": '',
+              "viral_database_idx": '',
+              "viral_names_dmp": '',
+              "viral_nodes_dmp": '',
+              "viral_database_kdb": '',
+              "fasta_file_input": '',
+              "qiime_mapping_file_1": ''}
     task_name = "%s_%s_task_%s_files_%s_Gb_%s" % (task_basename,
                                                   str(total_tasks_created),
                                                   str(len(all_files)),
                                                   str(total_size_gb),
                                                   config['disease'])
-    task_name = name
     my_project = api.projects.get(id = config['project'])
-    try:
-        api.tasks.create(task_name,
-                         my_project.id,
-                         config['app'],
-                         inputs=inputs,
-                         description=task_name)
-    except SbgError as e:
-        logger.error("Draft task was not created!", exc_info=e)
-        raise SbgError("Draft task was not created!")
+    #try:
+    #    api.tasks.create(task_name,
+    #                     my_project.id,
+    #                     config['app'],
+    #                     inputs=inputs,
+    #                     description=task_name)
+    #except SbgError as e:
+    #    logger.error("Draft task was not created!", exc_info=e)
+    #    raise SbgError("Draft task was not created!")
     # Initialize files array and total size
     all_files = []
     total_size_gb = 0.0
     return all_files, total_size_gb
 
 
-def generate_mapping_file(mapping_fp, all_files):
+def generate_mapping_file(mapping_fp,
+                          all_files,
+                          config,
+                          total_tasks_created,
+                          output_dp):
     """Create mini mapping file based on defined sample IDs.
 
     Parameters
@@ -122,8 +126,29 @@ def generate_mapping_file(mapping_fp, all_files):
         Filepath to master QIIME mapping file
     all_files: list
         List of CGC file IDs for which to generate mini-mapping file
+    config:
+
+    total_tasks_created: int
+        Number of task
     """
-    pass
+    disease_type = config['disease'].split()
+    filename = "%s_cgc_qiime_mapping_file_%s.txt" % (
+        '_'.join(disease_type), total_tasks_created)
+    output_fp = join(output_dp, filename)
+    all_files_names = [file.name for file in all_files]
+    with open(output_fp, 'w') as output_f:
+        with open(mapping_fp) as mapping_f:
+            for line in mapping_f:
+                if line.startswith('#SampleID'):
+                    output_f.write(line)
+                    continue
+                # file name
+                line = line.strip().split('\t')
+                filename = line[2]
+                if filename in all_files_names:
+                    output_f.write('\t'.join(line))
+    return output_fp
+
 
 def create_tasks(api,
                  mapping_fp,
@@ -132,7 +157,8 @@ def create_tasks(api,
                  log_handler,
                  config,
                  lower_bound_group_size,
-                 upper_bound_group_size):
+                 upper_bound_group_size,
+                 output_dp):
     """Create draft tasks for tcga-workflow-fasta-input-full-kraken-test
        workflow.
 
@@ -154,6 +180,8 @@ def create_tasks(api,
         Lower bound on total size of input files to pass to workflow
     upper_bound_group_size: int
         Upper bound on total size of input files to pass to workflow
+    output_dp: str
+        Directory path to output QIIME mini mapping files
     """
     logger.info('Creating draft tasks!')
     input_config = config['inputs']
@@ -167,7 +195,6 @@ def create_tasks(api,
                   _file.name.lower().endswith(input_config['input_bam_file'])]
     # Loop through BAM files computing total size, create task if size within
     # lower and upper bounds
-    my_project  = 
     total_size_gb = 0.0
     all_files = []
     total_files_tasked = 0
@@ -179,8 +206,9 @@ def create_tasks(api,
         if (total_size_gb + file_size_gb > upper_bound_group_size and
                 len(all_files) > 1):
             total_files_tasked += len(all_files)
-            local_mapping_fp = generate_mapping_file(mapping_fp, all_files)
             total_tasks_created += 1
+            local_mapping_fp = generate_mapping_file(
+                mapping_fp, all_files, config, total_tasks_created, output_dp)
             all_files, total_size_gb = create_task_cgc(
                 local_mapping_fp, all_files, total_size_gb,
                 total_tasks_created, task_basename, api, config, logger)
@@ -203,13 +231,14 @@ def create_tasks(api,
                 total_size_gb < upper_bound_group_size) or
                 (i+1 == len(bam_inputs) and
                 total_size_gb <= lower_bound_group_size)):
-            local_mapping_fp = generate_mapping_file(mapping_fp, all_files)
+            total_files_tasked += len(all_files)
             total_tasks_created += 1
+            local_mapping_fp = generate_mapping_file(
+                mapping_fp, all_files, config, total_tasks_created, output_dp)
             all_files, total_size_gb = create_task_cgc(
                 local_mapping_fp, all_files, total_size_gb,
                 total_tasks_created, task_basename, api, config, logger)
-            total_files_tasked += len(all_files)
-    logger.info('Total tasks created: %s' % str(total_tasks))
+    logger.info('Total tasks created: %s' % str(total_tasks_created))
     logger.info('Total files tasked: %s' % str(total_files_tasked))
 
 
@@ -288,6 +317,10 @@ def show_status(api):
               default=700, show_default=True,
               help='Upper bound on total size of input files to pass to '
               'workflow')
+@click.option('--output-dp', required=True,
+              type=click.Path(resolve_path=True, readable=True, exists=False,
+                              file_okay=True),
+              help='Directory path to output QIIME mini-mapping files')
 def main(mapping_fp,
          yaml_fp,
          task_basename,
@@ -295,7 +328,8 @@ def main(mapping_fp,
          run_draft_tasks,
          check_status,
          lower_bound_group_size,
-         upper_bound_group_size):
+         upper_bound_group_size,
+         output_dp):
     logger, log_handler, config = load_config(yaml_fp)
     sb_config = sb.Config(url=config['api-url'], token=config['token'])
     api = sb.Api(config=sb_config)
@@ -303,7 +337,7 @@ def main(mapping_fp,
     if create_draft_tasks:
         create_tasks(api, mapping_fp, task_basename, logger,
                      log_handler, config, lower_bound_group_size,
-                     upper_bound_group_size)
+                     upper_bound_group_size, output_dp)
     if run_draft_tasks:
         run_tasks(api)
     if check_status:
