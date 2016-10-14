@@ -48,15 +48,49 @@ def load_config(yaml_fp):
     return logger, log_handler, config
 
 
-def create_task_cgc(local_mapping_fp,
-                    all_files,
-                    total_size_gb,
-                    total_tasks_created,
-                    task_basename,
-                    api,
-                    config,
-                    logger):
-    """Create CGC task.
+def create_task_bam2fasta_cgc(all_files,
+                              logger,
+                              task_basename,
+                              total_tasks_created,
+                              total_size_gb,
+                              config,
+                              api):
+    """Create CGC task for samtools-bam2fasta-worklfow workflow.
+
+    Parameters
+    ----------
+    all_files: list
+        TCGA file IDs
+    logger:
+    """
+    inputs = {"input_bam_file" : all_files}
+    task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (task_basename,
+                                                    str(total_tasks_created),
+                                                    str(len(all_files)),
+                                                    total_size_gb,
+                                                    '_'.join(config['disease']))
+    logger.info('\tName: %s' % task_name)
+    my_project = api.projects.get(id = config['project'])
+    #try:
+    #    api.tasks.create(task_name,
+    #                     my_project.id,
+    #                     config['app-bam2fasta'],
+    #                     inputs=inputs,
+    #                     description=task_name)
+    #except SbgError as e:
+    #    logger.error("Draft task was not created!", exc_info=e)
+    #    raise SbgError("Draft task was not created!")
+
+
+def create_task_workflow_cgc(local_mapping_fp,
+                             all_files,
+                             total_size_gb,
+                             total_tasks_created,
+                             task_basename,
+                             api,
+                             config,
+                             logger):
+    """Create CGC task for tcga_fasta_input_disease_type_workflow workflow.
 
     Parameters
     ----------
@@ -92,16 +126,16 @@ def create_task_cgc(local_mapping_fp,
               "viral_database_kdb": '',
               "fasta_file_input": '',
               "qiime_mapping_file_1": ''}
-    task_name = "%s_%s_task_%s_files_%s_Gb_%s" % (task_basename,
-                                                  str(total_tasks_created),
-                                                  str(len(all_files)),
-                                                  str(total_size_gb),
-                                                  config['disease'])
+    task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (task_basename,
+                                                    str(total_tasks_created),
+                                                    str(len(all_files)),
+                                                    total_size_gb,
+                                                    config['disease'])
     my_project = api.projects.get(id = config['project'])
     #try:
     #    api.tasks.create(task_name,
     #                     my_project.id,
-    #                     config['app'],
+    #                     config['app-workflow'],
     #                     inputs=inputs,
     #                     description=task_name)
     #except SbgError as e:
@@ -117,7 +151,8 @@ def generate_mapping_file(mapping_fp,
                           all_files,
                           config,
                           total_tasks_created,
-                          output_dp):
+                          output_dp,
+                          sampleID_count):
     """Create mini mapping file based on defined sample IDs.
 
     Parameters
@@ -127,9 +162,19 @@ def generate_mapping_file(mapping_fp,
     all_files: list
         List of CGC file IDs for which to generate mini-mapping file
     config:
-
     total_tasks_created: int
         Number of task
+    output_dp: str
+        Output directory path
+    sampleID_count: int
+        Begin naming sample IDs from this integer
+
+    Returns
+    -------
+    output_fp: str
+        Filepath to mini-mapping file
+    sampleID_count: int
+        Updated sampleID count start
     """
     disease_type = config['disease'].split()
     filename = "%s_cgc_qiime_mapping_file_%s.txt" % (
@@ -141,13 +186,17 @@ def generate_mapping_file(mapping_fp,
             for line in mapping_f:
                 if line.startswith('#SampleID'):
                     output_f.write(line)
-                    continue
-                # file name
-                line = line.strip().split('\t')
-                filename = line[2]
-                if filename in all_files_names:
-                    output_f.write('\t'.join(line))
-    return output_fp
+                else:
+                    line = line.strip().split('\t')
+                    # file name
+                    filename = line[3]
+                    if filename in all_files_names:
+                        # update sampleID count
+                        output_f.write('s%s\t' % sampleID_count)
+                        sampleID_count += 1
+                        output_f.write('\t'.join(line[1:]))
+                        output_f.write('\n')
+    return output_fp, sampleID_count
 
 
 def create_tasks(api,
@@ -158,7 +207,8 @@ def create_tasks(api,
                  config,
                  lower_bound_group_size,
                  upper_bound_group_size,
-                 output_dp):
+                 output_dp,
+                 count_start):
     """Create draft tasks for tcga-workflow-fasta-input-full-kraken-test
        workflow.
 
@@ -182,9 +232,11 @@ def create_tasks(api,
         Upper bound on total size of input files to pass to workflow
     output_dp: str
         Directory path to output QIIME mini mapping files
+    count_start: int
+        Count from which to start SampleID generation
     """
-    logger.info('Creating draft tasks!')
-    input_config = config['inputs']
+    logger.info('Creating draft tasks.')
+    input_config = config['inputs-bam2fasta']
     # Retrieve all files associated with project and disease type
     file_list = list(
         api.files.query(
@@ -199,7 +251,8 @@ def create_tasks(api,
     all_files = []
     total_files_tasked = 0
     total_tasks_created = 0
-    for i, file in enumerate(bam_inputs):
+    sampleID_count = count_start
+    for i, file in enumerate(sorted(bam_inputs)):
         file_size_gb = file.size/float(1073741824)
         # New file will cause total file size to exceed upper limit, create
         # task and add new file to next task
@@ -207,9 +260,20 @@ def create_tasks(api,
                 len(all_files) > 1):
             total_files_tasked += len(all_files)
             total_tasks_created += 1
-            local_mapping_fp = generate_mapping_file(
-                mapping_fp, all_files, config, total_tasks_created, output_dp)
-            all_files, total_size_gb = create_task_cgc(
+            # Add info to logger
+            logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
+                                                        len(all_files),
+                                                        total_size_gb))
+            local_mapping_fp, sampleID_count = generate_mapping_file(
+                mapping_fp, all_files, config, total_tasks_created, output_dp,
+                sampleID_count)
+            # Create draft tasks for samtools-bam2fasta-workflow workflow
+            create_task_bam2fasta_cgc(all_files, logger, task_basename,
+                                      total_tasks_created, total_size_gb,
+                                      config, api)
+            # Create draft tasks for tcga_fasta_input_disease_type_workflow
+            # workflow
+            all_files, total_size_gb = create_task_workflow_cgc(
                 local_mapping_fp, all_files, total_size_gb,
                 total_tasks_created, task_basename, api, config, logger)
             # Add new file to next task
@@ -233,13 +297,25 @@ def create_tasks(api,
                 total_size_gb <= lower_bound_group_size)):
             total_files_tasked += len(all_files)
             total_tasks_created += 1
-            local_mapping_fp = generate_mapping_file(
-                mapping_fp, all_files, config, total_tasks_created, output_dp)
-            all_files, total_size_gb = create_task_cgc(
+            # Add info to logger
+            logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
+                                                        len(all_files),
+                                                        total_size_gb))
+            local_mapping_fp, sampleID_count = generate_mapping_file(
+                mapping_fp, all_files, config, total_tasks_created, output_dp,
+                sampleID_count)
+            # Create draft tasks for samtools-bam2fasta-workflow workflow
+            create_task_bam2fasta_cgc(all_files, logger, task_basename,
+                                      total_tasks_created, total_size_gb,
+                                      config, api)
+            # Create draft tasks for tcga_fasta_input_disease_type_workflow
+            # workflow
+            all_files, total_size_gb = create_task_workflow_cgc(
                 local_mapping_fp, all_files, total_size_gb,
                 total_tasks_created, task_basename, api, config, logger)
     logger.info('Total tasks created: %s' % str(total_tasks_created))
     logger.info('Total files tasked: %s' % str(total_files_tasked))
+    logger.info('Total files for disease type: %s' % str(len(bam_inputs)))
 
 
 def run_tasks(api):
@@ -321,6 +397,8 @@ def show_status(api):
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
               help='Directory path to output QIIME mini-mapping files')
+@click.option('--count-start', required=True, type=int,
+              help='Count from which to start SampleID generation')
 def main(mapping_fp,
          yaml_fp,
          task_basename,
@@ -329,7 +407,8 @@ def main(mapping_fp,
          check_status,
          lower_bound_group_size,
          upper_bound_group_size,
-         output_dp):
+         output_dp,
+         count_start):
     logger, log_handler, config = load_config(yaml_fp)
     sb_config = sb.Config(url=config['api-url'], token=config['token'])
     api = sb.Api(config=sb_config)
@@ -337,7 +416,7 @@ def main(mapping_fp,
     if create_draft_tasks:
         create_tasks(api, mapping_fp, task_basename, logger,
                      log_handler, config, lower_bound_group_size,
-                     upper_bound_group_size, output_dp)
+                     upper_bound_group_size, output_dp, count_start)
     if run_draft_tasks:
         run_tasks(api)
     if check_status:
