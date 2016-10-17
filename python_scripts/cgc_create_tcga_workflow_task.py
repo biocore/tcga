@@ -114,8 +114,13 @@ def create_task_workflow_cgc(local_mapping_fp,
     total_size_gb: float
         Total size of all TCGA files
     """
+    bacterial_database_idx = api.files.query(
+            project = config['project'],
+            tags = 'kraken-full-index-bac',
+            name = 'bacterial_database.idx').all()
+
     inputs = {"input_bam_file" : all_files,
-              "bacterial_database_idx" : '',
+              "bacterial_database_idx" : bacterial_database_idx,
               "bacterial_nodes_dmp": '',
               "bacterial_names_dmp": '',
               "bacterial_database_kdb": '',
