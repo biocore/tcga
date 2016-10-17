@@ -197,7 +197,6 @@ def generate_mapping_file(mapping_fp,
 
 def create_tasks(api,
                  mapping_fp,
-                 task_basename,
                  logger,
                  config,
                  lower_bound_group_size,
@@ -213,8 +212,6 @@ def create_tasks(api,
         Api
     mapping_fp: str
         Filepath to master QIIME mapping file
-    task_basename: str
-        Basename to use for CGC task
     logger: logger instance
         Log
     config: dict
@@ -260,12 +257,11 @@ def create_tasks(api,
             local_mapping_fp, sampleID_count = generate_mapping_file(
                 mapping_fp, all_files, config, total_tasks_created, output_dp,
                 sampleID_count)
-            task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (
-                task_basename,
+            task_name = "%s_%s_task_%s_files_%.2f_Gb" % (
+                config['disease'],
                 str(total_tasks_created),
                 str(len(all_files)),
-                total_size_gb,
-                '_'.join(config['disease']))
+                total_size_gb)
             # Create draft tasks for samtools-bam2fasta-workflow workflow
             create_task_bam2fasta_cgc(all_files, logger, task_name, config,
                                       api)
@@ -301,12 +297,11 @@ def create_tasks(api,
             local_mapping_fp, sampleID_count = generate_mapping_file(
                 mapping_fp, all_files, config, total_tasks_created, output_dp,
                 sampleID_count)
-            task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (
-                task_basename,
+            task_name = "%s_%s_task_%s_files_%.2f_Gb" % (
+                config['disease'],
                 str(total_tasks_created),
                 str(len(all_files)),
-                total_size_gb,
-                '_'.join(config['disease']))
+                total_size_gb)
             # Create draft tasks for samtools-bam2fasta-workflow workflow
             create_task_bam2fasta_cgc(all_files, logger, task_name, config,
                                       api)
@@ -378,8 +373,6 @@ def show_status(api):
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
               help='Filepath to output CGC API yaml file')
-@click.option('--task-basename', required=True, type=str,
-              help='CGC task basename')
 @click.option('--create-draft-tasks', required=True, type=bool, default=True,
               show_default=True, help='Create CGC draft tasks')
 @click.option('--run-draft-tasks', required=False, type=bool, default=False,
@@ -402,7 +395,6 @@ def show_status(api):
               help='Count from which to start SampleID generation')
 def main(mapping_fp,
          yaml_fp,
-         task_basename,
          create_draft_tasks,
          run_draft_tasks,
          check_status,
@@ -415,9 +407,8 @@ def main(mapping_fp,
     api = sb.Api(config=sb_config)
 
     if create_draft_tasks:
-        create_tasks(api, mapping_fp, task_basename, logger, config,
-                     lower_bound_group_size, upper_bound_group_size,
-                     output_dp, count_start)
+        create_tasks(api, mapping_fp, logger, config, lower_bound_group_size,
+                     upper_bound_group_size, output_dp, count_start)
     if run_draft_tasks:
         run_tasks(api)
     if check_status:
