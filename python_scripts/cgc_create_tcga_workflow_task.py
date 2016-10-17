@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #-----------------------------------------------------------------------------
-# Copyright (c) 2016--, Evguenia Kopylova, Jad Kanbar, Erik Lehnert.
+# Copyright (c) 2016--, Evguenia Kopylova, Jad Kanbar, SevenBridges dev team.
 #
 # Distributed under the terms of the Modified BSD License.
 #
@@ -30,7 +30,8 @@ def load_config(yaml_fp):
 
     Return
     ------
-    logger
+    logger: logger instance
+        Log
     """
     try:
         fp = open(yaml_fp)
@@ -45,14 +46,12 @@ def load_config(yaml_fp):
     logger.addHandler(log_handler)
     logger.setLevel(logging.DEBUG)
 
-    return logger, log_handler, config
+    return logger, config
 
 
 def create_task_bam2fasta_cgc(all_files,
                               logger,
-                              task_basename,
-                              total_tasks_created,
-                              total_size_gb,
+                              task_name,
                               config,
                               api):
     """Create CGC task for samtools-bam2fasta-worklfow workflow.
@@ -61,14 +60,17 @@ def create_task_bam2fasta_cgc(all_files,
     ----------
     all_files: list
         TCGA file IDs
-    logger:
+    logger: logger instance
+        Log
+    task_name: str
+        CGC task name
+    config: dict
+        YAML configuration file
+    api: SevenBridges Api instance
+        Api       
     """
     inputs = {"input_bam_file" : all_files}
-    task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (task_basename,
-                                                    str(total_tasks_created),
-                                                    str(len(all_files)),
-                                                    total_size_gb,
-                                                    '_'.join(config['disease']))
+    task_name = "bam2fasta_%s" % task_name
     logger.info('\tName: %s' % task_name)
     my_project = api.projects.get(id = config['project'])
     #try:
@@ -84,9 +86,7 @@ def create_task_bam2fasta_cgc(all_files,
 
 def create_task_workflow_cgc(local_mapping_fp,
                              all_files,
-                             total_size_gb,
-                             total_tasks_created,
-                             task_basename,
+                             task_name,
                              api,
                              config,
                              logger):
@@ -98,15 +98,14 @@ def create_task_workflow_cgc(local_mapping_fp,
         Filepath to master QIIME mapping file
     all_files: list
         TCGA file IDs
-    total_size_gb: float
-        Total size of all TCGA files
-    total_tasks_created: int
-        Number of task
-    task_basename: str
-        CGC task basename
-    api:
-    config:
-    logger:
+    task_name: str
+        CGC task name
+    api: SevenBridges Api instance
+        Api
+    config: dict
+        YAML configuration file
+    logger: logger instance
+        Log
 
     Returns
     -------
@@ -126,11 +125,7 @@ def create_task_workflow_cgc(local_mapping_fp,
               "viral_database_kdb": '',
               "fasta_file_input": '',
               "qiime_mapping_file_1": ''}
-    task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (task_basename,
-                                                    str(total_tasks_created),
-                                                    str(len(all_files)),
-                                                    total_size_gb,
-                                                    config['disease'])
+    task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])
     #try:
     #    api.tasks.create(task_name,
@@ -161,7 +156,8 @@ def generate_mapping_file(mapping_fp,
         Filepath to master QIIME mapping file
     all_files: list
         List of CGC file IDs for which to generate mini-mapping file
-    config:
+    config: dict
+        YAML configuration file
     total_tasks_created: int
         Number of task
     output_dp: str
@@ -203,7 +199,6 @@ def create_tasks(api,
                  mapping_fp,
                  task_basename,
                  logger,
-                 log_handler,
                  config,
                  lower_bound_group_size,
                  upper_bound_group_size,
@@ -214,18 +209,16 @@ def create_tasks(api,
 
     Parameters
     ----------
-    api:
-
+    api: SevenBridges Api instance
+        Api
     mapping_fp: str
         Filepath to master QIIME mapping file
     task_basename: str
         Basename to use for CGC task
-    logger:
-
-    log_handler:
-
-    config:
-
+    logger: logger instance
+        Log
+    config: dict
+        YAML configuration file
     lower_bound_group_size: int
         Lower bound on total size of input files to pass to workflow
     upper_bound_group_size: int
@@ -267,15 +260,19 @@ def create_tasks(api,
             local_mapping_fp, sampleID_count = generate_mapping_file(
                 mapping_fp, all_files, config, total_tasks_created, output_dp,
                 sampleID_count)
+            task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (
+                task_basename,
+                str(total_tasks_created),
+                str(len(all_files)),
+                total_size_gb,
+                '_'.join(config['disease']))
             # Create draft tasks for samtools-bam2fasta-workflow workflow
-            create_task_bam2fasta_cgc(all_files, logger, task_basename,
-                                      total_tasks_created, total_size_gb,
-                                      config, api)
+            create_task_bam2fasta_cgc(all_files, logger, task_name, config,
+                                      api)
             # Create draft tasks for tcga_fasta_input_disease_type_workflow
             # workflow
             all_files, total_size_gb = create_task_workflow_cgc(
-                local_mapping_fp, all_files, total_size_gb,
-                total_tasks_created, task_basename, api, config, logger)
+                local_mapping_fp, all_files, task_name, api, config, logger)
             # Add new file to next task
             all_files.append(file)
             total_size_gb += file_size_gb
@@ -304,15 +301,19 @@ def create_tasks(api,
             local_mapping_fp, sampleID_count = generate_mapping_file(
                 mapping_fp, all_files, config, total_tasks_created, output_dp,
                 sampleID_count)
+            task_name = "%s_%s_task_%s_files_%.2f_Gb_%s" % (
+                task_basename,
+                str(total_tasks_created),
+                str(len(all_files)),
+                total_size_gb,
+                '_'.join(config['disease']))
             # Create draft tasks for samtools-bam2fasta-workflow workflow
-            create_task_bam2fasta_cgc(all_files, logger, task_basename,
-                                      total_tasks_created, total_size_gb,
-                                      config, api)
+            create_task_bam2fasta_cgc(all_files, logger, task_name, config,
+                                      api)
             # Create draft tasks for tcga_fasta_input_disease_type_workflow
             # workflow
             all_files, total_size_gb = create_task_workflow_cgc(
-                local_mapping_fp, all_files, total_size_gb,
-                total_tasks_created, task_basename, api, config, logger)
+                local_mapping_fp, all_files, task_name, api, config, logger)
     logger.info('Total tasks created: %s' % str(total_tasks_created))
     logger.info('Total files tasked: %s' % str(total_files_tasked))
     logger.info('Total files for disease type: %s' % str(len(bam_inputs)))
@@ -409,14 +410,14 @@ def main(mapping_fp,
          upper_bound_group_size,
          output_dp,
          count_start):
-    logger, log_handler, config = load_config(yaml_fp)
+    logger, config = load_config(yaml_fp)
     sb_config = sb.Config(url=config['api-url'], token=config['token'])
     api = sb.Api(config=sb_config)
 
     if create_draft_tasks:
-        create_tasks(api, mapping_fp, task_basename, logger,
-                     log_handler, config, lower_bound_group_size,
-                     upper_bound_group_size, output_dp, count_start)
+        create_tasks(api, mapping_fp, task_basename, logger, config,
+                     lower_bound_group_size, upper_bound_group_size,
+                     output_dp, count_start)
     if run_draft_tasks:
         run_tasks(api)
     if check_status:
