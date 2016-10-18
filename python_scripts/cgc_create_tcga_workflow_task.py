@@ -80,6 +80,9 @@ def create_task_workflow_cgc(local_mapping_fp,
         Total size of all TCGA files
     """
     project = config['project']
+    # Retrieve File objects for all bacterial and viral database files.
+    # We're not calling files directly by their ID because this can change,
+    # whereas file names are expected to stay the same.
     input_index_files = api.files.query(
         project = project,
         names = ['bacterial_database.idx',
@@ -97,36 +100,37 @@ def create_task_workflow_cgc(local_mapping_fp,
     viral_database_idx = ""
     viral_nodes_dmp = ""
     viral_database_kdb = ""
-    for file in input_index_files:
-        name = file.name
+    for _file in input_index_files:
+        name = _file.name
         if name == 'bacterial_database.idx':
-            bacterial_database_idx = file
+            bacterial_database_idx = _file
         elif name == 'bacterial_nodes.dmp':
-            bacterial_nodes_dmp = file
+            bacterial_nodes_dmp = _file
         elif name == 'bacterial_names.dmp':
-            bacterial_names_dmp = file
+            bacterial_names_dmp = _file
         elif name == 'bacterial_database.kdb':
-            bacterial_database_kdb = file
+            bacterial_database_kdb = _file
         elif name == 'database.idx':
-            viral_database_idx = file
+            viral_database_idx = _file
         elif name == 'names.dmp':
-            viral_names_dmp = file
+            viral_names_dmp = _file
         elif name == 'nodes.dmp'
-            viral_nodes_dmp = file
+            viral_nodes_dmp = _file
         elif name == 'database.kdb'
-            viral_database_kdb = file
+            viral_database_kdb = _file
         else:
             raise ValueError(
                 "File %s not assigned to any input argument." % name)
-    inputs = {"bacterial_database_idx" : bacterial_database_idx,
-              "bacterial_nodes_dmp": bacterial_nodes_dmp,
-              "bacterial_names_dmp": bacterial_names_dmp,
-              "bacterial_database_kdb": bacterial_database_kdb,
-              "viral_database_idx": viral_database_idx,
-              "viral_names_dmp": viral_names_dmp,
-              "viral_nodes_dmp": viral_nodes_dmp,
-              "viral_database_kdb": viral_database_kdb
-              "qiime_mapping_file": 
+    inputs = {
+                "bacterial_database_idx" : bacterial_database_idx,
+                "bacterial_nodes_dmp": bacterial_nodes_dmp,
+                "bacterial_names_dmp": bacterial_names_dmp,
+                "bacterial_database_kdb": bacterial_database_kdb,
+                "viral_database_idx": viral_database_idx,
+                "viral_names_dmp": viral_names_dmp,
+                "viral_nodes_dmp": viral_nodes_dmp,
+                "viral_database_kdb": viral_database_kdb
+                "qiime_mapping_file": 
               }
     task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])

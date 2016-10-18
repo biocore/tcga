@@ -105,7 +105,6 @@ def create_tasks(api,
         Upper bound on total size of input files to pass to workflow
     """
     logger.info('Creating draft tasks.')
-    input_config = config['inputs-bam2fasta']
     # Retrieve all files associated with project and disease type
     file_list = list(
         api.files.query(
@@ -113,7 +112,7 @@ def create_tasks(api,
             metadata = {'disease_type': config['disease']}))
     # Keep only BAM files
     bam_inputs = [_file for _file in file_list if
-                  _file.name.lower().endswith(input_config['input_bam_file'])]
+                  _file.name.lower().endswith('bam')]
     # Loop through BAM files computing total size, create task if size within
     # lower and upper bounds
     total_size_gb = 0.0
