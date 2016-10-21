@@ -84,24 +84,29 @@ def create_task_workflow_cgc(local_mapping_fp,
     # Upload local mapping file to project
     try:
         api.files.upload(project=project, path=local_mapping_fp)
-    except:
+    # File already exists
+    except SbgError:
         pass
     # Retrieve File object for mapping file
-    local_mapping_file = api.files.query(project=project,
-                                         names=basename(local_mapping_fp))
+    local_mapping_file = list(
+        api.files.query(
+            project=project, names=[basename(local_mapping_fp)]).all())
+    if len(local_mapping_file) > 1:
+        raise ValueError(
+            'List contains >1 files: %s' % len(local_mapping_file))
     # Retrieve File objects for all bacterial and viral database files.
     # We're not calling files directly by their ID because this can change,
     # whereas file names are expected to stay the same.
-    input_index_files = api.files.query(
+    input_index_files = list(api.files.query(
         project=project,
         names=['bacterial_database.idx',
                'bacterial_nodes.dmp',
                'bacterial_names.dmp',
                'bacterial_database.kdb',
-               'database.idx',
-               'names.dmp',
-               'nodes.dmp',
-               'database.kdb'])
+               'viral_database.idx',
+               'viral_names.dmp',
+               'viral_nodes.dmp',
+               'viral_database.kdb']).all())
     bacterial_database_idx = ""
     bacterial_nodes_dmp = ""
     bacterial_names_dmp = ""
@@ -110,50 +115,42 @@ def create_task_workflow_cgc(local_mapping_fp,
     viral_nodes_dmp = ""
     viral_names_dmp = ""
     viral_database_kdb = ""
+    inputs = {}
+    inputs['qiime_mapping_file'] = local_mapping_file[0]
+    inputs['fasta_file_input'] = all_files
     for _file in input_index_files:
         name = _file.name
         if name == 'bacterial_database.idx':
-            bacterial_database_idx = _file
+            inputs['bacterial_database_idx'] = _file
         elif name == 'bacterial_nodes.dmp':
-            bacterial_nodes_dmp = _file
+            inputs['bacterial_nodes_dmp'] = _file
         elif name == 'bacterial_names.dmp':
-            bacterial_names_dmp = _file
+            inputs['bacterial_names_dmp'] = _file
         elif name == 'bacterial_database.kdb':
-            bacterial_database_kdb = _file
-        elif name == 'database.idx':
-            viral_database_idx = _file
-        elif name == 'names.dmp':
-            viral_names_dmp = _file
-        elif name == 'nodes.dmp':
-            viral_nodes_dmp = _file
-        elif name == 'database.kdb':
-            viral_database_kdb = _file
+            inputs['bacterial_database_kdb'] = _file
+        elif name == 'viral_database.idx':
+            inputs['viral_database_idx'] = _file
+        elif name == 'viral_names.dmp':
+            inputs['viral_names_dmp'] = _file
+        elif name == 'viral_nodes.dmp':
+            inputs['viral_nodes_dmp'] = _file
+        elif name == 'viral_database.kdb':
+            inputs['viral_database_kdb'] = _file
         else:
             raise ValueError(
                 "File %s not assigned to any input argument." % name)
-    inputs = {
-                "bacterial_database_idx" : bacterial_database_idx,
-                "bacterial_nodes_dmp": bacterial_nodes_dmp,
-                "bacterial_names_dmp": bacterial_names_dmp,
-                "bacterial_database_kdb": bacterial_database_kdb,
-                "viral_database_idx": viral_database_idx,
-                "viral_names_dmp": viral_names_dmp,
-                "viral_nodes_dmp": viral_nodes_dmp,
-                "viral_database_kdb": viral_database_kdb,
-                "qiime_mapping_file": local_mapping_file,
-                "fasta_file_input": all_files
-              }
+    print(inputs)
     task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])
-    #try:
-    #    api.tasks.create(task_name,
-    #                     my_project.id,
-    #                     config['app-workflow'],
-    #                     inputs=inputs,
-    #                     description=task_name)
-    #except SbgError as e:
-    #    logger.error("Draft task was not created!", exc_info=e)
-    #    raise SbgError("Draft task was not created!")
+    try:
+        api.tasks.create(name=task_name,
+                         project=my_project.id,
+                         app=config['app-workflow'],
+                         inputs=inputs,
+                         description=task_name)
+    except SbgError as e:
+        logger.error("Draft task was not created!", exc_info=e)
+        raise SbgError("Draft task was not created!")
     # Initialize files array and total size
     all_files = []
     total_size_gb = 0.0
@@ -202,9 +199,9 @@ def generate_mapping_file(mapping_fp,
                     output_f.write(line)
                 else:
                     line = line.strip().split('\t')
-                    # file name
-                    filename = line[3]
-                    print(filename)
+                    # FASTA file name
+                    filename = line[4]
+                    #print(filename_fasta)
                     if filename in all_files_names:
                         # update sampleID count
                         output_f.write('s%s\t' % sampleID_count)
