@@ -242,7 +242,15 @@ def run_tasks(api,
 
 
 def show_status(api):
+    """Show CGC status.
+
+    Parameters
+    ----------
+    api: SevenBridges API instance
+        Api
+    """
     logger.info('Fetching task statuses!')
+    project = config['project']
     queued = api.tasks.query(project=project, status='QUEUED').total
     running = api.tasks.query(project=project, status='RUNNING').total
     completed = api.tasks.query(project=project, status='COMPLETED').total
@@ -286,8 +294,6 @@ def main(yaml_fp,
     api = sb.Api(config=sb_config)
 
     if create_draft_tasks:
-        print('Running create tasks!')
-        exit()
         create_tasks(api, logger, config, lower_bound_group_size,
                      upper_bound_group_size)
     elif run_draft_tasks:
