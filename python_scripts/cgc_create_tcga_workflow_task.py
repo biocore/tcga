@@ -85,7 +85,9 @@ def create_task_workflow_cgc(local_mapping_fp,
     try:
         api.files.upload(project=project, path=local_mapping_fp)
     # File already exists
-    except SbgError:
+    except SbgError as e:
+        logger.error(
+            "Could not upload file, trying to query for it", exc_info=e)
         pass
     # Retrieve File object for mapping file
     local_mapping_file = list(
@@ -107,14 +109,6 @@ def create_task_workflow_cgc(local_mapping_fp,
                'viral_names.dmp',
                'viral_nodes.dmp',
                'viral_database.kdb']).all())
-    bacterial_database_idx = ""
-    bacterial_nodes_dmp = ""
-    bacterial_names_dmp = ""
-    bacterial_database_kdb = ""
-    viral_database_idx = ""
-    viral_nodes_dmp = ""
-    viral_names_dmp = ""
-    viral_database_kdb = ""
     inputs = {}
     inputs['qiime_mapping_file'] = local_mapping_file[0]
     inputs['fasta_file_input'] = all_files
@@ -139,7 +133,6 @@ def create_task_workflow_cgc(local_mapping_fp,
         else:
             raise ValueError(
                 "File %s not assigned to any input argument." % name)
-    print(inputs)
     task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])
     try:
