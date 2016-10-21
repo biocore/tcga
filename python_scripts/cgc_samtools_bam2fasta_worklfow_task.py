@@ -196,7 +196,8 @@ def create_tasks(api,
 
 def run_tasks(api):
     logger.info('Running tasks!')
-
+    project = config['project']
+    max_task_number = config['task_max_per_run']
     running_tasks = list(
         api.tasks.query(project=project, limit=100, status='RUNNING').all()
     )
@@ -209,14 +210,12 @@ def run_tasks(api):
             'Unable to run! You already have {active} active tasks. '
             'Please try later!'.format
             (active=len(running_tasks) + len(queued_tasks)))
-
     draft_tasks = list(
         api.tasks.query(project=project, limit=100, status='DRAFT').all()
     )
     if len(draft_tasks) == 0:
         print('No draft tasks left to be run!')
         return
-
     executable_tasks = draft_tasks[0:max_task_number - len(running_tasks)]
     for task in executable_tasks:
         try:
@@ -276,10 +275,13 @@ def main(yaml_fp,
     if create_draft_tasks:
         create_tasks(api, logger, config, lower_bound_group_size,
                      upper_bound_group_size)
-    if run_draft_tasks:
+    else if run_draft_tasks:
         run_tasks(api)
-    if check_status:
+    else if check_status:
         show_status(api)
+    else:
+        raise ValueError('Please select one of --create-draft-tasks, '
+                         '--run-draft-tasks or --check-status')
 
 
 if __name__ == "__main__":

@@ -1,0 +1,154 @@
+2016-10-21 21:57:42,867 INFO Creating draft tasks.
+2016-10-21 21:58:40,860 INFO Task 1: 5 files, 540.36 Gb
+2016-10-21 21:58:40,860 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_1_task_5_files_540.36Gb
+2016-10-21 21:58:44,525 INFO Task 2: 4 files, 460.63 Gb
+2016-10-21 21:58:44,525 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_2_task_4_files_460.63Gb
+2016-10-21 21:58:47,898 INFO Task 3: 4 files, 502.59 Gb
+2016-10-21 21:58:47,898 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_3_task_4_files_502.59Gb
+2016-10-21 21:58:50,864 INFO Task 4: 4 files, 529.96 Gb
+2016-10-21 21:58:50,864 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_4_task_4_files_529.96Gb
+2016-10-21 21:58:54,477 INFO Task 5: 3 files, 419.05 Gb
+2016-10-21 21:58:54,477 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_5_task_3_files_419.05Gb
+2016-10-21 21:58:57,530 INFO Task 6: 4 files, 503.24 Gb
+2016-10-21 21:58:57,530 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_6_task_4_files_503.24Gb
+2016-10-21 21:59:00,708 INFO Task 7: 4 files, 491.60 Gb
+2016-10-21 21:59:00,708 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_7_task_4_files_491.60Gb
+2016-10-21 21:59:03,769 INFO Task 8: 4 files, 507.68 Gb
+2016-10-21 21:59:03,769 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_8_task_4_files_507.68Gb
+2016-10-21 21:59:06,941 INFO Task 9: 4 files, 520.03 Gb
+2016-10-21 21:59:06,942 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_9_task_4_files_520.03Gb
+2016-10-21 21:59:09,921 INFO Task 10: 4 files, 452.46 Gb
+2016-10-21 21:59:09,921 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_10_task_4_files_452.46Gb
+2016-10-21 21:59:13,086 INFO Task 11: 3 files, 476.96 Gb
+2016-10-21 21:59:13,086 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_11_task_3_files_476.96Gb
+2016-10-21 21:59:16,096 INFO Task 12: 3 files, 411.02 Gb
+2016-10-21 21:59:16,097 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_12_task_3_files_411.02Gb
+2016-10-21 21:59:19,135 INFO Task 13: 4 files, 467.21 Gb
+2016-10-21 21:59:19,136 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_13_task_4_files_467.21Gb
+2016-10-21 21:59:22,131 INFO Task 14: 4 files, 475.52 Gb
+2016-10-21 21:59:22,132 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_14_task_4_files_475.52Gb
+2016-10-21 21:59:25,504 INFO Task 15: 4 files, 427.45 Gb
+2016-10-21 21:59:25,504 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_15_task_4_files_427.45Gb
+2016-10-21 21:59:28,549 INFO Task 16: 4 files, 518.26 Gb
+2016-10-21 21:59:28,549 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_16_task_4_files_518.26Gb
+2016-10-21 21:59:32,105 INFO Task 17: 5 files, 510.91 Gb
+2016-10-21 21:59:32,105 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_17_task_5_files_510.91Gb
+2016-10-21 21:59:35,204 INFO Task 18: 3 files, 407.45 Gb
+2016-10-21 21:59:35,204 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_18_task_3_files_407.45Gb
+2016-10-21 21:59:38,334 INFO Task 19: 4 files, 468.33 Gb
+2016-10-21 21:59:38,334 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_19_task_4_files_468.33Gb
+2016-10-21 21:59:41,554 INFO Task 20: 4 files, 487.79 Gb
+2016-10-21 21:59:41,554 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_20_task_4_files_487.79Gb
+2016-10-21 21:59:44,625 INFO Task 21: 3 files, 406.36 Gb
+2016-10-21 21:59:44,625 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_21_task_3_files_406.36Gb
+2016-10-21 21:59:48,092 INFO Task 22: 5 files, 521.98 Gb
+2016-10-21 21:59:48,092 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_22_task_5_files_521.98Gb
+2016-10-21 21:59:51,078 INFO Task 23: 4 files, 474.12 Gb
+2016-10-21 21:59:51,078 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_23_task_4_files_474.12Gb
+2016-10-21 21:59:54,118 INFO Task 24: 4 files, 493.50 Gb
+2016-10-21 21:59:54,118 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_24_task_4_files_493.50Gb
+2016-10-21 21:59:57,149 INFO Task 25: 4 files, 418.30 Gb
+2016-10-21 21:59:57,149 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_25_task_4_files_418.30Gb
+2016-10-21 22:00:00,166 INFO Task 26: 6 files, 400.30 Gb
+2016-10-21 22:00:00,167 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_26_task_6_files_400.30Gb
+2016-10-21 22:00:03,176 INFO Task 27: 7 files, 408.61 Gb
+2016-10-21 22:00:03,176 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_27_task_7_files_408.61Gb
+2016-10-21 22:00:06,388 INFO Task 28: 3 files, 419.09 Gb
+2016-10-21 22:00:06,389 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_28_task_3_files_419.09Gb
+2016-10-21 22:00:09,457 INFO Task 29: 9 files, 479.77 Gb
+2016-10-21 22:00:09,457 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_29_task_9_files_479.77Gb
+2016-10-21 22:00:12,479 INFO Task 30: 6 files, 486.65 Gb
+2016-10-21 22:00:12,479 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_30_task_6_files_486.65Gb
+2016-10-21 22:00:16,243 INFO Task 31: 6 files, 477.40 Gb
+2016-10-21 22:00:16,243 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_31_task_6_files_477.40Gb
+2016-10-21 22:00:19,296 INFO Task 32: 7 files, 413.36 Gb
+2016-10-21 22:00:19,296 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_32_task_7_files_413.36Gb
+2016-10-21 22:00:22,419 INFO Task 33: 6 files, 418.22 Gb
+2016-10-21 22:00:22,419 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_33_task_6_files_418.22Gb
+2016-10-21 22:00:25,556 INFO Task 34: 14 files, 468.66 Gb
+2016-10-21 22:00:25,556 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_34_task_14_files_468.66Gb
+2016-10-21 22:00:28,658 INFO Task 35: 15 files, 431.31 Gb
+2016-10-21 22:00:28,659 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_35_task_15_files_431.31Gb
+2016-10-21 22:00:31,778 INFO Task 36: 17 files, 483.19 Gb
+2016-10-21 22:00:31,778 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_36_task_17_files_483.19Gb
+2016-10-21 22:00:34,804 INFO Task 37: 39 files, 402.13 Gb
+2016-10-21 22:00:34,804 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_37_task_39_files_402.13Gb
+2016-10-21 22:00:37,967 INFO Task 38: 60 files, 405.18 Gb
+2016-10-21 22:00:37,967 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_38_task_60_files_405.18Gb
+2016-10-21 22:00:41,112 INFO Task 39: 59 files, 405.64 Gb
+2016-10-21 22:00:41,113 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_39_task_59_files_405.64Gb
+2016-10-21 22:00:44,226 INFO Task 40: 52 files, 400.13 Gb
+2016-10-21 22:00:44,226 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_40_task_52_files_400.13Gb
+2016-10-21 22:00:47,606 INFO Task 41: 65 files, 403.65 Gb
+2016-10-21 22:00:47,606 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_41_task_65_files_403.65Gb
+2016-10-21 22:00:51,131 INFO Task 42: 51 files, 401.67 Gb
+2016-10-21 22:00:51,131 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_42_task_51_files_401.67Gb
+2016-10-21 22:00:54,657 INFO Task 43: 60 files, 402.51 Gb
+2016-10-21 22:00:54,657 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_43_task_60_files_402.51Gb
+2016-10-21 22:00:57,949 INFO Task 44: 66 files, 402.91 Gb
+2016-10-21 22:00:57,949 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_44_task_66_files_402.91Gb
+2016-10-21 22:01:01,129 INFO Task 45: 59 files, 404.53 Gb
+2016-10-21 22:01:01,129 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_45_task_59_files_404.53Gb
+2016-10-21 22:01:04,195 INFO Task 46: 69 files, 404.32 Gb
+2016-10-21 22:01:04,195 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_46_task_69_files_404.32Gb
+2016-10-21 22:01:07,274 INFO Task 47: 72 files, 405.93 Gb
+2016-10-21 22:01:07,275 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_47_task_72_files_405.93Gb
+2016-10-21 22:01:10,313 INFO Task 48: 57 files, 401.91 Gb
+2016-10-21 22:01:10,314 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_48_task_57_files_401.91Gb
+2016-10-21 22:01:15,030 INFO Task 49: 56 files, 402.37 Gb
+2016-10-21 22:01:15,031 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_49_task_56_files_402.37Gb
+2016-10-21 22:01:18,042 INFO Task 50: 66 files, 406.84 Gb
+2016-10-21 22:01:18,042 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_50_task_66_files_406.84Gb
+2016-10-21 22:01:21,229 INFO Task 51: 67 files, 407.11 Gb
+2016-10-21 22:01:21,229 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_51_task_67_files_407.11Gb
+2016-10-21 22:01:24,275 INFO Task 52: 58 files, 403.32 Gb
+2016-10-21 22:01:24,275 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_52_task_58_files_403.32Gb
+2016-10-21 22:01:27,549 INFO Task 53: 42 files, 403.76 Gb
+2016-10-21 22:01:27,549 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_53_task_42_files_403.76Gb
+2016-10-21 22:01:30,635 INFO Task 54: 54 files, 407.29 Gb
+2016-10-21 22:01:30,636 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_54_task_54_files_407.29Gb
+2016-10-21 22:01:33,947 INFO Task 55: 68 files, 402.86 Gb
+2016-10-21 22:01:33,947 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_55_task_68_files_402.86Gb
+2016-10-21 22:01:37,969 INFO Task 56: 63 files, 402.58 Gb
+2016-10-21 22:01:37,969 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_56_task_63_files_402.58Gb
+2016-10-21 22:01:41,488 INFO Task 57: 35 files, 463.93 Gb
+2016-10-21 22:01:41,488 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_57_task_35_files_463.93Gb
+2016-10-21 22:01:44,546 INFO Task 58: 8 files, 494.99 Gb
+2016-10-21 22:01:44,546 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_58_task_8_files_494.99Gb
+2016-10-21 22:01:47,515 INFO Task 59: 11 files, 511.23 Gb
+2016-10-21 22:01:47,515 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_59_task_11_files_511.23Gb
+2016-10-21 22:01:50,792 INFO Task 60: 9 files, 542.32 Gb
+2016-10-21 22:01:50,792 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_60_task_9_files_542.32Gb
+2016-10-21 22:01:53,798 INFO Task 61: 6 files, 401.21 Gb
+2016-10-21 22:01:53,798 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_61_task_6_files_401.21Gb
+2016-10-21 22:01:56,840 INFO Task 62: 6 files, 443.43 Gb
+2016-10-21 22:01:56,840 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_62_task_6_files_443.43Gb
+2016-10-21 22:01:59,800 INFO Task 63: 4 files, 509.96 Gb
+2016-10-21 22:01:59,800 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_63_task_4_files_509.96Gb
+2016-10-21 22:02:02,945 INFO Task 64: 4 files, 430.63 Gb
+2016-10-21 22:02:02,945 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_64_task_4_files_430.63Gb
+2016-10-21 22:02:06,050 INFO Task 65: 3 files, 425.30 Gb
+2016-10-21 22:02:06,050 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_65_task_3_files_425.30Gb
+2016-10-21 22:02:09,071 INFO Task 66: 4 files, 433.92 Gb
+2016-10-21 22:02:09,071 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_66_task_4_files_433.92Gb
+2016-10-21 22:02:12,192 INFO Task 67: 4 files, 409.38 Gb
+2016-10-21 22:02:12,192 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_67_task_4_files_409.38Gb
+2016-10-21 22:02:15,265 INFO Task 68: 4 files, 532.60 Gb
+2016-10-21 22:02:15,265 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_68_task_4_files_532.60Gb
+2016-10-21 22:02:18,977 INFO Task 69: 5 files, 492.79 Gb
+2016-10-21 22:02:18,978 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_69_task_5_files_492.79Gb
+2016-10-21 22:02:22,024 INFO Task 70: 4 files, 477.25 Gb
+2016-10-21 22:02:22,024 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_70_task_4_files_477.25Gb
+2016-10-21 22:02:25,114 INFO Task 71: 4 files, 419.32 Gb
+2016-10-21 22:02:25,114 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_71_task_4_files_419.32Gb
+2016-10-21 22:02:28,166 INFO Task 72: 4 files, 450.67 Gb
+2016-10-21 22:02:28,166 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_72_task_4_files_450.67Gb
+2016-10-21 22:02:31,035 INFO Task 73: 3 files, 401.12 Gb
+2016-10-21 22:02:31,035 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_73_task_3_files_401.12Gb
+2016-10-21 22:02:34,056 INFO Task 74: 2 files, 238.80 Gb
+2016-10-21 22:02:34,056 INFO 	Name: bam2fasta_Breast Invasive Carcinoma_74_task_2_files_238.80Gb
+2016-10-21 22:02:37,025 INFO Total tasks created: 74
+2016-10-21 22:02:37,025 INFO Total files tasked: 1497
+2016-10-21 22:02:37,025 INFO Total files for disease type: 1497
+2016-10-21 22:02:37,025 INFO Total WGS files: 245
+2016-10-21 22:02:37,025 INFO Total RNA-Seq files: 1252
