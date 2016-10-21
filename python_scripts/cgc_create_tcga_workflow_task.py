@@ -17,7 +17,8 @@ import logging, yaml
 import click
 import sevenbridges as sb
 from sevenbridges.errors import SbgError
-from os.path import join, splitext
+from os.path import join, splitext, basename
+from collections import OrderedDict
 
 
 def load_config(yaml_fp):
@@ -80,25 +81,34 @@ def create_task_workflow_cgc(local_mapping_fp,
         Total size of all TCGA files
     """
     project = config['project']
+    # Upload local mapping file to project
+    try:
+        api.files.upload(project=project, path=local_mapping_fp)
+    except:
+        pass
+    # Retrieve File object for mapping file
+    local_mapping_file = api.files.query(project=project,
+                                         names=basename(local_mapping_fp))
     # Retrieve File objects for all bacterial and viral database files.
     # We're not calling files directly by their ID because this can change,
     # whereas file names are expected to stay the same.
     input_index_files = api.files.query(
-        project = project,
-        names = ['bacterial_database.idx',
-                 'bacterial_nodes.dmp',
-                 'bacterial_names.dmp',
-                 'bacterial_database.kdb',
-                 'database.idx',
-                 'names.dmp',
-                 'nodes.dmp',
-                 'database.kdb'])
+        project=project,
+        names=['bacterial_database.idx',
+               'bacterial_nodes.dmp',
+               'bacterial_names.dmp',
+               'bacterial_database.kdb',
+               'database.idx',
+               'names.dmp',
+               'nodes.dmp',
+               'database.kdb'])
     bacterial_database_idx = ""
     bacterial_nodes_dmp = ""
     bacterial_names_dmp = ""
     bacterial_database_kdb = ""
     viral_database_idx = ""
     viral_nodes_dmp = ""
+    viral_names_dmp = ""
     viral_database_kdb = ""
     for _file in input_index_files:
         name = _file.name
@@ -114,9 +124,9 @@ def create_task_workflow_cgc(local_mapping_fp,
             viral_database_idx = _file
         elif name == 'names.dmp':
             viral_names_dmp = _file
-        elif name == 'nodes.dmp'
+        elif name == 'nodes.dmp':
             viral_nodes_dmp = _file
-        elif name == 'database.kdb'
+        elif name == 'database.kdb':
             viral_database_kdb = _file
         else:
             raise ValueError(
@@ -130,8 +140,8 @@ def create_task_workflow_cgc(local_mapping_fp,
                 "viral_names_dmp": viral_names_dmp,
                 "viral_nodes_dmp": viral_nodes_dmp,
                 "viral_database_kdb": viral_database_kdb,
-                "qiime_mapping_file": '',
-                "fasta_file_input": ''
+                "qiime_mapping_file": local_mapping_file,
+                "fasta_file_input": all_files
               }
     task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])
@@ -194,6 +204,7 @@ def generate_mapping_file(mapping_fp,
                     line = line.strip().split('\t')
                     # file name
                     filename = line[3]
+                    print(filename)
                     if filename in all_files_names:
                         # update sampleID count
                         output_f.write('s%s\t' % sampleID_count)
@@ -234,7 +245,6 @@ def create_tasks(api,
         Count from which to start SampleID generation
     """
     logger.info('Creating draft tasks.')
-    input_config = config['inputs-bam2fasta']
     # Retrieve all files associated with project and disease type
     file_list = list(
         api.files.query(
@@ -257,9 +267,8 @@ def create_tasks(api,
         if "%s.fasta" % file_name not in fasta_files:
             raise ValueError(
                 '%s.fasta is missing from FASTA files' % file_name)
-        fasta_inputs_workflow.append(_file)
     # Remove all non BAM associated FASTA files from further analysis
-    fasta_files_workflow = fasta_files.deepcopy()
+    fasta_files_workflow = OrderedDict(fasta_files)
     for key, value in fasta_files.iteritems():
         file_name, file_ext = splitext(key)
         if "%s.bam" % file_name not in bam_inputs:
@@ -275,7 +284,8 @@ def create_tasks(api,
     total_files_tasked = 0
     total_tasks_created = 0
     sampleID_count = count_start
-    for i, file in enumerate(sorted(fasta_files_workflow)):
+    for i, key in enumerate(fasta_files_workflow):
+        file = fasta_files_workflow[key]
         file_size_gb = file.size/float(1073741824)
         # If:
         # (1) File will cause total file size to exceed upper limit, then
