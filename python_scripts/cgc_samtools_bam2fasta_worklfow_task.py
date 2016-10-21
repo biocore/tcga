@@ -194,7 +194,20 @@ def create_tasks(api,
                          'MISSING files: %s' % files_not_tasked)
 
 
-def run_tasks(api):
+def run_tasks(api,
+              logger,
+              config):
+    """Launch CGC tasks.
+
+    Parameters
+    ----------
+    api: SevenBridges API instance
+        Api
+    logger: logger instance
+        Log
+    config: dict
+        YAML configuration file  
+    """
     logger.info('Running tasks!')
     project = config['project']
     max_task_number = config['task_max_per_run']
@@ -248,7 +261,7 @@ def show_status(api):
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
               help='Filepath to output CGC API yaml file')
-@click.option('--create-draft-tasks', required=True, type=bool, default=True,
+@click.option('--create-draft-tasks', required=True, type=bool, default=False,
               show_default=True, help='Create CGC draft tasks')
 @click.option('--run-draft-tasks', required=False, type=bool, default=False,
               show_default=False, help='Run CGC draft tasks')
@@ -273,11 +286,13 @@ def main(yaml_fp,
     api = sb.Api(config=sb_config)
 
     if create_draft_tasks:
+        print('Running create tasks!')
+        exit()
         create_tasks(api, logger, config, lower_bound_group_size,
                      upper_bound_group_size)
-    else if run_draft_tasks:
-        run_tasks(api)
-    else if check_status:
+    elif run_draft_tasks:
+        run_tasks(api, logger, config)
+    elif check_status:
         show_status(api)
     else:
         raise ValueError('Please select one of --create-draft-tasks, '
