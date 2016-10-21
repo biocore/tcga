@@ -73,15 +73,15 @@ def create_task_bam2fasta_cgc(all_files,
     task_name = "bam2fasta_%s" % task_name
     logger.info('\tName: %s' % task_name)
     my_project = api.projects.get(id = config['project'])
-    #try:
-    #    api.tasks.create(task_name,
-    #                     my_project.id,
-    #                     config['app-bam2fasta'],
-    #                     inputs=inputs,
-    #                     description=task_name)
-    #except SbgError as e:
-    #    logger.error("Draft task was not created!", exc_info=e)
-    #    raise SbgError("Draft task was not created!")
+    try:
+        api.tasks.create(name=task_name,
+                         project=my_project.id,
+                         app=config['app-bam2fasta'],
+                         inputs=inputs,
+                         description=task_name)
+    except SbgError as e:
+        logger.error("Draft task was not created!", exc_info=e)
+        raise SbgError("Draft task was not created!")
 
 
 def create_tasks(api,
@@ -106,10 +106,9 @@ def create_tasks(api,
     """
     logger.info('Creating draft tasks.')
     # Retrieve all files associated with project and disease type
-    file_list = list(
-        api.files.query(
+    file_list = list(api.files.query(
             project = config['project'],
-            metadata = {'disease_type': config['disease']}))
+            metadata = {'disease_type': config['disease']}).all())
     # Keep only BAM files
     bam_inputs = [_file for _file in file_list if
                   _file.name.lower().endswith('bam')]
@@ -117,22 +116,31 @@ def create_tasks(api,
     # lower and upper bounds
     total_size_gb = 0.0
     all_files = []
-    total_files_tasked = 0
+    files_tasked = []
     total_tasks_created = 0
-    sampleID_count = count_start
+    num_wgs = 0
+    num_rna_seq = 0
     for i, file in enumerate(sorted(bam_inputs)):
         file_size_gb = file.size/float(1073741824)
-        # New file will cause total file size to exceed upper limit, create
-        # task and add new file to next task
+        exp_str = file.metadata['experimental_strategy']
+        if exp_str == 'WGS':
+            num_wgs += 1
+        elif exp_str == 'RNA-Seq':
+            num_rna_seq += 1
+        else:
+            raise ValueError('%s is not supported' % exp_str)
+        # If:
+        # (1) File will cause total file size to exceed upper limit, then
+        # Create task and add file to next task
         if (total_size_gb + file_size_gb > upper_bound_group_size and
                 len(all_files) > 1):
-            total_files_tasked += len(all_files)
+            files_tasked.extend(all_files)
             total_tasks_created += 1
             # Add info to logger
             logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
                                                         len(all_files),
                                                         total_size_gb))
-            task_name = "%s_%s_task_%s_files_%.2f_Gb" % (
+            task_name = "%s_%s_task_%s_files_%.2fGb" % (
                 config['disease'],
                 str(total_tasks_created),
                 str(len(all_files)),
@@ -142,32 +150,26 @@ def create_tasks(api,
                                       api)
             all_files = []
             total_size_gb = 0.0
-            # Add new file to next task
-            all_files.append(file)
-            total_size_gb += file_size_gb
-            continue
         # Add new file to next task
         all_files.append(file)
         total_size_gb += file_size_gb
         # If:
         # (1) Single file larger than upper bound limit, or
         # (2) Group of files fall within defined limit, or
-        # (3) Last file encountered and group size less than defined lower
-        #     bound, then
+        # (3) Last file encountered, then
         # Create task.
         if ( (len(all_files) == 1 and
                 total_size_gb >= upper_bound_group_size) or
                 (total_size_gb > lower_bound_group_size and
                 total_size_gb < upper_bound_group_size) or
-                (i+1 == len(bam_inputs) and
-                total_size_gb <= lower_bound_group_size)):
-            total_files_tasked += len(all_files)
+                i+1 == len(bam_inputs) ):
+            files_tasked.extend(all_files)
             total_tasks_created += 1
             # Add info to logger
             logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
                                                         len(all_files),
                                                         total_size_gb))
-            task_name = "%s_%s_task_%s_files_%.2f_Gb" % (
+            task_name = "%s_%s_task_%s_files_%.2fGb" % (
                 config['disease'],
                 str(total_tasks_created),
                 str(len(all_files)),
@@ -177,11 +179,19 @@ def create_tasks(api,
                                       api)
             all_files = []
             total_size_gb = 0.0
-    if total_files_tasked != bam_inputs:
-        raise ValueError('Not all BAM files were added to tasks')
     logger.info('Total tasks created: %s' % str(total_tasks_created))
-    logger.info('Total files tasked: %s' % str(total_files_tasked))
+    logger.info('Total files tasked: %s' % str(len(files_tasked)))
     logger.info('Total files for disease type: %s' % str(len(bam_inputs)))
+    logger.info('Total WGS files: %s' % str(num_wgs))
+    logger.info('Total RNA-Seq files: %s' % str(num_rna_seq))
+    if len(files_tasked) != len(bam_inputs):
+        files_not_tasked = []
+        for _file in bam_inputs:
+            if _file not in files_tasked:
+                files_not_tasked.append(
+                    (_file.name, _file.size/float(1073741824)))
+        raise ValueError('Not all BAM files were added to tasks\n'
+                         'MISSING files: %s' % files_not_tasked)
 
 
 def run_tasks(api):
