@@ -338,9 +338,23 @@ def create_tasks(api,
     logger.info('Total files for disease type: %s' % str(len(bam_inputs)))
 
 
-def run_tasks(api):
-    logger.info('Running tasks!')
+def run_tasks(api,
+              logger,
+              config):
+    """Run CGC tasks.
 
+    Parameters
+    ----------
+    api: SevenBridges Api instance
+        Api
+    mapping_fp: str
+        Filepath to master QIIME mapping file
+    logger: logger instance
+        Log    
+    """
+    logger.info('Running tasks!')
+    project = config['project']
+    max_task_number = config['task_max_per_run']
     running_tasks = list(
         api.tasks.query(project=project, limit=100, status='RUNNING').all()
     )
@@ -431,12 +445,15 @@ def main(mapping_fp,
     api = sb.Api(config=sb_config)
 
     if create_draft_tasks:
-        create_tasks(api, mapping_fp, logger, config, lower_bound_group_size,
-                     upper_bound_group_size, output_dp, count_start)
-    if run_draft_tasks:
-        run_tasks(api)
-    if check_status:
+        create_tasks(api, logger, config, lower_bound_group_size,
+                     upper_bound_group_size)
+    elif run_draft_tasks:
+        run_tasks(api, logger, config)
+    elif check_status:
         show_status(api)
+    else:
+        raise ValueError('Please select one of --create-draft-tasks, '
+                         '--run-draft-tasks or --check-status')
 
 
 if __name__ == "__main__":
