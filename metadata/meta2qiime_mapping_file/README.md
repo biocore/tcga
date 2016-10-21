@@ -1,6 +1,6 @@
 # QIIME Mapping files for CGC analysis
 
-```cgc_qiime_mapping_file_18154_files_incl_SPARQL_columns.txt``` includes the additional columns:
+```cgc_qiime_mapping_file_18154_files_incl_SPARQL_columns.txt``` includes the additional columns from SPARQL queries:
 	+ analyte_type_label
 	+ tissue_source_site_label
 	+ country_of_sample_procurement
