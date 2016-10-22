@@ -1,0 +1,46 @@
+2016-10-22 21:25:56,278 INFO Creating draft tasks.
+2016-10-22 21:26:15,490 INFO Task 1: 9 files, 622.74 Gb
+2016-10-22 21:26:15,490 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_1_task_9_files_622.74Gb
+2016-10-22 21:26:19,786 INFO Task 2: 4 files, 540.41 Gb
+2016-10-22 21:26:19,786 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_2_task_4_files_540.41Gb
+2016-10-22 21:26:23,012 INFO Task 3: 9 files, 516.32 Gb
+2016-10-22 21:26:23,012 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_3_task_9_files_516.32Gb
+2016-10-22 21:26:26,435 INFO Task 4: 11 files, 422.26 Gb
+2016-10-22 21:26:26,435 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_4_task_11_files_422.26Gb
+2016-10-22 21:26:29,820 INFO Task 5: 6 files, 516.98 Gb
+2016-10-22 21:26:29,820 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_5_task_6_files_516.98Gb
+2016-10-22 21:26:33,711 INFO Task 6: 4 files, 411.89 Gb
+2016-10-22 21:26:33,711 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_6_task_4_files_411.89Gb
+2016-10-22 21:26:37,100 INFO Task 7: 7 files, 598.21 Gb
+2016-10-22 21:26:37,101 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_7_task_7_files_598.21Gb
+2016-10-22 21:26:40,981 INFO Task 8: 7 files, 511.02 Gb
+2016-10-22 21:26:40,981 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_8_task_7_files_511.02Gb
+2016-10-22 21:26:44,567 INFO Task 9: 9 files, 472.69 Gb
+2016-10-22 21:26:44,567 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_9_task_9_files_472.69Gb
+2016-10-22 21:26:47,853 INFO Task 10: 9 files, 428.87 Gb
+2016-10-22 21:26:47,853 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_10_task_9_files_428.87Gb
+2016-10-22 21:26:51,577 INFO Task 11: 10 files, 532.02 Gb
+2016-10-22 21:26:51,577 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_11_task_10_files_532.02Gb
+2016-10-22 21:26:55,130 INFO Task 12: 5 files, 572.56 Gb
+2016-10-22 21:26:55,130 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_12_task_5_files_572.56Gb
+2016-10-22 21:26:58,492 INFO Task 13: 6 files, 422.35 Gb
+2016-10-22 21:26:58,492 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_13_task_6_files_422.35Gb
+2016-10-22 21:27:02,193 INFO Task 14: 5 files, 404.16 Gb
+2016-10-22 21:27:02,193 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_14_task_5_files_404.16Gb
+2016-10-22 21:27:05,867 INFO Task 15: 12 files, 588.40 Gb
+2016-10-22 21:27:05,867 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_15_task_12_files_588.40Gb
+2016-10-22 21:27:10,032 INFO Task 16: 13 files, 414.23 Gb
+2016-10-22 21:27:10,032 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_16_task_13_files_414.23Gb
+2016-10-22 21:27:13,854 INFO Task 17: 20 files, 411.62 Gb
+2016-10-22 21:27:13,854 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_17_task_20_files_411.62Gb
+2016-10-22 21:27:17,541 INFO Task 18: 69 files, 401.92 Gb
+2016-10-22 21:27:17,541 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_18_task_69_files_401.92Gb
+2016-10-22 21:27:21,473 INFO Task 19: 69 files, 405.47 Gb
+2016-10-22 21:27:21,473 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_19_task_69_files_405.47Gb
+2016-10-22 21:27:25,027 INFO Task 20: 98 files, 240.83 Gb
+2016-10-22 21:27:25,027 INFO 	Name: bam2fasta_Rectum Adenocarcinoma_20_task_98_files_240.83Gb
+2016-10-22 21:27:28,554 INFO Total tasks created: 20
+2016-10-22 21:27:28,555 INFO Total files tasked: 382
+2016-10-22 21:27:28,555 INFO Total files for disease type: 382
+2016-10-22 21:27:28,555 INFO Total WGS files: 127
+2016-10-22 21:27:28,555 INFO Total RNA-Seq files: 255
