@@ -136,15 +136,15 @@ def create_task_workflow_cgc(local_mapping_fp,
                 "File %s not assigned to any input argument." % name)
     task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])
-    #try:
-    #    api.tasks.create(name=task_name,
-    #                     project=my_project.id,
-    #                     app=config['app-workflow'],
-    #                     inputs=inputs,
-    #                     description=task_name)
-    #except SbgError as e:
-    #    logger.error("Draft task was not created!", exc_info=e)
-    #    raise SbgError("Draft task was not created!")
+    try:
+        api.tasks.create(name=task_name,
+                         project=my_project.id,
+                         app=config['app-workflow'],
+                         inputs=inputs,
+                         description=task_name)
+    except SbgError as e:
+        logger.error("Draft task was not created!", exc_info=e)
+        raise SbgError("Draft task was not created!")
     # Initialize files array and total size
     all_files = []
     total_size_gb = 0.0
