@@ -289,7 +289,7 @@ def create_tasks(api,
     bam_inputs = [_file.name for _file in file_list if
                   _file.name.lower().endswith('bam')]
     bam_inputs_derep = list(bam_inputs)
-    # Remove duplicates from analysis
+    # Remove duplicate BAM files from downstream analysis
     regex = re.compile('_._')
     for _file in bam_inputs:
         prefix = _file.name[0:3]
