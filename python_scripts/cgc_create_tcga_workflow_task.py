@@ -19,6 +19,7 @@ import sevenbridges as sb
 from sevenbridges.errors import SbgError
 from os.path import join, splitext, basename
 from collections import OrderedDict
+import re
 
 
 def load_config(yaml_fp):
@@ -135,15 +136,15 @@ def create_task_workflow_cgc(local_mapping_fp,
                 "File %s not assigned to any input argument." % name)
     task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])
-    try:
-        api.tasks.create(name=task_name,
-                         project=my_project.id,
-                         app=config['app-workflow'],
-                         inputs=inputs,
-                         description=task_name)
-    except SbgError as e:
-        logger.error("Draft task was not created!", exc_info=e)
-        raise SbgError("Draft task was not created!")
+    #try:
+    #    api.tasks.create(name=task_name,
+    #                     project=my_project.id,
+    #                     app=config['app-workflow'],
+    #                     inputs=inputs,
+    #                     description=task_name)
+    #except SbgError as e:
+    #    logger.error("Draft task was not created!", exc_info=e)
+    #    raise SbgError("Draft task was not created!")
     # Initialize files array and total size
     all_files = []
     total_size_gb = 0.0
@@ -155,7 +156,9 @@ def generate_mapping_file(mapping_fp,
                           config,
                           total_tasks_created,
                           output_dp,
-                          sampleID_count):
+                          sampleID_count,
+                          logger,
+                          fasta_files_workflow):
     """Create mini mapping file based on defined sample IDs.
 
     Parameters
@@ -172,6 +175,10 @@ def generate_mapping_file(mapping_fp,
         Output directory path
     sampleID_count: int
         Begin naming sample IDs from this integer
+    logger: logger instance
+        Log
+    fasta_files_workflow: list
+        FASTA file names
 
     Returns
     -------
@@ -179,12 +186,15 @@ def generate_mapping_file(mapping_fp,
         Filepath to mini-mapping file
     sampleID_count: int
         Updated sampleID count start
+    all_files: list
+        List of updated CGC file IDs (duplicates removed)
     """
     disease_type = config['disease'].split()
     filename = "%s_cgc_qiime_mapping_file_%s.txt" % (
         '_'.join(disease_type), total_tasks_created)
     output_fp = join(output_dp, filename)
     all_files_names = [file.name for file in all_files]
+    all_files_names_added = []
     with open(output_fp, 'w') as output_f:
         with open(mapping_fp) as mapping_f:
             for line in mapping_f:
@@ -194,14 +204,49 @@ def generate_mapping_file(mapping_fp,
                     line = line.strip().split('\t')
                     # FASTA file name
                     filename = line[4]
-                    #print(filename_fasta)
                     if filename in all_files_names:
                         # update sampleID count
                         output_f.write('s%s\t' % sampleID_count)
                         sampleID_count += 1
                         output_f.write('\t'.join(line[1:]))
                         output_f.write('\n')
-    return output_fp, sampleID_count
+                        all_files_names_added.append(filename)
+    files_not_added = set(all_files_names) - set(all_files_names_added)
+    all_files_updated = list(all_files)
+    # At least one FASTA file analyzed not found in mapping file
+    if len(files_not_added) > 0:
+        logger.error(
+            'Following files missing in mapping file:\n')
+        # Check missing files are duplicates of those that have been added
+        files_accounted_for = 0
+        for _file in files_not_added:
+            # Remove prefix _*_ which signifies duplicate
+            regex = re.compile('_._')
+            prefix = _file[0:3]
+            if re.match(regex, prefix):
+                original_file_name = _file[3:]
+                if original_file_name not in fasta_files_workflow:
+                    logger.error('\t%s, [status] missing file')
+                else:
+                    files_accounted_for += 1
+                    logger.info('\t%s, [status] duplicate' % _file)
+            # File does not have prefix _*_ which signifies it is not a
+            # duplicate
+            else:
+                logger.error('\t%s [status] missing file' % _file)
+        # Reassure user all missing files are duplicates
+        if files_accounted_for == len(files_not_added):
+            logger.info('All missing files are duplicates and original files '
+                        'exists in analysis.')
+            # Remove duplicate FASTA files from analysis
+            for __file in all_files:
+                if __file.name in files_not_added:
+                    all_files_updated.remove(__file)
+        # Non-duplicate files do not exist in mapping file, raise error
+        else:
+            logger.error('Not all missing files have been accounted for.')
+            raise ValueError('Not all missing files have been accounted for.')
+    return output_fp, sampleID_count, all_files_updated
 
 
 def create_tasks(api,
@@ -243,6 +288,21 @@ def create_tasks(api,
     # BAM files
     bam_inputs = [_file.name for _file in file_list if
                   _file.name.lower().endswith('bam')]
+    bam_inputs_derep = list(bam_inputs)
+    # Remove duplicates from analysis
+    regex = re.compile('_._')
+    for _file in bam_inputs:
+        prefix = _file.name[0:3]
+        # File is duplicate, check original file exists
+        if re.match(regex, prefix):
+            original_file_name = _file[3:]
+            if original_file_name in bam_inputs:
+                bam_inputs_derep.remove(_file)
+            else:
+                logger.info('%s does not have the original file in list')
+    if len(bam_inputs_dere) < len(bam_inputs):
+        logger.info('%s duplicate files removed' % 
+                    len(bam_inputs) - len(bam_inputs_derep))
     # FASTA files
     fasta_files = {}
     for _file in file_list:
@@ -282,21 +342,23 @@ def create_tasks(api,
         # Create task and add file to next task
         if (total_size_gb + file_size_gb > upper_bound_group_size and
                 len(all_files) > 1):
+            # Create local mapping file
+            local_mapping_fp, sampleID_count, all_files =\
+                generate_mapping_file(
+                    mapping_fp, all_files, config, total_tasks_created,
+                    output_dp, sampleID_count, logger,
+                    fasta_files_workflow.keys())
             total_files_tasked += len(all_files)
             total_tasks_created += 1
-            # Add info to logger
-            logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
-                                                        len(all_files),
-                                                        total_size_gb))
-            # Create local mapping file
-            local_mapping_fp, sampleID_count = generate_mapping_file(
-                mapping_fp, all_files, config, total_tasks_created, output_dp,
-                sampleID_count)
             task_name = "%s_%s_task_%s_files_%.2fGb" % (
                 config['disease'],
                 str(total_tasks_created),
                 str(len(all_files)),
                 total_size_gb)
+            # Add info to logger
+            logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
+                                                        len(all_files),
+                                                        total_size_gb))
             # Create draft tasks for tcga_fasta_input_disease_type_workflow
             # workflow
             all_files, total_size_gb = create_task_workflow_cgc(
@@ -314,21 +376,23 @@ def create_tasks(api,
                 (total_size_gb > lower_bound_group_size and
                 total_size_gb < upper_bound_group_size) or
                 i+1 == len(bam_inputs) ):
+            # Create local mapping file
+            local_mapping_fp, sampleID_count, all_files =\
+                generate_mapping_file(
+                    mapping_fp, all_files, config, total_tasks_created,
+                    output_dp, sampleID_count, logger,
+                    fasta_files_workflow.keys())
             total_files_tasked += len(all_files)
             total_tasks_created += 1
-            # Add info to logger
-            logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
-                                                        len(all_files),
-                                                        total_size_gb))
-            # Create local mapping file
-            local_mapping_fp, sampleID_count = generate_mapping_file(
-                mapping_fp, all_files, config, total_tasks_created, output_dp,
-                sampleID_count)
             task_name = "%s_%s_task_%s_files_%.2fGb" % (
                 config['disease'],
                 str(total_tasks_created),
                 str(len(all_files)),
                 total_size_gb)
+            # Add info to logger
+            logger.info('Task %s: %s files, %.2f Gb' % (total_tasks_created,
+                                                        len(all_files),
+                                                        total_size_gb))
             # Create draft tasks for tcga_fasta_input_disease_type_workflow
             # workflow
             all_files, total_size_gb = create_task_workflow_cgc(
@@ -453,8 +517,8 @@ def main(mapping_fp,
     api = sb.Api(config=sb_config)
 
     if create_draft_tasks:
-        create_tasks(api, logger, config, lower_bound_group_size,
-                     upper_bound_group_size)
+        create_tasks(api, mapping_fp, logger, config, lower_bound_group_size,
+                     upper_bound_group_size, output_dp, count_start)
     elif run_draft_tasks:
         run_tasks(api, logger, config)
     elif check_status:
