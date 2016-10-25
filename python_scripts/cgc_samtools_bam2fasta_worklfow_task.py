@@ -213,6 +213,7 @@ def run_tasks(api,
     logger.info('Running tasks!')
     project = config['project']
     max_task_number = config['task_max_per_run']
+    app = config['app-bam2fasta']
     running_tasks = list(
         api.tasks.query(project=project, limit=100, status='RUNNING').all()
     )
@@ -226,21 +227,29 @@ def run_tasks(api,
             'Please try later!'.format
             (active=len(running_tasks) + len(queued_tasks)))
     draft_tasks = list(
-        api.tasks.query(project=project, limit=100, status='DRAFT').all()
-    )
+        api.tasks.query(project=project,
+                        limit=100,
+                        status='DRAFT').all())
     if len(draft_tasks) == 0:
         print('No draft tasks left to be run!')
         return
-    executable_tasks = draft_tasks[0:max_task_number - len(running_tasks)]
+    # Remove draft tasks that weren't created by current app
+    draft_tasks_app = list(draft_tasks)
+    for task in draft_tasks:
+        if app not in task.app:
+            draft_tasks_app.remove(task)
+    executable_tasks = draft_tasks_app[0:max_task_number - len(running_tasks)]
     for task in executable_tasks:
-        try:
-            task.run()
-        except SbgError as e:
-            logger.error("Task was not started! Error happened ", exc_info=e)
-            raise SbgError('Task was not started! Error happened')
-        if task.status == 'DRAFT':
-            logger.error("Task was not started! Task state is DRAFT!")
-            raise SbgError("Task was not started! Task state is DRAFT!")
+        # Sanity check only current app draft tasks are run
+        if app in task.app:
+            try:
+                task.run()
+            except SbgError as e:
+                logger.error("Task was not started! Error happened ", exc_info=e)
+                raise SbgError('Task was not started! Error happened')
+            if task.status == 'DRAFT':
+                logger.error("Task was not started! Task state is DRAFT!")
+                raise SbgError("Task was not started! Task state is DRAFT!")
 
 
 def show_status(api):
