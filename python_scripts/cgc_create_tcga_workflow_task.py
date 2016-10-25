@@ -280,29 +280,17 @@ def create_tasks(api,
         Count from which to start SampleID generation
     """
     logger.info('Creating draft tasks.')
-    # Retrieve all files associated with project and disease type
+    # Retrieve BAM and FASTA files associated with project, disease type,
+    # data format experimental strategy and data type
     file_list = list(
         api.files.query(
             project=config['project'],
-            metadata = {'disease_type': config['disease']}).all())
-    # BAM files
-    bam_inputs = [_file.name for _file in file_list if
-                  _file.name.lower().endswith('bam')]
-    bam_inputs_derep = list(bam_inputs)
-    # Remove duplicate BAM files from downstream analysis
-    regex = re.compile('_._')
-    for _file in bam_inputs:
-        prefix = _file.name[0:3]
-        # File is duplicate, check original file exists
-        if re.match(regex, prefix):
-            original_file_name = _file[3:]
-            if original_file_name in bam_inputs:
-                bam_inputs_derep.remove(_file)
-            else:
-                logger.info('%s does not have the original file in list')
-    if len(bam_inputs_dere) < len(bam_inputs):
-        logger.info('%s duplicate files removed' % 
-                    len(bam_inputs) - len(bam_inputs_derep))
+            metadata={'disease_type': config['disease'],
+                      'data_format': ['BAM', 'FASTA'],
+                      'experimental_strategy': ['RNA-Seq', 'WGS'],
+                      'data_type': ['Raw sequencing data']}).all())
+    bam_inputs = [_file.name for _file in file_list
+                  if _file.name.lower().endswith('bam')]
     # FASTA files
     fasta_files = {}
     for _file in file_list:
@@ -490,11 +478,11 @@ def show_status(api):
 @click.option('--check-status', required=False, type=bool, default=False,
               show_default=True, help='Show CGC task status')
 @click.option('--lower-bound-group-size', required=False, type=int,
-              default=400, show_default=True,
+              default=300, show_default=True,
               help='Lower bound on total size of input files to pass to '
               'workflow')
 @click.option('--upper-bound-group-size', required=False, type=int,
-              default=700, show_default=True,
+              default=400, show_default=True,
               help='Upper bound on total size of input files to pass to '
               'workflow')
 @click.option('--output-dp', required=True,
