@@ -1,0 +1,84 @@
+2016-10-25 13:10:10,615 INFO Creating draft tasks.
+2016-10-25 13:11:02,971 INFO Task 1: 2 files, 421.44 Gb
+2016-10-25 13:11:02,971 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_1_task_2_files_421.44Gb
+2016-10-25 13:11:08,175 INFO Task 2: 3 files, 491.09 Gb
+2016-10-25 13:11:08,176 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_2_task_3_files_491.09Gb
+2016-10-25 13:11:11,570 INFO Task 3: 2 files, 482.52 Gb
+2016-10-25 13:11:11,571 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_3_task_2_files_482.52Gb
+2016-10-25 13:11:15,573 INFO Task 4: 7 files, 544.75 Gb
+2016-10-25 13:11:15,573 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_4_task_7_files_544.75Gb
+2016-10-25 13:11:19,235 INFO Task 5: 2 files, 528.13 Gb
+2016-10-25 13:11:19,235 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_5_task_2_files_528.13Gb
+2016-10-25 13:11:22,819 INFO Task 6: 3 files, 574.17 Gb
+2016-10-25 13:11:22,819 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_6_task_3_files_574.17Gb
+2016-10-25 13:11:26,608 INFO Task 7: 2 files, 410.46 Gb
+2016-10-25 13:11:26,608 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_7_task_2_files_410.46Gb
+2016-10-25 13:11:30,242 INFO Task 8: 4 files, 402.72 Gb
+2016-10-25 13:11:30,242 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_8_task_4_files_402.72Gb
+2016-10-25 13:11:33,878 INFO Task 9: 3 files, 482.29 Gb
+2016-10-25 13:11:33,878 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_9_task_3_files_482.29Gb
+2016-10-25 13:11:37,465 INFO Task 10: 4 files, 491.51 Gb
+2016-10-25 13:11:37,465 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_10_task_4_files_491.51Gb
+2016-10-25 13:11:41,510 INFO Task 11: 2 files, 400.46 Gb
+2016-10-25 13:11:41,510 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_11_task_2_files_400.46Gb
+2016-10-25 13:11:46,268 INFO Task 12: 2 files, 433.92 Gb
+2016-10-25 13:11:46,269 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_12_task_2_files_433.92Gb
+2016-10-25 13:11:49,487 INFO Task 13: 3 files, 416.81 Gb
+2016-10-25 13:11:49,487 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_13_task_3_files_416.81Gb
+2016-10-25 13:11:53,184 INFO Task 14: 3 files, 444.79 Gb
+2016-10-25 13:11:53,184 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_14_task_3_files_444.79Gb
+2016-10-25 13:11:56,985 INFO Task 15: 4 files, 586.71 Gb
+2016-10-25 13:11:56,985 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_15_task_4_files_586.71Gb
+2016-10-25 13:12:00,912 INFO Task 16: 3 files, 512.67 Gb
+2016-10-25 13:12:00,912 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_16_task_3_files_512.67Gb
+2016-10-25 13:12:04,599 INFO Task 17: 11 files, 424.10 Gb
+2016-10-25 13:12:04,599 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_17_task_11_files_424.10Gb
+2016-10-25 13:12:08,388 INFO Task 18: 16 files, 403.32 Gb
+2016-10-25 13:12:08,389 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_18_task_16_files_403.32Gb
+2016-10-25 13:12:11,780 INFO Task 19: 15 files, 411.38 Gb
+2016-10-25 13:12:11,780 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_19_task_15_files_411.38Gb
+2016-10-25 13:12:15,760 INFO Task 20: 17 files, 413.68 Gb
+2016-10-25 13:12:15,760 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_20_task_17_files_413.68Gb
+2016-10-25 13:12:19,243 INFO Task 21: 14 files, 413.38 Gb
+2016-10-25 13:12:19,243 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_21_task_14_files_413.38Gb
+2016-10-25 13:12:23,135 INFO Task 22: 16 files, 425.59 Gb
+2016-10-25 13:12:23,135 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_22_task_16_files_425.59Gb
+2016-10-25 13:12:26,611 INFO Task 23: 15 files, 415.48 Gb
+2016-10-25 13:12:26,611 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_23_task_15_files_415.48Gb
+2016-10-25 13:12:30,404 INFO Task 24: 17 files, 420.13 Gb
+2016-10-25 13:12:30,404 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_24_task_17_files_420.13Gb
+2016-10-25 13:12:34,091 INFO Task 25: 16 files, 411.56 Gb
+2016-10-25 13:12:34,091 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_25_task_16_files_411.56Gb
+2016-10-25 13:12:37,504 INFO Task 26: 18 files, 405.90 Gb
+2016-10-25 13:12:37,504 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_26_task_18_files_405.90Gb
+2016-10-25 13:12:40,814 INFO Task 27: 21 files, 421.47 Gb
+2016-10-25 13:12:40,814 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_27_task_21_files_421.47Gb
+2016-10-25 13:12:44,217 INFO Task 28: 21 files, 414.82 Gb
+2016-10-25 13:12:44,218 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_28_task_21_files_414.82Gb
+2016-10-25 13:12:47,609 INFO Task 29: 27 files, 403.72 Gb
+2016-10-25 13:12:47,609 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_29_task_27_files_403.72Gb
+2016-10-25 13:12:51,044 INFO Task 30: 36 files, 402.91 Gb
+2016-10-25 13:12:51,044 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_30_task_36_files_402.91Gb
+2016-10-25 13:12:54,602 INFO Task 31: 63 files, 401.13 Gb
+2016-10-25 13:12:54,602 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_31_task_63_files_401.13Gb
+2016-10-25 13:12:58,772 INFO Task 32: 56 files, 401.20 Gb
+2016-10-25 13:12:58,772 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_32_task_56_files_401.20Gb
+2016-10-25 13:13:02,356 INFO Task 33: 56 files, 402.28 Gb
+2016-10-25 13:13:02,356 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_33_task_56_files_402.28Gb
+2016-10-25 13:13:06,165 INFO Task 34: 62 files, 400.62 Gb
+2016-10-25 13:13:06,165 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_34_task_62_files_400.62Gb
+2016-10-25 13:13:09,728 INFO Task 35: 66 files, 403.71 Gb
+2016-10-25 13:13:09,728 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_35_task_66_files_403.71Gb
+2016-10-25 13:13:13,416 INFO Task 36: 69 files, 404.32 Gb
+2016-10-25 13:13:13,416 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_36_task_69_files_404.32Gb
+2016-10-25 13:13:18,332 INFO Task 37: 72 files, 401.59 Gb
+2016-10-25 13:13:18,332 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_37_task_72_files_401.59Gb
+2016-10-25 13:13:21,745 INFO Task 38: 73 files, 400.99 Gb
+2016-10-25 13:13:21,745 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_38_task_73_files_400.99Gb
+2016-10-25 13:13:25,701 INFO Task 39: 4 files, 17.65 Gb
+2016-10-25 13:13:25,701 INFO 	Name: bam2fasta_Prostate Adenocarcinoma_39_task_4_files_17.65Gb
+2016-10-25 13:13:29,386 INFO Total tasks created: 39
+2016-10-25 13:13:29,386 INFO Total files tasked: 830
+2016-10-25 13:13:29,387 INFO Total files for disease type: 830
+2016-10-25 13:13:29,387 INFO Total WGS files: 272
+2016-10-25 13:13:29,387 INFO Total RNA-Seq files: 558

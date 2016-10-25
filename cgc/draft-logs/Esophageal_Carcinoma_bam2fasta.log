@@ -1,0 +1,50 @@
+2016-10-22 20:15:12,044 INFO Creating draft tasks.
+2016-10-22 20:15:29,518 INFO Task 1: 8 files, 523.98 Gb
+2016-10-22 20:15:29,518 INFO 	Name: bam2fasta_Esophageal Carcinoma_1_task_8_files_523.98Gb
+2016-10-22 20:15:33,462 INFO Task 2: 9 files, 400.44 Gb
+2016-10-22 20:15:33,463 INFO 	Name: bam2fasta_Esophageal Carcinoma_2_task_9_files_400.44Gb
+2016-10-22 20:15:36,675 INFO Task 3: 7 files, 506.69 Gb
+2016-10-22 20:15:36,675 INFO 	Name: bam2fasta_Esophageal Carcinoma_3_task_7_files_506.69Gb
+2016-10-22 20:15:39,872 INFO Task 4: 6 files, 459.51 Gb
+2016-10-22 20:15:39,872 INFO 	Name: bam2fasta_Esophageal Carcinoma_4_task_6_files_459.51Gb
+2016-10-22 20:15:43,831 INFO Task 5: 8 files, 459.22 Gb
+2016-10-22 20:15:43,831 INFO 	Name: bam2fasta_Esophageal Carcinoma_5_task_8_files_459.22Gb
+2016-10-22 20:15:47,107 INFO Task 6: 6 files, 401.85 Gb
+2016-10-22 20:15:47,107 INFO 	Name: bam2fasta_Esophageal Carcinoma_6_task_6_files_401.85Gb
+2016-10-22 20:15:50,345 INFO Task 7: 10 files, 407.04 Gb
+2016-10-22 20:15:50,345 INFO 	Name: bam2fasta_Esophageal Carcinoma_7_task_10_files_407.04Gb
+2016-10-22 20:15:53,500 INFO Task 8: 27 files, 403.62 Gb
+2016-10-22 20:15:53,500 INFO 	Name: bam2fasta_Esophageal Carcinoma_8_task_27_files_403.62Gb
+2016-10-22 20:15:56,637 INFO Task 9: 27 files, 405.03 Gb
+2016-10-22 20:15:56,637 INFO 	Name: bam2fasta_Esophageal Carcinoma_9_task_27_files_405.03Gb
+2016-10-22 20:15:59,791 INFO Task 10: 23 files, 411.26 Gb
+2016-10-22 20:15:59,791 INFO 	Name: bam2fasta_Esophageal Carcinoma_10_task_23_files_411.26Gb
+2016-10-22 20:16:03,090 INFO Task 11: 27 files, 410.80 Gb
+2016-10-22 20:16:03,091 INFO 	Name: bam2fasta_Esophageal Carcinoma_11_task_27_files_410.80Gb
+2016-10-22 20:16:06,336 INFO Task 12: 31 files, 408.46 Gb
+2016-10-22 20:16:06,336 INFO 	Name: bam2fasta_Esophageal Carcinoma_12_task_31_files_408.46Gb
+2016-10-22 20:16:09,572 INFO Task 13: 26 files, 401.19 Gb
+2016-10-22 20:16:09,572 INFO 	Name: bam2fasta_Esophageal Carcinoma_13_task_26_files_401.19Gb
+2016-10-22 20:16:13,001 INFO Task 14: 28 files, 402.48 Gb
+2016-10-22 20:16:13,001 INFO 	Name: bam2fasta_Esophageal Carcinoma_14_task_28_files_402.48Gb
+2016-10-22 20:16:15,979 INFO Task 15: 26 files, 415.97 Gb
+2016-10-22 20:16:15,979 INFO 	Name: bam2fasta_Esophageal Carcinoma_15_task_26_files_415.97Gb
+2016-10-22 20:16:19,647 INFO Task 16: 31 files, 408.88 Gb
+2016-10-22 20:16:19,647 INFO 	Name: bam2fasta_Esophageal Carcinoma_16_task_31_files_408.88Gb
+2016-10-22 20:16:22,718 INFO Task 17: 8 files, 491.53 Gb
+2016-10-22 20:16:22,718 INFO 	Name: bam2fasta_Esophageal Carcinoma_17_task_8_files_491.53Gb
+2016-10-22 20:16:25,796 INFO Task 18: 10 files, 359.95 Gb
+2016-10-22 20:16:25,796 INFO 	Name: bam2fasta_Esophageal Carcinoma_18_task_10_files_359.95Gb
+2016-10-22 20:16:28,861 INFO Task 19: 2 files, 404.07 Gb
+2016-10-22 20:16:28,861 INFO 	Name: bam2fasta_Esophageal Carcinoma_19_task_2_files_404.07Gb
+2016-10-22 20:16:31,895 INFO Task 20: 11 files, 497.47 Gb
+2016-10-22 20:16:31,895 INFO 	Name: bam2fasta_Esophageal Carcinoma_20_task_11_files_497.47Gb
+2016-10-22 20:16:35,108 INFO Task 21: 8 files, 424.46 Gb
+2016-10-22 20:16:35,108 INFO 	Name: bam2fasta_Esophageal Carcinoma_21_task_8_files_424.46Gb
+2016-10-22 20:16:38,384 INFO Task 22: 1 files, 136.33 Gb
+2016-10-22 20:16:38,384 INFO 	Name: bam2fasta_Esophageal Carcinoma_22_task_1_files_136.33Gb
+2016-10-22 20:16:41,438 INFO Total tasks created: 22
+2016-10-22 20:16:41,438 INFO Total files tasked: 340
+2016-10-22 20:16:41,438 INFO Total files for disease type: 340
+2016-10-22 20:16:41,438 INFO Total WGS files: 142
+2016-10-22 20:16:41,439 INFO Total RNA-Seq files: 198

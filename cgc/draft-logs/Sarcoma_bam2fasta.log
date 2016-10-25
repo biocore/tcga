@@ -1,0 +1,54 @@
+2016-10-22 21:35:02,444 INFO Creating draft tasks.
+2016-10-22 21:35:22,712 INFO Task 1: 6 files, 442.74 Gb
+2016-10-22 21:35:22,712 INFO 	Name: bam2fasta_Sarcoma_1_task_6_files_442.74Gb
+2016-10-22 21:35:26,610 INFO Task 2: 6 files, 460.46 Gb
+2016-10-22 21:35:26,610 INFO 	Name: bam2fasta_Sarcoma_2_task_6_files_460.46Gb
+2016-10-22 21:35:29,780 INFO Task 3: 4 files, 401.43 Gb
+2016-10-22 21:35:29,780 INFO 	Name: bam2fasta_Sarcoma_3_task_4_files_401.43Gb
+2016-10-22 21:35:33,007 INFO Task 4: 4 files, 418.15 Gb
+2016-10-22 21:35:33,008 INFO 	Name: bam2fasta_Sarcoma_4_task_4_files_418.15Gb
+2016-10-22 21:35:36,224 INFO Task 5: 4 files, 409.89 Gb
+2016-10-22 21:35:36,224 INFO 	Name: bam2fasta_Sarcoma_5_task_4_files_409.89Gb
+2016-10-22 21:35:39,370 INFO Task 6: 5 files, 458.00 Gb
+2016-10-22 21:35:39,370 INFO 	Name: bam2fasta_Sarcoma_6_task_5_files_458.00Gb
+2016-10-22 21:35:42,615 INFO Task 7: 4 files, 481.86 Gb
+2016-10-22 21:35:42,616 INFO 	Name: bam2fasta_Sarcoma_7_task_4_files_481.86Gb
+2016-10-22 21:35:45,811 INFO Task 8: 4 files, 496.79 Gb
+2016-10-22 21:35:45,811 INFO 	Name: bam2fasta_Sarcoma_8_task_4_files_496.79Gb
+2016-10-22 21:35:49,000 INFO Task 9: 4 files, 403.05 Gb
+2016-10-22 21:35:49,000 INFO 	Name: bam2fasta_Sarcoma_9_task_4_files_403.05Gb
+2016-10-22 21:35:52,199 INFO Task 10: 4 files, 440.86 Gb
+2016-10-22 21:35:52,199 INFO 	Name: bam2fasta_Sarcoma_10_task_4_files_440.86Gb
+2016-10-22 21:35:55,457 INFO Task 11: 5 files, 468.16 Gb
+2016-10-22 21:35:55,457 INFO 	Name: bam2fasta_Sarcoma_11_task_5_files_468.16Gb
+2016-10-22 21:35:58,873 INFO Task 12: 49 files, 400.77 Gb
+2016-10-22 21:35:58,874 INFO 	Name: bam2fasta_Sarcoma_12_task_49_files_400.77Gb
+2016-10-22 21:36:02,340 INFO Task 13: 71 files, 404.97 Gb
+2016-10-22 21:36:02,340 INFO 	Name: bam2fasta_Sarcoma_13_task_71_files_404.97Gb
+2016-10-22 21:36:05,659 INFO Task 14: 70 files, 404.97 Gb
+2016-10-22 21:36:05,659 INFO 	Name: bam2fasta_Sarcoma_14_task_70_files_404.97Gb
+2016-10-22 21:36:09,217 INFO Task 15: 63 files, 486.41 Gb
+2016-10-22 21:36:09,218 INFO 	Name: bam2fasta_Sarcoma_15_task_63_files_486.41Gb
+2016-10-22 21:36:13,036 INFO Task 16: 5 files, 423.82 Gb
+2016-10-22 21:36:13,036 INFO 	Name: bam2fasta_Sarcoma_16_task_5_files_423.82Gb
+2016-10-22 21:36:16,079 INFO Task 17: 4 files, 416.90 Gb
+2016-10-22 21:36:16,079 INFO 	Name: bam2fasta_Sarcoma_17_task_4_files_416.90Gb
+2016-10-22 21:36:19,335 INFO Task 18: 8 files, 440.44 Gb
+2016-10-22 21:36:19,335 INFO 	Name: bam2fasta_Sarcoma_18_task_8_files_440.44Gb
+2016-10-22 21:36:22,461 INFO Task 19: 5 files, 447.53 Gb
+2016-10-22 21:36:22,462 INFO 	Name: bam2fasta_Sarcoma_19_task_5_files_447.53Gb
+2016-10-22 21:36:25,725 INFO Task 20: 7 files, 464.60 Gb
+2016-10-22 21:36:25,725 INFO 	Name: bam2fasta_Sarcoma_20_task_7_files_464.60Gb
+2016-10-22 21:36:28,830 INFO Task 21: 4 files, 431.78 Gb
+2016-10-22 21:36:28,830 INFO 	Name: bam2fasta_Sarcoma_21_task_4_files_431.78Gb
+2016-10-22 21:36:31,828 INFO Task 22: 5 files, 425.03 Gb
+2016-10-22 21:36:31,828 INFO 	Name: bam2fasta_Sarcoma_22_task_5_files_425.03Gb
+2016-10-22 21:36:35,115 INFO Task 23: 4 files, 468.11 Gb
+2016-10-22 21:36:35,115 INFO 	Name: bam2fasta_Sarcoma_23_task_4_files_468.11Gb
+2016-10-22 21:36:38,790 INFO Task 24: 2 files, 204.81 Gb
+2016-10-22 21:36:38,791 INFO 	Name: bam2fasta_Sarcoma_24_task_2_files_204.81Gb
+2016-10-22 21:36:42,098 INFO Total tasks created: 24
+2016-10-22 21:36:42,098 INFO Total files tasked: 347
+2016-10-22 21:36:42,098 INFO Total files for disease type: 347
+2016-10-22 21:36:42,098 INFO Total WGS files: 82
+2016-10-22 21:36:42,098 INFO Total RNA-Seq files: 265
