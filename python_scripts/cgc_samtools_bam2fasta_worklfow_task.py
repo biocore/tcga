@@ -105,13 +105,15 @@ def create_tasks(api,
         Upper bound on total size of input files to pass to workflow
     """
     logger.info('Creating draft tasks.')
-    # Retrieve all files associated with project and disease type
-    file_list = list(api.files.query(
-            project = config['project'],
-            metadata = {'disease_type': config['disease']}).all())
-    # Keep only BAM files
-    bam_inputs = [_file for _file in file_list if
-                  _file.name.lower().endswith('bam')]
+    # Retrieve BAM and FASTA files associated with project, disease type,
+    # data format experimental strategy and data type
+    bam_inputs = list(
+        api.files.query(
+            project=config['project'],
+            metadata={'disease_type': config['disease'],
+                      'data_format': ['BAM'],
+                      'experimental_strategy': ['RNA-Seq', 'WGS'],
+                      'data_type': ['Raw sequencing data']}).all())
     # Loop through BAM files computing total size, create task if size within
     # lower and upper bounds
     total_size_gb = 0.0
@@ -280,7 +282,7 @@ def show_status(api):
               help='Lower bound on total size of input files to pass to '
               'workflow')
 @click.option('--upper-bound-group-size', required=False, type=int,
-              default=700, show_default=True,
+              default=600, show_default=True,
               help='Upper bound on total size of input files to pass to '
               'workflow')
 def main(yaml_fp,

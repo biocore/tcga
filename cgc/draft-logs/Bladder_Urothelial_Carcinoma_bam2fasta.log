@@ -1,0 +1,80 @@
+2016-10-25 12:32:22,390 INFO Creating draft tasks.
+2016-10-25 12:33:00,296 INFO Task 1: 3 files, 503.07 Gb
+2016-10-25 12:33:00,296 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_1_task_3_files_503.07Gb
+2016-10-25 12:33:04,838 INFO Task 2: 3 files, 405.80 Gb
+2016-10-25 12:33:04,839 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_2_task_3_files_405.80Gb
+2016-10-25 12:33:08,161 INFO Task 3: 3 files, 409.41 Gb
+2016-10-25 12:33:08,161 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_3_task_3_files_409.41Gb
+2016-10-25 12:33:11,651 INFO Task 4: 4 files, 536.54 Gb
+2016-10-25 12:33:11,652 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_4_task_4_files_536.54Gb
+2016-10-25 12:33:15,117 INFO Task 5: 3 files, 416.70 Gb
+2016-10-25 12:33:15,117 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_5_task_3_files_416.70Gb
+2016-10-25 12:33:18,978 INFO Task 6: 4 files, 484.31 Gb
+2016-10-25 12:33:18,978 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_6_task_4_files_484.31Gb
+2016-10-25 12:33:22,413 INFO Task 7: 3 files, 405.65 Gb
+2016-10-25 12:33:22,413 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_7_task_3_files_405.65Gb
+2016-10-25 12:33:26,630 INFO Task 8: 3 files, 400.62 Gb
+2016-10-25 12:33:26,630 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_8_task_3_files_400.62Gb
+2016-10-25 12:33:30,235 INFO Task 9: 3 files, 463.20 Gb
+2016-10-25 12:33:30,235 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_9_task_3_files_463.20Gb
+2016-10-25 12:33:33,737 INFO Task 10: 3 files, 449.56 Gb
+2016-10-25 12:33:33,737 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_10_task_3_files_449.56Gb
+2016-10-25 12:33:36,977 INFO Task 11: 3 files, 444.44 Gb
+2016-10-25 12:33:36,977 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_11_task_3_files_444.44Gb
+2016-10-25 12:33:40,576 INFO Task 12: 4 files, 527.49 Gb
+2016-10-25 12:33:40,576 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_12_task_4_files_527.49Gb
+2016-10-25 12:33:44,160 INFO Task 13: 3 files, 438.80 Gb
+2016-10-25 12:33:44,160 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_13_task_3_files_438.80Gb
+2016-10-25 12:33:48,050 INFO Task 14: 4 files, 490.57 Gb
+2016-10-25 12:33:48,051 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_14_task_4_files_490.57Gb
+2016-10-25 12:33:51,480 INFO Task 15: 4 files, 514.84 Gb
+2016-10-25 12:33:51,480 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_15_task_4_files_514.84Gb
+2016-10-25 12:33:55,425 INFO Task 16: 12 files, 405.15 Gb
+2016-10-25 12:33:55,425 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_16_task_12_files_405.15Gb
+2016-10-25 12:33:58,969 INFO Task 17: 8 files, 418.46 Gb
+2016-10-25 12:33:58,969 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_17_task_8_files_418.46Gb
+2016-10-25 12:34:02,380 INFO Task 18: 11 files, 531.27 Gb
+2016-10-25 12:34:02,380 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_18_task_11_files_531.27Gb
+2016-10-25 12:34:05,966 INFO Task 19: 4 files, 481.99 Gb
+2016-10-25 12:34:05,966 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_19_task_4_files_481.99Gb
+2016-10-25 12:34:09,299 INFO Task 20: 5 files, 415.86 Gb
+2016-10-25 12:34:09,300 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_20_task_5_files_415.86Gb
+2016-10-25 12:34:13,314 INFO Task 21: 12 files, 417.67 Gb
+2016-10-25 12:34:13,316 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_21_task_12_files_417.67Gb
+2016-10-25 12:34:16,845 INFO Task 22: 20 files, 412.24 Gb
+2016-10-25 12:34:16,845 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_22_task_20_files_412.24Gb
+2016-10-25 12:34:21,129 INFO Task 23: 21 files, 414.81 Gb
+2016-10-25 12:34:21,129 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_23_task_21_files_414.81Gb
+2016-10-25 12:34:24,815 INFO Task 24: 19 files, 406.49 Gb
+2016-10-25 12:34:24,815 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_24_task_19_files_406.49Gb
+2016-10-25 12:34:28,697 INFO Task 25: 18 files, 400.16 Gb
+2016-10-25 12:34:28,699 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_25_task_18_files_400.16Gb
+2016-10-25 12:34:32,052 INFO Task 26: 20 files, 422.69 Gb
+2016-10-25 12:34:32,053 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_26_task_20_files_422.69Gb
+2016-10-25 12:34:35,771 INFO Task 27: 19 files, 415.59 Gb
+2016-10-25 12:34:35,772 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_27_task_19_files_415.59Gb
+2016-10-25 12:34:39,458 INFO Task 28: 18 files, 404.29 Gb
+2016-10-25 12:34:39,458 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_28_task_18_files_404.29Gb
+2016-10-25 12:34:42,841 INFO Task 29: 22 files, 423.97 Gb
+2016-10-25 12:34:42,841 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_29_task_22_files_423.97Gb
+2016-10-25 12:34:46,214 INFO Task 30: 20 files, 414.24 Gb
+2016-10-25 12:34:46,214 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_30_task_20_files_414.24Gb
+2016-10-25 12:34:50,080 INFO Task 31: 21 files, 402.38 Gb
+2016-10-25 12:34:50,080 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_31_task_21_files_402.38Gb
+2016-10-25 12:34:53,775 INFO Task 32: 68 files, 404.47 Gb
+2016-10-25 12:34:53,775 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_32_task_68_files_404.47Gb
+2016-10-25 12:34:57,678 INFO Task 33: 58 files, 404.75 Gb
+2016-10-25 12:34:57,678 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_33_task_58_files_404.75Gb
+2016-10-25 12:35:01,255 INFO Task 34: 68 files, 400.65 Gb
+2016-10-25 12:35:01,255 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_34_task_68_files_400.65Gb
+2016-10-25 12:35:04,911 INFO Task 35: 67 files, 403.51 Gb
+2016-10-25 12:35:04,911 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_35_task_67_files_403.51Gb
+2016-10-25 12:35:09,057 INFO Task 36: 86 files, 402.60 Gb
+2016-10-25 12:35:09,058 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_36_task_86_files_402.60Gb
+2016-10-25 12:35:12,641 INFO Task 37: 82 files, 383.77 Gb
+2016-10-25 12:35:12,641 INFO 	Name: bam2fasta_Bladder Urothelial Carcinoma_37_task_82_files_383.77Gb
+2016-10-25 12:35:16,997 INFO Total tasks created: 37
+2016-10-25 12:35:16,997 INFO Total files tasked: 729
+2016-10-25 12:35:16,997 INFO Total files for disease type: 729
+2016-10-25 12:35:16,997 INFO Total WGS files: 296
+2016-10-25 12:35:16,997 INFO Total RNA-Seq files: 433
