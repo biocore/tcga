@@ -1,0 +1,12 @@
+2016-10-21 14:23:45,858 INFO Creating draft tasks.
+2016-10-21 14:24:04,892 INFO Task 1: 69 files, 405.12 Gb
+2016-10-21 14:24:04,892 INFO 	Name: bam2fasta_Pheochromocytoma and Paraganglioma_1_task_69_files_405.12Gb
+2016-10-21 14:24:08,649 INFO Task 2: 70 files, 400.58 Gb
+2016-10-21 14:24:08,649 INFO 	Name: bam2fasta_Pheochromocytoma and Paraganglioma_2_task_70_files_400.58Gb
+2016-10-21 14:24:11,720 INFO Task 3: 48 files, 271.17 Gb
+2016-10-21 14:24:11,720 INFO 	Name: bam2fasta_Pheochromocytoma and Paraganglioma_3_task_48_files_271.17Gb
+2016-10-21 14:24:14,686 INFO Total tasks created: 3
+2016-10-21 14:24:14,686 INFO Total files tasked: 187
+2016-10-21 14:24:14,686 INFO Total files for disease type: 187
+2016-10-21 14:24:14,686 INFO Total WGS files: 0
+2016-10-21 14:24:14,686 INFO Total RNA-Seq files: 187
