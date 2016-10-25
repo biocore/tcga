@@ -1,0 +1,35 @@
+disease_type_label,N_RNASeq_and_WGS_files
+Cholangiocarcinoma,45
+Uterine Carcinosarcoma,57
+Lymphoid Neoplasm Diffuse Large B-cell Lymphoma,62
+Adrenocortical Carcinoma,79
+Mesothelioma,87
+Thymoma,122
+Testicular Germ Cell Tumors,156
+Uveal Melanoma,182
+Pancreatic Adenocarcinoma,183
+Pheochromocytoma and Paraganglioma,187
+Kidney Chromophobe,191
+Acute Myeloid Leukemia,335
+Esophageal Carcinoma,340
+Sarcoma,347
+Rectum Adenocarcinoma,375
+Kidney Renal Papillary Cell Carcinoma,400
+Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma,451
+Glioblastoma Multiforme,520
+Liver Hepatocellular Carcinoma,532
+Lung Squamous Cell Carcinoma,653
+Bladder Urothelial Carcinoma,729
+Brain Lower Grade Glioma,733
+Skin Cutaneous Melanoma,793
+Prostate Adenocarcinoma,830
+Thyroid Carcinoma,880
+Head and Neck Squamous Cell Carcinoma,907
+Lung Adenocarcinoma,951
+Colon Adenocarcinoma,1018
+Ovarian Serous Cystadenocarcinoma,1039
+Stomach Adenocarcinoma,1092
+Kidney Renal Clear Cell Carcinoma,1142
+Uterine Corpus Endometrial Carcinoma,1239
+Breast Invasive Carcinoma,1497
+Sum,18154
