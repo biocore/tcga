@@ -1,0 +1,92 @@
+2016-10-27 11:08:28,212 INFO Creating draft tasks.
+2016-10-27 11:09:47,650 INFO Task 1: 4 files, 561.15 Gb
+2016-10-27 11:09:47,650 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_1_task_4_files_561.15Gb
+2016-10-27 11:09:52,151 INFO Task 2: 3 files, 405.66 Gb
+2016-10-27 11:09:52,151 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_2_task_3_files_405.66Gb
+2016-10-27 11:09:55,837 INFO Task 3: 4 files, 473.29 Gb
+2016-10-27 11:09:55,837 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_3_task_4_files_473.29Gb
+2016-10-27 11:09:59,527 INFO Task 4: 5 files, 504.82 Gb
+2016-10-27 11:09:59,527 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_4_task_5_files_504.82Gb
+2016-10-27 11:10:03,224 INFO Task 5: 4 files, 440.84 Gb
+2016-10-27 11:10:03,224 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_5_task_4_files_440.84Gb
+2016-10-27 11:10:07,513 INFO Task 6: 4 files, 502.25 Gb
+2016-10-27 11:10:07,514 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_6_task_4_files_502.25Gb
+2016-10-27 11:10:11,411 INFO Task 7: 4 files, 464.63 Gb
+2016-10-27 11:10:11,412 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_7_task_4_files_464.63Gb
+2016-10-27 11:10:14,884 INFO Task 8: 4 files, 541.67 Gb
+2016-10-27 11:10:14,884 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_8_task_4_files_541.67Gb
+2016-10-27 11:10:18,674 INFO Task 9: 4 files, 440.47 Gb
+2016-10-27 11:10:18,674 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_9_task_4_files_440.47Gb
+2016-10-27 11:10:22,272 INFO Task 10: 4 files, 411.38 Gb
+2016-10-27 11:10:22,272 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_10_task_4_files_411.38Gb
+2016-10-27 11:10:25,944 INFO Task 11: 3 files, 470.80 Gb
+2016-10-27 11:10:25,944 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_11_task_3_files_470.80Gb
+2016-10-27 11:10:29,351 INFO Task 12: 4 files, 496.72 Gb
+2016-10-27 11:10:29,353 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_12_task_4_files_496.72Gb
+2016-10-27 11:10:33,120 INFO Task 13: 8 files, 523.65 Gb
+2016-10-27 11:10:33,120 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_13_task_8_files_523.65Gb
+2016-10-27 11:10:37,431 INFO Task 14: 14 files, 412.46 Gb
+2016-10-27 11:10:37,431 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_14_task_14_files_412.46Gb
+2016-10-27 11:10:41,305 INFO Task 15: 18 files, 415.02 Gb
+2016-10-27 11:10:41,305 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_15_task_18_files_415.02Gb
+2016-10-27 11:10:45,021 INFO Task 16: 18 files, 402.65 Gb
+2016-10-27 11:10:45,022 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_16_task_18_files_402.65Gb
+2016-10-27 11:10:48,788 INFO Task 17: 20 files, 425.07 Gb
+2016-10-27 11:10:48,788 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_17_task_20_files_425.07Gb
+2016-10-27 11:10:52,672 INFO Task 18: 23 files, 406.45 Gb
+2016-10-27 11:10:52,672 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_18_task_23_files_406.45Gb
+2016-10-27 11:10:56,573 INFO Task 19: 23 files, 410.95 Gb
+2016-10-27 11:10:56,573 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_19_task_23_files_410.95Gb
+2016-10-27 11:11:00,250 INFO Task 20: 22 files, 413.52 Gb
+2016-10-27 11:11:00,251 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_20_task_22_files_413.52Gb
+2016-10-27 11:11:03,849 INFO Task 21: 19 files, 401.15 Gb
+2016-10-27 11:11:03,850 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_21_task_19_files_401.15Gb
+2016-10-27 11:11:07,588 INFO Task 22: 21 files, 422.00 Gb
+2016-10-27 11:11:07,588 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_22_task_21_files_422.00Gb
+2016-10-27 11:11:11,323 INFO Task 23: 28 files, 411.00 Gb
+2016-10-27 11:11:11,323 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_23_task_28_files_411.00Gb
+2016-10-27 11:11:15,302 INFO Task 24: 28 files, 411.38 Gb
+2016-10-27 11:11:15,302 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_24_task_28_files_411.38Gb
+2016-10-27 11:11:19,042 INFO Task 25: 130 files, 400.31 Gb
+2016-10-27 11:11:19,042 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_25_task_130_files_400.31Gb
+2016-10-27 11:11:22,941 INFO Task 26: 198 files, 401.97 Gb
+2016-10-27 11:11:22,941 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_26_task_198_files_401.97Gb
+2016-10-27 11:11:27,200 INFO Task 27: 146 files, 400.38 Gb
+2016-10-27 11:11:27,200 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_27_task_146_files_400.38Gb
+2016-10-27 11:11:31,896 INFO Task 28: 74 files, 400.72 Gb
+2016-10-27 11:11:31,896 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_28_task_74_files_400.72Gb
+2016-10-27 11:11:36,631 INFO Task 29: 75 files, 402.43 Gb
+2016-10-27 11:11:36,631 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_29_task_75_files_402.43Gb
+2016-10-27 11:11:40,909 INFO Task 30: 129 files, 401.94 Gb
+2016-10-27 11:11:40,909 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_30_task_129_files_401.94Gb
+2016-10-27 11:11:45,322 INFO Task 31: 118 files, 439.37 Gb
+2016-10-27 11:11:45,322 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_31_task_118_files_439.37Gb
+2016-10-27 11:11:49,622 INFO Task 32: 22 files, 451.34 Gb
+2016-10-27 11:11:49,622 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_32_task_22_files_451.34Gb
+2016-10-27 11:11:53,600 INFO Task 33: 20 files, 460.18 Gb
+2016-10-27 11:11:53,600 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_33_task_20_files_460.18Gb
+2016-10-27 11:11:57,286 INFO Task 34: 4 files, 519.97 Gb
+2016-10-27 11:11:57,287 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_34_task_4_files_519.97Gb
+2016-10-27 11:12:00,870 INFO Task 35: 4 files, 401.42 Gb
+2016-10-27 11:12:00,871 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_35_task_4_files_401.42Gb
+2016-10-27 11:12:04,440 INFO Task 36: 4 files, 492.41 Gb
+2016-10-27 11:12:04,440 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_36_task_4_files_492.41Gb
+2016-10-27 11:12:08,035 INFO Task 37: 4 files, 453.74 Gb
+2016-10-27 11:12:08,036 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_37_task_4_files_453.74Gb
+2016-10-27 11:12:11,622 INFO Task 38: 4 files, 473.19 Gb
+2016-10-27 11:12:11,622 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_38_task_4_files_473.19Gb
+2016-10-27 11:12:15,204 INFO Task 39: 3 files, 439.32 Gb
+2016-10-27 11:12:15,204 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_39_task_3_files_439.32Gb
+2016-10-27 11:12:18,724 INFO Task 40: 4 files, 414.49 Gb
+2016-10-27 11:12:18,724 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_40_task_4_files_414.49Gb
+2016-10-27 11:12:22,297 INFO Task 41: 3 files, 421.04 Gb
+2016-10-27 11:12:22,297 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_41_task_3_files_421.04Gb
+2016-10-27 11:12:25,958 INFO Task 42: 4 files, 426.63 Gb
+2016-10-27 11:12:25,958 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_42_task_4_files_426.63Gb
+2016-10-27 11:12:29,644 INFO Task 43: 4 files, 402.37 Gb
+2016-10-27 11:12:29,644 INFO 	Name: bam2fasta_Uterine Corpus Endometrial Carcinoma_43_task_4_files_402.37Gb
+2016-10-27 11:12:33,339 INFO Total tasks created: 43
+2016-10-27 11:12:33,339 INFO Total files tasked: 1239
+2016-10-27 11:12:33,339 INFO Total files for disease type: 1239
+2016-10-27 11:12:33,339 INFO Total WGS files: 332
+2016-10-27 11:12:33,339 INFO Total RNA-Seq files: 907

@@ -1,0 +1,84 @@
+2016-10-26 07:00:44,640 INFO Creating draft tasks.
+2016-10-26 07:01:02,849 INFO Task 1: 4 files, 472.53 Gb
+2016-10-26 07:01:02,849 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_1_task_4_files_472.53Gb
+2016-10-26 07:01:07,380 INFO Task 2: 4 files, 439.56 Gb
+2016-10-26 07:01:07,380 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_2_task_4_files_439.56Gb
+2016-10-26 07:01:11,036 INFO Task 3: 5 files, 455.29 Gb
+2016-10-26 07:01:11,036 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_3_task_5_files_455.29Gb
+2016-10-26 07:01:14,584 INFO Task 4: 4 files, 447.33 Gb
+2016-10-26 07:01:14,584 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_4_task_4_files_447.33Gb
+2016-10-26 07:01:18,131 INFO Task 5: 4 files, 413.11 Gb
+2016-10-26 07:01:18,131 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_5_task_4_files_413.11Gb
+2016-10-26 07:01:21,549 INFO Task 6: 4 files, 406.11 Gb
+2016-10-26 07:01:21,549 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_6_task_4_files_406.11Gb
+2016-10-26 07:01:25,134 INFO Task 7: 4 files, 454.42 Gb
+2016-10-26 07:01:25,134 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_7_task_4_files_454.42Gb
+2016-10-26 07:01:28,548 INFO Task 8: 4 files, 418.23 Gb
+2016-10-26 07:01:28,548 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_8_task_4_files_418.23Gb
+2016-10-26 07:01:32,505 INFO Task 9: 3 files, 293.17 Gb
+2016-10-26 07:01:32,505 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_9_task_3_files_293.17Gb
+2016-10-26 07:01:36,042 INFO Task 10: 1 files, 854.86 Gb
+2016-10-26 07:01:36,042 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_10_task_1_files_854.86Gb
+2016-10-26 07:01:39,577 INFO Task 11: 4 files, 418.07 Gb
+2016-10-26 07:01:39,577 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_11_task_4_files_418.07Gb
+2016-10-26 07:01:43,029 INFO Task 12: 4 files, 489.59 Gb
+2016-10-26 07:01:43,029 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_12_task_4_files_489.59Gb
+2016-10-26 07:01:46,599 INFO Task 13: 4 files, 401.21 Gb
+2016-10-26 07:01:46,599 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_13_task_4_files_401.21Gb
+2016-10-26 07:01:50,561 INFO Task 14: 7 files, 428.82 Gb
+2016-10-26 07:01:50,561 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_14_task_7_files_428.82Gb
+2016-10-26 07:01:54,015 INFO Task 15: 10 files, 418.48 Gb
+2016-10-26 07:01:54,015 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_15_task_10_files_418.48Gb
+2016-10-26 07:01:57,628 INFO Task 16: 5 files, 402.55 Gb
+2016-10-26 07:01:57,628 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_16_task_5_files_402.55Gb
+2016-10-26 07:02:01,418 INFO Task 17: 9 files, 447.85 Gb
+2016-10-26 07:02:01,418 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_17_task_9_files_447.85Gb
+2016-10-26 07:02:05,105 INFO Task 18: 18 files, 494.35 Gb
+2016-10-26 07:02:05,106 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_18_task_18_files_494.35Gb
+2016-10-26 07:02:08,896 INFO Task 19: 61 files, 480.26 Gb
+2016-10-26 07:02:08,896 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_19_task_61_files_480.26Gb
+2016-10-26 07:02:13,401 INFO Task 20: 42 files, 476.65 Gb
+2016-10-26 07:02:13,401 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_20_task_42_files_476.65Gb
+2016-10-26 07:02:16,880 INFO Task 21: 7 files, 421.59 Gb
+2016-10-26 07:02:16,880 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_21_task_7_files_421.59Gb
+2016-10-26 07:02:20,374 INFO Task 22: 6 files, 413.42 Gb
+2016-10-26 07:02:20,374 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_22_task_6_files_413.42Gb
+2016-10-26 07:02:23,831 INFO Task 23: 7 files, 403.49 Gb
+2016-10-26 07:02:23,831 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_23_task_7_files_403.49Gb
+2016-10-26 07:02:27,531 INFO Task 24: 8 files, 445.93 Gb
+2016-10-26 07:02:27,532 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_24_task_8_files_445.93Gb
+2016-10-26 07:02:31,115 INFO Task 25: 11 files, 483.59 Gb
+2016-10-26 07:02:31,115 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_25_task_11_files_483.59Gb
+2016-10-26 07:02:34,699 INFO Task 26: 9 files, 474.25 Gb
+2016-10-26 07:02:34,699 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_26_task_9_files_474.25Gb
+2016-10-26 07:02:38,232 INFO Task 27: 9 files, 418.57 Gb
+2016-10-26 07:02:38,232 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_27_task_9_files_418.57Gb
+2016-10-26 07:02:41,867 INFO Task 28: 6 files, 440.68 Gb
+2016-10-26 07:02:41,867 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_28_task_6_files_440.68Gb
+2016-10-26 07:02:45,451 INFO Task 29: 12 files, 434.12 Gb
+2016-10-26 07:02:45,451 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_29_task_12_files_434.12Gb
+2016-10-26 07:02:49,035 INFO Task 30: 11 files, 452.20 Gb
+2016-10-26 07:02:49,035 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_30_task_11_files_452.20Gb
+2016-10-26 07:02:53,045 INFO Task 31: 10 files, 464.37 Gb
+2016-10-26 07:02:53,046 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_31_task_10_files_464.37Gb
+2016-10-26 07:02:56,918 INFO Task 32: 7 files, 490.20 Gb
+2016-10-26 07:02:56,918 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_32_task_7_files_490.20Gb
+2016-10-26 07:03:01,025 INFO Task 33: 4 files, 422.91 Gb
+2016-10-26 07:03:01,025 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_33_task_4_files_422.91Gb
+2016-10-26 07:03:04,700 INFO Task 34: 5 files, 488.80 Gb
+2016-10-26 07:03:04,701 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_34_task_5_files_488.80Gb
+2016-10-26 07:03:08,388 INFO Task 35: 4 files, 444.97 Gb
+2016-10-26 07:03:08,388 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_35_task_4_files_444.97Gb
+2016-10-26 07:03:11,870 INFO Task 36: 4 files, 423.55 Gb
+2016-10-26 07:03:11,870 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_36_task_4_files_423.55Gb
+2016-10-26 07:03:15,554 INFO Task 37: 5 files, 538.43 Gb
+2016-10-26 07:03:15,554 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_37_task_5_files_538.43Gb
+2016-10-26 07:03:19,082 INFO Task 38: 4 files, 412.51 Gb
+2016-10-26 07:03:19,082 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_38_task_4_files_412.51Gb
+2016-10-26 07:03:22,596 INFO Task 39: 5 files, 485.47 Gb
+2016-10-26 07:03:22,596 INFO 	Name: bam2fasta_Acute Myeloid Leukemia_39_task_5_files_485.47Gb
+2016-10-26 07:03:26,307 INFO Total tasks created: 39
+2016-10-26 07:03:26,308 INFO Total files tasked: 335
+2016-10-26 07:03:26,308 INFO Total files for disease type: 335
+2016-10-26 07:03:26,308 INFO Total WGS files: 156
+2016-10-26 07:03:26,308 INFO Total RNA-Seq files: 179
