@@ -21,8 +21,8 @@ def load_kraken_mpa_report(kraken_mpa_report_fp,
     """Absolute abundance of number of reads matching a defined taxa level.
     Parameters
     ----------
-    kraken_translate_report_fp: str
-        filepath to output of "kraken translate"
+    kraken_mpa_report_fp: str
+        filepath to output of "kraken mpa report"
     taxa_levels: list
         list of two elements that includes the taxonomic rank at which
         to generate summary and rank below to split by
@@ -32,7 +32,7 @@ def load_kraken_mpa_report(kraken_mpa_report_fp,
     Returns
     -------
     taxonomies: set
-        set of taxonomies from kraken_translate_report_fp
+        set of taxonomies from kraken_mpa_report_fp
     """
     taxonomic_abundances= []
     for report_fp in kraken_mpa_report_fp:
@@ -62,7 +62,7 @@ def create_db_folder(repophlan_genomeid_taxonomy_fp,
     repophlan_genomeid_taxonomy_fp: str
         filepath to output of repophlan file genome IDs and associated taxa
     genome_tax: set
-        set of taxonomies from kraken_translate_report_fp
+        set of taxonomies from kraken_mpa_report_fp
     split_on_level: str
         string that determines the level to split the taxonomy in genome_tax
     output_filename: str
