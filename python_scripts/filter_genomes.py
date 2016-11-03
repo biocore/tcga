@@ -64,7 +64,7 @@ def filter_genomes(all_genomes_bz2_dp,
                 src = join(all_genomes_bz2_dp, filename)
                 dst = join(low_quality_genomes_dp, filename)
                 logger.info('Moving %s' % filename)
-                #shutil.move(src, dst)
+                shutil.move(src, dst)
                 files_moved += 1
             else:
                 files_kept += 1
