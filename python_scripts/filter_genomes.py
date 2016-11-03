@@ -33,7 +33,7 @@ def get_logger(log_fp):
 def get_genomes_ids(repophlan_scores_fp):
     """Return genome IDs to keep.
     """
-    genomes = []
+    genomes = set()
     # Get quality filtered genome ID and filepath to .fna.bz2
     with open(repophlan_scores_fp) as repophlan_scores_f:
         # header
@@ -44,7 +44,9 @@ def get_genomes_ids(repophlan_scores_fp):
             line = line.strip().split('\t')
             filename = basename(line[fna_idx])
             if filename not in genomes:
-                genomes.append(filename)
+                genomes.add(filename)
+            else:
+                raise ValueError('Duplicate file name: %s' % filename)
     return genomes
 
 
@@ -62,7 +64,7 @@ def filter_genomes(all_genomes_bz2_dp,
                 src = join(all_genomes_bz2_dp, filename)
                 dst = join(low_quality_genomes_dp, filename)
                 logger.info('Moving %s' % filename)
-                shutil.move(src, dst)
+                #shutil.move(src, dst)
                 files_moved += 1
             else:
                 files_kept += 1
@@ -78,7 +80,7 @@ def filter_genomes(all_genomes_bz2_dp,
 @click.option('--all-genomes-bz2-dp', required=True,
               type=click.Path(resolve_path=True, readable=True, exists=True,
                               file_okay=True),
-              help='Directory path to all 54K genomes')
+              help='Directory path to all 54K genomes (.faa)')
 @click.option('--repophlan-scores-fp', required=True,
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
@@ -90,7 +92,7 @@ def filter_genomes(all_genomes_bz2_dp,
 @click.option('--log-fp', required=True,
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
-              help='Logfile')
+              help='Filepath to log file')
 def main(all_genomes_bz2_dp,
          repophlan_scores_fp,
          low_quality_genomes_dp,
