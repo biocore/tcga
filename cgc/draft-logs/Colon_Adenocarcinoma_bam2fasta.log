@@ -1,0 +1,126 @@
+2017-01-19 11:20:10,674 INFO Creating draft tasks.
+2017-01-19 11:20:57,036 INFO Task 1: 15 files, 483.35 Gb
+2017-01-19 11:20:57,037 INFO 	Name: bam2fasta_Colon Adenocarcinoma_1_task_15_files_483.35Gb
+2017-01-19 11:21:00,534 INFO Task 2: 6 files, 402.27 Gb
+2017-01-19 11:21:00,534 INFO 	Name: bam2fasta_Colon Adenocarcinoma_2_task_6_files_402.27Gb
+2017-01-19 11:21:03,486 INFO Task 3: 8 files, 592.39 Gb
+2017-01-19 11:21:03,486 INFO 	Name: bam2fasta_Colon Adenocarcinoma_3_task_8_files_592.39Gb
+2017-01-19 11:21:06,558 INFO Task 4: 6 files, 518.22 Gb
+2017-01-19 11:21:06,559 INFO 	Name: bam2fasta_Colon Adenocarcinoma_4_task_6_files_518.22Gb
+2017-01-19 11:21:09,381 INFO Task 5: 2 files, 482.54 Gb
+2017-01-19 11:21:09,383 INFO 	Name: bam2fasta_Colon Adenocarcinoma_5_task_2_files_482.54Gb
+2017-01-19 11:21:12,391 INFO Task 6: 2 files, 781.05 Gb
+2017-01-19 11:21:12,391 INFO 	Name: bam2fasta_Colon Adenocarcinoma_6_task_2_files_781.05Gb
+2017-01-19 11:21:16,332 INFO Task 7: 2 files, 825.39 Gb
+2017-01-19 11:21:16,333 INFO 	Name: bam2fasta_Colon Adenocarcinoma_7_task_2_files_825.39Gb
+2017-01-19 11:21:19,358 INFO Task 8: 2 files, 833.05 Gb
+2017-01-19 11:21:19,360 INFO 	Name: bam2fasta_Colon Adenocarcinoma_8_task_2_files_833.05Gb
+2017-01-19 11:21:22,442 INFO Task 9: 2 files, 822.02 Gb
+2017-01-19 11:21:22,442 INFO 	Name: bam2fasta_Colon Adenocarcinoma_9_task_2_files_822.02Gb
+2017-01-19 11:21:25,604 INFO Task 10: 2 files, 606.35 Gb
+2017-01-19 11:21:25,604 INFO 	Name: bam2fasta_Colon Adenocarcinoma_10_task_2_files_606.35Gb
+2017-01-19 11:21:28,677 INFO Task 11: 13 files, 521.23 Gb
+2017-01-19 11:21:28,677 INFO 	Name: bam2fasta_Colon Adenocarcinoma_11_task_13_files_521.23Gb
+2017-01-19 11:21:31,521 INFO Task 12: 5 files, 414.72 Gb
+2017-01-19 11:21:31,521 INFO 	Name: bam2fasta_Colon Adenocarcinoma_12_task_5_files_414.72Gb
+2017-01-19 11:21:34,616 INFO Task 13: 3 files, 410.93 Gb
+2017-01-19 11:21:34,616 INFO 	Name: bam2fasta_Colon Adenocarcinoma_13_task_3_files_410.93Gb
+2017-01-19 11:21:37,410 INFO Task 14: 3 files, 549.48 Gb
+2017-01-19 11:21:37,412 INFO 	Name: bam2fasta_Colon Adenocarcinoma_14_task_3_files_549.48Gb
+2017-01-19 11:21:40,555 INFO Task 15: 4 files, 572.95 Gb
+2017-01-19 11:21:40,555 INFO 	Name: bam2fasta_Colon Adenocarcinoma_15_task_4_files_572.95Gb
+2017-01-19 11:21:43,627 INFO Task 16: 8 files, 328.41 Gb
+2017-01-19 11:21:43,627 INFO 	Name: bam2fasta_Colon Adenocarcinoma_16_task_8_files_328.41Gb
+2017-01-19 11:21:46,597 INFO Task 17: 3 files, 460.10 Gb
+2017-01-19 11:21:46,598 INFO 	Name: bam2fasta_Colon Adenocarcinoma_17_task_3_files_460.10Gb
+2017-01-19 11:21:49,699 INFO Task 18: 9 files, 409.43 Gb
+2017-01-19 11:21:49,700 INFO 	Name: bam2fasta_Colon Adenocarcinoma_18_task_9_files_409.43Gb
+2017-01-19 11:21:52,851 INFO Task 19: 11 files, 402.67 Gb
+2017-01-19 11:21:52,852 INFO 	Name: bam2fasta_Colon Adenocarcinoma_19_task_11_files_402.67Gb
+2017-01-19 11:21:56,632 INFO Task 20: 5 files, 529.98 Gb
+2017-01-19 11:21:56,632 INFO 	Name: bam2fasta_Colon Adenocarcinoma_20_task_5_files_529.98Gb
+2017-01-19 11:21:59,602 INFO Task 21: 18 files, 443.85 Gb
+2017-01-19 11:21:59,602 INFO 	Name: bam2fasta_Colon Adenocarcinoma_21_task_18_files_443.85Gb
+2017-01-19 11:22:03,318 INFO Task 22: 8 files, 557.89 Gb
+2017-01-19 11:22:03,318 INFO 	Name: bam2fasta_Colon Adenocarcinoma_22_task_8_files_557.89Gb
+2017-01-19 11:22:06,216 INFO Task 23: 4 files, 363.47 Gb
+2017-01-19 11:22:06,216 INFO 	Name: bam2fasta_Colon Adenocarcinoma_23_task_4_files_363.47Gb
+2017-01-19 11:22:09,227 INFO Task 24: 2 files, 432.66 Gb
+2017-01-19 11:22:09,227 INFO 	Name: bam2fasta_Colon Adenocarcinoma_24_task_2_files_432.66Gb
+2017-01-19 11:22:12,299 INFO Task 25: 5 files, 459.24 Gb
+2017-01-19 11:22:12,299 INFO 	Name: bam2fasta_Colon Adenocarcinoma_25_task_5_files_459.24Gb
+2017-01-19 11:22:16,396 INFO Task 26: 16 files, 405.34 Gb
+2017-01-19 11:22:16,396 INFO 	Name: bam2fasta_Colon Adenocarcinoma_26_task_16_files_405.34Gb
+2017-01-19 11:22:20,420 INFO Task 27: 8 files, 507.79 Gb
+2017-01-19 11:22:20,420 INFO 	Name: bam2fasta_Colon Adenocarcinoma_27_task_8_files_507.79Gb
+2017-01-19 11:22:23,234 INFO Task 28: 6 files, 559.05 Gb
+2017-01-19 11:22:23,234 INFO 	Name: bam2fasta_Colon Adenocarcinoma_28_task_6_files_559.05Gb
+2017-01-19 11:22:26,125 INFO Task 29: 4 files, 401.40 Gb
+2017-01-19 11:22:26,125 INFO 	Name: bam2fasta_Colon Adenocarcinoma_29_task_4_files_401.40Gb
+2017-01-19 11:22:29,092 INFO Task 30: 4 files, 504.50 Gb
+2017-01-19 11:22:29,093 INFO 	Name: bam2fasta_Colon Adenocarcinoma_30_task_4_files_504.50Gb
+2017-01-19 11:22:32,063 INFO Task 31: 8 files, 524.15 Gb
+2017-01-19 11:22:32,065 INFO 	Name: bam2fasta_Colon Adenocarcinoma_31_task_8_files_524.15Gb
+2017-01-19 11:22:35,544 INFO Task 32: 10 files, 544.00 Gb
+2017-01-19 11:22:35,545 INFO 	Name: bam2fasta_Colon Adenocarcinoma_32_task_10_files_544.00Gb
+2017-01-19 11:22:38,411 INFO Task 33: 6 files, 532.86 Gb
+2017-01-19 11:22:38,411 INFO 	Name: bam2fasta_Colon Adenocarcinoma_33_task_6_files_532.86Gb
+2017-01-19 11:22:41,414 INFO Task 34: 2 files, 770.68 Gb
+2017-01-19 11:22:41,415 INFO 	Name: bam2fasta_Colon Adenocarcinoma_34_task_2_files_770.68Gb
+2017-01-19 11:22:44,555 INFO Task 35: 2 files, 847.47 Gb
+2017-01-19 11:22:44,555 INFO 	Name: bam2fasta_Colon Adenocarcinoma_35_task_2_files_847.47Gb
+2017-01-19 11:22:47,523 INFO Task 36: 5 files, 315.38 Gb
+2017-01-19 11:22:47,524 INFO 	Name: bam2fasta_Colon Adenocarcinoma_36_task_5_files_315.38Gb
+2017-01-19 11:22:50,404 INFO Task 37: 1 files, 532.51 Gb
+2017-01-19 11:22:50,404 INFO 	Name: bam2fasta_Colon Adenocarcinoma_37_task_1_files_532.51Gb
+2017-01-19 11:22:53,295 INFO Task 38: 6 files, 343.23 Gb
+2017-01-19 11:22:53,295 INFO 	Name: bam2fasta_Colon Adenocarcinoma_38_task_6_files_343.23Gb
+2017-01-19 11:22:56,228 INFO Task 39: 1 files, 547.15 Gb
+2017-01-19 11:22:56,228 INFO 	Name: bam2fasta_Colon Adenocarcinoma_39_task_1_files_547.15Gb
+2017-01-19 11:22:59,305 INFO Task 40: 12 files, 297.25 Gb
+2017-01-19 11:22:59,305 INFO 	Name: bam2fasta_Colon Adenocarcinoma_40_task_12_files_297.25Gb
+2017-01-19 11:23:02,485 INFO Task 41: 2 files, 569.17 Gb
+2017-01-19 11:23:02,486 INFO 	Name: bam2fasta_Colon Adenocarcinoma_41_task_2_files_569.17Gb
+2017-01-19 11:23:05,289 INFO Task 42: 3 files, 367.91 Gb
+2017-01-19 11:23:05,289 INFO 	Name: bam2fasta_Colon Adenocarcinoma_42_task_3_files_367.91Gb
+2017-01-19 11:23:08,213 INFO Task 43: 2 files, 614.46 Gb
+2017-01-19 11:23:08,213 INFO 	Name: bam2fasta_Colon Adenocarcinoma_43_task_2_files_614.46Gb
+2017-01-19 11:23:11,618 INFO Task 44: 15 files, 321.59 Gb
+2017-01-19 11:23:11,618 INFO 	Name: bam2fasta_Colon Adenocarcinoma_44_task_15_files_321.59Gb
+2017-01-19 11:23:14,559 INFO Task 45: 2 files, 497.33 Gb
+2017-01-19 11:23:14,561 INFO 	Name: bam2fasta_Colon Adenocarcinoma_45_task_2_files_497.33Gb
+2017-01-19 11:23:18,346 INFO Task 46: 1 files, 532.08 Gb
+2017-01-19 11:23:18,347 INFO 	Name: bam2fasta_Colon Adenocarcinoma_46_task_1_files_532.08Gb
+2017-01-19 11:23:21,345 INFO Task 47: 2 files, 822.85 Gb
+2017-01-19 11:23:21,345 INFO 	Name: bam2fasta_Colon Adenocarcinoma_47_task_2_files_822.85Gb
+2017-01-19 11:23:24,388 INFO Task 48: 2 files, 773.57 Gb
+2017-01-19 11:23:24,388 INFO 	Name: bam2fasta_Colon Adenocarcinoma_48_task_2_files_773.57Gb
+2017-01-19 11:23:27,335 INFO Task 49: 2 files, 802.81 Gb
+2017-01-19 11:23:27,336 INFO 	Name: bam2fasta_Colon Adenocarcinoma_49_task_2_files_802.81Gb
+2017-01-19 11:23:30,270 INFO Task 50: 2 files, 846.17 Gb
+2017-01-19 11:23:30,270 INFO 	Name: bam2fasta_Colon Adenocarcinoma_50_task_2_files_846.17Gb
+2017-01-19 11:23:33,195 INFO Task 51: 2 files, 746.77 Gb
+2017-01-19 11:23:33,195 INFO 	Name: bam2fasta_Colon Adenocarcinoma_51_task_2_files_746.77Gb
+2017-01-19 11:23:36,220 INFO Task 52: 2 files, 754.88 Gb
+2017-01-19 11:23:36,220 INFO 	Name: bam2fasta_Colon Adenocarcinoma_52_task_2_files_754.88Gb
+2017-01-19 11:23:38,934 INFO Task 53: 130 files, 400.51 Gb
+2017-01-19 11:23:38,934 INFO 	Name: bam2fasta_Colon Adenocarcinoma_53_task_130_files_400.51Gb
+2017-01-19 11:23:42,232 INFO Task 54: 116 files, 400.93 Gb
+2017-01-19 11:23:42,233 INFO 	Name: bam2fasta_Colon Adenocarcinoma_54_task_116_files_400.93Gb
+2017-01-19 11:23:45,281 INFO Task 55: 84 files, 402.45 Gb
+2017-01-19 11:23:45,281 INFO 	Name: bam2fasta_Colon Adenocarcinoma_55_task_84_files_402.45Gb
+2017-01-19 11:23:48,898 INFO Task 56: 80 files, 403.29 Gb
+2017-01-19 11:23:48,898 INFO 	Name: bam2fasta_Colon Adenocarcinoma_56_task_80_files_403.29Gb
+2017-01-19 11:23:51,905 INFO Task 57: 64 files, 405.93 Gb
+2017-01-19 11:23:51,905 INFO 	Name: bam2fasta_Colon Adenocarcinoma_57_task_64_files_405.93Gb
+2017-01-19 11:23:55,260 INFO Task 58: 53 files, 407.57 Gb
+2017-01-19 11:23:55,260 INFO 	Name: bam2fasta_Colon Adenocarcinoma_58_task_53_files_407.57Gb
+2017-01-19 11:23:58,480 INFO Task 59: 200 files, 400.74 Gb
+2017-01-19 11:23:58,480 INFO 	Name: bam2fasta_Colon Adenocarcinoma_59_task_200_files_400.74Gb
+2017-01-19 11:24:02,018 INFO Task 60: 15 files, 22.94 Gb
+2017-01-19 11:24:02,018 INFO 	Name: bam2fasta_Colon Adenocarcinoma_60_task_15_files_22.94Gb
+2017-01-19 11:24:04,938 INFO Total tasks created: 60
+2017-01-19 11:24:04,938 INFO Total files tasked: 1018
+2017-01-19 11:24:04,938 INFO Total files for disease type: 1018
+2017-01-19 11:24:04,938 INFO Total WGS files: 277
+2017-01-19 11:24:04,938 INFO Total RNA-Seq files: 741
