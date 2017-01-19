@@ -1,0 +1,109 @@
+2016-10-27 13:24:31,846 INFO Creating draft tasks.
+2016-10-27 13:25:24,034 INFO Task 1: 2 files, 522.50 Gb
+2016-10-27 13:25:24,034 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_1_task_2_files_522.50Gb
+2016-10-27 13:25:28,463 INFO Task 2: 3 files, 522.09 Gb
+2016-10-27 13:25:28,463 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_2_task_3_files_522.09Gb
+2016-10-27 13:25:32,210 INFO Task 3: 3 files, 526.17 Gb
+2016-10-27 13:25:32,210 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_3_task_3_files_526.17Gb
+2016-10-27 13:25:35,886 INFO Task 4: 3 files, 472.23 Gb
+2016-10-27 13:25:35,886 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_4_task_3_files_472.23Gb
+2016-10-27 13:25:39,902 INFO Task 5: 3 files, 431.18 Gb
+2016-10-27 13:25:39,902 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_5_task_3_files_431.18Gb
+2016-10-27 13:25:43,537 INFO Task 6: 3 files, 551.89 Gb
+2016-10-27 13:25:43,537 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_6_task_3_files_551.89Gb
+2016-10-27 13:25:47,377 INFO Task 7: 3 files, 495.31 Gb
+2016-10-27 13:25:47,377 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_7_task_3_files_495.31Gb
+2016-10-27 13:25:51,021 INFO Task 8: 2 files, 366.27 Gb
+2016-10-27 13:25:51,022 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_8_task_2_files_366.27Gb
+2016-10-27 13:25:54,645 INFO Task 9: 2 files, 420.73 Gb
+2016-10-27 13:25:54,645 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_9_task_2_files_420.73Gb
+2016-10-27 13:25:58,435 INFO Task 10: 3 files, 406.36 Gb
+2016-10-27 13:25:58,436 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_10_task_3_files_406.36Gb
+2016-10-27 13:26:02,034 INFO Task 11: 2 files, 437.32 Gb
+2016-10-27 13:26:02,034 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_11_task_2_files_437.32Gb
+2016-10-27 13:26:05,730 INFO Task 12: 3 files, 495.40 Gb
+2016-10-27 13:26:05,731 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_12_task_3_files_495.40Gb
+2016-10-27 13:26:09,494 INFO Task 13: 2 files, 329.80 Gb
+2016-10-27 13:26:09,495 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_13_task_2_files_329.80Gb
+2016-10-27 13:26:13,264 INFO Task 14: 2 files, 440.93 Gb
+2016-10-27 13:26:13,265 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_14_task_2_files_440.93Gb
+2016-10-27 13:26:17,484 INFO Task 15: 3 files, 366.60 Gb
+2016-10-27 13:26:17,485 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_15_task_3_files_366.60Gb
+2016-10-27 13:26:22,293 INFO Task 16: 2 files, 539.35 Gb
+2016-10-27 13:26:22,294 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_16_task_2_files_539.35Gb
+2016-10-27 13:26:25,811 INFO Task 17: 4 files, 499.95 Gb
+2016-10-27 13:26:25,811 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_17_task_4_files_499.95Gb
+2016-10-27 13:26:29,528 INFO Task 18: 2 files, 378.48 Gb
+2016-10-27 13:26:29,528 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_18_task_2_files_378.48Gb
+2016-10-27 13:26:33,352 INFO Task 19: 2 files, 345.47 Gb
+2016-10-27 13:26:33,353 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_19_task_2_files_345.47Gb
+2016-10-27 13:26:37,075 INFO Task 20: 2 files, 363.31 Gb
+2016-10-27 13:26:37,075 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_20_task_2_files_363.31Gb
+2016-10-27 13:26:41,239 INFO Task 21: 2 files, 521.17 Gb
+2016-10-27 13:26:41,239 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_21_task_2_files_521.17Gb
+2016-10-27 13:26:44,936 INFO Task 22: 2 files, 415.98 Gb
+2016-10-27 13:26:44,936 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_22_task_2_files_415.98Gb
+2016-10-27 13:26:48,553 INFO Task 23: 3 files, 481.05 Gb
+2016-10-27 13:26:48,554 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_23_task_3_files_481.05Gb
+2016-10-27 13:26:52,196 INFO Task 24: 3 files, 480.20 Gb
+2016-10-27 13:26:52,197 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_24_task_3_files_480.20Gb
+2016-10-27 13:26:56,001 INFO Task 25: 5 files, 420.87 Gb
+2016-10-27 13:26:56,001 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_25_task_5_files_420.87Gb
+2016-10-27 13:26:59,606 INFO Task 26: 2 files, 468.41 Gb
+2016-10-27 13:26:59,606 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_26_task_2_files_468.41Gb
+2016-10-27 13:27:03,153 INFO Task 27: 3 files, 466.15 Gb
+2016-10-27 13:27:03,153 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_27_task_3_files_466.15Gb
+2016-10-27 13:27:06,716 INFO Task 28: 3 files, 503.26 Gb
+2016-10-27 13:27:06,716 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_28_task_3_files_503.26Gb
+2016-10-27 13:27:10,351 INFO Task 29: 3 files, 567.54 Gb
+2016-10-27 13:27:10,351 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_29_task_3_files_567.54Gb
+2016-10-27 13:27:14,110 INFO Task 30: 3 files, 481.05 Gb
+2016-10-27 13:27:14,110 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_30_task_3_files_481.05Gb
+2016-10-27 13:27:17,797 INFO Task 31: 4 files, 480.33 Gb
+2016-10-27 13:27:17,797 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_31_task_4_files_480.33Gb
+2016-10-27 13:27:21,689 INFO Task 32: 3 files, 567.02 Gb
+2016-10-27 13:27:21,689 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_32_task_3_files_567.02Gb
+2016-10-27 13:27:25,306 INFO Task 33: 2 files, 400.59 Gb
+2016-10-27 13:27:25,306 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_33_task_2_files_400.59Gb
+2016-10-27 13:27:29,265 INFO Task 34: 3 files, 382.92 Gb
+2016-10-27 13:27:29,265 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_34_task_3_files_382.92Gb
+2016-10-27 13:27:32,952 INFO Task 35: 2 files, 527.90 Gb
+2016-10-27 13:27:32,952 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_35_task_2_files_527.90Gb
+2016-10-27 13:27:37,455 INFO Task 36: 3 files, 589.61 Gb
+2016-10-27 13:27:37,456 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_36_task_3_files_589.61Gb
+2016-10-27 13:27:41,701 INFO Task 37: 3 files, 452.00 Gb
+2016-10-27 13:27:41,701 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_37_task_3_files_452.00Gb
+2016-10-27 13:27:45,447 INFO Task 38: 20 files, 421.40 Gb
+2016-10-27 13:27:45,447 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_38_task_20_files_421.40Gb
+2016-10-27 13:27:49,111 INFO Task 39: 19 files, 409.57 Gb
+2016-10-27 13:27:49,111 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_39_task_19_files_409.57Gb
+2016-10-27 13:27:52,991 INFO Task 40: 21 files, 402.46 Gb
+2016-10-27 13:27:52,991 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_40_task_21_files_402.46Gb
+2016-10-27 13:27:56,709 INFO Task 41: 26 files, 405.74 Gb
+2016-10-27 13:27:56,709 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_41_task_26_files_405.74Gb
+2016-10-27 13:28:00,352 INFO Task 42: 41 files, 404.75 Gb
+2016-10-27 13:28:00,352 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_42_task_41_files_404.75Gb
+2016-10-27 13:28:04,318 INFO Task 43: 59 files, 401.63 Gb
+2016-10-27 13:28:04,318 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_43_task_59_files_401.63Gb
+2016-10-27 13:28:08,192 INFO Task 44: 60 files, 406.66 Gb
+2016-10-27 13:28:08,192 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_44_task_60_files_406.66Gb
+2016-10-27 13:28:12,927 INFO Task 45: 58 files, 400.94 Gb
+2016-10-27 13:28:12,927 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_45_task_58_files_400.94Gb
+2016-10-27 13:28:17,018 INFO Task 46: 64 files, 402.08 Gb
+2016-10-27 13:28:17,018 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_46_task_64_files_402.08Gb
+2016-10-27 13:28:21,071 INFO Task 47: 65 files, 401.16 Gb
+2016-10-27 13:28:21,071 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_47_task_65_files_401.16Gb
+2016-10-27 13:28:25,760 INFO Task 48: 61 files, 402.97 Gb
+2016-10-27 13:28:25,760 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_48_task_61_files_402.97Gb
+2016-10-27 13:28:29,415 INFO Task 49: 61 files, 403.21 Gb
+2016-10-27 13:28:29,415 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_49_task_61_files_403.21Gb
+2016-10-27 13:28:33,737 INFO Task 50: 64 files, 404.74 Gb
+2016-10-27 13:28:33,737 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_50_task_64_files_404.74Gb
+2016-10-27 13:28:38,975 INFO Task 51: 14 files, 85.20 Gb
+2016-10-27 13:28:38,976 INFO 	Name: bam2fasta_Brain Lower Grade Glioma_51_task_14_files_85.20Gb
+2016-10-27 13:28:43,211 INFO Total tasks created: 51
+2016-10-27 13:28:43,211 INFO Total files tasked: 733
+2016-10-27 13:28:43,211 INFO Total files for disease type: 733
+2016-10-27 13:28:43,211 INFO Total WGS files: 199
+2016-10-27 13:28:43,211 INFO Total RNA-Seq files: 534
+2016-10-27 14:40:13,876 INFO Running tasks!

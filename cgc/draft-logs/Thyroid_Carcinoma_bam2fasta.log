@@ -1,0 +1,138 @@
+2017-01-19 10:57:30,130 INFO Creating draft tasks.
+2017-01-19 10:58:08,900 INFO Task 1: 3 files, 594.01 Gb
+2017-01-19 10:58:08,900 INFO 	Name: bam2fasta_Thyroid Carcinoma_1_task_3_files_594.01Gb
+2017-01-19 10:58:12,452 INFO Task 2: 3 files, 447.36 Gb
+2017-01-19 10:58:12,453 INFO 	Name: bam2fasta_Thyroid Carcinoma_2_task_3_files_447.36Gb
+2017-01-19 10:58:15,540 INFO Task 3: 3 files, 490.81 Gb
+2017-01-19 10:58:15,540 INFO 	Name: bam2fasta_Thyroid Carcinoma_3_task_3_files_490.81Gb
+2017-01-19 10:58:18,397 INFO Task 4: 3 files, 417.08 Gb
+2017-01-19 10:58:18,398 INFO 	Name: bam2fasta_Thyroid Carcinoma_4_task_3_files_417.08Gb
+2017-01-19 10:58:21,344 INFO Task 5: 3 files, 421.96 Gb
+2017-01-19 10:58:21,344 INFO 	Name: bam2fasta_Thyroid Carcinoma_5_task_3_files_421.96Gb
+2017-01-19 10:58:24,849 INFO Task 6: 3 files, 470.77 Gb
+2017-01-19 10:58:24,849 INFO 	Name: bam2fasta_Thyroid Carcinoma_6_task_3_files_470.77Gb
+2017-01-19 10:58:27,805 INFO Task 7: 3 files, 406.67 Gb
+2017-01-19 10:58:27,805 INFO 	Name: bam2fasta_Thyroid Carcinoma_7_task_3_files_406.67Gb
+2017-01-19 10:58:30,793 INFO Task 8: 3 files, 498.14 Gb
+2017-01-19 10:58:30,793 INFO 	Name: bam2fasta_Thyroid Carcinoma_8_task_3_files_498.14Gb
+2017-01-19 10:58:34,372 INFO Task 9: 2 files, 436.06 Gb
+2017-01-19 10:58:34,372 INFO 	Name: bam2fasta_Thyroid Carcinoma_9_task_2_files_436.06Gb
+2017-01-19 10:58:37,444 INFO Task 10: 3 files, 552.11 Gb
+2017-01-19 10:58:37,444 INFO 	Name: bam2fasta_Thyroid Carcinoma_10_task_3_files_552.11Gb
+2017-01-19 10:58:40,583 INFO Task 11: 3 files, 407.50 Gb
+2017-01-19 10:58:40,583 INFO 	Name: bam2fasta_Thyroid Carcinoma_11_task_3_files_407.50Gb
+2017-01-19 10:58:43,855 INFO Task 12: 1 files, 447.52 Gb
+2017-01-19 10:58:43,855 INFO 	Name: bam2fasta_Thyroid Carcinoma_12_task_1_files_447.52Gb
+2017-01-19 10:58:46,967 INFO Task 13: 3 files, 385.76 Gb
+2017-01-19 10:58:46,967 INFO 	Name: bam2fasta_Thyroid Carcinoma_13_task_3_files_385.76Gb
+2017-01-19 10:58:49,936 INFO Task 14: 2 files, 452.42 Gb
+2017-01-19 10:58:49,936 INFO 	Name: bam2fasta_Thyroid Carcinoma_14_task_2_files_452.42Gb
+2017-01-19 10:58:53,008 INFO Task 15: 2 files, 430.08 Gb
+2017-01-19 10:58:53,008 INFO 	Name: bam2fasta_Thyroid Carcinoma_15_task_2_files_430.08Gb
+2017-01-19 10:58:56,142 INFO Task 16: 2 files, 555.46 Gb
+2017-01-19 10:58:56,142 INFO 	Name: bam2fasta_Thyroid Carcinoma_16_task_2_files_555.46Gb
+2017-01-19 10:58:59,255 INFO Task 17: 2 files, 499.42 Gb
+2017-01-19 10:58:59,257 INFO 	Name: bam2fasta_Thyroid Carcinoma_17_task_2_files_499.42Gb
+2017-01-19 10:59:02,178 INFO Task 18: 2 files, 475.50 Gb
+2017-01-19 10:59:02,178 INFO 	Name: bam2fasta_Thyroid Carcinoma_18_task_2_files_475.50Gb
+2017-01-19 10:59:05,099 INFO Task 19: 2 files, 544.80 Gb
+2017-01-19 10:59:05,100 INFO 	Name: bam2fasta_Thyroid Carcinoma_19_task_2_files_544.80Gb
+2017-01-19 10:59:08,081 INFO Task 20: 2 files, 479.43 Gb
+2017-01-19 10:59:08,081 INFO 	Name: bam2fasta_Thyroid Carcinoma_20_task_2_files_479.43Gb
+2017-01-19 10:59:11,142 INFO Task 21: 2 files, 592.54 Gb
+2017-01-19 10:59:11,142 INFO 	Name: bam2fasta_Thyroid Carcinoma_21_task_2_files_592.54Gb
+2017-01-19 10:59:14,058 INFO Task 22: 1 files, 430.30 Gb
+2017-01-19 10:59:14,058 INFO 	Name: bam2fasta_Thyroid Carcinoma_22_task_1_files_430.30Gb
+2017-01-19 10:59:17,465 INFO Task 23: 2 files, 561.29 Gb
+2017-01-19 10:59:17,465 INFO 	Name: bam2fasta_Thyroid Carcinoma_23_task_2_files_561.29Gb
+2017-01-19 10:59:20,278 INFO Task 24: 2 files, 609.63 Gb
+2017-01-19 10:59:20,280 INFO 	Name: bam2fasta_Thyroid Carcinoma_24_task_2_files_609.63Gb
+2017-01-19 10:59:23,319 INFO Task 25: 2 files, 588.96 Gb
+2017-01-19 10:59:23,319 INFO 	Name: bam2fasta_Thyroid Carcinoma_25_task_2_files_588.96Gb
+2017-01-19 10:59:26,391 INFO Task 26: 2 files, 578.19 Gb
+2017-01-19 10:59:26,394 INFO 	Name: bam2fasta_Thyroid Carcinoma_26_task_2_files_578.19Gb
+2017-01-19 10:59:29,317 INFO Task 27: 2 files, 605.47 Gb
+2017-01-19 10:59:29,317 INFO 	Name: bam2fasta_Thyroid Carcinoma_27_task_2_files_605.47Gb
+2017-01-19 10:59:32,433 INFO Task 28: 2 files, 575.17 Gb
+2017-01-19 10:59:32,433 INFO 	Name: bam2fasta_Thyroid Carcinoma_28_task_2_files_575.17Gb
+2017-01-19 10:59:35,958 INFO Task 29: 2 files, 490.92 Gb
+2017-01-19 10:59:35,960 INFO 	Name: bam2fasta_Thyroid Carcinoma_29_task_2_files_490.92Gb
+2017-01-19 10:59:38,986 INFO Task 30: 2 files, 594.47 Gb
+2017-01-19 10:59:38,986 INFO 	Name: bam2fasta_Thyroid Carcinoma_30_task_2_files_594.47Gb
+2017-01-19 10:59:42,234 INFO Task 31: 2 files, 541.38 Gb
+2017-01-19 10:59:42,235 INFO 	Name: bam2fasta_Thyroid Carcinoma_31_task_2_files_541.38Gb
+2017-01-19 10:59:45,539 INFO Task 32: 2 files, 516.44 Gb
+2017-01-19 10:59:45,541 INFO 	Name: bam2fasta_Thyroid Carcinoma_32_task_2_files_516.44Gb
+2017-01-19 10:59:48,816 INFO Task 33: 2 files, 638.72 Gb
+2017-01-19 10:59:48,816 INFO 	Name: bam2fasta_Thyroid Carcinoma_33_task_2_files_638.72Gb
+2017-01-19 10:59:51,693 INFO Task 34: 2 files, 547.18 Gb
+2017-01-19 10:59:51,693 INFO 	Name: bam2fasta_Thyroid Carcinoma_34_task_2_files_547.18Gb
+2017-01-19 10:59:55,677 INFO Task 35: 2 files, 582.76 Gb
+2017-01-19 10:59:55,677 INFO 	Name: bam2fasta_Thyroid Carcinoma_35_task_2_files_582.76Gb
+2017-01-19 10:59:58,720 INFO Task 36: 2 files, 511.89 Gb
+2017-01-19 10:59:58,720 INFO 	Name: bam2fasta_Thyroid Carcinoma_36_task_2_files_511.89Gb
+2017-01-19 11:00:01,925 INFO Task 37: 2 files, 564.93 Gb
+2017-01-19 11:00:01,925 INFO 	Name: bam2fasta_Thyroid Carcinoma_37_task_2_files_564.93Gb
+2017-01-19 11:00:05,814 INFO Task 38: 2 files, 496.75 Gb
+2017-01-19 11:00:05,814 INFO 	Name: bam2fasta_Thyroid Carcinoma_38_task_2_files_496.75Gb
+2017-01-19 11:00:08,617 INFO Task 39: 2 files, 513.98 Gb
+2017-01-19 11:00:08,617 INFO 	Name: bam2fasta_Thyroid Carcinoma_39_task_2_files_513.98Gb
+2017-01-19 11:00:11,755 INFO Task 40: 2 files, 518.78 Gb
+2017-01-19 11:00:11,755 INFO 	Name: bam2fasta_Thyroid Carcinoma_40_task_2_files_518.78Gb
+2017-01-19 11:00:14,826 INFO Task 41: 2 files, 499.65 Gb
+2017-01-19 11:00:14,827 INFO 	Name: bam2fasta_Thyroid Carcinoma_41_task_2_files_499.65Gb
+2017-01-19 11:00:17,804 INFO Task 42: 2 files, 466.34 Gb
+2017-01-19 11:00:17,804 INFO 	Name: bam2fasta_Thyroid Carcinoma_42_task_2_files_466.34Gb
+2017-01-19 11:00:20,672 INFO Task 43: 2 files, 522.02 Gb
+2017-01-19 11:00:20,672 INFO 	Name: bam2fasta_Thyroid Carcinoma_43_task_2_files_522.02Gb
+2017-01-19 11:00:23,940 INFO Task 44: 2 files, 544.82 Gb
+2017-01-19 11:00:23,940 INFO 	Name: bam2fasta_Thyroid Carcinoma_44_task_2_files_544.82Gb
+2017-01-19 11:00:27,134 INFO Task 45: 2 files, 502.59 Gb
+2017-01-19 11:00:27,134 INFO 	Name: bam2fasta_Thyroid Carcinoma_45_task_2_files_502.59Gb
+2017-01-19 11:00:30,186 INFO Task 46: 13 files, 407.52 Gb
+2017-01-19 11:00:30,186 INFO 	Name: bam2fasta_Thyroid Carcinoma_46_task_13_files_407.52Gb
+2017-01-19 11:00:33,464 INFO Task 47: 21 files, 404.64 Gb
+2017-01-19 11:00:33,464 INFO 	Name: bam2fasta_Thyroid Carcinoma_47_task_21_files_404.64Gb
+2017-01-19 11:00:37,458 INFO Task 48: 20 files, 423.58 Gb
+2017-01-19 11:00:37,459 INFO 	Name: bam2fasta_Thyroid Carcinoma_48_task_20_files_423.58Gb
+2017-01-19 11:00:40,419 INFO Task 49: 23 files, 416.77 Gb
+2017-01-19 11:00:40,419 INFO 	Name: bam2fasta_Thyroid Carcinoma_49_task_23_files_416.77Gb
+2017-01-19 11:00:43,499 INFO Task 50: 22 files, 401.36 Gb
+2017-01-19 11:00:43,501 INFO 	Name: bam2fasta_Thyroid Carcinoma_50_task_22_files_401.36Gb
+2017-01-19 11:00:46,469 INFO Task 51: 21 files, 400.92 Gb
+2017-01-19 11:00:46,469 INFO 	Name: bam2fasta_Thyroid Carcinoma_51_task_21_files_400.92Gb
+2017-01-19 11:00:49,448 INFO Task 52: 25 files, 412.64 Gb
+2017-01-19 11:00:49,448 INFO 	Name: bam2fasta_Thyroid Carcinoma_52_task_25_files_412.64Gb
+2017-01-19 11:00:52,510 INFO Task 53: 21 files, 408.11 Gb
+2017-01-19 11:00:52,510 INFO 	Name: bam2fasta_Thyroid Carcinoma_53_task_21_files_408.11Gb
+2017-01-19 11:00:55,377 INFO Task 54: 21 files, 412.53 Gb
+2017-01-19 11:00:55,380 INFO 	Name: bam2fasta_Thyroid Carcinoma_54_task_21_files_412.53Gb
+2017-01-19 11:00:58,552 INFO Task 55: 20 files, 414.02 Gb
+2017-01-19 11:00:58,552 INFO 	Name: bam2fasta_Thyroid Carcinoma_55_task_20_files_414.02Gb
+2017-01-19 11:01:01,649 INFO Task 56: 58 files, 405.22 Gb
+2017-01-19 11:01:01,649 INFO 	Name: bam2fasta_Thyroid Carcinoma_56_task_58_files_405.22Gb
+2017-01-19 11:01:04,904 INFO Task 57: 50 files, 403.95 Gb
+2017-01-19 11:01:04,904 INFO 	Name: bam2fasta_Thyroid Carcinoma_57_task_50_files_403.95Gb
+2017-01-19 11:01:08,076 INFO Task 58: 54 files, 402.72 Gb
+2017-01-19 11:01:08,077 INFO 	Name: bam2fasta_Thyroid Carcinoma_58_task_54_files_402.72Gb
+2017-01-19 11:01:11,038 INFO Task 59: 60 files, 402.22 Gb
+2017-01-19 11:01:11,038 INFO 	Name: bam2fasta_Thyroid Carcinoma_59_task_60_files_402.22Gb
+2017-01-19 11:01:14,637 INFO Task 60: 53 files, 401.81 Gb
+2017-01-19 11:01:14,638 INFO 	Name: bam2fasta_Thyroid Carcinoma_60_task_53_files_401.81Gb
+2017-01-19 11:01:17,827 INFO Task 61: 55 files, 403.63 Gb
+2017-01-19 11:01:17,829 INFO 	Name: bam2fasta_Thyroid Carcinoma_61_task_55_files_403.63Gb
+2017-01-19 11:01:21,184 INFO Task 62: 50 files, 400.87 Gb
+2017-01-19 11:01:21,184 INFO 	Name: bam2fasta_Thyroid Carcinoma_62_task_50_files_400.87Gb
+2017-01-19 11:01:24,871 INFO Task 63: 52 files, 402.09 Gb
+2017-01-19 11:01:24,871 INFO 	Name: bam2fasta_Thyroid Carcinoma_63_task_52_files_402.09Gb
+2017-01-19 11:01:27,839 INFO Task 64: 56 files, 402.16 Gb
+2017-01-19 11:01:27,840 INFO 	Name: bam2fasta_Thyroid Carcinoma_64_task_56_files_402.16Gb
+2017-01-19 11:01:30,891 INFO Task 65: 61 files, 400.17 Gb
+2017-01-19 11:01:30,891 INFO 	Name: bam2fasta_Thyroid Carcinoma_65_task_61_files_400.17Gb
+2017-01-19 11:01:33,988 INFO Task 66: 25 files, 149.36 Gb
+2017-01-19 11:01:33,990 INFO 	Name: bam2fasta_Thyroid Carcinoma_66_task_25_files_149.36Gb
+2017-01-19 11:01:37,565 INFO Total tasks created: 66
+2017-01-19 11:01:37,565 INFO Total files tasked: 880
+2017-01-19 11:01:37,565 INFO Total files for disease type: 880
+2017-01-19 11:01:37,566 INFO Total WGS files: 308
+2017-01-19 11:01:37,566 INFO Total RNA-Seq files: 572
