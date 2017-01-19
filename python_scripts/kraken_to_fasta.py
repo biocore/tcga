@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-#-----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Copyright (c) 2017--, Evguenia Kopylova
 #
 # Distributed under the terms of the Modified BSD License.
 #
 # The full license is in the file COPYING.txt, distributed with this software.
-#-----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 """
 Output FASTA file for classified and/or unclassified reads in Kraken output.
@@ -62,7 +62,7 @@ def output_reads(kraken_report, input_fp, output_fp):
             for seq in skbio.io.read(input_f, format='fasta'):
                 if seq.metadata['id'] in kraken_report:
                     seq.write(output_f)
-    
+
 
 @click.command()
 @click.option('--kraken-output-fp', required=True,
