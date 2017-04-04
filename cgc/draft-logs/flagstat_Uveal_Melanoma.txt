@@ -1,0 +1,19 @@
+2017-04-04 11:43:36,027 INFO Running tasks!
+2017-04-04 11:43:58,601 INFO Creating draft tasks.
+2017-04-04 11:44:01,057 INFO Task 1: 35 files, 401.24 Gb
+2017-04-04 11:44:01,057 INFO 	Name: flagstat_Uveal Melanoma_1_task_35_files_401.24Gb
+2017-04-04 11:44:02,598 INFO Task 2: 23 files, 406.86 Gb
+2017-04-04 11:44:02,599 INFO 	Name: flagstat_Uveal Melanoma_2_task_23_files_406.86Gb
+2017-04-04 11:44:03,750 INFO Task 3: 26 files, 401.19 Gb
+2017-04-04 11:44:03,750 INFO 	Name: flagstat_Uveal Melanoma_3_task_26_files_401.19Gb
+2017-04-04 11:44:04,843 INFO Task 4: 20 files, 403.80 Gb
+2017-04-04 11:44:04,843 INFO 	Name: flagstat_Uveal Melanoma_4_task_20_files_403.80Gb
+2017-04-04 11:44:05,934 INFO Task 5: 71 files, 406.45 Gb
+2017-04-04 11:44:05,934 INFO 	Name: flagstat_Uveal Melanoma_5_task_71_files_406.45Gb
+2017-04-04 11:44:07,206 INFO Task 6: 7 files, 23.94 Gb
+2017-04-04 11:44:07,206 INFO 	Name: flagstat_Uveal Melanoma_6_task_7_files_23.94Gb
+2017-04-04 11:44:08,196 INFO Total tasks created: 6
+2017-04-04 11:44:08,197 INFO Total files tasked: 182
+2017-04-04 11:44:08,197 INFO Total files for disease type: 182
+2017-04-04 11:44:08,197 INFO Total WGS files: 102
+2017-04-04 11:44:08,197 INFO Total RNA-Seq files: 80

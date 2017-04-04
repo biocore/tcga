@@ -1,0 +1,52 @@
+2017-04-04 12:08:37,424 INFO Creating draft tasks.
+2017-04-04 12:08:42,251 INFO Task 1: 6 files, 443.00 Gb
+2017-04-04 12:08:42,251 INFO 	Name: flagstat_Sarcoma_1_task_6_files_443.00Gb
+2017-04-04 12:08:43,689 INFO Task 2: 5 files, 448.31 Gb
+2017-04-04 12:08:43,690 INFO 	Name: flagstat_Sarcoma_2_task_5_files_448.31Gb
+2017-04-04 12:08:44,805 INFO Task 3: 4 files, 447.26 Gb
+2017-04-04 12:08:44,805 INFO 	Name: flagstat_Sarcoma_3_task_4_files_447.26Gb
+2017-04-04 12:08:45,728 INFO Task 4: 4 files, 459.39 Gb
+2017-04-04 12:08:45,728 INFO 	Name: flagstat_Sarcoma_4_task_4_files_459.39Gb
+2017-04-04 12:08:46,854 INFO Task 5: 5 files, 459.30 Gb
+2017-04-04 12:08:46,854 INFO 	Name: flagstat_Sarcoma_5_task_5_files_459.30Gb
+2017-04-04 12:08:47,776 INFO Task 6: 4 files, 537.59 Gb
+2017-04-04 12:08:47,776 INFO 	Name: flagstat_Sarcoma_6_task_4_files_537.59Gb
+2017-04-04 12:08:48,799 INFO Task 7: 3 files, 425.17 Gb
+2017-04-04 12:08:48,799 INFO 	Name: flagstat_Sarcoma_7_task_3_files_425.17Gb
+2017-04-04 12:08:49,926 INFO Task 8: 4 files, 478.07 Gb
+2017-04-04 12:08:49,927 INFO 	Name: flagstat_Sarcoma_8_task_4_files_478.07Gb
+2017-04-04 12:08:50,950 INFO Task 9: 4 files, 419.38 Gb
+2017-04-04 12:08:50,950 INFO 	Name: flagstat_Sarcoma_9_task_4_files_419.38Gb
+2017-04-04 12:08:51,973 INFO Task 10: 5 files, 467.87 Gb
+2017-04-04 12:08:51,973 INFO 	Name: flagstat_Sarcoma_10_task_5_files_467.87Gb
+2017-04-04 12:08:52,896 INFO Task 11: 10 files, 405.49 Gb
+2017-04-04 12:08:52,896 INFO 	Name: flagstat_Sarcoma_11_task_10_files_405.49Gb
+2017-04-04 12:08:53,925 INFO Task 12: 64 files, 404.41 Gb
+2017-04-04 12:08:53,925 INFO 	Name: flagstat_Sarcoma_12_task_64_files_404.41Gb
+2017-04-04 12:08:55,052 INFO Task 13: 71 files, 402.37 Gb
+2017-04-04 12:08:55,052 INFO 	Name: flagstat_Sarcoma_13_task_71_files_402.37Gb
+2017-04-04 12:08:56,387 INFO Task 14: 71 files, 406.37 Gb
+2017-04-04 12:08:56,387 INFO 	Name: flagstat_Sarcoma_14_task_71_files_406.37Gb
+2017-04-04 12:08:57,610 INFO Task 15: 54 files, 485.00 Gb
+2017-04-04 12:08:57,610 INFO 	Name: flagstat_Sarcoma_15_task_54_files_485.00Gb
+2017-04-04 12:08:58,846 INFO Task 16: 5 files, 466.19 Gb
+2017-04-04 12:08:58,846 INFO 	Name: flagstat_Sarcoma_16_task_5_files_466.19Gb
+2017-04-04 12:08:59,858 INFO Task 17: 4 files, 496.45 Gb
+2017-04-04 12:08:59,858 INFO 	Name: flagstat_Sarcoma_17_task_4_files_496.45Gb
+2017-04-04 12:09:00,883 INFO Task 18: 4 files, 436.98 Gb
+2017-04-04 12:09:00,883 INFO 	Name: flagstat_Sarcoma_18_task_4_files_436.98Gb
+2017-04-04 12:09:01,907 INFO Task 19: 4 files, 424.30 Gb
+2017-04-04 12:09:01,907 INFO 	Name: flagstat_Sarcoma_19_task_4_files_424.30Gb
+2017-04-04 12:09:02,931 INFO Task 20: 5 files, 425.74 Gb
+2017-04-04 12:09:02,931 INFO 	Name: flagstat_Sarcoma_20_task_5_files_425.74Gb
+2017-04-04 12:09:03,955 INFO Task 21: 4 files, 512.05 Gb
+2017-04-04 12:09:03,955 INFO 	Name: flagstat_Sarcoma_21_task_4_files_512.05Gb
+2017-04-04 12:09:05,081 INFO Task 22: 4 files, 461.16 Gb
+2017-04-04 12:09:05,081 INFO 	Name: flagstat_Sarcoma_22_task_4_files_461.16Gb
+2017-04-04 12:09:06,105 INFO Task 23: 3 files, 389.67 Gb
+2017-04-04 12:09:06,105 INFO 	Name: flagstat_Sarcoma_23_task_3_files_389.67Gb
+2017-04-04 12:09:07,027 INFO Total tasks created: 23
+2017-04-04 12:09:07,027 INFO Total files tasked: 347
+2017-04-04 12:09:07,027 INFO Total files for disease type: 347
+2017-04-04 12:09:07,027 INFO Total WGS files: 82
+2017-04-04 12:09:07,027 INFO Total RNA-Seq files: 265

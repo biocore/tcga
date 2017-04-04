@@ -1,0 +1,13 @@
+2017-04-04 11:42:01,891 INFO Running tasks!
+2017-04-04 11:42:19,008 INFO Creating draft tasks.
+2017-04-04 11:42:21,945 INFO Task 1: 68 files, 400.47 Gb
+2017-04-04 11:42:21,946 INFO 	Name: flagstat_Pheochromocytoma and Paraganglioma_1_task_68_files_400.47Gb
+2017-04-04 11:42:23,686 INFO Task 2: 71 files, 403.76 Gb
+2017-04-04 11:42:23,686 INFO 	Name: flagstat_Pheochromocytoma and Paraganglioma_2_task_71_files_403.76Gb
+2017-04-04 11:42:25,013 INFO Task 3: 48 files, 272.64 Gb
+2017-04-04 11:42:25,013 INFO 	Name: flagstat_Pheochromocytoma and Paraganglioma_3_task_48_files_272.64Gb
+2017-04-04 11:42:26,251 INFO Total tasks created: 3
+2017-04-04 11:42:26,251 INFO Total files tasked: 187
+2017-04-04 11:42:26,251 INFO Total files for disease type: 187
+2017-04-04 11:42:26,251 INFO Total WGS files: 0
+2017-04-04 11:42:26,251 INFO Total RNA-Seq files: 187

@@ -1,0 +1,84 @@
+2017-04-04 12:14:10,306 INFO Creating draft tasks.
+2017-04-04 12:14:18,009 INFO Task 1: 4 files, 598.00 Gb
+2017-04-04 12:14:18,009 INFO 	Name: flagstat_Prostate Adenocarcinoma_1_task_4_files_598.00Gb
+2017-04-04 12:14:19,705 INFO Task 2: 2 files, 416.37 Gb
+2017-04-04 12:14:19,705 INFO 	Name: flagstat_Prostate Adenocarcinoma_2_task_2_files_416.37Gb
+2017-04-04 12:14:20,991 INFO Task 3: 3 files, 543.89 Gb
+2017-04-04 12:14:20,991 INFO 	Name: flagstat_Prostate Adenocarcinoma_3_task_3_files_543.89Gb
+2017-04-04 12:14:22,018 INFO Task 4: 2 files, 346.64 Gb
+2017-04-04 12:14:22,018 INFO 	Name: flagstat_Prostate Adenocarcinoma_4_task_2_files_346.64Gb
+2017-04-04 12:14:23,153 INFO Task 5: 2 files, 406.12 Gb
+2017-04-04 12:14:23,153 INFO 	Name: flagstat_Prostate Adenocarcinoma_5_task_2_files_406.12Gb
+2017-04-04 12:14:24,165 INFO Task 6: 3 files, 571.85 Gb
+2017-04-04 12:14:24,165 INFO 	Name: flagstat_Prostate Adenocarcinoma_6_task_3_files_571.85Gb
+2017-04-04 12:14:26,009 INFO Task 7: 3 files, 508.78 Gb
+2017-04-04 12:14:26,009 INFO 	Name: flagstat_Prostate Adenocarcinoma_7_task_3_files_508.78Gb
+2017-04-04 12:14:27,954 INFO Task 8: 2 files, 385.76 Gb
+2017-04-04 12:14:27,954 INFO 	Name: flagstat_Prostate Adenocarcinoma_8_task_2_files_385.76Gb
+2017-04-04 12:14:28,978 INFO Task 9: 2 files, 390.78 Gb
+2017-04-04 12:14:28,979 INFO 	Name: flagstat_Prostate Adenocarcinoma_9_task_2_files_390.78Gb
+2017-04-04 12:14:30,821 INFO Task 10: 2 files, 349.35 Gb
+2017-04-04 12:14:30,821 INFO 	Name: flagstat_Prostate Adenocarcinoma_10_task_2_files_349.35Gb
+2017-04-04 12:14:31,869 INFO Task 11: 2 files, 394.11 Gb
+2017-04-04 12:14:31,869 INFO 	Name: flagstat_Prostate Adenocarcinoma_11_task_2_files_394.11Gb
+2017-04-04 12:14:32,870 INFO Task 12: 3 files, 588.05 Gb
+2017-04-04 12:14:32,870 INFO 	Name: flagstat_Prostate Adenocarcinoma_12_task_3_files_588.05Gb
+2017-04-04 12:14:33,753 INFO Task 13: 3 files, 518.90 Gb
+2017-04-04 12:14:33,753 INFO 	Name: flagstat_Prostate Adenocarcinoma_13_task_3_files_518.90Gb
+2017-04-04 12:14:34,815 INFO Task 14: 3 files, 555.38 Gb
+2017-04-04 12:14:34,815 INFO 	Name: flagstat_Prostate Adenocarcinoma_14_task_3_files_555.38Gb
+2017-04-04 12:14:35,838 INFO Task 15: 2 files, 440.61 Gb
+2017-04-04 12:14:35,838 INFO 	Name: flagstat_Prostate Adenocarcinoma_15_task_2_files_440.61Gb
+2017-04-04 12:14:36,886 INFO Task 16: 3 files, 506.40 Gb
+2017-04-04 12:14:36,886 INFO 	Name: flagstat_Prostate Adenocarcinoma_16_task_3_files_506.40Gb
+2017-04-04 12:14:37,949 INFO Task 17: 16 files, 408.28 Gb
+2017-04-04 12:14:37,949 INFO 	Name: flagstat_Prostate Adenocarcinoma_17_task_16_files_408.28Gb
+2017-04-04 12:14:39,202 INFO Task 18: 14 files, 408.37 Gb
+2017-04-04 12:14:39,202 INFO 	Name: flagstat_Prostate Adenocarcinoma_18_task_14_files_408.37Gb
+2017-04-04 12:14:40,322 INFO Task 19: 16 files, 418.43 Gb
+2017-04-04 12:14:40,323 INFO 	Name: flagstat_Prostate Adenocarcinoma_19_task_16_files_418.43Gb
+2017-04-04 12:14:41,368 INFO Task 20: 16 files, 405.33 Gb
+2017-04-04 12:14:41,369 INFO 	Name: flagstat_Prostate Adenocarcinoma_20_task_16_files_405.33Gb
+2017-04-04 12:14:43,064 INFO Task 21: 16 files, 423.55 Gb
+2017-04-04 12:14:43,065 INFO 	Name: flagstat_Prostate Adenocarcinoma_21_task_16_files_423.55Gb
+2017-04-04 12:14:45,079 INFO Task 22: 14 files, 418.09 Gb
+2017-04-04 12:14:45,079 INFO 	Name: flagstat_Prostate Adenocarcinoma_22_task_14_files_418.09Gb
+2017-04-04 12:14:47,324 INFO Task 23: 16 files, 424.75 Gb
+2017-04-04 12:14:47,324 INFO 	Name: flagstat_Prostate Adenocarcinoma_23_task_16_files_424.75Gb
+2017-04-04 12:14:48,521 INFO Task 24: 16 files, 400.41 Gb
+2017-04-04 12:14:48,521 INFO 	Name: flagstat_Prostate Adenocarcinoma_24_task_16_files_400.41Gb
+2017-04-04 12:14:49,668 INFO Task 25: 15 files, 419.19 Gb
+2017-04-04 12:14:49,668 INFO 	Name: flagstat_Prostate Adenocarcinoma_25_task_15_files_419.19Gb
+2017-04-04 12:14:50,726 INFO Task 26: 17 files, 401.51 Gb
+2017-04-04 12:14:50,727 INFO 	Name: flagstat_Prostate Adenocarcinoma_26_task_17_files_401.51Gb
+2017-04-04 12:14:51,815 INFO Task 27: 22 files, 404.64 Gb
+2017-04-04 12:14:51,815 INFO 	Name: flagstat_Prostate Adenocarcinoma_27_task_22_files_404.64Gb
+2017-04-04 12:14:52,840 INFO Task 28: 22 files, 404.39 Gb
+2017-04-04 12:14:52,840 INFO 	Name: flagstat_Prostate Adenocarcinoma_28_task_22_files_404.39Gb
+2017-04-04 12:14:53,948 INFO Task 29: 17 files, 419.11 Gb
+2017-04-04 12:14:53,948 INFO 	Name: flagstat_Prostate Adenocarcinoma_29_task_17_files_419.11Gb
+2017-04-04 12:14:55,037 INFO Task 30: 33 files, 407.22 Gb
+2017-04-04 12:14:55,037 INFO 	Name: flagstat_Prostate Adenocarcinoma_30_task_33_files_407.22Gb
+2017-04-04 12:14:56,223 INFO Task 31: 61 files, 402.10 Gb
+2017-04-04 12:14:56,223 INFO 	Name: flagstat_Prostate Adenocarcinoma_31_task_61_files_402.10Gb
+2017-04-04 12:14:57,453 INFO Task 32: 61 files, 404.80 Gb
+2017-04-04 12:14:57,453 INFO 	Name: flagstat_Prostate Adenocarcinoma_32_task_61_files_404.80Gb
+2017-04-04 12:14:58,938 INFO Task 33: 52 files, 400.12 Gb
+2017-04-04 12:14:58,939 INFO 	Name: flagstat_Prostate Adenocarcinoma_33_task_52_files_400.12Gb
+2017-04-04 12:15:00,014 INFO Task 34: 61 files, 405.49 Gb
+2017-04-04 12:15:00,015 INFO 	Name: flagstat_Prostate Adenocarcinoma_34_task_61_files_405.49Gb
+2017-04-04 12:15:01,446 INFO Task 35: 67 files, 407.31 Gb
+2017-04-04 12:15:01,446 INFO 	Name: flagstat_Prostate Adenocarcinoma_35_task_67_files_407.31Gb
+2017-04-04 12:15:02,762 INFO Task 36: 68 files, 405.47 Gb
+2017-04-04 12:15:02,762 INFO 	Name: flagstat_Prostate Adenocarcinoma_36_task_68_files_405.47Gb
+2017-04-04 12:15:04,238 INFO Task 37: 72 files, 400.91 Gb
+2017-04-04 12:15:04,238 INFO 	Name: flagstat_Prostate Adenocarcinoma_37_task_72_files_400.91Gb
+2017-04-04 12:15:06,568 INFO Task 38: 70 files, 404.50 Gb
+2017-04-04 12:15:06,569 INFO 	Name: flagstat_Prostate Adenocarcinoma_38_task_70_files_404.50Gb
+2017-04-04 12:15:07,794 INFO Task 39: 27 files, 130.38 Gb
+2017-04-04 12:15:07,794 INFO 	Name: flagstat_Prostate Adenocarcinoma_39_task_27_files_130.38Gb
+2017-04-04 12:15:08,917 INFO Total tasks created: 39
+2017-04-04 12:15:08,917 INFO Total files tasked: 830
+2017-04-04 12:15:08,917 INFO Total files for disease type: 830
+2017-04-04 12:15:08,917 INFO Total WGS files: 272
+2017-04-04 12:15:08,917 INFO Total RNA-Seq files: 558

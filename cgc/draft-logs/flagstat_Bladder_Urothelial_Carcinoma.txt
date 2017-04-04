@@ -1,0 +1,82 @@
+2017-04-04 12:09:53,998 INFO Creating draft tasks.
+2017-04-04 12:10:01,206 INFO Task 1: 4 files, 434.63 Gb
+2017-04-04 12:10:01,207 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_1_task_4_files_434.63Gb
+2017-04-04 12:10:02,734 INFO Task 2: 3 files, 483.61 Gb
+2017-04-04 12:10:02,734 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_2_task_3_files_483.61Gb
+2017-04-04 12:10:03,597 INFO Task 3: 4 files, 512.16 Gb
+2017-04-04 12:10:03,597 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_3_task_4_files_512.16Gb
+2017-04-04 12:10:04,521 INFO Task 4: 4 files, 500.20 Gb
+2017-04-04 12:10:04,521 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_4_task_4_files_500.20Gb
+2017-04-04 12:10:05,510 INFO Task 5: 3 files, 411.18 Gb
+2017-04-04 12:10:05,510 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_5_task_3_files_411.18Gb
+2017-04-04 12:10:06,373 INFO Task 6: 3 files, 502.90 Gb
+2017-04-04 12:10:06,374 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_6_task_3_files_502.90Gb
+2017-04-04 12:10:07,160 INFO Task 7: 3 files, 407.94 Gb
+2017-04-04 12:10:07,160 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_7_task_3_files_407.94Gb
+2017-04-04 12:10:08,032 INFO Task 8: 3 files, 401.42 Gb
+2017-04-04 12:10:08,032 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_8_task_3_files_401.42Gb
+2017-04-04 12:10:08,885 INFO Task 9: 3 files, 449.40 Gb
+2017-04-04 12:10:08,886 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_9_task_3_files_449.40Gb
+2017-04-04 12:10:09,905 INFO Task 10: 4 files, 440.56 Gb
+2017-04-04 12:10:09,906 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_10_task_4_files_440.56Gb
+2017-04-04 12:10:10,823 INFO Task 11: 4 files, 509.97 Gb
+2017-04-04 12:10:10,823 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_11_task_4_files_509.97Gb
+2017-04-04 12:10:11,848 INFO Task 12: 3 files, 468.63 Gb
+2017-04-04 12:10:11,848 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_12_task_3_files_468.63Gb
+2017-04-04 12:10:12,770 INFO Task 13: 3 files, 431.77 Gb
+2017-04-04 12:10:12,770 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_13_task_3_files_431.77Gb
+2017-04-04 12:10:13,894 INFO Task 14: 3 files, 400.23 Gb
+2017-04-04 12:10:13,894 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_14_task_3_files_400.23Gb
+2017-04-04 12:10:14,918 INFO Task 15: 3 files, 411.35 Gb
+2017-04-04 12:10:14,918 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_15_task_3_files_411.35Gb
+2017-04-04 12:10:15,841 INFO Task 16: 3 files, 418.25 Gb
+2017-04-04 12:10:15,841 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_16_task_3_files_418.25Gb
+2017-04-04 12:10:16,773 INFO Task 17: 3 files, 491.62 Gb
+2017-04-04 12:10:16,773 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_17_task_3_files_491.62Gb
+2017-04-04 12:10:17,785 INFO Task 18: 2 files, 410.60 Gb
+2017-04-04 12:10:17,785 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_18_task_2_files_410.60Gb
+2017-04-04 12:10:18,913 INFO Task 19: 3 files, 509.10 Gb
+2017-04-04 12:10:18,913 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_19_task_3_files_509.10Gb
+2017-04-04 12:10:19,835 INFO Task 20: 17 files, 420.98 Gb
+2017-04-04 12:10:19,835 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_20_task_17_files_420.98Gb
+2017-04-04 12:10:20,960 INFO Task 21: 16 files, 401.52 Gb
+2017-04-04 12:10:20,960 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_21_task_16_files_401.52Gb
+2017-04-04 12:10:21,963 INFO Task 22: 21 files, 421.13 Gb
+2017-04-04 12:10:21,963 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_22_task_21_files_421.13Gb
+2017-04-04 12:10:23,045 INFO Task 23: 23 files, 417.23 Gb
+2017-04-04 12:10:23,046 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_23_task_23_files_417.23Gb
+2017-04-04 12:10:24,243 INFO Task 24: 17 files, 401.75 Gb
+2017-04-04 12:10:24,244 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_24_task_17_files_401.75Gb
+2017-04-04 12:10:27,207 INFO Task 25: 18 files, 417.61 Gb
+2017-04-04 12:10:27,207 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_25_task_18_files_417.61Gb
+2017-04-04 12:10:29,462 INFO Task 26: 21 files, 408.02 Gb
+2017-04-04 12:10:29,462 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_26_task_21_files_408.02Gb
+2017-04-04 12:10:30,896 INFO Task 27: 19 files, 405.59 Gb
+2017-04-04 12:10:30,896 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_27_task_19_files_405.59Gb
+2017-04-04 12:10:32,128 INFO Task 28: 19 files, 412.98 Gb
+2017-04-04 12:10:32,128 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_28_task_19_files_412.98Gb
+2017-04-04 12:10:33,147 INFO Task 29: 19 files, 416.18 Gb
+2017-04-04 12:10:33,147 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_29_task_19_files_416.18Gb
+2017-04-04 12:10:34,165 INFO Task 30: 19 files, 404.44 Gb
+2017-04-04 12:10:34,165 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_30_task_19_files_404.44Gb
+2017-04-04 12:10:35,199 INFO Task 31: 20 files, 402.06 Gb
+2017-04-04 12:10:35,200 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_31_task_20_files_402.06Gb
+2017-04-04 12:10:36,420 INFO Task 32: 57 files, 407.20 Gb
+2017-04-04 12:10:36,420 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_32_task_57_files_407.20Gb
+2017-04-04 12:10:37,661 INFO Task 33: 56 files, 400.51 Gb
+2017-04-04 12:10:37,661 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_33_task_56_files_400.51Gb
+2017-04-04 12:10:39,191 INFO Task 34: 60 files, 402.74 Gb
+2017-04-04 12:10:39,191 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_34_task_60_files_402.74Gb
+2017-04-04 12:10:40,560 INFO Task 35: 74 files, 404.24 Gb
+2017-04-04 12:10:40,560 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_35_task_74_files_404.24Gb
+2017-04-04 12:10:41,857 INFO Task 36: 70 files, 401.34 Gb
+2017-04-04 12:10:41,858 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_36_task_70_files_401.34Gb
+2017-04-04 12:10:43,062 INFO Task 37: 91 files, 404.48 Gb
+2017-04-04 12:10:43,062 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_37_task_91_files_404.48Gb
+2017-04-04 12:10:44,520 INFO Task 38: 31 files, 132.47 Gb
+2017-04-04 12:10:44,521 INFO 	Name: flagstat_Bladder Urothelial Carcinoma_38_task_31_files_132.47Gb
+2017-04-04 12:10:45,642 INFO Total tasks created: 38
+2017-04-04 12:10:45,642 INFO Total files tasked: 729
+2017-04-04 12:10:45,642 INFO Total files for disease type: 729
+2017-04-04 12:10:45,642 INFO Total WGS files: 296
+2017-04-04 12:10:45,642 INFO Total RNA-Seq files: 433

@@ -1,0 +1,13 @@
+2017-04-04 11:40:26,601 INFO Running tasks!
+2017-04-04 11:41:04,851 INFO Creating draft tasks.
+2017-04-04 11:41:07,725 INFO Task 1: 64 files, 405.45 Gb
+2017-04-04 11:41:07,725 INFO 	Name: flagstat_Pancreatic Adenocarcinoma_1_task_64_files_405.45Gb
+2017-04-04 11:41:09,662 INFO Task 2: 72 files, 403.05 Gb
+2017-04-04 11:41:09,662 INFO 	Name: flagstat_Pancreatic Adenocarcinoma_2_task_72_files_403.05Gb
+2017-04-04 11:41:11,174 INFO Task 3: 47 files, 209.00 Gb
+2017-04-04 11:41:11,174 INFO 	Name: flagstat_Pancreatic Adenocarcinoma_3_task_47_files_209.00Gb
+2017-04-04 11:41:12,399 INFO Total tasks created: 3
+2017-04-04 11:41:12,399 INFO Total files tasked: 183
+2017-04-04 11:41:12,399 INFO Total files for disease type: 183
+2017-04-04 11:41:12,399 INFO Total WGS files: 0
+2017-04-04 11:41:12,399 INFO Total RNA-Seq files: 183

@@ -1,0 +1,154 @@
+2017-04-04 12:19:27,929 INFO Creating draft tasks.
+2017-04-04 12:19:39,471 INFO Task 1: 5 files, 525.01 Gb
+2017-04-04 12:19:39,471 INFO 	Name: flagstat_Breast Invasive Carcinoma_1_task_5_files_525.01Gb
+2017-04-04 12:19:40,853 INFO Task 2: 4 files, 553.57 Gb
+2017-04-04 12:19:40,854 INFO 	Name: flagstat_Breast Invasive Carcinoma_2_task_4_files_553.57Gb
+2017-04-04 12:19:41,884 INFO Task 3: 4 files, 544.81 Gb
+2017-04-04 12:19:41,884 INFO 	Name: flagstat_Breast Invasive Carcinoma_3_task_4_files_544.81Gb
+2017-04-04 12:19:42,844 INFO Task 4: 5 files, 487.33 Gb
+2017-04-04 12:19:42,844 INFO 	Name: flagstat_Breast Invasive Carcinoma_4_task_5_files_487.33Gb
+2017-04-04 12:19:43,866 INFO Task 5: 4 files, 462.13 Gb
+2017-04-04 12:19:43,866 INFO 	Name: flagstat_Breast Invasive Carcinoma_5_task_4_files_462.13Gb
+2017-04-04 12:19:44,887 INFO Task 6: 3 files, 411.36 Gb
+2017-04-04 12:19:44,887 INFO 	Name: flagstat_Breast Invasive Carcinoma_6_task_3_files_411.36Gb
+2017-04-04 12:19:45,913 INFO Task 7: 4 files, 498.38 Gb
+2017-04-04 12:19:45,913 INFO 	Name: flagstat_Breast Invasive Carcinoma_7_task_4_files_498.38Gb
+2017-04-04 12:19:46,940 INFO Task 8: 3 files, 401.85 Gb
+2017-04-04 12:19:46,940 INFO 	Name: flagstat_Breast Invasive Carcinoma_8_task_3_files_401.85Gb
+2017-04-04 12:19:47,960 INFO Task 9: 3 files, 447.58 Gb
+2017-04-04 12:19:47,960 INFO 	Name: flagstat_Breast Invasive Carcinoma_9_task_3_files_447.58Gb
+2017-04-04 12:19:48,965 INFO Task 10: 3 files, 425.33 Gb
+2017-04-04 12:19:48,966 INFO 	Name: flagstat_Breast Invasive Carcinoma_10_task_3_files_425.33Gb
+2017-04-04 12:19:50,012 INFO Task 11: 4 files, 403.38 Gb
+2017-04-04 12:19:50,012 INFO 	Name: flagstat_Breast Invasive Carcinoma_11_task_4_files_403.38Gb
+2017-04-04 12:19:51,135 INFO Task 12: 3 files, 494.38 Gb
+2017-04-04 12:19:51,135 INFO 	Name: flagstat_Breast Invasive Carcinoma_12_task_3_files_494.38Gb
+2017-04-04 12:19:52,159 INFO Task 13: 4 files, 470.40 Gb
+2017-04-04 12:19:52,159 INFO 	Name: flagstat_Breast Invasive Carcinoma_13_task_4_files_470.40Gb
+2017-04-04 12:19:53,080 INFO Task 14: 4 files, 478.73 Gb
+2017-04-04 12:19:53,080 INFO 	Name: flagstat_Breast Invasive Carcinoma_14_task_4_files_478.73Gb
+2017-04-04 12:19:54,005 INFO Task 15: 4 files, 474.83 Gb
+2017-04-04 12:19:54,005 INFO 	Name: flagstat_Breast Invasive Carcinoma_15_task_4_files_474.83Gb
+2017-04-04 12:19:55,030 INFO Task 16: 3 files, 435.49 Gb
+2017-04-04 12:19:55,030 INFO 	Name: flagstat_Breast Invasive Carcinoma_16_task_3_files_435.49Gb
+2017-04-04 12:19:56,152 INFO Task 17: 4 files, 495.22 Gb
+2017-04-04 12:19:56,152 INFO 	Name: flagstat_Breast Invasive Carcinoma_17_task_4_files_495.22Gb
+2017-04-04 12:19:57,278 INFO Task 18: 4 files, 411.12 Gb
+2017-04-04 12:19:57,279 INFO 	Name: flagstat_Breast Invasive Carcinoma_18_task_4_files_411.12Gb
+2017-04-04 12:19:58,318 INFO Task 19: 5 files, 459.72 Gb
+2017-04-04 12:19:58,318 INFO 	Name: flagstat_Breast Invasive Carcinoma_19_task_5_files_459.72Gb
+2017-04-04 12:19:59,325 INFO Task 20: 4 files, 519.05 Gb
+2017-04-04 12:19:59,326 INFO 	Name: flagstat_Breast Invasive Carcinoma_20_task_4_files_519.05Gb
+2017-04-04 12:20:00,351 INFO Task 21: 3 files, 400.68 Gb
+2017-04-04 12:20:00,351 INFO 	Name: flagstat_Breast Invasive Carcinoma_21_task_3_files_400.68Gb
+2017-04-04 12:20:01,272 INFO Task 22: 4 files, 438.42 Gb
+2017-04-04 12:20:01,272 INFO 	Name: flagstat_Breast Invasive Carcinoma_22_task_4_files_438.42Gb
+2017-04-04 12:20:02,317 INFO Task 23: 4 files, 446.73 Gb
+2017-04-04 12:20:02,317 INFO 	Name: flagstat_Breast Invasive Carcinoma_23_task_4_files_446.73Gb
+2017-04-04 12:20:03,345 INFO Task 24: 5 files, 497.44 Gb
+2017-04-04 12:20:03,345 INFO 	Name: flagstat_Breast Invasive Carcinoma_24_task_5_files_497.44Gb
+2017-04-04 12:20:04,447 INFO Task 25: 3 files, 403.67 Gb
+2017-04-04 12:20:04,447 INFO 	Name: flagstat_Breast Invasive Carcinoma_25_task_3_files_403.67Gb
+2017-04-04 12:20:05,470 INFO Task 26: 4 files, 499.20 Gb
+2017-04-04 12:20:05,470 INFO 	Name: flagstat_Breast Invasive Carcinoma_26_task_4_files_499.20Gb
+2017-04-04 12:20:06,477 INFO Task 27: 4 files, 463.94 Gb
+2017-04-04 12:20:06,477 INFO 	Name: flagstat_Breast Invasive Carcinoma_27_task_4_files_463.94Gb
+2017-04-04 12:20:07,839 INFO Task 28: 4 files, 448.53 Gb
+2017-04-04 12:20:07,839 INFO 	Name: flagstat_Breast Invasive Carcinoma_28_task_4_files_448.53Gb
+2017-04-04 12:20:08,862 INFO Task 29: 4 files, 437.31 Gb
+2017-04-04 12:20:08,862 INFO 	Name: flagstat_Breast Invasive Carcinoma_29_task_4_files_437.31Gb
+2017-04-04 12:20:09,779 INFO Task 30: 4 files, 437.64 Gb
+2017-04-04 12:20:09,780 INFO 	Name: flagstat_Breast Invasive Carcinoma_30_task_4_files_437.64Gb
+2017-04-04 12:20:10,786 INFO Task 31: 5 files, 517.72 Gb
+2017-04-04 12:20:10,786 INFO 	Name: flagstat_Breast Invasive Carcinoma_31_task_5_files_517.72Gb
+2017-04-04 12:20:11,717 INFO Task 32: 6 files, 451.69 Gb
+2017-04-04 12:20:11,717 INFO 	Name: flagstat_Breast Invasive Carcinoma_32_task_6_files_451.69Gb
+2017-04-04 12:20:12,842 INFO Task 33: 8 files, 452.70 Gb
+2017-04-04 12:20:12,842 INFO 	Name: flagstat_Breast Invasive Carcinoma_33_task_8_files_452.70Gb
+2017-04-04 12:20:13,971 INFO Task 34: 18 files, 455.83 Gb
+2017-04-04 12:20:13,971 INFO 	Name: flagstat_Breast Invasive Carcinoma_34_task_18_files_455.83Gb
+2017-04-04 12:20:14,997 INFO Task 35: 7 files, 417.21 Gb
+2017-04-04 12:20:14,997 INFO 	Name: flagstat_Breast Invasive Carcinoma_35_task_7_files_417.21Gb
+2017-04-04 12:20:16,121 INFO Task 36: 14 files, 417.47 Gb
+2017-04-04 12:20:16,121 INFO 	Name: flagstat_Breast Invasive Carcinoma_36_task_14_files_417.47Gb
+2017-04-04 12:20:17,139 INFO Task 37: 34 files, 406.31 Gb
+2017-04-04 12:20:17,139 INFO 	Name: flagstat_Breast Invasive Carcinoma_37_task_34_files_406.31Gb
+2017-04-04 12:20:18,379 INFO Task 38: 57 files, 402.01 Gb
+2017-04-04 12:20:18,379 INFO 	Name: flagstat_Breast Invasive Carcinoma_38_task_57_files_402.01Gb
+2017-04-04 12:20:19,736 INFO Task 39: 61 files, 406.76 Gb
+2017-04-04 12:20:19,736 INFO 	Name: flagstat_Breast Invasive Carcinoma_39_task_61_files_406.76Gb
+2017-04-04 12:20:21,054 INFO Task 40: 54 files, 402.71 Gb
+2017-04-04 12:20:21,054 INFO 	Name: flagstat_Breast Invasive Carcinoma_40_task_54_files_402.71Gb
+2017-04-04 12:20:22,374 INFO Task 41: 59 files, 400.00 Gb
+2017-04-04 12:20:22,374 INFO 	Name: flagstat_Breast Invasive Carcinoma_41_task_59_files_400.00Gb
+2017-04-04 12:20:23,705 INFO Task 42: 56 files, 400.31 Gb
+2017-04-04 12:20:23,705 INFO 	Name: flagstat_Breast Invasive Carcinoma_42_task_56_files_400.31Gb
+2017-04-04 12:20:24,975 INFO Task 43: 56 files, 401.96 Gb
+2017-04-04 12:20:24,975 INFO 	Name: flagstat_Breast Invasive Carcinoma_43_task_56_files_401.96Gb
+2017-04-04 12:20:27,082 INFO Task 44: 63 files, 401.32 Gb
+2017-04-04 12:20:27,082 INFO 	Name: flagstat_Breast Invasive Carcinoma_44_task_63_files_401.32Gb
+2017-04-04 12:20:28,687 INFO Task 45: 62 files, 400.17 Gb
+2017-04-04 12:20:28,687 INFO 	Name: flagstat_Breast Invasive Carcinoma_45_task_62_files_400.17Gb
+2017-04-04 12:20:30,451 INFO Task 46: 63 files, 403.48 Gb
+2017-04-04 12:20:30,451 INFO 	Name: flagstat_Breast Invasive Carcinoma_46_task_63_files_403.48Gb
+2017-04-04 12:20:31,490 INFO Task 47: 73 files, 401.95 Gb
+2017-04-04 12:20:31,490 INFO 	Name: flagstat_Breast Invasive Carcinoma_47_task_73_files_401.95Gb
+2017-04-04 12:20:32,741 INFO Task 48: 64 files, 402.11 Gb
+2017-04-04 12:20:32,741 INFO 	Name: flagstat_Breast Invasive Carcinoma_48_task_64_files_402.11Gb
+2017-04-04 12:20:34,047 INFO Task 49: 54 files, 403.50 Gb
+2017-04-04 12:20:34,048 INFO 	Name: flagstat_Breast Invasive Carcinoma_49_task_54_files_403.50Gb
+2017-04-04 12:20:35,378 INFO Task 50: 62 files, 404.01 Gb
+2017-04-04 12:20:35,378 INFO 	Name: flagstat_Breast Invasive Carcinoma_50_task_62_files_404.01Gb
+2017-04-04 12:20:36,606 INFO Task 51: 64 files, 404.05 Gb
+2017-04-04 12:20:36,608 INFO 	Name: flagstat_Breast Invasive Carcinoma_51_task_64_files_404.05Gb
+2017-04-04 12:20:37,937 INFO Task 52: 64 files, 404.85 Gb
+2017-04-04 12:20:37,937 INFO 	Name: flagstat_Breast Invasive Carcinoma_52_task_64_files_404.85Gb
+2017-04-04 12:20:39,181 INFO Task 53: 57 files, 403.62 Gb
+2017-04-04 12:20:39,181 INFO 	Name: flagstat_Breast Invasive Carcinoma_53_task_57_files_403.62Gb
+2017-04-04 12:20:40,554 INFO Task 54: 36 files, 405.58 Gb
+2017-04-04 12:20:40,554 INFO 	Name: flagstat_Breast Invasive Carcinoma_54_task_36_files_405.58Gb
+2017-04-04 12:20:42,571 INFO Task 55: 68 files, 401.46 Gb
+2017-04-04 12:20:42,571 INFO 	Name: flagstat_Breast Invasive Carcinoma_55_task_68_files_401.46Gb
+2017-04-04 12:20:43,777 INFO Task 56: 63 files, 407.89 Gb
+2017-04-04 12:20:43,777 INFO 	Name: flagstat_Breast Invasive Carcinoma_56_task_63_files_407.89Gb
+2017-04-04 12:20:45,005 INFO Task 57: 69 files, 400.14 Gb
+2017-04-04 12:20:45,005 INFO 	Name: flagstat_Breast Invasive Carcinoma_57_task_69_files_400.14Gb
+2017-04-04 12:20:46,334 INFO Task 58: 19 files, 440.37 Gb
+2017-04-04 12:20:46,334 INFO 	Name: flagstat_Breast Invasive Carcinoma_58_task_19_files_440.37Gb
+2017-04-04 12:20:47,560 INFO Task 59: 4 files, 437.91 Gb
+2017-04-04 12:20:47,561 INFO 	Name: flagstat_Breast Invasive Carcinoma_59_task_4_files_437.91Gb
+2017-04-04 12:20:48,581 INFO Task 60: 5 files, 509.79 Gb
+2017-04-04 12:20:48,582 INFO 	Name: flagstat_Breast Invasive Carcinoma_60_task_5_files_509.79Gb
+2017-04-04 12:20:49,508 INFO Task 61: 4 files, 437.14 Gb
+2017-04-04 12:20:49,508 INFO 	Name: flagstat_Breast Invasive Carcinoma_61_task_4_files_437.14Gb
+2017-04-04 12:20:50,527 INFO Task 62: 4 files, 490.40 Gb
+2017-04-04 12:20:50,527 INFO 	Name: flagstat_Breast Invasive Carcinoma_62_task_4_files_490.40Gb
+2017-04-04 12:20:51,532 INFO Task 63: 4 files, 493.37 Gb
+2017-04-04 12:20:51,533 INFO 	Name: flagstat_Breast Invasive Carcinoma_63_task_4_files_493.37Gb
+2017-04-04 12:20:52,602 INFO Task 64: 4 files, 489.48 Gb
+2017-04-04 12:20:52,602 INFO 	Name: flagstat_Breast Invasive Carcinoma_64_task_4_files_489.48Gb
+2017-04-04 12:20:53,702 INFO Task 65: 4 files, 511.13 Gb
+2017-04-04 12:20:53,702 INFO 	Name: flagstat_Breast Invasive Carcinoma_65_task_4_files_511.13Gb
+2017-04-04 12:20:54,726 INFO Task 66: 4 files, 521.91 Gb
+2017-04-04 12:20:54,726 INFO 	Name: flagstat_Breast Invasive Carcinoma_66_task_4_files_521.91Gb
+2017-04-04 12:20:55,649 INFO Task 67: 4 files, 418.28 Gb
+2017-04-04 12:20:55,649 INFO 	Name: flagstat_Breast Invasive Carcinoma_67_task_4_files_418.28Gb
+2017-04-04 12:20:56,697 INFO Task 68: 5 files, 439.00 Gb
+2017-04-04 12:20:56,698 INFO 	Name: flagstat_Breast Invasive Carcinoma_68_task_5_files_439.00Gb
+2017-04-04 12:20:57,798 INFO Task 69: 5 files, 543.20 Gb
+2017-04-04 12:20:57,798 INFO 	Name: flagstat_Breast Invasive Carcinoma_69_task_5_files_543.20Gb
+2017-04-04 12:20:58,822 INFO Task 70: 4 files, 446.18 Gb
+2017-04-04 12:20:58,822 INFO 	Name: flagstat_Breast Invasive Carcinoma_70_task_4_files_446.18Gb
+2017-04-04 12:20:59,743 INFO Task 71: 4 files, 474.74 Gb
+2017-04-04 12:20:59,743 INFO 	Name: flagstat_Breast Invasive Carcinoma_71_task_4_files_474.74Gb
+2017-04-04 12:21:00,780 INFO Task 72: 4 files, 447.18 Gb
+2017-04-04 12:21:00,780 INFO 	Name: flagstat_Breast Invasive Carcinoma_72_task_4_files_447.18Gb
+2017-04-04 12:21:01,791 INFO Task 73: 4 files, 567.63 Gb
+2017-04-04 12:21:01,791 INFO 	Name: flagstat_Breast Invasive Carcinoma_73_task_4_files_567.63Gb
+2017-04-04 12:21:02,846 INFO Task 74: 2 files, 217.03 Gb
+2017-04-04 12:21:02,846 INFO 	Name: flagstat_Breast Invasive Carcinoma_74_task_2_files_217.03Gb
+2017-04-04 12:21:03,942 INFO Total tasks created: 74
+2017-04-04 12:21:03,943 INFO Total files tasked: 1497
+2017-04-04 12:21:03,943 INFO Total files for disease type: 1497
+2017-04-04 12:21:03,943 INFO Total WGS files: 245
+2017-04-04 12:21:03,943 INFO Total RNA-Seq files: 1252

@@ -1,0 +1,84 @@
+2017-04-04 12:21:44,494 INFO Creating draft tasks.
+2017-04-04 12:21:47,366 INFO Task 1: 5 files, 509.24 Gb
+2017-04-04 12:21:47,366 INFO 	Name: flagstat_Acute Myeloid Leukemia_1_task_5_files_509.24Gb
+2017-04-04 12:21:48,897 INFO Task 2: 4 files, 529.24 Gb
+2017-04-04 12:21:48,897 INFO 	Name: flagstat_Acute Myeloid Leukemia_2_task_4_files_529.24Gb
+2017-04-04 12:21:49,874 INFO Task 3: 5 files, 459.68 Gb
+2017-04-04 12:21:49,875 INFO 	Name: flagstat_Acute Myeloid Leukemia_3_task_5_files_459.68Gb
+2017-04-04 12:21:50,854 INFO Task 4: 4 files, 413.91 Gb
+2017-04-04 12:21:50,855 INFO 	Name: flagstat_Acute Myeloid Leukemia_4_task_4_files_413.91Gb
+2017-04-04 12:21:51,870 INFO Task 5: 4 files, 410.26 Gb
+2017-04-04 12:21:51,870 INFO 	Name: flagstat_Acute Myeloid Leukemia_5_task_4_files_410.26Gb
+2017-04-04 12:21:52,892 INFO Task 6: 4 files, 484.50 Gb
+2017-04-04 12:21:52,892 INFO 	Name: flagstat_Acute Myeloid Leukemia_6_task_4_files_484.50Gb
+2017-04-04 12:21:53,933 INFO Task 7: 4 files, 439.29 Gb
+2017-04-04 12:21:53,933 INFO 	Name: flagstat_Acute Myeloid Leukemia_7_task_4_files_439.29Gb
+2017-04-04 12:21:54,938 INFO Task 8: 4 files, 418.52 Gb
+2017-04-04 12:21:54,938 INFO 	Name: flagstat_Acute Myeloid Leukemia_8_task_4_files_418.52Gb
+2017-04-04 12:21:55,962 INFO Task 9: 4 files, 403.15 Gb
+2017-04-04 12:21:55,962 INFO 	Name: flagstat_Acute Myeloid Leukemia_9_task_4_files_403.15Gb
+2017-04-04 12:21:57,088 INFO Task 10: 4 files, 426.89 Gb
+2017-04-04 12:21:57,088 INFO 	Name: flagstat_Acute Myeloid Leukemia_10_task_4_files_426.89Gb
+2017-04-04 12:21:58,114 INFO Task 11: 4 files, 401.29 Gb
+2017-04-04 12:21:58,114 INFO 	Name: flagstat_Acute Myeloid Leukemia_11_task_4_files_401.29Gb
+2017-04-04 12:21:59,137 INFO Task 12: 3 files, 292.51 Gb
+2017-04-04 12:21:59,137 INFO 	Name: flagstat_Acute Myeloid Leukemia_12_task_3_files_292.51Gb
+2017-04-04 12:22:00,264 INFO Task 13: 1 files, 854.86 Gb
+2017-04-04 12:22:00,264 INFO 	Name: flagstat_Acute Myeloid Leukemia_13_task_1_files_854.86Gb
+2017-04-04 12:22:01,287 INFO Task 14: 4 files, 414.96 Gb
+2017-04-04 12:22:01,287 INFO 	Name: flagstat_Acute Myeloid Leukemia_14_task_4_files_414.96Gb
+2017-04-04 12:22:02,196 INFO Task 15: 4 files, 447.28 Gb
+2017-04-04 12:22:02,196 INFO 	Name: flagstat_Acute Myeloid Leukemia_15_task_4_files_447.28Gb
+2017-04-04 12:22:03,139 INFO Task 16: 4 files, 434.92 Gb
+2017-04-04 12:22:03,139 INFO 	Name: flagstat_Acute Myeloid Leukemia_16_task_4_files_434.92Gb
+2017-04-04 12:22:04,256 INFO Task 17: 4 files, 513.99 Gb
+2017-04-04 12:22:04,257 INFO 	Name: flagstat_Acute Myeloid Leukemia_17_task_4_files_513.99Gb
+2017-04-04 12:22:05,384 INFO Task 18: 15 files, 402.79 Gb
+2017-04-04 12:22:05,384 INFO 	Name: flagstat_Acute Myeloid Leukemia_18_task_15_files_402.79Gb
+2017-04-04 12:22:06,608 INFO Task 19: 77 files, 401.42 Gb
+2017-04-04 12:22:06,608 INFO 	Name: flagstat_Acute Myeloid Leukemia_19_task_77_files_401.42Gb
+2017-04-04 12:22:08,055 INFO Task 20: 38 files, 403.60 Gb
+2017-04-04 12:22:08,055 INFO 	Name: flagstat_Acute Myeloid Leukemia_20_task_38_files_403.60Gb
+2017-04-04 12:22:09,174 INFO Task 21: 19 files, 401.23 Gb
+2017-04-04 12:22:09,174 INFO 	Name: flagstat_Acute Myeloid Leukemia_21_task_19_files_401.23Gb
+2017-04-04 12:22:10,275 INFO Task 22: 6 files, 519.29 Gb
+2017-04-04 12:22:10,276 INFO 	Name: flagstat_Acute Myeloid Leukemia_22_task_6_files_519.29Gb
+2017-04-04 12:22:11,220 INFO Task 23: 8 files, 477.60 Gb
+2017-04-04 12:22:11,220 INFO 	Name: flagstat_Acute Myeloid Leukemia_23_task_8_files_477.60Gb
+2017-04-04 12:22:12,252 INFO Task 24: 6 files, 466.01 Gb
+2017-04-04 12:22:12,252 INFO 	Name: flagstat_Acute Myeloid Leukemia_24_task_6_files_466.01Gb
+2017-04-04 12:22:13,238 INFO Task 25: 7 files, 436.27 Gb
+2017-04-04 12:22:13,238 INFO 	Name: flagstat_Acute Myeloid Leukemia_25_task_7_files_436.27Gb
+2017-04-04 12:22:14,291 INFO Task 26: 9 files, 405.24 Gb
+2017-04-04 12:22:14,293 INFO 	Name: flagstat_Acute Myeloid Leukemia_26_task_9_files_405.24Gb
+2017-04-04 12:22:15,419 INFO Task 27: 7 files, 411.04 Gb
+2017-04-04 12:22:15,419 INFO 	Name: flagstat_Acute Myeloid Leukemia_27_task_7_files_411.04Gb
+2017-04-04 12:22:16,456 INFO Task 28: 8 files, 463.13 Gb
+2017-04-04 12:22:16,456 INFO 	Name: flagstat_Acute Myeloid Leukemia_28_task_8_files_463.13Gb
+2017-04-04 12:22:17,397 INFO Task 29: 12 files, 506.45 Gb
+2017-04-04 12:22:17,398 INFO 	Name: flagstat_Acute Myeloid Leukemia_29_task_12_files_506.45Gb
+2017-04-04 12:22:18,492 INFO Task 30: 11 files, 450.14 Gb
+2017-04-04 12:22:18,492 INFO 	Name: flagstat_Acute Myeloid Leukemia_30_task_11_files_450.14Gb
+2017-04-04 12:22:19,520 INFO Task 31: 9 files, 449.15 Gb
+2017-04-04 12:22:19,521 INFO 	Name: flagstat_Acute Myeloid Leukemia_31_task_9_files_449.15Gb
+2017-04-04 12:22:20,661 INFO Task 32: 6 files, 444.03 Gb
+2017-04-04 12:22:20,661 INFO 	Name: flagstat_Acute Myeloid Leukemia_32_task_6_files_444.03Gb
+2017-04-04 12:22:21,665 INFO Task 33: 4 files, 420.58 Gb
+2017-04-04 12:22:21,665 INFO 	Name: flagstat_Acute Myeloid Leukemia_33_task_4_files_420.58Gb
+2017-04-04 12:22:22,691 INFO Task 34: 4 files, 440.54 Gb
+2017-04-04 12:22:22,691 INFO 	Name: flagstat_Acute Myeloid Leukemia_34_task_4_files_440.54Gb
+2017-04-04 12:22:23,713 INFO Task 35: 5 files, 465.52 Gb
+2017-04-04 12:22:23,713 INFO 	Name: flagstat_Acute Myeloid Leukemia_35_task_5_files_465.52Gb
+2017-04-04 12:22:24,737 INFO Task 36: 4 files, 430.77 Gb
+2017-04-04 12:22:24,737 INFO 	Name: flagstat_Acute Myeloid Leukemia_36_task_4_files_430.77Gb
+2017-04-04 12:22:27,194 INFO Task 37: 4 files, 408.43 Gb
+2017-04-04 12:22:27,195 INFO 	Name: flagstat_Acute Myeloid Leukemia_37_task_4_files_408.43Gb
+2017-04-04 12:22:29,087 INFO Task 38: 5 files, 513.95 Gb
+2017-04-04 12:22:29,087 INFO 	Name: flagstat_Acute Myeloid Leukemia_38_task_5_files_513.95Gb
+2017-04-04 12:22:30,369 INFO Task 39: 5 files, 499.85 Gb
+2017-04-04 12:22:30,369 INFO 	Name: flagstat_Acute Myeloid Leukemia_39_task_5_files_499.85Gb
+2017-04-04 12:22:31,392 INFO Total tasks created: 39
+2017-04-04 12:22:31,392 INFO Total files tasked: 335
+2017-04-04 12:22:31,392 INFO Total files for disease type: 335
+2017-04-04 12:22:31,392 INFO Total WGS files: 156
+2017-04-04 12:22:31,392 INFO Total RNA-Seq files: 179

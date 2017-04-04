@@ -1,0 +1,46 @@
+2017-04-04 11:56:13,928 INFO Creating draft tasks.
+2017-04-04 11:56:18,983 INFO Task 1: 5 files, 464.56 Gb
+2017-04-04 11:56:18,983 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_1_task_5_files_464.56Gb
+2017-04-04 11:56:20,448 INFO Task 2: 4 files, 424.59 Gb
+2017-04-04 11:56:20,448 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_2_task_4_files_424.59Gb
+2017-04-04 11:56:21,419 INFO Task 3: 4 files, 439.34 Gb
+2017-04-04 11:56:21,419 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_3_task_4_files_439.34Gb
+2017-04-04 11:56:22,443 INFO Task 4: 4 files, 475.41 Gb
+2017-04-04 11:56:22,443 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_4_task_4_files_475.41Gb
+2017-04-04 11:56:23,364 INFO Task 5: 3 files, 459.49 Gb
+2017-04-04 11:56:23,364 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_5_task_3_files_459.49Gb
+2017-04-04 11:56:24,298 INFO Task 6: 4 files, 463.11 Gb
+2017-04-04 11:56:24,298 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_6_task_4_files_463.11Gb
+2017-04-04 11:56:25,310 INFO Task 7: 3 files, 457.85 Gb
+2017-04-04 11:56:25,311 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_7_task_3_files_457.85Gb
+2017-04-04 11:56:26,440 INFO Task 8: 20 files, 418.31 Gb
+2017-04-04 11:56:26,440 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_8_task_20_files_418.31Gb
+2017-04-04 11:56:27,558 INFO Task 9: 20 files, 418.23 Gb
+2017-04-04 11:56:27,558 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_9_task_20_files_418.23Gb
+2017-04-04 11:56:28,602 INFO Task 10: 21 files, 413.60 Gb
+2017-04-04 11:56:28,602 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_10_task_21_files_413.60Gb
+2017-04-04 11:56:29,715 INFO Task 11: 19 files, 418.28 Gb
+2017-04-04 11:56:29,716 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_11_task_19_files_418.28Gb
+2017-04-04 11:56:30,889 INFO Task 12: 20 files, 402.71 Gb
+2017-04-04 11:56:30,889 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_12_task_20_files_402.71Gb
+2017-04-04 11:56:31,969 INFO Task 13: 51 files, 400.73 Gb
+2017-04-04 11:56:31,969 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_13_task_51_files_400.73Gb
+2017-04-04 11:56:33,396 INFO Task 14: 51 files, 404.63 Gb
+2017-04-04 11:56:33,396 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_14_task_51_files_404.63Gb
+2017-04-04 11:56:34,625 INFO Task 15: 58 files, 403.37 Gb
+2017-04-04 11:56:34,625 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_15_task_58_files_403.37Gb
+2017-04-04 11:56:36,069 INFO Task 16: 68 files, 403.66 Gb
+2017-04-04 11:56:36,069 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_16_task_68_files_403.66Gb
+2017-04-04 11:56:37,494 INFO Task 17: 65 files, 401.65 Gb
+2017-04-04 11:56:37,494 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_17_task_65_files_401.65Gb
+2017-04-04 11:56:38,821 INFO Task 18: 22 files, 443.19 Gb
+2017-04-04 11:56:38,821 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_18_task_22_files_443.19Gb
+2017-04-04 11:56:40,568 INFO Task 19: 4 files, 409.95 Gb
+2017-04-04 11:56:40,569 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_19_task_4_files_409.95Gb
+2017-04-04 11:56:42,017 INFO Task 20: 5 files, 513.78 Gb
+2017-04-04 11:56:42,017 INFO 	Name: flagstat_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_20_task_5_files_513.78Gb
+2017-04-04 11:56:43,128 INFO Total tasks created: 20
+2017-04-04 11:56:43,129 INFO Total files tasked: 451
+2017-04-04 11:56:43,129 INFO Total files for disease type: 451
+2017-04-04 11:56:43,129 INFO Total WGS files: 142
+2017-04-04 11:56:43,129 INFO Total RNA-Seq files: 309

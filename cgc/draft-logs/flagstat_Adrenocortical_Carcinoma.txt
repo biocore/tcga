@@ -1,0 +1,10 @@
+2017-04-04 11:16:14,086 INFO Creating draft tasks.
+2017-04-04 11:16:16,111 INFO Task 1: 73 files, 402.56 Gb
+2017-04-04 11:16:16,112 INFO 	Name: flagstat_Adrenocortical Carcinoma_1_task_73_files_402.56Gb
+2017-04-04 11:16:18,109 INFO Task 2: 6 files, 39.73 Gb
+2017-04-04 11:16:18,109 INFO 	Name: flagstat_Adrenocortical Carcinoma_2_task_6_files_39.73Gb
+2017-04-04 11:16:19,174 INFO Total tasks created: 2
+2017-04-04 11:16:19,174 INFO Total files tasked: 79
+2017-04-04 11:16:19,174 INFO Total files for disease type: 79
+2017-04-04 11:16:19,175 INFO Total WGS files: 0
+2017-04-04 11:16:19,175 INFO Total RNA-Seq files: 79
