@@ -1,0 +1,8 @@
+2017-04-04 11:09:59,968 INFO Creating draft tasks.
+2017-04-04 11:10:01,423 INFO Task 1: 45 files, 209.71 Gb
+2017-04-04 11:10:01,423 INFO 	Name: flagstat_Cholangiocarcinoma_1_task_45_files_209.71Gb
+2017-04-04 11:10:02,849 INFO Total tasks created: 1
+2017-04-04 11:10:02,849 INFO Total files tasked: 45
+2017-04-04 11:10:02,849 INFO Total files for disease type: 45
+2017-04-04 11:10:02,849 INFO Total WGS files: 0
+2017-04-04 11:10:02,849 INFO Total RNA-Seq files: 45

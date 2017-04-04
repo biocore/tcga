@@ -1,0 +1,172 @@
+2017-01-31 11:17:14,971 INFO Creating draft tasks.
+2017-01-31 11:17:53,817 INFO Task 1: 3 files, 539.34 Gb
+2017-01-31 11:17:53,819 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_1_task_3_files_539.34Gb
+2017-01-31 11:17:57,445 INFO Task 2: 3 files, 584.07 Gb
+2017-01-31 11:17:57,445 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_2_task_3_files_584.07Gb
+2017-01-31 11:18:00,513 INFO Task 3: 3 files, 558.09 Gb
+2017-01-31 11:18:00,514 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_3_task_3_files_558.09Gb
+2017-01-31 11:18:04,291 INFO Task 4: 3 files, 561.96 Gb
+2017-01-31 11:18:04,294 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_4_task_3_files_561.96Gb
+2017-01-31 11:18:07,191 INFO Task 5: 2 files, 449.21 Gb
+2017-01-31 11:18:07,191 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_5_task_2_files_449.21Gb
+2017-01-31 11:18:10,039 INFO Task 6: 2 files, 411.39 Gb
+2017-01-31 11:18:10,039 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_6_task_2_files_411.39Gb
+2017-01-31 11:18:12,903 INFO Task 7: 2 files, 374.27 Gb
+2017-01-31 11:18:12,905 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_7_task_2_files_374.27Gb
+2017-01-31 11:18:15,975 INFO Task 8: 2 files, 446.96 Gb
+2017-01-31 11:18:15,975 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_8_task_2_files_446.96Gb
+2017-01-31 11:18:19,355 INFO Task 9: 2 files, 434.69 Gb
+2017-01-31 11:18:19,357 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_9_task_2_files_434.69Gb
+2017-01-31 11:18:22,141 INFO Task 10: 2 files, 432.45 Gb
+2017-01-31 11:18:22,141 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_10_task_2_files_432.45Gb
+2017-01-31 11:18:25,207 INFO Task 11: 3 files, 551.16 Gb
+2017-01-31 11:18:25,208 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_11_task_3_files_551.16Gb
+2017-01-31 11:18:28,263 INFO Task 12: 3 files, 558.60 Gb
+2017-01-31 11:18:28,263 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_12_task_3_files_558.60Gb
+2017-01-31 11:18:31,184 INFO Task 13: 3 files, 477.46 Gb
+2017-01-31 11:18:31,184 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_13_task_3_files_477.46Gb
+2017-01-31 11:18:34,128 INFO Task 14: 7 files, 402.97 Gb
+2017-01-31 11:18:34,130 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_14_task_7_files_402.97Gb
+2017-01-31 11:18:36,978 INFO Task 15: 10 files, 407.56 Gb
+2017-01-31 11:18:36,979 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_15_task_10_files_407.56Gb
+2017-01-31 11:18:40,031 INFO Task 16: 6 files, 438.77 Gb
+2017-01-31 11:18:40,033 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_16_task_6_files_438.77Gb
+2017-01-31 11:18:42,808 INFO Task 17: 7 files, 145.71 Gb
+2017-01-31 11:18:42,809 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_17_task_7_files_145.71Gb
+2017-01-31 11:18:45,629 INFO Task 18: 1 files, 468.53 Gb
+2017-01-31 11:18:45,629 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_18_task_1_files_468.53Gb
+2017-01-31 11:18:48,541 INFO Task 19: 8 files, 397.07 Gb
+2017-01-31 11:18:48,541 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_19_task_8_files_397.07Gb
+2017-01-31 11:18:51,322 INFO Task 20: 1 files, 485.43 Gb
+2017-01-31 11:18:51,322 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_20_task_1_files_485.43Gb
+2017-01-31 11:18:54,194 INFO Task 21: 6 files, 416.11 Gb
+2017-01-31 11:18:54,196 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_21_task_6_files_416.11Gb
+2017-01-31 11:18:57,278 INFO Task 22: 2 files, 497.05 Gb
+2017-01-31 11:18:57,278 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_22_task_2_files_497.05Gb
+2017-01-31 11:19:00,214 INFO Task 23: 2 files, 813.83 Gb
+2017-01-31 11:19:00,214 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_23_task_2_files_813.83Gb
+2017-01-31 11:19:03,058 INFO Task 24: 2 files, 426.93 Gb
+2017-01-31 11:19:03,058 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_24_task_2_files_426.93Gb
+2017-01-31 11:19:05,947 INFO Task 25: 22 files, 406.85 Gb
+2017-01-31 11:19:05,947 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_25_task_22_files_406.85Gb
+2017-01-31 11:19:08,642 INFO Task 26: 7 files, 462.50 Gb
+2017-01-31 11:19:08,642 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_26_task_7_files_462.50Gb
+2017-01-31 11:19:11,482 INFO Task 27: 14 files, 414.05 Gb
+2017-01-31 11:19:11,482 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_27_task_14_files_414.05Gb
+2017-01-31 11:19:14,507 INFO Task 28: 11 files, 511.95 Gb
+2017-01-31 11:19:14,507 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_28_task_11_files_511.95Gb
+2017-01-31 11:19:17,519 INFO Task 29: 10 files, 577.25 Gb
+2017-01-31 11:19:17,520 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_29_task_10_files_577.25Gb
+2017-01-31 11:19:20,913 INFO Task 30: 2 files, 633.89 Gb
+2017-01-31 11:19:20,914 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_30_task_2_files_633.89Gb
+2017-01-31 11:19:23,787 INFO Task 31: 8 files, 414.14 Gb
+2017-01-31 11:19:23,788 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_31_task_8_files_414.14Gb
+2017-01-31 11:19:28,159 INFO Task 32: 2 files, 500.87 Gb
+2017-01-31 11:19:28,161 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_32_task_2_files_500.87Gb
+2017-01-31 11:19:31,273 INFO Task 33: 2 files, 683.51 Gb
+2017-01-31 11:19:31,273 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_33_task_2_files_683.51Gb
+2017-01-31 11:19:35,131 INFO Task 34: 5 files, 407.78 Gb
+2017-01-31 11:19:35,133 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_34_task_5_files_407.78Gb
+2017-01-31 11:19:37,991 INFO Task 35: 19 files, 414.81 Gb
+2017-01-31 11:19:37,991 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_35_task_19_files_414.81Gb
+2017-01-31 11:19:41,277 INFO Task 36: 1 files, 453.05 Gb
+2017-01-31 11:19:41,277 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_36_task_1_files_453.05Gb
+2017-01-31 11:19:44,142 INFO Task 37: 2 files, 345.51 Gb
+2017-01-31 11:19:44,142 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_37_task_2_files_345.51Gb
+2017-01-31 11:19:48,136 INFO Task 38: 1 files, 491.59 Gb
+2017-01-31 11:19:48,138 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_38_task_1_files_491.59Gb
+2017-01-31 11:19:51,208 INFO Task 39: 6 files, 408.54 Gb
+2017-01-31 11:19:51,208 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_39_task_6_files_408.54Gb
+2017-01-31 11:19:54,051 INFO Task 40: 3 files, 460.48 Gb
+2017-01-31 11:19:54,052 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_40_task_3_files_460.48Gb
+2017-01-31 11:19:57,010 INFO Task 41: 2 files, 455.89 Gb
+2017-01-31 11:19:57,012 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_41_task_2_files_455.89Gb
+2017-01-31 11:20:00,322 INFO Task 42: 2 files, 424.05 Gb
+2017-01-31 11:20:00,322 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_42_task_2_files_424.05Gb
+2017-01-31 11:20:03,291 INFO Task 43: 1 files, 455.21 Gb
+2017-01-31 11:20:03,291 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_43_task_1_files_455.21Gb
+2017-01-31 11:20:06,379 INFO Task 44: 2 files, 753.06 Gb
+2017-01-31 11:20:06,379 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_44_task_2_files_753.06Gb
+2017-01-31 11:20:09,230 INFO Task 45: 2 files, 337.10 Gb
+2017-01-31 11:20:09,232 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_45_task_2_files_337.10Gb
+2017-01-31 11:20:12,200 INFO Task 46: 1 files, 456.72 Gb
+2017-01-31 11:20:12,200 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_46_task_1_files_456.72Gb
+2017-01-31 11:20:15,272 INFO Task 47: 2 files, 346.12 Gb
+2017-01-31 11:20:15,272 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_47_task_2_files_346.12Gb
+2017-01-31 11:20:18,152 INFO Task 48: 1 files, 471.17 Gb
+2017-01-31 11:20:18,152 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_48_task_1_files_471.17Gb
+2017-01-31 11:20:21,724 INFO Task 49: 4 files, 543.23 Gb
+2017-01-31 11:20:21,724 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_49_task_4_files_543.23Gb
+2017-01-31 11:20:24,881 INFO Task 50: 10 files, 372.96 Gb
+2017-01-31 11:20:24,881 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_50_task_10_files_372.96Gb
+2017-01-31 11:20:27,868 INFO Task 51: 1 files, 476.20 Gb
+2017-01-31 11:20:27,868 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_51_task_1_files_476.20Gb
+2017-01-31 11:20:31,452 INFO Task 52: 6 files, 404.76 Gb
+2017-01-31 11:20:31,452 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_52_task_6_files_404.76Gb
+2017-01-31 11:20:34,721 INFO Task 53: 4 files, 494.56 Gb
+2017-01-31 11:20:34,721 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_53_task_4_files_494.56Gb
+2017-01-31 11:20:37,495 INFO Task 54: 17 files, 405.37 Gb
+2017-01-31 11:20:37,495 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_54_task_17_files_405.37Gb
+2017-01-31 11:20:40,383 INFO Task 55: 9 files, 203.39 Gb
+2017-01-31 11:20:40,384 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_55_task_9_files_203.39Gb
+2017-01-31 11:20:43,304 INFO Task 56: 1 files, 453.33 Gb
+2017-01-31 11:20:43,304 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_56_task_1_files_453.33Gb
+2017-01-31 11:20:46,311 INFO Task 57: 5 files, 411.77 Gb
+2017-01-31 11:20:46,313 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_57_task_5_files_411.77Gb
+2017-01-31 11:20:49,217 INFO Task 58: 3 files, 469.91 Gb
+2017-01-31 11:20:49,218 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_58_task_3_files_469.91Gb
+2017-01-31 11:20:52,396 INFO Task 59: 7 files, 479.64 Gb
+2017-01-31 11:20:52,396 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_59_task_7_files_479.64Gb
+2017-01-31 11:20:55,424 INFO Task 60: 7 files, 278.41 Gb
+2017-01-31 11:20:55,425 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_60_task_7_files_278.41Gb
+2017-01-31 11:20:58,541 INFO Task 61: 2 files, 454.58 Gb
+2017-01-31 11:20:58,541 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_61_task_2_files_454.58Gb
+2017-01-31 11:21:01,558 INFO Task 62: 13 files, 274.45 Gb
+2017-01-31 11:21:01,558 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_62_task_13_files_274.45Gb
+2017-01-31 11:21:04,630 INFO Task 63: 1 files, 446.69 Gb
+2017-01-31 11:21:04,630 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_63_task_1_files_446.69Gb
+2017-01-31 11:21:07,395 INFO Task 64: 6 files, 382.48 Gb
+2017-01-31 11:21:07,395 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_64_task_6_files_382.48Gb
+2017-01-31 11:21:10,467 INFO Task 65: 1 files, 483.64 Gb
+2017-01-31 11:21:10,467 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_65_task_1_files_483.64Gb
+2017-01-31 11:21:13,437 INFO Task 66: 7 files, 417.30 Gb
+2017-01-31 11:21:13,437 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_66_task_7_files_417.30Gb
+2017-01-31 11:21:16,543 INFO Task 67: 9 files, 173.03 Gb
+2017-01-31 11:21:16,543 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_67_task_9_files_173.03Gb
+2017-01-31 11:21:19,789 INFO Task 68: 1 files, 434.52 Gb
+2017-01-31 11:21:19,789 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_68_task_1_files_434.52Gb
+2017-01-31 11:21:23,371 INFO Task 69: 2 files, 347.98 Gb
+2017-01-31 11:21:23,371 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_69_task_2_files_347.98Gb
+2017-01-31 11:21:26,451 INFO Task 70: 1 files, 465.28 Gb
+2017-01-31 11:21:26,451 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_70_task_1_files_465.28Gb
+2017-01-31 11:21:30,640 INFO Task 71: 6 files, 417.94 Gb
+2017-01-31 11:21:30,640 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_71_task_6_files_417.94Gb
+2017-01-31 11:21:34,122 INFO Task 72: 2 files, 476.82 Gb
+2017-01-31 11:21:34,122 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_72_task_2_files_476.82Gb
+2017-01-31 11:21:37,092 INFO Task 73: 11 files, 401.29 Gb
+2017-01-31 11:21:37,092 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_73_task_11_files_401.29Gb
+2017-01-31 11:21:40,268 INFO Task 74: 53 files, 403.98 Gb
+2017-01-31 11:21:40,268 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_74_task_53_files_403.98Gb
+2017-01-31 11:21:43,240 INFO Task 75: 58 files, 401.04 Gb
+2017-01-31 11:21:43,240 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_75_task_58_files_401.04Gb
+2017-01-31 11:21:46,382 INFO Task 76: 55 files, 405.05 Gb
+2017-01-31 11:21:46,382 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_76_task_55_files_405.05Gb
+2017-01-31 11:21:49,643 INFO Task 77: 61 files, 403.69 Gb
+2017-01-31 11:21:49,643 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_77_task_61_files_403.69Gb
+2017-01-31 11:21:52,711 INFO Task 78: 57 files, 403.93 Gb
+2017-01-31 11:21:52,711 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_78_task_57_files_403.93Gb
+2017-01-31 11:21:56,088 INFO Task 79: 64 files, 403.47 Gb
+2017-01-31 11:21:56,088 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_79_task_64_files_403.47Gb
+2017-01-31 11:21:59,228 INFO Task 80: 66 files, 401.83 Gb
+2017-01-31 11:21:59,228 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_80_task_66_files_401.83Gb
+2017-01-31 11:22:02,407 INFO Task 81: 69 files, 403.19 Gb
+2017-01-31 11:22:02,407 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_81_task_69_files_403.19Gb
+2017-01-31 11:22:05,461 INFO Task 82: 68 files, 407.87 Gb
+2017-01-31 11:22:05,461 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_82_task_68_files_407.87Gb
+2017-01-31 11:22:08,481 INFO Task 83: 7 files, 33.99 Gb
+2017-01-31 11:22:08,481 INFO 	Name: bam2fasta_Head and Neck Squamous Cell Carcinoma_83_task_7_files_33.99Gb
+2017-01-31 11:22:11,293 INFO Total tasks created: 83
+2017-01-31 11:22:11,293 INFO Total files tasked: 907
+2017-01-31 11:22:11,293 INFO Total files for disease type: 907
+2017-01-31 11:22:11,293 INFO Total WGS files: 341
+2017-01-31 11:22:11,293 INFO Total RNA-Seq files: 566

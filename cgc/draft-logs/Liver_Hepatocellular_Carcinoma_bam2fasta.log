@@ -1,0 +1,140 @@
+# NOTES: Following 6 files had been labeled as BAM and included in the count
+# TCGA-DD-A3A6-11A-11D-A22F-10_wgs_Illumina.fasta
+# TCGA-DD-A3A8-11A-11D-A22F-10_wgs_Illumina.fasta
+# UNCID_1880628.1ec66ae2-e78a-4eb8-891a-7f8b6b061dca.sorted_genome_alignments.fasta
+# UNCID_1309844.196f7a32-4d09-4e8b-9aa4-7964baf951d7.sorted_genome_alignments.fasta
+# UNCID_2548928.185beb02-4b0d-457c-8eee-4e4c51362feb.sorted_genome_alignments.fasta
+# UNCID_2247646.1be67822-b74f-4321-b7b9-2d85032d3ce6.sorted_genome_alignments.fasta
+
+2017-02-02 14:30:36,352 INFO Creating draft tasks.
+2017-02-02 14:30:59,500 INFO Task 1: 1 files, 543.13 Gb
+2017-02-02 14:30:59,502 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_1_task_1_files_543.13Gb
+2017-02-02 14:31:03,105 INFO Task 2: 2 files, 711.80 Gb
+2017-02-02 14:31:03,105 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_2_task_2_files_711.80Gb
+2017-02-02 14:31:06,199 INFO Task 3: 2 files, 755.45 Gb
+2017-02-02 14:31:06,199 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_3_task_2_files_755.45Gb
+2017-02-02 14:31:09,371 INFO Task 4: 2 files, 628.90 Gb
+2017-02-02 14:31:09,371 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_4_task_2_files_628.90Gb
+2017-02-02 14:31:12,245 INFO Task 5: 2 files, 850.97 Gb
+2017-02-02 14:31:12,246 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_5_task_2_files_850.97Gb
+2017-02-02 14:31:15,368 INFO Task 6: 2 files, 839.16 Gb
+2017-02-02 14:31:15,368 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_6_task_2_files_839.16Gb
+2017-02-02 14:31:18,385 INFO Task 7: 2 files, 832.30 Gb
+2017-02-02 14:31:18,385 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_7_task_2_files_832.30Gb
+2017-02-02 14:31:21,352 INFO Task 8: 2 files, 779.10 Gb
+2017-02-02 14:31:21,352 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_8_task_2_files_779.10Gb
+2017-02-02 14:31:24,321 INFO Task 9: 2 files, 744.15 Gb
+2017-02-02 14:31:24,321 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_9_task_2_files_744.15Gb
+2017-02-02 14:31:27,704 INFO Task 10: 2 files, 671.68 Gb
+2017-02-02 14:31:27,704 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_10_task_2_files_671.68Gb
+2017-02-02 14:31:30,878 INFO Task 11: 2 files, 795.24 Gb
+2017-02-02 14:31:30,878 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_11_task_2_files_795.24Gb
+2017-02-02 14:31:33,864 INFO Task 12: 2 files, 753.02 Gb
+2017-02-02 14:31:33,864 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_12_task_2_files_753.02Gb
+2017-02-02 14:31:36,846 INFO Task 13: 2 files, 798.13 Gb
+2017-02-02 14:31:36,847 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_13_task_2_files_798.13Gb
+2017-02-02 14:31:40,398 INFO Task 14: 2 files, 788.98 Gb
+2017-02-02 14:31:40,400 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_14_task_2_files_788.98Gb
+2017-02-02 14:31:44,084 INFO Task 15: 2 files, 774.87 Gb
+2017-02-02 14:31:44,084 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_15_task_2_files_774.87Gb
+2017-02-02 14:31:47,265 INFO Task 16: 2 files, 806.38 Gb
+2017-02-02 14:31:47,265 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_16_task_2_files_806.38Gb
+2017-02-02 14:31:50,239 INFO Task 17: 2 files, 800.03 Gb
+2017-02-02 14:31:50,241 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_17_task_2_files_800.03Gb
+2017-02-02 14:31:53,301 INFO Task 18: 2 files, 704.12 Gb
+2017-02-02 14:31:53,301 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_18_task_2_files_704.12Gb
+2017-02-02 14:31:56,224 INFO Task 19: 2 files, 761.09 Gb
+2017-02-02 14:31:56,224 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_19_task_2_files_761.09Gb
+2017-02-02 14:31:59,164 INFO Task 20: 2 files, 268.51 Gb
+2017-02-02 14:31:59,164 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_20_task_2_files_268.51Gb
+2017-02-02 14:32:02,353 INFO Task 21: 1 files, 510.36 Gb
+2017-02-02 14:32:02,354 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_21_task_1_files_510.36Gb
+2017-02-02 14:32:05,492 INFO Task 22: 2 files, 750.88 Gb
+2017-02-02 14:32:05,492 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_22_task_2_files_750.88Gb
+2017-02-02 14:32:08,283 INFO Task 23: 2 files, 270.78 Gb
+2017-02-02 14:32:08,284 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_23_task_2_files_270.78Gb
+2017-02-02 14:32:11,289 INFO Task 24: 1 files, 502.65 Gb
+2017-02-02 14:32:11,291 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_24_task_1_files_502.65Gb
+2017-02-02 14:32:14,499 INFO Task 25: 2 files, 755.29 Gb
+2017-02-02 14:32:14,499 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_25_task_2_files_755.29Gb
+2017-02-02 14:32:17,579 INFO Task 26: 2 files, 783.50 Gb
+2017-02-02 14:32:17,581 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_26_task_2_files_783.50Gb
+2017-02-02 14:32:20,563 INFO Task 27: 2 files, 805.32 Gb
+2017-02-02 14:32:20,564 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_27_task_2_files_805.32Gb
+2017-02-02 14:32:23,614 INFO Task 28: 2 files, 826.26 Gb
+2017-02-02 14:32:23,614 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_28_task_2_files_826.26Gb
+2017-02-02 14:32:26,683 INFO Task 29: 2 files, 683.16 Gb
+2017-02-02 14:32:26,683 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_29_task_2_files_683.16Gb
+2017-02-02 14:32:30,267 INFO Task 30: 2 files, 835.57 Gb
+2017-02-02 14:32:30,267 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_30_task_2_files_835.57Gb
+2017-02-02 14:32:33,851 INFO Task 31: 2 files, 785.55 Gb
+2017-02-02 14:32:33,851 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_31_task_2_files_785.55Gb
+2017-02-02 14:32:36,824 INFO Task 32: 2 files, 751.50 Gb
+2017-02-02 14:32:36,824 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_32_task_2_files_751.50Gb
+2017-02-02 14:32:40,204 INFO Task 33: 2 files, 805.60 Gb
+2017-02-02 14:32:40,204 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_33_task_2_files_805.60Gb
+2017-02-02 14:32:43,235 INFO Task 34: 2 files, 740.80 Gb
+2017-02-02 14:32:43,235 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_34_task_2_files_740.80Gb
+2017-02-02 14:32:46,348 INFO Task 35: 2 files, 792.03 Gb
+2017-02-02 14:32:46,348 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_35_task_2_files_792.03Gb
+2017-02-02 14:32:49,317 INFO Task 36: 2 files, 791.95 Gb
+2017-02-02 14:32:49,317 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_36_task_2_files_791.95Gb
+2017-02-02 14:32:52,388 INFO Task 37: 2 files, 744.49 Gb
+2017-02-02 14:32:52,388 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_37_task_2_files_744.49Gb
+2017-02-02 14:32:55,392 INFO Task 38: 2 files, 773.00 Gb
+2017-02-02 14:32:55,395 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_38_task_2_files_773.00Gb
+2017-02-02 14:32:58,533 INFO Task 39: 2 files, 777.25 Gb
+2017-02-02 14:32:58,533 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_39_task_2_files_777.25Gb
+2017-02-02 14:33:01,334 INFO Task 40: 2 files, 814.37 Gb
+2017-02-02 14:33:01,336 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_40_task_2_files_814.37Gb
+2017-02-02 14:33:04,468 INFO Task 41: 2 files, 798.28 Gb
+2017-02-02 14:33:04,468 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_41_task_2_files_798.28Gb
+2017-02-02 14:33:07,340 INFO Task 42: 2 files, 828.81 Gb
+2017-02-02 14:33:07,340 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_42_task_2_files_828.81Gb
+2017-02-02 14:33:10,276 INFO Task 43: 2 files, 796.03 Gb
+2017-02-02 14:33:10,276 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_43_task_2_files_796.03Gb
+2017-02-02 14:33:13,293 INFO Task 44: 2 files, 817.29 Gb
+2017-02-02 14:33:13,295 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_44_task_2_files_817.29Gb
+2017-02-02 14:33:16,757 INFO Task 45: 2 files, 762.71 Gb
+2017-02-02 14:33:16,757 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_45_task_2_files_762.71Gb
+2017-02-02 14:33:19,730 INFO Task 46: 2 files, 752.35 Gb
+2017-02-02 14:33:19,730 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_46_task_2_files_752.35Gb
+2017-02-02 14:33:22,700 INFO Task 47: 2 files, 758.24 Gb
+2017-02-02 14:33:22,702 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_47_task_2_files_758.24Gb
+2017-02-02 14:33:25,653 INFO Task 48: 2 files, 759.55 Gb
+2017-02-02 14:33:25,653 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_48_task_2_files_759.55Gb
+2017-02-02 14:33:28,704 INFO Task 49: 2 files, 812.05 Gb
+2017-02-02 14:33:28,704 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_49_task_2_files_812.05Gb
+2017-02-02 14:33:31,605 INFO Task 50: 2 files, 761.61 Gb
+2017-02-02 14:33:31,607 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_50_task_2_files_761.61Gb
+2017-02-02 14:33:34,712 INFO Task 51: 2 files, 731.56 Gb
+2017-02-02 14:33:34,712 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_51_task_2_files_731.56Gb
+2017-02-02 14:33:37,649 INFO Task 52: 2 files, 777.38 Gb
+2017-02-02 14:33:37,649 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_52_task_2_files_777.38Gb
+2017-02-02 14:33:41,541 INFO Task 53: 2 files, 809.49 Gb
+2017-02-02 14:33:41,541 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_53_task_2_files_809.49Gb
+2017-02-02 14:33:44,522 INFO Task 54: 2 files, 894.88 Gb
+2017-02-02 14:33:44,522 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_54_task_2_files_894.88Gb
+2017-02-02 14:33:47,632 INFO Task 55: 2 files, 776.38 Gb
+2017-02-02 14:33:47,634 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_55_task_2_files_776.38Gb
+2017-02-02 14:33:50,651 INFO Task 56: 2 files, 849.92 Gb
+2017-02-02 14:33:50,651 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_56_task_2_files_849.92Gb
+2017-02-02 14:33:53,746 INFO Task 57: 17 files, 406.32 Gb
+2017-02-02 14:33:53,747 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_57_task_17_files_406.32Gb
+2017-02-02 14:33:56,802 INFO Task 58: 70 files, 401.56 Gb
+2017-02-02 14:33:56,802 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_58_task_70_files_401.56Gb
+2017-02-02 14:34:00,529 INFO Task 59: 72 files, 402.09 Gb
+2017-02-02 14:34:00,529 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_59_task_72_files_402.09Gb
+2017-02-02 14:34:03,665 INFO Task 60: 68 files, 401.62 Gb
+2017-02-02 14:34:03,667 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_60_task_68_files_401.62Gb
+2017-02-02 14:34:06,945 INFO Task 61: 70 files, 403.79 Gb
+2017-02-02 14:34:06,945 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_61_task_70_files_403.79Gb
+2017-02-02 14:34:10,139 INFO Task 62: 89 files, 402.27 Gb
+2017-02-02 14:34:10,139 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_62_task_89_files_402.27Gb
+2017-02-02 14:34:13,289 INFO Task 63: 43 files, 206.59 Gb
+2017-02-02 14:34:13,289 INFO 	Name: bam2fasta_Liver Hepatocellular Carcinoma_63_task_43_files_206.59Gb
+2017-02-02 14:34:16,462 INFO Total tasks created: 63
+2017-02-02 14:34:16,462 INFO Total files tasked: 538
+2017-02-02 14:34:16,462 INFO Total files for disease type: 538
+2017-02-02 14:34:16,462 INFO Total WGS files: 110
+2017-02-02 14:34:16,462 INFO Total RNA-Seq files: 428

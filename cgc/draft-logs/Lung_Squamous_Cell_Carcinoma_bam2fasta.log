@@ -1,0 +1,124 @@
+2016-10-28 10:55:34,131 INFO Creating draft tasks.
+2016-10-28 10:56:42,268 INFO Task 1: 3 files, 569.31 Gb
+2016-10-28 10:56:42,268 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_1_task_3_files_569.31Gb
+2016-10-28 10:56:47,081 INFO Task 2: 3 files, 514.99 Gb
+2016-10-28 10:56:47,081 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_2_task_3_files_514.99Gb
+2016-10-28 10:56:51,912 INFO Task 3: 2 files, 565.92 Gb
+2016-10-28 10:56:51,912 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_3_task_2_files_565.92Gb
+2016-10-28 10:56:56,094 INFO Task 4: 2 files, 501.10 Gb
+2016-10-28 10:56:56,095 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_4_task_2_files_501.10Gb
+2016-10-28 10:57:00,336 INFO Task 5: 2 files, 446.00 Gb
+2016-10-28 10:57:00,337 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_5_task_2_files_446.00Gb
+2016-10-28 10:57:04,491 INFO Task 6: 2 files, 717.85 Gb
+2016-10-28 10:57:04,491 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_6_task_2_files_717.85Gb
+2016-10-28 10:57:08,616 INFO Task 7: 2 files, 344.69 Gb
+2016-10-28 10:57:08,616 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_7_task_2_files_344.69Gb
+2016-10-28 10:57:12,646 INFO Task 8: 2 files, 568.08 Gb
+2016-10-28 10:57:12,647 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_8_task_2_files_568.08Gb
+2016-10-28 10:57:16,879 INFO Task 9: 2 files, 542.14 Gb
+2016-10-28 10:57:16,879 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_9_task_2_files_542.14Gb
+2016-10-28 10:57:20,978 INFO Task 10: 2 files, 456.78 Gb
+2016-10-28 10:57:20,978 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_10_task_2_files_456.78Gb
+2016-10-28 10:57:25,177 INFO Task 11: 1 files, 433.87 Gb
+2016-10-28 10:57:25,177 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_11_task_1_files_433.87Gb
+2016-10-28 10:57:29,885 INFO Task 12: 2 files, 552.03 Gb
+2016-10-28 10:57:29,885 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_12_task_2_files_552.03Gb
+2016-10-28 10:57:33,878 INFO Task 13: 2 files, 420.31 Gb
+2016-10-28 10:57:33,878 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_13_task_2_files_420.31Gb
+2016-10-28 10:57:38,039 INFO Task 14: 2 files, 450.78 Gb
+2016-10-28 10:57:38,039 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_14_task_2_files_450.78Gb
+2016-10-28 10:57:42,687 INFO Task 15: 2 files, 340.67 Gb
+2016-10-28 10:57:42,687 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_15_task_2_files_340.67Gb
+2016-10-28 10:57:46,784 INFO Task 16: 2 files, 463.53 Gb
+2016-10-28 10:57:46,784 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_16_task_2_files_463.53Gb
+2016-10-28 10:57:51,021 INFO Task 17: 2 files, 499.59 Gb
+2016-10-28 10:57:51,021 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_17_task_2_files_499.59Gb
+2016-10-28 10:57:55,195 INFO Task 18: 2 files, 337.68 Gb
+2016-10-28 10:57:55,195 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_18_task_2_files_337.68Gb
+2016-10-28 10:57:59,377 INFO Task 19: 2 files, 567.52 Gb
+2016-10-28 10:57:59,377 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_19_task_2_files_567.52Gb
+2016-10-28 10:58:03,474 INFO Task 20: 2 files, 561.14 Gb
+2016-10-28 10:58:03,474 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_20_task_2_files_561.14Gb
+2016-10-28 10:58:07,466 INFO Task 21: 2 files, 455.56 Gb
+2016-10-28 10:58:07,467 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_21_task_2_files_455.56Gb
+2016-10-28 10:58:11,663 INFO Task 22: 2 files, 405.92 Gb
+2016-10-28 10:58:11,663 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_22_task_2_files_405.92Gb
+2016-10-28 10:58:16,483 INFO Task 23: 3 files, 523.72 Gb
+2016-10-28 10:58:16,483 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_23_task_3_files_523.72Gb
+2016-10-28 10:58:20,591 INFO Task 24: 2 files, 432.63 Gb
+2016-10-28 10:58:20,591 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_24_task_2_files_432.63Gb
+2016-10-28 10:58:24,977 INFO Task 25: 2 files, 450.90 Gb
+2016-10-28 10:58:24,977 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_25_task_2_files_450.90Gb
+2016-10-28 10:58:29,000 INFO Task 26: 2 files, 479.61 Gb
+2016-10-28 10:58:29,000 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_26_task_2_files_479.61Gb
+2016-10-28 10:58:33,280 INFO Task 27: 2 files, 377.80 Gb
+2016-10-28 10:58:33,280 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_27_task_2_files_377.80Gb
+2016-10-28 10:58:37,411 INFO Task 28: 2 files, 501.58 Gb
+2016-10-28 10:58:37,412 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_28_task_2_files_501.58Gb
+2016-10-28 10:58:41,669 INFO Task 29: 2 files, 423.01 Gb
+2016-10-28 10:58:41,669 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_29_task_2_files_423.01Gb
+2016-10-28 10:58:46,246 INFO Task 30: 2 files, 585.82 Gb
+2016-10-28 10:58:46,246 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_30_task_2_files_585.82Gb
+2016-10-28 10:58:50,489 INFO Task 31: 2 files, 500.17 Gb
+2016-10-28 10:58:50,489 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_31_task_2_files_500.17Gb
+2016-10-28 10:58:54,673 INFO Task 32: 2 files, 699.32 Gb
+2016-10-28 10:58:54,673 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_32_task_2_files_699.32Gb
+2016-10-28 10:58:58,872 INFO Task 33: 2 files, 387.08 Gb
+2016-10-28 10:58:58,872 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_33_task_2_files_387.08Gb
+2016-10-28 10:59:03,566 INFO Task 34: 2 files, 650.15 Gb
+2016-10-28 10:59:03,566 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_34_task_2_files_650.15Gb
+2016-10-28 10:59:07,783 INFO Task 35: 2 files, 646.74 Gb
+2016-10-28 10:59:07,783 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_35_task_2_files_646.74Gb
+2016-10-28 10:59:12,082 INFO Task 36: 2 files, 454.94 Gb
+2016-10-28 10:59:12,082 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_36_task_2_files_454.94Gb
+2016-10-28 10:59:16,574 INFO Task 37: 2 files, 568.15 Gb
+2016-10-28 10:59:16,575 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_37_task_2_files_568.15Gb
+2016-10-28 10:59:20,743 INFO Task 38: 2 files, 648.72 Gb
+2016-10-28 10:59:20,743 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_38_task_2_files_648.72Gb
+2016-10-28 10:59:24,807 INFO Task 39: 2 files, 432.45 Gb
+2016-10-28 10:59:24,807 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_39_task_2_files_432.45Gb
+2016-10-28 10:59:29,037 INFO Task 40: 2 files, 352.31 Gb
+2016-10-28 10:59:29,037 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_40_task_2_files_352.31Gb
+2016-10-28 10:59:33,261 INFO Task 41: 2 files, 594.63 Gb
+2016-10-28 10:59:33,261 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_41_task_2_files_594.63Gb
+2016-10-28 10:59:37,346 INFO Task 42: 2 files, 559.51 Gb
+2016-10-28 10:59:37,346 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_42_task_2_files_559.51Gb
+2016-10-28 10:59:42,088 INFO Task 43: 2 files, 540.84 Gb
+2016-10-28 10:59:42,089 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_43_task_2_files_540.84Gb
+2016-10-28 10:59:46,657 INFO Task 44: 2 files, 420.20 Gb
+2016-10-28 10:59:46,657 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_44_task_2_files_420.20Gb
+2016-10-28 10:59:50,893 INFO Task 45: 2 files, 577.48 Gb
+2016-10-28 10:59:50,893 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_45_task_2_files_577.48Gb
+2016-10-28 10:59:55,703 INFO Task 46: 2 files, 427.76 Gb
+2016-10-28 10:59:55,703 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_46_task_2_files_427.76Gb
+2016-10-28 10:59:59,943 INFO Task 47: 2 files, 360.88 Gb
+2016-10-28 10:59:59,943 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_47_task_2_files_360.88Gb
+2016-10-28 11:00:04,212 INFO Task 48: 2 files, 413.09 Gb
+2016-10-28 11:00:04,212 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_48_task_2_files_413.09Gb
+2016-10-28 11:00:08,302 INFO Task 49: 2 files, 490.92 Gb
+2016-10-28 11:00:08,302 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_49_task_2_files_490.92Gb
+2016-10-28 11:00:12,560 INFO Task 50: 56 files, 400.27 Gb
+2016-10-28 11:00:12,560 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_50_task_56_files_400.27Gb
+2016-10-28 11:00:17,118 INFO Task 51: 58 files, 401.36 Gb
+2016-10-28 11:00:17,118 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_51_task_58_files_401.36Gb
+2016-10-28 11:00:21,335 INFO Task 52: 59 files, 401.91 Gb
+2016-10-28 11:00:21,335 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_52_task_59_files_401.91Gb
+2016-10-28 11:00:26,077 INFO Task 53: 57 files, 402.17 Gb
+2016-10-28 11:00:26,077 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_53_task_57_files_402.17Gb
+2016-10-28 11:00:30,770 INFO Task 54: 48 files, 404.70 Gb
+2016-10-28 11:00:30,770 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_54_task_48_files_404.70Gb
+2016-10-28 11:00:34,928 INFO Task 55: 60 files, 401.97 Gb
+2016-10-28 11:00:34,928 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_55_task_60_files_401.97Gb
+2016-10-28 11:00:39,550 INFO Task 56: 71 files, 405.85 Gb
+2016-10-28 11:00:39,550 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_56_task_71_files_405.85Gb
+2016-10-28 11:00:44,579 INFO Task 57: 64 files, 404.22 Gb
+2016-10-28 11:00:44,579 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_57_task_64_files_404.22Gb
+2016-10-28 11:00:49,598 INFO Task 58: 65 files, 402.51 Gb
+2016-10-28 11:00:49,598 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_58_task_65_files_402.51Gb
+2016-10-28 11:00:54,569 INFO Task 59: 15 files, 95.94 Gb
+2016-10-28 11:00:54,569 INFO 	Name: bam2fasta_Lung Squamous Cell Carcinoma_59_task_15_files_95.94Gb
+2016-10-28 11:00:58,884 INFO Total tasks created: 59
+2016-10-28 11:00:58,885 INFO Total files tasked: 653
+2016-10-28 11:00:58,885 INFO Total files for disease type: 653
+2016-10-28 11:00:58,885 INFO Total WGS files: 100
+2016-10-28 11:00:58,885 INFO Total RNA-Seq files: 553
