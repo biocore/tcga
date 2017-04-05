@@ -1,0 +1,104 @@
+2017-04-05 14:47:50,345 INFO Creating draft tasks.
+2017-04-05 14:47:58,439 INFO Task 1: 4 files, 427.48 Gb
+2017-04-05 14:47:58,439 INFO 	Name: flagstat_Brain Lower Grade Glioma_1_task_4_files_427.48Gb
+2017-04-05 14:47:59,852 INFO Task 2: 3 files, 589.27 Gb
+2017-04-05 14:47:59,852 INFO 	Name: flagstat_Brain Lower Grade Glioma_2_task_3_files_589.27Gb
+2017-04-05 14:48:00,811 INFO Task 3: 3 files, 393.84 Gb
+2017-04-05 14:48:00,811 INFO 	Name: flagstat_Brain Lower Grade Glioma_3_task_3_files_393.84Gb
+2017-04-05 14:48:01,856 INFO Task 4: 3 files, 543.68 Gb
+2017-04-05 14:48:01,857 INFO 	Name: flagstat_Brain Lower Grade Glioma_4_task_3_files_543.68Gb
+2017-04-05 14:48:02,879 INFO Task 5: 2 files, 414.02 Gb
+2017-04-05 14:48:02,879 INFO 	Name: flagstat_Brain Lower Grade Glioma_5_task_2_files_414.02Gb
+2017-04-05 14:48:03,905 INFO Task 6: 3 files, 571.05 Gb
+2017-04-05 14:48:03,906 INFO 	Name: flagstat_Brain Lower Grade Glioma_6_task_3_files_571.05Gb
+2017-04-05 14:48:05,435 INFO Task 7: 3 files, 597.70 Gb
+2017-04-05 14:48:05,436 INFO 	Name: flagstat_Brain Lower Grade Glioma_7_task_3_files_597.70Gb
+2017-04-05 14:48:07,721 INFO Task 8: 3 files, 475.36 Gb
+2017-04-05 14:48:07,721 INFO 	Name: flagstat_Brain Lower Grade Glioma_8_task_3_files_475.36Gb
+2017-04-05 14:48:08,814 INFO Task 9: 2 files, 320.05 Gb
+2017-04-05 14:48:08,815 INFO 	Name: flagstat_Brain Lower Grade Glioma_9_task_2_files_320.05Gb
+2017-04-05 14:48:09,984 INFO Task 10: 2 files, 400.46 Gb
+2017-04-05 14:48:09,984 INFO 	Name: flagstat_Brain Lower Grade Glioma_10_task_2_files_400.46Gb
+2017-04-05 14:48:10,901 INFO Task 11: 3 files, 577.95 Gb
+2017-04-05 14:48:10,901 INFO 	Name: flagstat_Brain Lower Grade Glioma_11_task_3_files_577.95Gb
+2017-04-05 14:48:11,770 INFO Task 12: 2 files, 524.15 Gb
+2017-04-05 14:48:11,771 INFO 	Name: flagstat_Brain Lower Grade Glioma_12_task_2_files_524.15Gb
+2017-04-05 14:48:12,911 INFO Task 13: 3 files, 495.30 Gb
+2017-04-05 14:48:12,911 INFO 	Name: flagstat_Brain Lower Grade Glioma_13_task_3_files_495.30Gb
+2017-04-05 14:48:13,935 INFO Task 14: 3 files, 528.58 Gb
+2017-04-05 14:48:13,935 INFO 	Name: flagstat_Brain Lower Grade Glioma_14_task_3_files_528.58Gb
+2017-04-05 14:48:15,162 INFO Task 15: 2 files, 422.90 Gb
+2017-04-05 14:48:15,162 INFO 	Name: flagstat_Brain Lower Grade Glioma_15_task_2_files_422.90Gb
+2017-04-05 14:48:16,188 INFO Task 16: 4 files, 596.11 Gb
+2017-04-05 14:48:16,188 INFO 	Name: flagstat_Brain Lower Grade Glioma_16_task_4_files_596.11Gb
+2017-04-05 14:48:17,210 INFO Task 17: 3 files, 563.00 Gb
+2017-04-05 14:48:17,210 INFO 	Name: flagstat_Brain Lower Grade Glioma_17_task_3_files_563.00Gb
+2017-04-05 14:48:18,235 INFO Task 18: 4 files, 528.15 Gb
+2017-04-05 14:48:18,235 INFO 	Name: flagstat_Brain Lower Grade Glioma_18_task_4_files_528.15Gb
+2017-04-05 14:48:19,282 INFO Task 19: 3 files, 401.45 Gb
+2017-04-05 14:48:19,283 INFO 	Name: flagstat_Brain Lower Grade Glioma_19_task_3_files_401.45Gb
+2017-04-05 14:48:20,169 INFO Task 20: 2 files, 552.57 Gb
+2017-04-05 14:48:20,169 INFO 	Name: flagstat_Brain Lower Grade Glioma_20_task_2_files_552.57Gb
+2017-04-05 14:48:21,204 INFO Task 21: 3 files, 472.65 Gb
+2017-04-05 14:48:21,204 INFO 	Name: flagstat_Brain Lower Grade Glioma_21_task_3_files_472.65Gb
+2017-04-05 14:48:22,472 INFO Task 22: 3 files, 592.75 Gb
+2017-04-05 14:48:22,472 INFO 	Name: flagstat_Brain Lower Grade Glioma_22_task_3_files_592.75Gb
+2017-04-05 14:48:23,481 INFO Task 23: 2 files, 380.11 Gb
+2017-04-05 14:48:23,481 INFO 	Name: flagstat_Brain Lower Grade Glioma_23_task_2_files_380.11Gb
+2017-04-05 14:48:24,366 INFO Task 24: 3 files, 510.59 Gb
+2017-04-05 14:48:24,367 INFO 	Name: flagstat_Brain Lower Grade Glioma_24_task_3_files_510.59Gb
+2017-04-05 14:48:25,407 INFO Task 25: 3 files, 397.17 Gb
+2017-04-05 14:48:25,407 INFO 	Name: flagstat_Brain Lower Grade Glioma_25_task_3_files_397.17Gb
+2017-04-05 14:48:26,429 INFO Task 26: 3 files, 536.12 Gb
+2017-04-05 14:48:26,429 INFO 	Name: flagstat_Brain Lower Grade Glioma_26_task_3_files_536.12Gb
+2017-04-05 14:48:27,349 INFO Task 27: 3 files, 419.02 Gb
+2017-04-05 14:48:27,349 INFO 	Name: flagstat_Brain Lower Grade Glioma_27_task_3_files_419.02Gb
+2017-04-05 14:48:28,373 INFO Task 28: 2 files, 440.49 Gb
+2017-04-05 14:48:28,373 INFO 	Name: flagstat_Brain Lower Grade Glioma_28_task_2_files_440.49Gb
+2017-04-05 14:48:29,287 INFO Task 29: 3 files, 510.54 Gb
+2017-04-05 14:48:29,287 INFO 	Name: flagstat_Brain Lower Grade Glioma_29_task_3_files_510.54Gb
+2017-04-05 14:48:30,320 INFO Task 30: 2 files, 388.08 Gb
+2017-04-05 14:48:30,320 INFO 	Name: flagstat_Brain Lower Grade Glioma_30_task_2_files_388.08Gb
+2017-04-05 14:48:31,341 INFO Task 31: 3 files, 593.01 Gb
+2017-04-05 14:48:31,341 INFO 	Name: flagstat_Brain Lower Grade Glioma_31_task_3_files_593.01Gb
+2017-04-05 14:48:32,503 INFO Task 32: 2 files, 523.33 Gb
+2017-04-05 14:48:32,504 INFO 	Name: flagstat_Brain Lower Grade Glioma_32_task_2_files_523.33Gb
+2017-04-05 14:48:33,494 INFO Task 33: 2 files, 365.23 Gb
+2017-04-05 14:48:33,494 INFO 	Name: flagstat_Brain Lower Grade Glioma_33_task_2_files_365.23Gb
+2017-04-05 14:48:34,523 INFO Task 34: 2 files, 406.81 Gb
+2017-04-05 14:48:34,524 INFO 	Name: flagstat_Brain Lower Grade Glioma_34_task_2_files_406.81Gb
+2017-04-05 14:48:35,540 INFO Task 35: 2 files, 463.27 Gb
+2017-04-05 14:48:35,541 INFO 	Name: flagstat_Brain Lower Grade Glioma_35_task_2_files_463.27Gb
+2017-04-05 14:48:36,531 INFO Task 36: 16 files, 420.39 Gb
+2017-04-05 14:48:36,531 INFO 	Name: flagstat_Brain Lower Grade Glioma_36_task_16_files_420.39Gb
+2017-04-05 14:48:37,683 INFO Task 37: 16 files, 409.91 Gb
+2017-04-05 14:48:37,683 INFO 	Name: flagstat_Brain Lower Grade Glioma_37_task_16_files_409.91Gb
+2017-04-05 14:48:38,921 INFO Task 38: 24 files, 412.28 Gb
+2017-04-05 14:48:38,921 INFO 	Name: flagstat_Brain Lower Grade Glioma_38_task_24_files_412.28Gb
+2017-04-05 14:48:40,078 INFO Task 39: 25 files, 402.40 Gb
+2017-04-05 14:48:40,078 INFO 	Name: flagstat_Brain Lower Grade Glioma_39_task_25_files_402.40Gb
+2017-04-05 14:48:41,304 INFO Task 40: 24 files, 404.86 Gb
+2017-04-05 14:48:41,305 INFO 	Name: flagstat_Brain Lower Grade Glioma_40_task_24_files_404.86Gb
+2017-04-05 14:48:42,404 INFO Task 41: 60 files, 404.89 Gb
+2017-04-05 14:48:42,404 INFO 	Name: flagstat_Brain Lower Grade Glioma_41_task_60_files_404.89Gb
+2017-04-05 14:48:43,685 INFO Task 42: 55 files, 404.79 Gb
+2017-04-05 14:48:43,685 INFO 	Name: flagstat_Brain Lower Grade Glioma_42_task_55_files_404.79Gb
+2017-04-05 14:48:44,834 INFO Task 43: 62 files, 403.24 Gb
+2017-04-05 14:48:44,835 INFO 	Name: flagstat_Brain Lower Grade Glioma_43_task_62_files_403.24Gb
+2017-04-05 14:48:47,218 INFO Task 44: 60 files, 404.36 Gb
+2017-04-05 14:48:47,218 INFO 	Name: flagstat_Brain Lower Grade Glioma_44_task_60_files_404.36Gb
+2017-04-05 14:48:48,654 INFO Task 45: 70 files, 406.27 Gb
+2017-04-05 14:48:48,654 INFO 	Name: flagstat_Brain Lower Grade Glioma_45_task_70_files_406.27Gb
+2017-04-05 14:48:50,059 INFO Task 46: 62 files, 403.27 Gb
+2017-04-05 14:48:50,059 INFO 	Name: flagstat_Brain Lower Grade Glioma_46_task_62_files_403.27Gb
+2017-04-05 14:48:51,625 INFO Task 47: 59 files, 401.75 Gb
+2017-04-05 14:48:51,625 INFO 	Name: flagstat_Brain Lower Grade Glioma_47_task_59_files_401.75Gb
+2017-04-05 14:48:53,670 INFO Task 48: 61 files, 401.80 Gb
+2017-04-05 14:48:53,670 INFO 	Name: flagstat_Brain Lower Grade Glioma_48_task_61_files_401.80Gb
+2017-04-05 14:48:54,838 INFO Task 49: 44 files, 267.45 Gb
+2017-04-05 14:48:54,839 INFO 	Name: flagstat_Brain Lower Grade Glioma_49_task_44_files_267.45Gb
+2017-04-05 14:48:56,009 INFO Total tasks created: 49
+2017-04-05 14:48:56,009 INFO Total files tasked: 733
+2017-04-05 14:48:56,009 INFO Total files for disease type: 733
+2017-04-05 14:48:56,009 INFO Total WGS files: 199
+2017-04-05 14:48:56,009 INFO Total RNA-Seq files: 534

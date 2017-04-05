@@ -1,0 +1,126 @@
+2017-04-05 15:00:40,784 INFO Creating draft tasks.
+2017-04-05 15:00:49,247 INFO Task 1: 4 files, 503.98 Gb
+2017-04-05 15:00:49,247 INFO 	Name: flagstat_Lung Adenocarcinoma_1_task_4_files_503.98Gb
+2017-04-05 15:00:52,011 INFO Task 2: 3 files, 518.08 Gb
+2017-04-05 15:00:52,011 INFO 	Name: flagstat_Lung Adenocarcinoma_2_task_3_files_518.08Gb
+2017-04-05 15:00:53,245 INFO Task 3: 2 files, 533.08 Gb
+2017-04-05 15:00:53,245 INFO 	Name: flagstat_Lung Adenocarcinoma_3_task_2_files_533.08Gb
+2017-04-05 15:00:54,264 INFO Task 4: 3 files, 527.29 Gb
+2017-04-05 15:00:54,264 INFO 	Name: flagstat_Lung Adenocarcinoma_4_task_3_files_527.29Gb
+2017-04-05 15:00:55,047 INFO Task 5: 2 files, 390.80 Gb
+2017-04-05 15:00:55,047 INFO 	Name: flagstat_Lung Adenocarcinoma_5_task_2_files_390.80Gb
+2017-04-05 15:00:56,210 INFO Task 6: 2 files, 428.79 Gb
+2017-04-05 15:00:56,211 INFO 	Name: flagstat_Lung Adenocarcinoma_6_task_2_files_428.79Gb
+2017-04-05 15:00:57,174 INFO Task 7: 3 files, 547.25 Gb
+2017-04-05 15:00:57,174 INFO 	Name: flagstat_Lung Adenocarcinoma_7_task_3_files_547.25Gb
+2017-04-05 15:00:58,258 INFO Task 8: 2 files, 556.65 Gb
+2017-04-05 15:00:58,258 INFO 	Name: flagstat_Lung Adenocarcinoma_8_task_2_files_556.65Gb
+2017-04-05 15:00:59,284 INFO Task 9: 3 files, 569.85 Gb
+2017-04-05 15:00:59,284 INFO 	Name: flagstat_Lung Adenocarcinoma_9_task_3_files_569.85Gb
+2017-04-05 15:01:00,254 INFO Task 10: 3 files, 491.91 Gb
+2017-04-05 15:01:00,255 INFO 	Name: flagstat_Lung Adenocarcinoma_10_task_3_files_491.91Gb
+2017-04-05 15:01:01,228 INFO Task 11: 3 files, 523.02 Gb
+2017-04-05 15:01:01,228 INFO 	Name: flagstat_Lung Adenocarcinoma_11_task_3_files_523.02Gb
+2017-04-05 15:01:02,253 INFO Task 12: 2 files, 402.09 Gb
+2017-04-05 15:01:02,253 INFO 	Name: flagstat_Lung Adenocarcinoma_12_task_2_files_402.09Gb
+2017-04-05 15:01:03,225 INFO Task 13: 3 files, 566.19 Gb
+2017-04-05 15:01:03,225 INFO 	Name: flagstat_Lung Adenocarcinoma_13_task_3_files_566.19Gb
+2017-04-05 15:01:04,198 INFO Task 14: 3 files, 502.61 Gb
+2017-04-05 15:01:04,198 INFO 	Name: flagstat_Lung Adenocarcinoma_14_task_3_files_502.61Gb
+2017-04-05 15:01:05,221 INFO Task 15: 2 files, 512.47 Gb
+2017-04-05 15:01:05,221 INFO 	Name: flagstat_Lung Adenocarcinoma_15_task_2_files_512.47Gb
+2017-04-05 15:01:06,254 INFO Task 16: 3 files, 574.03 Gb
+2017-04-05 15:01:06,254 INFO 	Name: flagstat_Lung Adenocarcinoma_16_task_3_files_574.03Gb
+2017-04-05 15:01:07,305 INFO Task 17: 2 files, 360.35 Gb
+2017-04-05 15:01:07,306 INFO 	Name: flagstat_Lung Adenocarcinoma_17_task_2_files_360.35Gb
+2017-04-05 15:01:08,164 INFO Task 18: 2 files, 434.71 Gb
+2017-04-05 15:01:08,164 INFO 	Name: flagstat_Lung Adenocarcinoma_18_task_2_files_434.71Gb
+2017-04-05 15:01:09,016 INFO Task 19: 2 files, 631.71 Gb
+2017-04-05 15:01:09,016 INFO 	Name: flagstat_Lung Adenocarcinoma_19_task_2_files_631.71Gb
+2017-04-05 15:01:11,764 INFO Task 20: 2 files, 628.18 Gb
+2017-04-05 15:01:11,764 INFO 	Name: flagstat_Lung Adenocarcinoma_20_task_2_files_628.18Gb
+2017-04-05 15:01:12,901 INFO Task 21: 2 files, 514.92 Gb
+2017-04-05 15:01:12,901 INFO 	Name: flagstat_Lung Adenocarcinoma_21_task_2_files_514.92Gb
+2017-04-05 15:01:13,925 INFO Task 22: 3 files, 524.25 Gb
+2017-04-05 15:01:13,926 INFO 	Name: flagstat_Lung Adenocarcinoma_22_task_3_files_524.25Gb
+2017-04-05 15:01:14,951 INFO Task 23: 2 files, 592.87 Gb
+2017-04-05 15:01:14,952 INFO 	Name: flagstat_Lung Adenocarcinoma_23_task_2_files_592.87Gb
+2017-04-05 15:01:15,972 INFO Task 24: 3 files, 569.98 Gb
+2017-04-05 15:01:15,973 INFO 	Name: flagstat_Lung Adenocarcinoma_24_task_3_files_569.98Gb
+2017-04-05 15:01:17,002 INFO Task 25: 3 files, 531.63 Gb
+2017-04-05 15:01:17,002 INFO 	Name: flagstat_Lung Adenocarcinoma_25_task_3_files_531.63Gb
+2017-04-05 15:01:18,026 INFO Task 26: 2 files, 419.37 Gb
+2017-04-05 15:01:18,027 INFO 	Name: flagstat_Lung Adenocarcinoma_26_task_2_files_419.37Gb
+2017-04-05 15:01:19,148 INFO Task 27: 2 files, 500.79 Gb
+2017-04-05 15:01:19,148 INFO 	Name: flagstat_Lung Adenocarcinoma_27_task_2_files_500.79Gb
+2017-04-05 15:01:20,174 INFO Task 28: 3 files, 535.29 Gb
+2017-04-05 15:01:20,174 INFO 	Name: flagstat_Lung Adenocarcinoma_28_task_3_files_535.29Gb
+2017-04-05 15:01:21,199 INFO Task 29: 2 files, 375.45 Gb
+2017-04-05 15:01:21,199 INFO 	Name: flagstat_Lung Adenocarcinoma_29_task_2_files_375.45Gb
+2017-04-05 15:01:22,221 INFO Task 30: 2 files, 421.37 Gb
+2017-04-05 15:01:22,221 INFO 	Name: flagstat_Lung Adenocarcinoma_30_task_2_files_421.37Gb
+2017-04-05 15:01:23,354 INFO Task 31: 3 files, 465.43 Gb
+2017-04-05 15:01:23,354 INFO 	Name: flagstat_Lung Adenocarcinoma_31_task_3_files_465.43Gb
+2017-04-05 15:01:24,371 INFO Task 32: 2 files, 454.64 Gb
+2017-04-05 15:01:24,371 INFO 	Name: flagstat_Lung Adenocarcinoma_32_task_2_files_454.64Gb
+2017-04-05 15:01:25,314 INFO Task 33: 3 files, 512.49 Gb
+2017-04-05 15:01:25,314 INFO 	Name: flagstat_Lung Adenocarcinoma_33_task_3_files_512.49Gb
+2017-04-05 15:01:26,418 INFO Task 34: 3 files, 527.85 Gb
+2017-04-05 15:01:26,418 INFO 	Name: flagstat_Lung Adenocarcinoma_34_task_3_files_527.85Gb
+2017-04-05 15:01:27,544 INFO Task 35: 3 files, 508.15 Gb
+2017-04-05 15:01:27,545 INFO 	Name: flagstat_Lung Adenocarcinoma_35_task_3_files_508.15Gb
+2017-04-05 15:01:28,671 INFO Task 36: 3 files, 587.41 Gb
+2017-04-05 15:01:28,671 INFO 	Name: flagstat_Lung Adenocarcinoma_36_task_3_files_587.41Gb
+2017-04-05 15:01:29,604 INFO Task 37: 3 files, 519.17 Gb
+2017-04-05 15:01:29,605 INFO 	Name: flagstat_Lung Adenocarcinoma_37_task_3_files_519.17Gb
+2017-04-05 15:01:30,719 INFO Task 38: 3 files, 589.33 Gb
+2017-04-05 15:01:30,719 INFO 	Name: flagstat_Lung Adenocarcinoma_38_task_3_files_589.33Gb
+2017-04-05 15:01:31,743 INFO Task 39: 2 files, 404.38 Gb
+2017-04-05 15:01:31,743 INFO 	Name: flagstat_Lung Adenocarcinoma_39_task_2_files_404.38Gb
+2017-04-05 15:01:32,768 INFO Task 40: 25 files, 402.37 Gb
+2017-04-05 15:01:32,769 INFO 	Name: flagstat_Lung Adenocarcinoma_40_task_25_files_402.37Gb
+2017-04-05 15:01:34,233 INFO Task 41: 21 files, 417.19 Gb
+2017-04-05 15:01:34,234 INFO 	Name: flagstat_Lung Adenocarcinoma_41_task_21_files_417.19Gb
+2017-04-05 15:01:35,364 INFO Task 42: 24 files, 410.15 Gb
+2017-04-05 15:01:35,364 INFO 	Name: flagstat_Lung Adenocarcinoma_42_task_24_files_410.15Gb
+2017-04-05 15:01:36,456 INFO Task 43: 24 files, 414.07 Gb
+2017-04-05 15:01:36,456 INFO 	Name: flagstat_Lung Adenocarcinoma_43_task_24_files_414.07Gb
+2017-04-05 15:01:37,640 INFO Task 44: 21 files, 418.14 Gb
+2017-04-05 15:01:37,640 INFO 	Name: flagstat_Lung Adenocarcinoma_44_task_21_files_418.14Gb
+2017-04-05 15:01:38,811 INFO Task 45: 25 files, 409.57 Gb
+2017-04-05 15:01:38,811 INFO 	Name: flagstat_Lung Adenocarcinoma_45_task_25_files_409.57Gb
+2017-04-05 15:01:39,892 INFO Task 46: 23 files, 414.05 Gb
+2017-04-05 15:01:39,892 INFO 	Name: flagstat_Lung Adenocarcinoma_46_task_23_files_414.05Gb
+2017-04-05 15:01:40,961 INFO Task 47: 21 files, 403.14 Gb
+2017-04-05 15:01:40,961 INFO 	Name: flagstat_Lung Adenocarcinoma_47_task_21_files_403.14Gb
+2017-04-05 15:01:42,704 INFO Task 48: 21 files, 412.11 Gb
+2017-04-05 15:01:42,704 INFO 	Name: flagstat_Lung Adenocarcinoma_48_task_21_files_412.11Gb
+2017-04-05 15:01:44,137 INFO Task 49: 25 files, 411.60 Gb
+2017-04-05 15:01:44,137 INFO 	Name: flagstat_Lung Adenocarcinoma_49_task_25_files_411.60Gb
+2017-04-05 15:01:45,265 INFO Task 50: 18 files, 403.97 Gb
+2017-04-05 15:01:45,266 INFO 	Name: flagstat_Lung Adenocarcinoma_50_task_18_files_403.97Gb
+2017-04-05 15:01:46,389 INFO Task 51: 63 files, 404.44 Gb
+2017-04-05 15:01:46,390 INFO 	Name: flagstat_Lung Adenocarcinoma_51_task_63_files_404.44Gb
+2017-04-05 15:01:47,624 INFO Task 52: 88 files, 402.72 Gb
+2017-04-05 15:01:47,624 INFO 	Name: flagstat_Lung Adenocarcinoma_52_task_88_files_402.72Gb
+2017-04-05 15:01:48,956 INFO Task 53: 79 files, 402.56 Gb
+2017-04-05 15:01:48,956 INFO 	Name: flagstat_Lung Adenocarcinoma_53_task_79_files_402.56Gb
+2017-04-05 15:01:50,130 INFO Task 54: 64 files, 405.91 Gb
+2017-04-05 15:01:50,130 INFO 	Name: flagstat_Lung Adenocarcinoma_54_task_64_files_405.91Gb
+2017-04-05 15:01:52,044 INFO Task 55: 47 files, 403.78 Gb
+2017-04-05 15:01:52,044 INFO 	Name: flagstat_Lung Adenocarcinoma_55_task_47_files_403.78Gb
+2017-04-05 15:01:53,255 INFO Task 56: 58 files, 402.21 Gb
+2017-04-05 15:01:53,255 INFO 	Name: flagstat_Lung Adenocarcinoma_56_task_58_files_402.21Gb
+2017-04-05 15:01:54,796 INFO Task 57: 69 files, 402.61 Gb
+2017-04-05 15:01:54,796 INFO 	Name: flagstat_Lung Adenocarcinoma_57_task_69_files_402.61Gb
+2017-04-05 15:01:56,248 INFO Task 58: 73 files, 403.19 Gb
+2017-04-05 15:01:56,248 INFO 	Name: flagstat_Lung Adenocarcinoma_58_task_73_files_403.19Gb
+2017-04-05 15:01:57,512 INFO Task 59: 52 files, 401.66 Gb
+2017-04-05 15:01:57,512 INFO 	Name: flagstat_Lung Adenocarcinoma_59_task_52_files_401.66Gb
+2017-04-05 15:01:58,580 INFO Task 60: 10 files, 44.09 Gb
+2017-04-05 15:01:58,580 INFO 	Name: flagstat_Lung Adenocarcinoma_60_task_10_files_44.09Gb
+2017-04-05 15:01:59,699 INFO Total tasks created: 60
+2017-04-05 15:01:59,699 INFO Total files tasked: 951
+2017-04-05 15:01:59,699 INFO Total files for disease type: 951
+2017-04-05 15:01:59,700 INFO Total WGS files: 351
+2017-04-05 15:01:59,700 INFO Total RNA-Seq files: 600
