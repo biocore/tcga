@@ -56,6 +56,8 @@ def output_reads(kraken_report, input_fp, output_fp):
         keys are read IDs and values are classification info
     input_fp: str
         Filepath to FASTA file from which to extract reads
+    output_fp: str
+        Filepath to output file
     """
     with open(output_fp, 'w') as output_f:
         with open(input_fp) as input_f:
@@ -65,14 +67,18 @@ def output_reads(kraken_report, input_fp, output_fp):
 
 
 @click.command()
-@click.option('--kraken-output-fp', required=True,
+@click.option('--kraken-report-fp', required=True,
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
-              help='Filepath to Kraken output')
-@click.option('--input_fp', required=True,
+              help='Filepath to Kraken report')
+@click.option('--input-fp', required=True,
               type=click.Path(resolve_path=True, readable=True, exists=False,
                               file_okay=True),
               help='Filepath to FASTA file from which to extract reads')
+@click.option('--output-fp', required=True,
+              type=click.Path(resolve_path=True, readable=True, exists=False,
+                              file_okay=True),
+              help='Output FASTA filepath')
 @click.option('--output-classified', required=True, type=bool, default=True,
               show_default=True, help='Output classified reads to FASTA')
 @click.option('--output-unclassified', required=False, type=bool,
@@ -80,6 +86,7 @@ def output_reads(kraken_report, input_fp, output_fp):
               help='Output unclassified reads to FASTA')
 def main(kraken_output_fp,
          input_fp,
+         output_fp,
          output_classified,
          output_unclassified):
     classification_id = 'C'
@@ -89,7 +96,7 @@ def main(kraken_output_fp,
     if output_unclassified:
         classification_id = 'U'
     kraken_report = get_kraken_report(kraken_output_fp, classification_id)
-    output_reads(kraken_report, input_fp)
+    output_reads(kraken_report, input_fp, output_fp)
 
 
 if __name__ == "__main__":
