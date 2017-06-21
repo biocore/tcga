@@ -1,0 +1,206 @@
+2017-02-03 10:05:56,317 INFO Creating draft tasks.
+2017-02-03 10:06:45,090 INFO Task 1: 3 files, 429.18 Gb
+2017-02-03 10:06:45,091 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_1_task_3_files_429.18Gb
+2017-02-03 10:06:50,145 INFO Task 2: 3 files, 416.39 Gb
+2017-02-03 10:06:50,145 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_2_task_3_files_416.39Gb
+2017-02-03 10:06:53,630 INFO Task 3: 2 files, 403.78 Gb
+2017-02-03 10:06:53,631 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_3_task_2_files_403.78Gb
+2017-02-03 10:06:57,012 INFO Task 4: 2 files, 640.15 Gb
+2017-02-03 10:06:57,012 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_4_task_2_files_640.15Gb
+2017-02-03 10:07:00,361 INFO Task 5: 2 files, 652.88 Gb
+2017-02-03 10:07:00,361 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_5_task_2_files_652.88Gb
+2017-02-03 10:07:04,580 INFO Task 6: 2 files, 532.84 Gb
+2017-02-03 10:07:04,580 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_6_task_2_files_532.84Gb
+2017-02-03 10:07:08,629 INFO Task 7: 2 files, 556.58 Gb
+2017-02-03 10:07:08,629 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_7_task_2_files_556.58Gb
+2017-02-03 10:07:12,107 INFO Task 8: 2 files, 585.50 Gb
+2017-02-03 10:07:12,107 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_8_task_2_files_585.50Gb
+2017-02-03 10:07:15,899 INFO Task 9: 2 files, 426.18 Gb
+2017-02-03 10:07:15,900 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_9_task_2_files_426.18Gb
+2017-02-03 10:07:20,042 INFO Task 10: 2 files, 435.69 Gb
+2017-02-03 10:07:20,042 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_10_task_2_files_435.69Gb
+2017-02-03 10:07:23,452 INFO Task 11: 2 files, 418.60 Gb
+2017-02-03 10:07:23,452 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_11_task_2_files_418.60Gb
+2017-02-03 10:07:26,902 INFO Task 12: 2 files, 447.80 Gb
+2017-02-03 10:07:26,905 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_12_task_2_files_447.80Gb
+2017-02-03 10:07:30,499 INFO Task 13: 2 files, 494.03 Gb
+2017-02-03 10:07:30,499 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_13_task_2_files_494.03Gb
+2017-02-03 10:07:33,551 INFO Task 14: 2 files, 453.08 Gb
+2017-02-03 10:07:33,551 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_14_task_2_files_453.08Gb
+2017-02-03 10:07:36,654 INFO Task 15: 2 files, 445.22 Gb
+2017-02-03 10:07:36,654 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_15_task_2_files_445.22Gb
+2017-02-03 10:07:39,735 INFO Task 16: 2 files, 520.25 Gb
+2017-02-03 10:07:39,735 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_16_task_2_files_520.25Gb
+2017-02-03 10:07:43,073 INFO Task 17: 2 files, 495.93 Gb
+2017-02-03 10:07:43,073 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_17_task_2_files_495.93Gb
+2017-02-03 10:07:46,452 INFO Task 18: 2 files, 448.76 Gb
+2017-02-03 10:07:46,452 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_18_task_2_files_448.76Gb
+2017-02-03 10:07:49,728 INFO Task 19: 2 files, 452.17 Gb
+2017-02-03 10:07:49,728 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_19_task_2_files_452.17Gb
+2017-02-03 10:07:52,906 INFO Task 20: 2 files, 477.57 Gb
+2017-02-03 10:07:52,906 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_20_task_2_files_477.57Gb
+2017-02-03 10:07:55,974 INFO Task 21: 2 files, 470.47 Gb
+2017-02-03 10:07:55,974 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_21_task_2_files_470.47Gb
+2017-02-03 10:07:59,408 INFO Task 22: 2 files, 479.77 Gb
+2017-02-03 10:07:59,408 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_22_task_2_files_479.77Gb
+2017-02-03 10:08:03,462 INFO Task 23: 2 files, 499.97 Gb
+2017-02-03 10:08:03,462 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_23_task_2_files_499.97Gb
+2017-02-03 10:08:07,355 INFO Task 24: 2 files, 437.60 Gb
+2017-02-03 10:08:07,355 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_24_task_2_files_437.60Gb
+2017-02-03 10:08:10,494 INFO Task 25: 2 files, 457.08 Gb
+2017-02-03 10:08:10,495 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_25_task_2_files_457.08Gb
+2017-02-03 10:08:13,855 INFO Task 26: 2 files, 476.21 Gb
+2017-02-03 10:08:13,855 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_26_task_2_files_476.21Gb
+2017-02-03 10:08:17,026 INFO Task 27: 2 files, 446.45 Gb
+2017-02-03 10:08:17,026 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_27_task_2_files_446.45Gb
+2017-02-03 10:08:20,549 INFO Task 28: 2 files, 566.46 Gb
+2017-02-03 10:08:20,549 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_28_task_2_files_566.46Gb
+2017-02-03 10:08:23,862 INFO Task 29: 13 files, 322.87 Gb
+2017-02-03 10:08:23,862 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_29_task_13_files_322.87Gb
+2017-02-03 10:08:27,110 INFO Task 30: 4 files, 569.45 Gb
+2017-02-03 10:08:27,110 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_30_task_4_files_569.45Gb
+2017-02-03 10:08:30,148 INFO Task 31: 3 files, 412.97 Gb
+2017-02-03 10:08:30,148 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_31_task_3_files_412.97Gb
+2017-02-03 10:08:33,593 INFO Task 32: 15 files, 350.16 Gb
+2017-02-03 10:08:33,593 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_32_task_15_files_350.16Gb
+2017-02-03 10:08:37,250 INFO Task 33: 2 files, 554.75 Gb
+2017-02-03 10:08:37,251 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_33_task_2_files_554.75Gb
+2017-02-03 10:08:40,740 INFO Task 34: 2 files, 292.49 Gb
+2017-02-03 10:08:40,740 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_34_task_2_files_292.49Gb
+2017-02-03 10:08:45,760 INFO Task 35: 4 files, 585.90 Gb
+2017-02-03 10:08:45,760 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_35_task_4_files_585.90Gb
+2017-02-03 10:08:49,444 INFO Task 36: 32 files, 372.26 Gb
+2017-02-03 10:08:49,444 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_36_task_32_files_372.26Gb
+2017-02-03 10:08:55,881 INFO Task 37: 4 files, 598.01 Gb
+2017-02-03 10:08:55,881 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_37_task_4_files_598.01Gb
+2017-02-03 10:09:02,067 INFO Task 38: 15 files, 533.49 Gb
+2017-02-03 10:09:02,067 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_38_task_15_files_533.49Gb
+2017-02-03 10:09:05,476 INFO Task 39: 16 files, 371.21 Gb
+2017-02-03 10:09:05,477 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_39_task_16_files_371.21Gb
+2017-02-03 10:09:09,920 INFO Task 40: 4 files, 337.96 Gb
+2017-02-03 10:09:09,920 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_40_task_4_files_337.96Gb
+2017-02-03 10:09:13,261 INFO Task 41: 9 files, 404.37 Gb
+2017-02-03 10:09:13,261 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_41_task_9_files_404.37Gb
+2017-02-03 10:09:16,369 INFO Task 42: 3 files, 411.92 Gb
+2017-02-03 10:09:16,369 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_42_task_3_files_411.92Gb
+2017-02-03 10:09:19,676 INFO Task 43: 9 files, 559.46 Gb
+2017-02-03 10:09:19,676 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_43_task_9_files_559.46Gb
+2017-02-03 10:09:22,939 INFO Task 44: 5 files, 484.10 Gb
+2017-02-03 10:09:22,939 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_44_task_5_files_484.10Gb
+2017-02-03 10:09:25,987 INFO Task 45: 7 files, 447.85 Gb
+2017-02-03 10:09:25,990 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_45_task_7_files_447.85Gb
+2017-02-03 10:09:29,365 INFO Task 46: 12 files, 414.27 Gb
+2017-02-03 10:09:29,365 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_46_task_12_files_414.27Gb
+2017-02-03 10:09:32,567 INFO Task 47: 8 files, 460.22 Gb
+2017-02-03 10:09:32,567 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_47_task_8_files_460.22Gb
+2017-02-03 10:09:36,819 INFO Task 48: 3 files, 442.55 Gb
+2017-02-03 10:09:36,819 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_48_task_3_files_442.55Gb
+2017-02-03 10:09:39,913 INFO Task 49: 11 files, 409.95 Gb
+2017-02-03 10:09:39,913 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_49_task_11_files_409.95Gb
+2017-02-03 10:09:43,300 INFO Task 50: 26 files, 420.36 Gb
+2017-02-03 10:09:43,300 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_50_task_26_files_420.36Gb
+2017-02-03 10:09:47,260 INFO Task 51: 36 files, 400.74 Gb
+2017-02-03 10:09:47,260 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_51_task_36_files_400.74Gb
+2017-02-03 10:09:50,694 INFO Task 52: 12 files, 404.76 Gb
+2017-02-03 10:09:50,694 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_52_task_12_files_404.76Gb
+2017-02-03 10:09:54,149 INFO Task 53: 39 files, 402.14 Gb
+2017-02-03 10:09:54,149 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_53_task_39_files_402.14Gb
+2017-02-03 10:09:57,732 INFO Task 54: 38 files, 400.56 Gb
+2017-02-03 10:09:57,732 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_54_task_38_files_400.56Gb
+2017-02-03 10:10:01,016 INFO Task 55: 22 files, 271.57 Gb
+2017-02-03 10:10:01,016 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_55_task_22_files_271.57Gb
+2017-02-03 10:10:04,345 INFO Task 56: 4 files, 596.28 Gb
+2017-02-03 10:10:04,345 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_56_task_4_files_596.28Gb
+2017-02-03 10:10:07,587 INFO Task 57: 37 files, 413.20 Gb
+2017-02-03 10:10:07,587 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_57_task_37_files_413.20Gb
+2017-02-03 10:10:11,452 INFO Task 58: 7 files, 410.90 Gb
+2017-02-03 10:10:11,452 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_58_task_7_files_410.90Gb
+2017-02-03 10:10:15,037 INFO Task 59: 15 files, 245.60 Gb
+2017-02-03 10:10:15,037 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_59_task_15_files_245.60Gb
+2017-02-03 10:10:18,264 INFO Task 60: 3 files, 405.61 Gb
+2017-02-03 10:10:18,264 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_60_task_3_files_405.61Gb
+2017-02-03 10:10:21,794 INFO Task 61: 15 files, 407.10 Gb
+2017-02-03 10:10:21,794 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_61_task_15_files_407.10Gb
+2017-02-03 10:10:25,282 INFO Task 62: 30 files, 345.88 Gb
+2017-02-03 10:10:25,282 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_62_task_30_files_345.88Gb
+2017-02-03 10:10:28,977 INFO Task 63: 1 files, 407.24 Gb
+2017-02-03 10:10:28,979 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_63_task_1_files_407.24Gb
+2017-02-03 10:10:32,564 INFO Task 64: 9 files, 277.17 Gb
+2017-02-03 10:10:32,564 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_64_task_9_files_277.17Gb
+2017-02-03 10:10:36,132 INFO Task 65: 3 files, 401.14 Gb
+2017-02-03 10:10:36,132 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_65_task_3_files_401.14Gb
+2017-02-03 10:10:39,538 INFO Task 66: 9 files, 295.24 Gb
+2017-02-03 10:10:39,539 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_66_task_9_files_295.24Gb
+2017-02-03 10:10:44,654 INFO Task 67: 3 files, 410.52 Gb
+2017-02-03 10:10:44,654 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_67_task_3_files_410.52Gb
+2017-02-03 10:10:50,369 INFO Task 68: 21 files, 407.03 Gb
+2017-02-03 10:10:50,369 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_68_task_21_files_407.03Gb
+2017-02-03 10:10:54,052 INFO Task 69: 31 files, 372.00 Gb
+2017-02-03 10:10:54,052 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_69_task_31_files_372.00Gb
+2017-02-03 10:10:57,738 INFO Task 70: 4 files, 598.37 Gb
+2017-02-03 10:10:57,738 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_70_task_4_files_598.37Gb
+2017-02-03 10:11:01,321 INFO Task 71: 30 files, 262.79 Gb
+2017-02-03 10:11:01,321 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_71_task_30_files_262.79Gb
+2017-02-03 10:11:04,904 INFO Task 72: 4 files, 571.72 Gb
+2017-02-03 10:11:04,904 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_72_task_4_files_571.72Gb
+2017-02-03 10:11:08,262 INFO Task 73: 24 files, 550.83 Gb
+2017-02-03 10:11:08,262 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_73_task_24_files_550.83Gb
+2017-02-03 10:11:12,150 INFO Task 74: 36 files, 401.23 Gb
+2017-02-03 10:11:12,150 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_74_task_36_files_401.23Gb
+2017-02-03 10:11:16,065 INFO Task 75: 11 files, 487.62 Gb
+2017-02-03 10:11:16,065 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_75_task_11_files_487.62Gb
+2017-02-03 10:11:19,855 INFO Task 76: 23 files, 405.31 Gb
+2017-02-03 10:11:19,855 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_76_task_23_files_405.31Gb
+2017-02-03 10:11:23,440 INFO Task 77: 30 files, 451.14 Gb
+2017-02-03 10:11:23,440 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_77_task_30_files_451.14Gb
+2017-02-03 10:11:26,730 INFO Task 78: 2 files, 372.97 Gb
+2017-02-03 10:11:26,730 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_78_task_2_files_372.97Gb
+2017-02-03 10:11:31,055 INFO Task 79: 2 files, 313.34 Gb
+2017-02-03 10:11:31,055 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_79_task_2_files_313.34Gb
+2017-02-03 10:11:34,278 INFO Task 80: 3 files, 597.89 Gb
+2017-02-03 10:11:34,278 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_80_task_3_files_597.89Gb
+2017-02-03 10:11:37,683 INFO Task 81: 7 files, 456.56 Gb
+2017-02-03 10:11:37,684 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_81_task_7_files_456.56Gb
+2017-02-03 10:11:41,621 INFO Task 82: 3 files, 428.42 Gb
+2017-02-03 10:11:41,623 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_82_task_3_files_428.42Gb
+2017-02-03 10:11:45,149 INFO Task 83: 5 files, 506.21 Gb
+2017-02-03 10:11:45,149 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_83_task_5_files_506.21Gb
+2017-02-03 10:11:48,260 INFO Task 84: 27 files, 403.58 Gb
+2017-02-03 10:11:48,262 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_84_task_27_files_403.58Gb
+2017-02-03 10:11:51,717 INFO Task 85: 14 files, 451.54 Gb
+2017-02-03 10:11:51,717 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_85_task_14_files_451.54Gb
+2017-02-03 10:11:55,492 INFO Task 86: 5 files, 429.49 Gb
+2017-02-03 10:11:55,494 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_86_task_5_files_429.49Gb
+2017-02-03 10:11:58,968 INFO Task 87: 4 files, 437.01 Gb
+2017-02-03 10:11:58,968 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_87_task_4_files_437.01Gb
+2017-02-03 10:12:02,456 INFO Task 88: 46 files, 411.37 Gb
+2017-02-03 10:12:02,456 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_88_task_46_files_411.37Gb
+2017-02-03 10:12:05,641 INFO Task 89: 4 files, 583.71 Gb
+2017-02-03 10:12:05,641 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_89_task_4_files_583.71Gb
+2017-02-03 10:12:08,802 INFO Task 90: 3 files, 401.19 Gb
+2017-02-03 10:12:08,802 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_90_task_3_files_401.19Gb
+2017-02-03 10:12:12,591 INFO Task 91: 2 files, 544.25 Gb
+2017-02-03 10:12:12,593 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_91_task_2_files_544.25Gb
+2017-02-03 10:12:15,765 INFO Task 92: 19 files, 407.63 Gb
+2017-02-03 10:12:15,765 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_92_task_19_files_407.63Gb
+2017-02-03 10:12:19,043 INFO Task 93: 40 files, 408.76 Gb
+2017-02-03 10:12:19,043 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_93_task_40_files_408.76Gb
+2017-02-03 10:12:22,217 INFO Task 94: 21 files, 502.53 Gb
+2017-02-03 10:12:22,220 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_94_task_21_files_502.53Gb
+2017-02-03 10:12:25,696 INFO Task 95: 3 files, 431.45 Gb
+2017-02-03 10:12:25,697 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_95_task_3_files_431.45Gb
+2017-02-03 10:12:28,975 INFO Task 96: 11 files, 361.58 Gb
+2017-02-03 10:12:28,975 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_96_task_11_files_361.58Gb
+2017-02-03 10:12:32,105 INFO Task 97: 4 files, 590.03 Gb
+2017-02-03 10:12:32,105 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_97_task_4_files_590.03Gb
+2017-02-03 10:12:35,529 INFO Task 98: 25 files, 407.67 Gb
+2017-02-03 10:12:35,530 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_98_task_25_files_407.67Gb
+2017-02-03 10:12:38,909 INFO Task 99: 25 files, 513.67 Gb
+2017-02-03 10:12:38,909 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_99_task_25_files_513.67Gb
+2017-02-03 10:12:41,989 INFO Task 100: 2 files, 258.73 Gb
+2017-02-03 10:12:41,990 INFO 	Name: bam2fasta_Ovarian Serous Cystadenocarcinoma_100_task_2_files_258.73Gb
+2017-02-03 10:12:45,357 INFO Total tasks created: 100
+2017-02-03 10:12:45,359 INFO Total files tasked: 1039
+2017-02-03 10:12:45,359 INFO Total files for disease type: 1039
+2017-02-03 10:12:45,360 INFO Total WGS files: 189
+2017-02-03 10:12:45,360 INFO Total RNA-Seq files: 850

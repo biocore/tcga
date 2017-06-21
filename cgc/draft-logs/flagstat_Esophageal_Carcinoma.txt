@@ -1,0 +1,48 @@
+2017-04-04 11:57:48,958 INFO Creating draft tasks.
+2017-04-04 11:57:52,254 INFO Task 1: 5 files, 407.55 Gb
+2017-04-04 11:57:52,255 INFO 	Name: flagstat_Esophageal Carcinoma_1_task_5_files_407.55Gb
+2017-04-04 11:57:53,794 INFO Task 2: 5 files, 499.61 Gb
+2017-04-04 11:57:53,794 INFO 	Name: flagstat_Esophageal Carcinoma_2_task_5_files_499.61Gb
+2017-04-04 11:57:54,864 INFO Task 3: 3 files, 451.70 Gb
+2017-04-04 11:57:54,864 INFO 	Name: flagstat_Esophageal Carcinoma_3_task_3_files_451.70Gb
+2017-04-04 11:57:55,833 INFO Task 4: 4 files, 449.48 Gb
+2017-04-04 11:57:55,833 INFO 	Name: flagstat_Esophageal Carcinoma_4_task_4_files_449.48Gb
+2017-04-04 11:57:56,858 INFO Task 5: 4 files, 440.10 Gb
+2017-04-04 11:57:56,858 INFO 	Name: flagstat_Esophageal Carcinoma_5_task_4_files_440.10Gb
+2017-04-04 11:57:57,771 INFO Task 6: 4 files, 410.57 Gb
+2017-04-04 11:57:57,771 INFO 	Name: flagstat_Esophageal Carcinoma_6_task_4_files_410.57Gb
+2017-04-04 11:57:58,804 INFO Task 7: 24 files, 409.26 Gb
+2017-04-04 11:57:58,804 INFO 	Name: flagstat_Esophageal Carcinoma_7_task_24_files_409.26Gb
+2017-04-04 11:57:59,934 INFO Task 8: 24 files, 401.27 Gb
+2017-04-04 11:57:59,934 INFO 	Name: flagstat_Esophageal Carcinoma_8_task_24_files_401.27Gb
+2017-04-04 11:58:01,161 INFO Task 9: 29 files, 404.08 Gb
+2017-04-04 11:58:01,162 INFO 	Name: flagstat_Esophageal Carcinoma_9_task_29_files_404.08Gb
+2017-04-04 11:58:02,390 INFO Task 10: 22 files, 414.70 Gb
+2017-04-04 11:58:02,390 INFO 	Name: flagstat_Esophageal Carcinoma_10_task_22_files_414.70Gb
+2017-04-04 11:58:03,515 INFO Task 11: 27 files, 401.07 Gb
+2017-04-04 11:58:03,515 INFO 	Name: flagstat_Esophageal Carcinoma_11_task_27_files_401.07Gb
+2017-04-04 11:58:04,599 INFO Task 12: 30 files, 410.88 Gb
+2017-04-04 11:58:04,599 INFO 	Name: flagstat_Esophageal Carcinoma_12_task_30_files_410.88Gb
+2017-04-04 11:58:05,713 INFO Task 13: 28 files, 420.39 Gb
+2017-04-04 11:58:05,713 INFO 	Name: flagstat_Esophageal Carcinoma_13_task_28_files_420.39Gb
+2017-04-04 11:58:06,806 INFO Task 14: 26 files, 401.79 Gb
+2017-04-04 11:58:06,807 INFO 	Name: flagstat_Esophageal Carcinoma_14_task_26_files_401.79Gb
+2017-04-04 11:58:07,956 INFO Task 15: 28 files, 405.23 Gb
+2017-04-04 11:58:07,956 INFO 	Name: flagstat_Esophageal Carcinoma_15_task_28_files_405.23Gb
+2017-04-04 11:58:08,969 INFO Task 16: 31 files, 412.69 Gb
+2017-04-04 11:58:08,969 INFO 	Name: flagstat_Esophageal Carcinoma_16_task_31_files_412.69Gb
+2017-04-04 11:58:10,094 INFO Task 17: 29 files, 401.17 Gb
+2017-04-04 11:58:10,094 INFO 	Name: flagstat_Esophageal Carcinoma_17_task_29_files_401.17Gb
+2017-04-04 11:58:11,194 INFO Task 18: 4 files, 565.06 Gb
+2017-04-04 11:58:11,195 INFO 	Name: flagstat_Esophageal Carcinoma_18_task_4_files_565.06Gb
+2017-04-04 11:58:12,184 INFO Task 19: 4 files, 499.69 Gb
+2017-04-04 11:58:12,184 INFO 	Name: flagstat_Esophageal Carcinoma_19_task_4_files_499.69Gb
+2017-04-04 11:58:13,139 INFO Task 20: 5 files, 432.25 Gb
+2017-04-04 11:58:13,140 INFO 	Name: flagstat_Esophageal Carcinoma_20_task_5_files_432.25Gb
+2017-04-04 11:58:14,166 INFO Task 21: 4 files, 501.69 Gb
+2017-04-04 11:58:14,166 INFO 	Name: flagstat_Esophageal Carcinoma_21_task_4_files_501.69Gb
+2017-04-04 11:58:15,290 INFO Total tasks created: 21
+2017-04-04 11:58:15,290 INFO Total files tasked: 340
+2017-04-04 11:58:15,290 INFO Total files for disease type: 340
+2017-04-04 11:58:15,290 INFO Total WGS files: 142
+2017-04-04 11:58:15,290 INFO Total RNA-Seq files: 198

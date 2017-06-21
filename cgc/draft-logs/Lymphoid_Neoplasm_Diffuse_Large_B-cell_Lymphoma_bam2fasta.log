@@ -1,0 +1,25 @@
+2017-02-16 11:38:37,327 INFO Creating draft tasks.
+2017-02-16 11:39:21,698 INFO Creating draft tasks.
+2017-02-16 11:39:24,835 INFO Task 1: 1 files, 510.59 Gb
+2017-02-16 11:39:24,835 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_1_task_1_files_510.59Gb
+2017-02-16 11:39:25,241 INFO Task 2: 2 files, 800.21 Gb
+2017-02-16 11:39:25,241 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_2_task_2_files_800.21Gb
+2017-02-16 11:39:25,538 INFO Task 3: 2 files, 735.26 Gb
+2017-02-16 11:39:25,539 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_3_task_2_files_735.26Gb
+2017-02-16 11:39:25,958 INFO Task 4: 2 files, 768.69 Gb
+2017-02-16 11:39:25,958 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_4_task_2_files_768.69Gb
+2017-02-16 11:39:26,156 INFO Task 5: 2 files, 773.23 Gb
+2017-02-16 11:39:26,156 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_5_task_2_files_773.23Gb
+2017-02-16 11:39:26,445 INFO Task 6: 2 files, 761.97 Gb
+2017-02-16 11:39:26,445 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_6_task_2_files_761.97Gb
+2017-02-16 11:39:26,644 INFO Task 7: 2 files, 804.23 Gb
+2017-02-16 11:39:26,644 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_7_task_2_files_804.23Gb
+2017-02-16 11:39:26,845 INFO Task 8: 29 files, 402.23 Gb
+2017-02-16 11:39:26,845 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_8_task_29_files_402.23Gb
+2017-02-16 11:39:27,136 INFO Task 9: 20 files, 112.51 Gb
+2017-02-16 11:39:27,136 INFO 	Name: bam2fasta_Lymphoid Neoplasm Diffuse Large B-cell Lymphoma_9_task_20_files_112.51Gb
+2017-02-16 11:39:27,428 INFO Total tasks created: 9
+2017-02-16 11:39:27,428 INFO Total files tasked: 62
+2017-02-16 11:39:27,428 INFO Total files for disease type: 62
+2017-02-16 11:39:27,428 INFO Total WGS files: 14
+2017-02-16 11:39:27,428 INFO Total RNA-Seq files: 48

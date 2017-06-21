@@ -1,0 +1,46 @@
+2017-04-04 12:02:33,880 INFO Creating draft tasks.
+2017-04-04 12:02:38,311 INFO Task 1: 4 files, 413.80 Gb
+2017-04-04 12:02:38,311 INFO 	Name: flagstat_Rectum Adenocarcinoma_1_task_4_files_413.80Gb
+2017-04-04 12:02:39,845 INFO Task 2: 5 files, 440.26 Gb
+2017-04-04 12:02:39,845 INFO 	Name: flagstat_Rectum Adenocarcinoma_2_task_5_files_440.26Gb
+2017-04-04 12:02:40,871 INFO Task 3: 6 files, 467.18 Gb
+2017-04-04 12:02:40,872 INFO 	Name: flagstat_Rectum Adenocarcinoma_3_task_6_files_467.18Gb
+2017-04-04 12:02:41,772 INFO Task 4: 6 files, 540.29 Gb
+2017-04-04 12:02:41,772 INFO 	Name: flagstat_Rectum Adenocarcinoma_4_task_6_files_540.29Gb
+2017-04-04 12:02:42,837 INFO Task 5: 5 files, 402.96 Gb
+2017-04-04 12:02:42,837 INFO 	Name: flagstat_Rectum Adenocarcinoma_5_task_5_files_402.96Gb
+2017-04-04 12:02:43,941 INFO Task 6: 3 files, 598.85 Gb
+2017-04-04 12:02:43,941 INFO 	Name: flagstat_Rectum Adenocarcinoma_6_task_3_files_598.85Gb
+2017-04-04 12:02:45,950 INFO Task 7: 10 files, 401.70 Gb
+2017-04-04 12:02:45,950 INFO 	Name: flagstat_Rectum Adenocarcinoma_7_task_10_files_401.70Gb
+2017-04-04 12:02:46,784 INFO Task 8: 13 files, 597.64 Gb
+2017-04-04 12:02:46,784 INFO 	Name: flagstat_Rectum Adenocarcinoma_8_task_13_files_597.64Gb
+2017-04-04 12:02:48,132 INFO Task 9: 10 files, 560.60 Gb
+2017-04-04 12:02:48,132 INFO 	Name: flagstat_Rectum Adenocarcinoma_9_task_10_files_560.60Gb
+2017-04-04 12:02:49,370 INFO Task 10: 6 files, 426.04 Gb
+2017-04-04 12:02:49,370 INFO 	Name: flagstat_Rectum Adenocarcinoma_10_task_6_files_426.04Gb
+2017-04-04 12:02:50,598 INFO Task 11: 14 files, 523.10 Gb
+2017-04-04 12:02:50,598 INFO 	Name: flagstat_Rectum Adenocarcinoma_11_task_14_files_523.10Gb
+2017-04-04 12:02:51,732 INFO Task 12: 4 files, 572.92 Gb
+2017-04-04 12:02:51,732 INFO 	Name: flagstat_Rectum Adenocarcinoma_12_task_4_files_572.92Gb
+2017-04-04 12:02:52,850 INFO Task 13: 6 files, 506.23 Gb
+2017-04-04 12:02:52,851 INFO 	Name: flagstat_Rectum Adenocarcinoma_13_task_6_files_506.23Gb
+2017-04-04 12:02:53,772 INFO Task 14: 4 files, 467.36 Gb
+2017-04-04 12:02:53,772 INFO 	Name: flagstat_Rectum Adenocarcinoma_14_task_4_files_467.36Gb
+2017-04-04 12:02:54,797 INFO Task 15: 26 files, 470.62 Gb
+2017-04-04 12:02:54,798 INFO 	Name: flagstat_Rectum Adenocarcinoma_15_task_26_files_470.62Gb
+2017-04-04 12:02:55,922 INFO Task 16: 3 files, 510.20 Gb
+2017-04-04 12:02:55,922 INFO 	Name: flagstat_Rectum Adenocarcinoma_16_task_3_files_510.20Gb
+2017-04-04 12:02:56,920 INFO Task 17: 2 files, 530.64 Gb
+2017-04-04 12:02:56,920 INFO 	Name: flagstat_Rectum Adenocarcinoma_17_task_2_files_530.64Gb
+2017-04-04 12:02:57,974 INFO Task 18: 99 files, 404.66 Gb
+2017-04-04 12:02:57,974 INFO 	Name: flagstat_Rectum Adenocarcinoma_18_task_99_files_404.66Gb
+2017-04-04 12:02:59,308 INFO Task 19: 66 files, 404.57 Gb
+2017-04-04 12:02:59,308 INFO 	Name: flagstat_Rectum Adenocarcinoma_19_task_66_files_404.57Gb
+2017-04-04 12:03:00,509 INFO Task 20: 83 files, 188.01 Gb
+2017-04-04 12:03:00,509 INFO 	Name: flagstat_Rectum Adenocarcinoma_20_task_83_files_188.01Gb
+2017-04-04 12:03:03,169 INFO Total tasks created: 20
+2017-04-04 12:03:03,169 INFO Total files tasked: 375
+2017-04-04 12:03:03,169 INFO Total files for disease type: 375
+2017-04-04 12:03:03,169 INFO Total WGS files: 127
+2017-04-04 12:03:03,169 INFO Total RNA-Seq files: 248

@@ -1,0 +1,13 @@
+2017-04-04 11:34:23,250 INFO Running tasks!
+2017-04-04 11:38:18,146 INFO Creating draft tasks.
+2017-04-04 11:38:21,698 INFO Task 1: 74 files, 408.94 Gb
+2017-04-04 11:38:21,698 INFO 	Name: flagstat_Testicular Germ Cell Tumors_1_task_74_files_408.94Gb
+2017-04-04 11:38:23,857 INFO Task 2: 67 files, 405.37 Gb
+2017-04-04 11:38:23,857 INFO 	Name: flagstat_Testicular Germ Cell Tumors_2_task_67_files_405.37Gb
+2017-04-04 11:38:26,919 INFO Task 3: 15 files, 101.32 Gb
+2017-04-04 11:38:26,919 INFO 	Name: flagstat_Testicular Germ Cell Tumors_3_task_15_files_101.32Gb
+2017-04-04 11:38:27,916 INFO Total tasks created: 3
+2017-04-04 11:38:27,916 INFO Total files tasked: 156
+2017-04-04 11:38:27,916 INFO Total files for disease type: 156
+2017-04-04 11:38:27,916 INFO Total WGS files: 0
+2017-04-04 11:38:27,916 INFO Total RNA-Seq files: 156

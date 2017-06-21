@@ -1,0 +1,137 @@
+2017-01-20 11:35:57,680 INFO Running tasks!
+2017-01-20 11:43:16,742 INFO Creating draft tasks.
+2017-01-20 11:43:41,507 INFO Task 1: 4 files, 426.77 Gb
+2017-01-20 11:43:41,507 INFO 	Name: bam2fasta_Glioblastoma Multiforme_1_task_4_files_426.77Gb
+2017-01-20 11:43:45,394 INFO Task 2: 4 files, 443.36 Gb
+2017-01-20 11:43:45,395 INFO 	Name: bam2fasta_Glioblastoma Multiforme_2_task_4_files_443.36Gb
+2017-01-20 11:43:48,365 INFO Task 3: 5 files, 463.75 Gb
+2017-01-20 11:43:48,365 INFO 	Name: bam2fasta_Glioblastoma Multiforme_3_task_5_files_463.75Gb
+2017-01-20 11:43:51,542 INFO Task 4: 4 files, 403.26 Gb
+2017-01-20 11:43:51,542 INFO 	Name: bam2fasta_Glioblastoma Multiforme_4_task_4_files_403.26Gb
+2017-01-20 11:43:54,614 INFO Task 5: 25 files, 406.42 Gb
+2017-01-20 11:43:54,614 INFO 	Name: bam2fasta_Glioblastoma Multiforme_5_task_25_files_406.42Gb
+2017-01-20 11:43:58,607 INFO Task 6: 25 files, 471.15 Gb
+2017-01-20 11:43:58,607 INFO 	Name: bam2fasta_Glioblastoma Multiforme_6_task_25_files_471.15Gb
+2017-01-20 11:44:01,780 INFO Task 7: 1 files, 461.31 Gb
+2017-01-20 11:44:01,780 INFO 	Name: bam2fasta_Glioblastoma Multiforme_7_task_1_files_461.31Gb
+2017-01-20 11:44:04,751 INFO Task 8: 53 files, 404.45 Gb
+2017-01-20 11:44:04,751 INFO 	Name: bam2fasta_Glioblastoma Multiforme_8_task_53_files_404.45Gb
+2017-01-20 11:44:07,731 INFO Task 9: 47 files, 405.74 Gb
+2017-01-20 11:44:07,731 INFO 	Name: bam2fasta_Glioblastoma Multiforme_9_task_47_files_405.74Gb
+2017-01-20 11:44:10,690 INFO Task 10: 24 files, 541.14 Gb
+2017-01-20 11:44:10,691 INFO 	Name: bam2fasta_Glioblastoma Multiforme_10_task_24_files_541.14Gb
+2017-01-20 11:44:13,588 INFO Task 11: 2 files, 616.84 Gb
+2017-01-20 11:44:13,588 INFO 	Name: bam2fasta_Glioblastoma Multiforme_11_task_2_files_616.84Gb
+2017-01-20 11:44:16,570 INFO Task 12: 2 files, 474.84 Gb
+2017-01-20 11:44:16,571 INFO 	Name: bam2fasta_Glioblastoma Multiforme_12_task_2_files_474.84Gb
+2017-01-20 11:44:19,598 INFO Task 13: 2 files, 499.51 Gb
+2017-01-20 11:44:19,598 INFO 	Name: bam2fasta_Glioblastoma Multiforme_13_task_2_files_499.51Gb
+2017-01-20 11:44:23,077 INFO Task 14: 1 files, 401.07 Gb
+2017-01-20 11:44:23,077 INFO 	Name: bam2fasta_Glioblastoma Multiforme_14_task_1_files_401.07Gb
+2017-01-20 11:44:26,869 INFO Task 15: 3 files, 494.38 Gb
+2017-01-20 11:44:26,869 INFO 	Name: bam2fasta_Glioblastoma Multiforme_15_task_3_files_494.38Gb
+2017-01-20 11:44:29,884 INFO Task 16: 3 files, 507.34 Gb
+2017-01-20 11:44:29,884 INFO 	Name: bam2fasta_Glioblastoma Multiforme_16_task_3_files_507.34Gb
+2017-01-20 11:44:32,695 INFO Task 17: 3 files, 520.70 Gb
+2017-01-20 11:44:32,695 INFO 	Name: bam2fasta_Glioblastoma Multiforme_17_task_3_files_520.70Gb
+2017-01-20 11:44:35,571 INFO Task 18: 3 files, 506.48 Gb
+2017-01-20 11:44:35,571 INFO 	Name: bam2fasta_Glioblastoma Multiforme_18_task_3_files_506.48Gb
+2017-01-20 11:44:38,477 INFO Task 19: 3 files, 528.80 Gb
+2017-01-20 11:44:38,477 INFO 	Name: bam2fasta_Glioblastoma Multiforme_19_task_3_files_528.80Gb
+2017-01-20 11:44:41,409 INFO Task 20: 3 files, 480.02 Gb
+2017-01-20 11:44:41,409 INFO 	Name: bam2fasta_Glioblastoma Multiforme_20_task_3_files_480.02Gb
+2017-01-20 11:44:44,586 INFO Task 21: 3 files, 509.53 Gb
+2017-01-20 11:44:44,586 INFO 	Name: bam2fasta_Glioblastoma Multiforme_21_task_3_files_509.53Gb
+2017-01-20 11:44:47,553 INFO Task 22: 3 files, 516.85 Gb
+2017-01-20 11:44:47,553 INFO 	Name: bam2fasta_Glioblastoma Multiforme_22_task_3_files_516.85Gb
+2017-01-20 11:44:50,525 INFO Task 23: 3 files, 487.27 Gb
+2017-01-20 11:44:50,525 INFO 	Name: bam2fasta_Glioblastoma Multiforme_23_task_3_files_487.27Gb
+2017-01-20 11:44:53,695 INFO Task 24: 3 files, 504.96 Gb
+2017-01-20 11:44:53,695 INFO 	Name: bam2fasta_Glioblastoma Multiforme_24_task_3_files_504.96Gb
+2017-01-20 11:44:56,709 INFO Task 25: 3 files, 500.79 Gb
+2017-01-20 11:44:56,709 INFO 	Name: bam2fasta_Glioblastoma Multiforme_25_task_3_files_500.79Gb
+2017-01-20 11:44:59,737 INFO Task 26: 3 files, 531.31 Gb
+2017-01-20 11:44:59,737 INFO 	Name: bam2fasta_Glioblastoma Multiforme_26_task_3_files_531.31Gb
+2017-01-20 11:45:03,263 INFO Task 27: 3 files, 532.76 Gb
+2017-01-20 11:45:03,263 INFO 	Name: bam2fasta_Glioblastoma Multiforme_27_task_3_files_532.76Gb
+2017-01-20 11:45:06,399 INFO Task 28: 3 files, 542.16 Gb
+2017-01-20 11:45:06,399 INFO 	Name: bam2fasta_Glioblastoma Multiforme_28_task_3_files_542.16Gb
+2017-01-20 11:45:09,272 INFO Task 29: 3 files, 524.20 Gb
+2017-01-20 11:45:09,272 INFO 	Name: bam2fasta_Glioblastoma Multiforme_29_task_3_files_524.20Gb
+2017-01-20 11:45:12,436 INFO Task 30: 3 files, 512.54 Gb
+2017-01-20 11:45:12,436 INFO 	Name: bam2fasta_Glioblastoma Multiforme_30_task_3_files_512.54Gb
+2017-01-20 11:45:15,519 INFO Task 31: 2 files, 334.01 Gb
+2017-01-20 11:45:15,519 INFO 	Name: bam2fasta_Glioblastoma Multiforme_31_task_2_files_334.01Gb
+2017-01-20 11:45:18,886 INFO Task 32: 2 files, 643.50 Gb
+2017-01-20 11:45:18,886 INFO 	Name: bam2fasta_Glioblastoma Multiforme_32_task_2_files_643.50Gb
+2017-01-20 11:45:21,856 INFO Task 33: 2 files, 494.46 Gb
+2017-01-20 11:45:21,856 INFO 	Name: bam2fasta_Glioblastoma Multiforme_33_task_2_files_494.46Gb
+2017-01-20 11:45:25,337 INFO Task 34: 2 files, 729.21 Gb
+2017-01-20 11:45:25,338 INFO 	Name: bam2fasta_Glioblastoma Multiforme_34_task_2_files_729.21Gb
+2017-01-20 11:45:28,378 INFO Task 35: 2 files, 522.11 Gb
+2017-01-20 11:45:28,378 INFO 	Name: bam2fasta_Glioblastoma Multiforme_35_task_2_files_522.11Gb
+2017-01-20 11:45:31,788 INFO Task 36: 2 files, 456.70 Gb
+2017-01-20 11:45:31,789 INFO 	Name: bam2fasta_Glioblastoma Multiforme_36_task_2_files_456.70Gb
+2017-01-20 11:45:34,810 INFO Task 37: 2 files, 563.42 Gb
+2017-01-20 11:45:34,810 INFO 	Name: bam2fasta_Glioblastoma Multiforme_37_task_2_files_563.42Gb
+2017-01-20 11:45:37,830 INFO Task 38: 2 files, 472.19 Gb
+2017-01-20 11:45:37,831 INFO 	Name: bam2fasta_Glioblastoma Multiforme_38_task_2_files_472.19Gb
+2017-01-20 11:45:40,723 INFO Task 39: 2 files, 562.46 Gb
+2017-01-20 11:45:40,723 INFO 	Name: bam2fasta_Glioblastoma Multiforme_39_task_2_files_562.46Gb
+2017-01-20 11:45:43,872 INFO Task 40: 2 files, 549.21 Gb
+2017-01-20 11:45:43,872 INFO 	Name: bam2fasta_Glioblastoma Multiforme_40_task_2_files_549.21Gb
+2017-01-20 11:45:46,944 INFO Task 41: 2 files, 437.33 Gb
+2017-01-20 11:45:46,944 INFO 	Name: bam2fasta_Glioblastoma Multiforme_41_task_2_files_437.33Gb
+2017-01-20 11:45:50,016 INFO Task 42: 2 files, 528.09 Gb
+2017-01-20 11:45:50,016 INFO 	Name: bam2fasta_Glioblastoma Multiforme_42_task_2_files_528.09Gb
+2017-01-20 11:45:52,924 INFO Task 43: 2 files, 588.01 Gb
+2017-01-20 11:45:52,924 INFO 	Name: bam2fasta_Glioblastoma Multiforme_43_task_2_files_588.01Gb
+2017-01-20 11:45:55,853 INFO Task 44: 2 files, 584.22 Gb
+2017-01-20 11:45:55,853 INFO 	Name: bam2fasta_Glioblastoma Multiforme_44_task_2_files_584.22Gb
+2017-01-20 11:45:59,027 INFO Task 45: 2 files, 507.20 Gb
+2017-01-20 11:45:59,027 INFO 	Name: bam2fasta_Glioblastoma Multiforme_45_task_2_files_507.20Gb
+2017-01-20 11:46:02,203 INFO Task 46: 20 files, 275.71 Gb
+2017-01-20 11:46:02,203 INFO 	Name: bam2fasta_Glioblastoma Multiforme_46_task_20_files_275.71Gb
+2017-01-20 11:46:05,172 INFO Task 47: 2 files, 344.72 Gb
+2017-01-20 11:46:05,172 INFO 	Name: bam2fasta_Glioblastoma Multiforme_47_task_2_files_344.72Gb
+2017-01-20 11:46:09,303 INFO Task 48: 2 files, 665.09 Gb
+2017-01-20 11:46:09,303 INFO 	Name: bam2fasta_Glioblastoma Multiforme_48_task_2_files_665.09Gb
+2017-01-20 11:46:12,115 INFO Task 49: 2 files, 614.59 Gb
+2017-01-20 11:46:12,115 INFO 	Name: bam2fasta_Glioblastoma Multiforme_49_task_2_files_614.59Gb
+2017-01-20 11:46:15,001 INFO Task 50: 3 files, 407.94 Gb
+2017-01-20 11:46:15,002 INFO 	Name: bam2fasta_Glioblastoma Multiforme_50_task_3_files_407.94Gb
+2017-01-20 11:46:18,074 INFO Task 51: 2 files, 533.74 Gb
+2017-01-20 11:46:18,074 INFO 	Name: bam2fasta_Glioblastoma Multiforme_51_task_2_files_533.74Gb
+2017-01-20 11:46:20,940 INFO Task 52: 2 files, 444.92 Gb
+2017-01-20 11:46:20,940 INFO 	Name: bam2fasta_Glioblastoma Multiforme_52_task_2_files_444.92Gb
+2017-01-20 11:46:24,218 INFO Task 53: 3 files, 498.84 Gb
+2017-01-20 11:46:24,218 INFO 	Name: bam2fasta_Glioblastoma Multiforme_53_task_3_files_498.84Gb
+2017-01-20 11:46:27,699 INFO Task 54: 2 files, 515.02 Gb
+2017-01-20 11:46:27,699 INFO 	Name: bam2fasta_Glioblastoma Multiforme_54_task_2_files_515.02Gb
+2017-01-20 11:46:30,771 INFO Task 55: 4 files, 452.32 Gb
+2017-01-20 11:46:30,771 INFO 	Name: bam2fasta_Glioblastoma Multiforme_55_task_4_files_452.32Gb
+2017-01-20 11:46:33,741 INFO Task 56: 5 files, 470.40 Gb
+2017-01-20 11:46:33,741 INFO 	Name: bam2fasta_Glioblastoma Multiforme_56_task_5_files_470.40Gb
+2017-01-20 11:46:37,344 INFO Task 57: 5 files, 457.88 Gb
+2017-01-20 11:46:37,344 INFO 	Name: bam2fasta_Glioblastoma Multiforme_57_task_5_files_457.88Gb
+2017-01-20 11:46:40,295 INFO Task 58: 5 files, 452.75 Gb
+2017-01-20 11:46:40,296 INFO 	Name: bam2fasta_Glioblastoma Multiforme_58_task_5_files_452.75Gb
+2017-01-20 11:46:43,313 INFO Task 59: 42 files, 404.53 Gb
+2017-01-20 11:46:43,313 INFO 	Name: bam2fasta_Glioblastoma Multiforme_59_task_42_files_404.53Gb
+2017-01-20 11:46:46,648 INFO Task 60: 50 files, 406.07 Gb
+2017-01-20 11:46:46,648 INFO 	Name: bam2fasta_Glioblastoma Multiforme_60_task_50_files_406.07Gb
+2017-01-20 11:46:49,720 INFO Task 61: 52 files, 409.98 Gb
+2017-01-20 11:46:49,720 INFO 	Name: bam2fasta_Glioblastoma Multiforme_61_task_52_files_409.98Gb
+2017-01-20 11:46:52,586 INFO Task 62: 33 files, 404.80 Gb
+2017-01-20 11:46:52,586 INFO 	Name: bam2fasta_Glioblastoma Multiforme_62_task_33_files_404.80Gb
+2017-01-20 11:46:55,451 INFO Task 63: 4 files, 430.55 Gb
+2017-01-20 11:46:55,451 INFO 	Name: bam2fasta_Glioblastoma Multiforme_63_task_4_files_430.55Gb
+2017-01-20 11:46:58,526 INFO Task 64: 4 files, 432.19 Gb
+2017-01-20 11:46:58,526 INFO 	Name: bam2fasta_Glioblastoma Multiforme_64_task_4_files_432.19Gb
+2017-01-20 11:47:01,698 INFO Task 65: 1 files, 119.38 Gb
+2017-01-20 11:47:01,698 INFO 	Name: bam2fasta_Glioblastoma Multiforme_65_task_1_files_119.38Gb
+2017-01-20 11:47:04,768 INFO Total tasks created: 65
+2017-01-20 11:47:04,768 INFO Total files tasked: 520
+2017-01-20 11:47:04,768 INFO Total files for disease type: 520
+2017-01-20 11:47:04,768 INFO Total WGS files: 159
+2017-01-20 11:47:04,768 INFO Total RNA-Seq files: 361

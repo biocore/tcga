@@ -1,0 +1,8 @@
+2017-04-04 11:14:51,012 INFO Creating draft tasks.
+2017-04-04 11:14:53,370 INFO Task 1: 57 files, 336.71 Gb
+2017-04-04 11:14:53,370 INFO 	Name: flagstat_Uterine Carcinosarcoma_1_task_57_files_336.71Gb
+2017-04-04 11:14:55,424 INFO Total tasks created: 1
+2017-04-04 11:14:55,425 INFO Total files tasked: 57
+2017-04-04 11:14:55,425 INFO Total files for disease type: 57
+2017-04-04 11:14:55,425 INFO Total WGS files: 0
+2017-04-04 11:14:55,425 INFO Total RNA-Seq files: 57

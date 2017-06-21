@@ -1,0 +1,10 @@
+2017-04-04 11:20:59,287 INFO Creating draft tasks.
+2017-04-04 11:21:02,222 INFO Task 1: 69 files, 403.25 Gb
+2017-04-04 11:21:02,222 INFO 	Name: flagstat_Thymoma_1_task_69_files_403.25Gb
+2017-04-04 11:21:04,240 INFO Task 2: 53 files, 313.25 Gb
+2017-04-04 11:21:04,240 INFO 	Name: flagstat_Thymoma_2_task_53_files_313.25Gb
+2017-04-04 11:21:05,393 INFO Total tasks created: 2
+2017-04-04 11:21:05,393 INFO Total files tasked: 122
+2017-04-04 11:21:05,394 INFO Total files for disease type: 122
+2017-04-04 11:21:05,394 INFO Total WGS files: 0
+2017-04-04 11:21:05,394 INFO Total RNA-Seq files: 122

@@ -1,0 +1,124 @@
+2017-04-05 14:56:52,576 INFO Creating draft tasks.
+2017-04-05 14:56:58,946 INFO Task 1: 3 files, 411.95 Gb
+2017-04-05 14:56:58,946 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_1_task_3_files_411.95Gb
+2017-04-05 14:57:00,687 INFO Task 2: 2 files, 431.60 Gb
+2017-04-05 14:57:00,687 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_2_task_2_files_431.60Gb
+2017-04-05 14:57:01,714 INFO Task 3: 2 files, 407.39 Gb
+2017-04-05 14:57:01,714 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_3_task_2_files_407.39Gb
+2017-04-05 14:57:02,716 INFO Task 4: 2 files, 399.27 Gb
+2017-04-05 14:57:02,716 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_4_task_2_files_399.27Gb
+2017-04-05 14:57:03,760 INFO Task 5: 2 files, 417.68 Gb
+2017-04-05 14:57:03,760 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_5_task_2_files_417.68Gb
+2017-04-05 14:57:04,888 INFO Task 6: 2 files, 478.08 Gb
+2017-04-05 14:57:04,888 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_6_task_2_files_478.08Gb
+2017-04-05 14:57:05,913 INFO Task 7: 3 files, 592.43 Gb
+2017-04-05 14:57:05,913 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_7_task_3_files_592.43Gb
+2017-04-05 14:57:06,864 INFO Task 8: 2 files, 516.33 Gb
+2017-04-05 14:57:06,864 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_8_task_2_files_516.33Gb
+2017-04-05 14:57:07,931 INFO Task 9: 2 files, 661.57 Gb
+2017-04-05 14:57:07,931 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_9_task_2_files_661.57Gb
+2017-04-05 14:57:09,799 INFO Task 10: 2 files, 601.09 Gb
+2017-04-05 14:57:09,799 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_10_task_2_files_601.09Gb
+2017-04-05 14:57:11,133 INFO Task 11: 2 files, 420.47 Gb
+2017-04-05 14:57:11,133 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_11_task_2_files_420.47Gb
+2017-04-05 14:57:12,180 INFO Task 12: 2 files, 564.35 Gb
+2017-04-05 14:57:12,180 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_12_task_2_files_564.35Gb
+2017-04-05 14:57:13,283 INFO Task 13: 2 files, 462.62 Gb
+2017-04-05 14:57:13,283 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_13_task_2_files_462.62Gb
+2017-04-05 14:57:14,613 INFO Task 14: 2 files, 448.84 Gb
+2017-04-05 14:57:14,614 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_14_task_2_files_448.84Gb
+2017-04-05 14:57:15,639 INFO Task 15: 2 files, 431.08 Gb
+2017-04-05 14:57:15,640 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_15_task_2_files_431.08Gb
+2017-04-05 14:57:16,762 INFO Task 16: 2 files, 579.63 Gb
+2017-04-05 14:57:16,762 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_16_task_2_files_579.63Gb
+2017-04-05 14:57:17,789 INFO Task 17: 2 files, 617.43 Gb
+2017-04-05 14:57:17,789 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_17_task_2_files_617.43Gb
+2017-04-05 14:57:19,015 INFO Task 18: 3 files, 547.22 Gb
+2017-04-05 14:57:19,015 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_18_task_3_files_547.22Gb
+2017-04-05 14:57:19,927 INFO Task 19: 2 files, 573.99 Gb
+2017-04-05 14:57:19,927 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_19_task_2_files_573.99Gb
+2017-04-05 14:57:20,858 INFO Task 20: 2 files, 483.82 Gb
+2017-04-05 14:57:20,858 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_20_task_2_files_483.82Gb
+2017-04-05 14:57:21,891 INFO Task 21: 2 files, 344.69 Gb
+2017-04-05 14:57:21,891 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_21_task_2_files_344.69Gb
+2017-04-05 14:57:23,022 INFO Task 22: 2 files, 464.02 Gb
+2017-04-05 14:57:23,022 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_22_task_2_files_464.02Gb
+2017-04-05 14:57:24,341 INFO Task 23: 2 files, 476.24 Gb
+2017-04-05 14:57:24,342 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_23_task_2_files_476.24Gb
+2017-04-05 14:57:25,603 INFO Task 24: 2 files, 347.24 Gb
+2017-04-05 14:57:25,603 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_24_task_2_files_347.24Gb
+2017-04-05 14:57:26,847 INFO Task 25: 1 files, 428.43 Gb
+2017-04-05 14:57:26,847 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_25_task_1_files_428.43Gb
+2017-04-05 14:57:28,051 INFO Task 26: 2 files, 416.02 Gb
+2017-04-05 14:57:28,051 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_26_task_2_files_416.02Gb
+2017-04-05 14:57:29,015 INFO Task 27: 2 files, 511.01 Gb
+2017-04-05 14:57:29,015 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_27_task_2_files_511.01Gb
+2017-04-05 14:57:30,076 INFO Task 28: 2 files, 592.45 Gb
+2017-04-05 14:57:30,076 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_28_task_2_files_592.45Gb
+2017-04-05 14:57:31,252 INFO Task 29: 2 files, 598.05 Gb
+2017-04-05 14:57:31,252 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_29_task_2_files_598.05Gb
+2017-04-05 14:57:32,226 INFO Task 30: 2 files, 503.30 Gb
+2017-04-05 14:57:32,226 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_30_task_2_files_503.30Gb
+2017-04-05 14:57:33,354 INFO Task 31: 2 files, 507.64 Gb
+2017-04-05 14:57:33,354 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_31_task_2_files_507.64Gb
+2017-04-05 14:57:34,480 INFO Task 32: 2 files, 429.75 Gb
+2017-04-05 14:57:34,480 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_32_task_2_files_429.75Gb
+2017-04-05 14:57:35,503 INFO Task 33: 2 files, 419.27 Gb
+2017-04-05 14:57:35,504 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_33_task_2_files_419.27Gb
+2017-04-05 14:57:36,733 INFO Task 34: 2 files, 496.36 Gb
+2017-04-05 14:57:36,733 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_34_task_2_files_496.36Gb
+2017-04-05 14:57:38,863 INFO Task 35: 2 files, 543.44 Gb
+2017-04-05 14:57:38,863 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_35_task_2_files_543.44Gb
+2017-04-05 14:57:39,764 INFO Task 36: 2 files, 474.38 Gb
+2017-04-05 14:57:39,764 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_36_task_2_files_474.38Gb
+2017-04-05 14:57:40,729 INFO Task 37: 2 files, 501.60 Gb
+2017-04-05 14:57:40,729 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_37_task_2_files_501.60Gb
+2017-04-05 14:57:41,833 INFO Task 38: 2 files, 620.37 Gb
+2017-04-05 14:57:41,833 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_38_task_2_files_620.37Gb
+2017-04-05 14:57:42,710 INFO Task 39: 2 files, 473.85 Gb
+2017-04-05 14:57:42,710 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_39_task_2_files_473.85Gb
+2017-04-05 14:57:43,900 INFO Task 40: 2 files, 497.90 Gb
+2017-04-05 14:57:43,900 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_40_task_2_files_497.90Gb
+2017-04-05 14:57:44,893 INFO Task 41: 2 files, 428.07 Gb
+2017-04-05 14:57:44,893 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_41_task_2_files_428.07Gb
+2017-04-05 14:57:45,851 INFO Task 42: 2 files, 490.77 Gb
+2017-04-05 14:57:45,851 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_42_task_2_files_490.77Gb
+2017-04-05 14:57:46,869 INFO Task 43: 2 files, 565.31 Gb
+2017-04-05 14:57:46,869 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_43_task_2_files_565.31Gb
+2017-04-05 14:57:47,798 INFO Task 44: 2 files, 533.59 Gb
+2017-04-05 14:57:47,798 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_44_task_2_files_533.59Gb
+2017-04-05 14:57:49,023 INFO Task 45: 2 files, 388.01 Gb
+2017-04-05 14:57:49,023 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_45_task_2_files_388.01Gb
+2017-04-05 14:57:50,045 INFO Task 46: 2 files, 482.39 Gb
+2017-04-05 14:57:50,045 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_46_task_2_files_482.39Gb
+2017-04-05 14:57:51,500 INFO Task 47: 2 files, 455.57 Gb
+2017-04-05 14:57:51,500 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_47_task_2_files_455.57Gb
+2017-04-05 14:57:52,333 INFO Task 48: 2 files, 448.85 Gb
+2017-04-05 14:57:52,333 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_48_task_2_files_448.85Gb
+2017-04-05 14:57:53,425 INFO Task 49: 2 files, 496.59 Gb
+2017-04-05 14:57:53,425 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_49_task_2_files_496.59Gb
+2017-04-05 14:57:55,165 INFO Task 50: 25 files, 405.68 Gb
+2017-04-05 14:57:55,165 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_50_task_25_files_405.68Gb
+2017-04-05 14:57:56,395 INFO Task 51: 54 files, 402.79 Gb
+2017-04-05 14:57:56,396 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_51_task_54_files_402.79Gb
+2017-04-05 14:57:57,697 INFO Task 52: 61 files, 405.79 Gb
+2017-04-05 14:57:57,697 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_52_task_61_files_405.79Gb
+2017-04-05 14:57:58,958 INFO Task 53: 59 files, 404.16 Gb
+2017-04-05 14:57:58,958 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_53_task_59_files_404.16Gb
+2017-04-05 14:58:00,123 INFO Task 54: 54 files, 404.25 Gb
+2017-04-05 14:58:00,124 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_54_task_54_files_404.25Gb
+2017-04-05 14:58:01,169 INFO Task 55: 48 files, 407.44 Gb
+2017-04-05 14:58:01,170 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_55_task_48_files_407.44Gb
+2017-04-05 14:58:02,299 INFO Task 56: 70 files, 402.12 Gb
+2017-04-05 14:58:02,299 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_56_task_70_files_402.12Gb
+2017-04-05 14:58:03,515 INFO Task 57: 68 files, 406.57 Gb
+2017-04-05 14:58:03,515 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_57_task_68_files_406.57Gb
+2017-04-05 14:58:05,637 INFO Task 58: 64 files, 401.17 Gb
+2017-04-05 14:58:05,637 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_58_task_64_files_401.17Gb
+2017-04-05 14:58:07,148 INFO Task 59: 50 files, 314.82 Gb
+2017-04-05 14:58:07,149 INFO 	Name: flagstat_Lung Squamous Cell Carcinoma_59_task_50_files_314.82Gb
+2017-04-05 14:58:08,806 INFO Total tasks created: 59
+2017-04-05 14:58:08,807 INFO Total files tasked: 653
+2017-04-05 14:58:08,807 INFO Total files for disease type: 653
+2017-04-05 14:58:08,807 INFO Total WGS files: 100
+2017-04-05 14:58:08,807 INFO Total RNA-Seq files: 553

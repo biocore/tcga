@@ -1,0 +1,11 @@
+2017-01-19 08:14:40,818 INFO Creating draft tasks.
+2017-01-19 08:15:34,125 INFO Task 1: 99 files, 305.84 Gb
+2017-01-19 08:16:08,081 INFO Task 2: 82 files, 300.21 Gb
+2017-01-19 08:16:39,438 INFO Task 3: 94 files, 335.48 Gb
+2017-01-19 08:17:13,275 INFO Task 4: 109 files, 311.49 Gb
+2017-01-19 08:17:44,694 INFO Task 5: 135 files, 305.30 Gb
+2017-01-19 08:18:17,459 INFO Task 6: 102 files, 310.48 Gb
+2017-01-19 08:18:48,903 INFO Task 7: 32 files, 34.32 Gb
+2017-01-19 08:19:20,193 INFO Total tasks created: 7
+2017-01-19 08:19:20,193 INFO Total files tasked: 653
+2017-01-19 08:19:20,194 INFO Total files for disease type: 653

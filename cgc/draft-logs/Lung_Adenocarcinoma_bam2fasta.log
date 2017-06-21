@@ -1,0 +1,126 @@
+2016-10-28 11:04:51,491 INFO Creating draft tasks.
+2016-10-28 11:06:01,341 INFO Task 1: 2 files, 451.28 Gb
+2016-10-28 11:06:01,341 INFO 	Name: bam2fasta_Lung Adenocarcinoma_1_task_2_files_451.28Gb
+2016-10-28 11:06:05,889 INFO Task 2: 3 files, 509.97 Gb
+2016-10-28 11:06:05,889 INFO 	Name: bam2fasta_Lung Adenocarcinoma_2_task_3_files_509.97Gb
+2016-10-28 11:06:10,047 INFO Task 3: 3 files, 596.51 Gb
+2016-10-28 11:06:10,047 INFO 	Name: bam2fasta_Lung Adenocarcinoma_3_task_3_files_596.51Gb
+2016-10-28 11:06:14,248 INFO Task 4: 3 files, 505.91 Gb
+2016-10-28 11:06:14,248 INFO 	Name: bam2fasta_Lung Adenocarcinoma_4_task_3_files_505.91Gb
+2016-10-28 11:06:18,887 INFO Task 5: 2 files, 443.77 Gb
+2016-10-28 11:06:18,888 INFO 	Name: bam2fasta_Lung Adenocarcinoma_5_task_2_files_443.77Gb
+2016-10-28 11:06:22,984 INFO Task 6: 2 files, 385.20 Gb
+2016-10-28 11:06:22,984 INFO 	Name: bam2fasta_Lung Adenocarcinoma_6_task_2_files_385.20Gb
+2016-10-28 11:06:27,211 INFO Task 7: 2 files, 496.86 Gb
+2016-10-28 11:06:27,211 INFO 	Name: bam2fasta_Lung Adenocarcinoma_7_task_2_files_496.86Gb
+2016-10-28 11:06:31,362 INFO Task 8: 3 files, 524.47 Gb
+2016-10-28 11:06:31,363 INFO 	Name: bam2fasta_Lung Adenocarcinoma_8_task_3_files_524.47Gb
+2016-10-28 11:06:35,525 INFO Task 9: 2 files, 432.56 Gb
+2016-10-28 11:06:35,525 INFO 	Name: bam2fasta_Lung Adenocarcinoma_9_task_2_files_432.56Gb
+2016-10-28 11:06:39,777 INFO Task 10: 2 files, 378.06 Gb
+2016-10-28 11:06:39,777 INFO 	Name: bam2fasta_Lung Adenocarcinoma_10_task_2_files_378.06Gb
+2016-10-28 11:06:43,974 INFO Task 11: 2 files, 471.26 Gb
+2016-10-28 11:06:43,974 INFO 	Name: bam2fasta_Lung Adenocarcinoma_11_task_2_files_471.26Gb
+2016-10-28 11:06:48,072 INFO Task 12: 3 files, 510.81 Gb
+2016-10-28 11:06:48,072 INFO 	Name: bam2fasta_Lung Adenocarcinoma_12_task_3_files_510.81Gb
+2016-10-28 11:06:52,167 INFO Task 13: 2 files, 368.56 Gb
+2016-10-28 11:06:52,167 INFO 	Name: bam2fasta_Lung Adenocarcinoma_13_task_2_files_368.56Gb
+2016-10-28 11:06:56,465 INFO Task 14: 2 files, 430.05 Gb
+2016-10-28 11:06:56,466 INFO 	Name: bam2fasta_Lung Adenocarcinoma_14_task_2_files_430.05Gb
+2016-10-28 11:07:01,352 INFO Task 15: 3 files, 511.21 Gb
+2016-10-28 11:07:01,352 INFO 	Name: bam2fasta_Lung Adenocarcinoma_15_task_3_files_511.21Gb
+2016-10-28 11:07:05,377 INFO Task 16: 3 files, 571.92 Gb
+2016-10-28 11:07:05,378 INFO 	Name: bam2fasta_Lung Adenocarcinoma_16_task_3_files_571.92Gb
+2016-10-28 11:07:09,340 INFO Task 17: 2 files, 538.07 Gb
+2016-10-28 11:07:09,340 INFO 	Name: bam2fasta_Lung Adenocarcinoma_17_task_2_files_538.07Gb
+2016-10-28 11:07:13,344 INFO Task 18: 3 files, 584.78 Gb
+2016-10-28 11:07:13,345 INFO 	Name: bam2fasta_Lung Adenocarcinoma_18_task_3_files_584.78Gb
+2016-10-28 11:07:17,525 INFO Task 19: 2 files, 556.62 Gb
+2016-10-28 11:07:17,525 INFO 	Name: bam2fasta_Lung Adenocarcinoma_19_task_2_files_556.62Gb
+2016-10-28 11:07:21,799 INFO Task 20: 3 files, 598.20 Gb
+2016-10-28 11:07:21,799 INFO 	Name: bam2fasta_Lung Adenocarcinoma_20_task_3_files_598.20Gb
+2016-10-28 11:07:25,869 INFO Task 21: 2 files, 571.16 Gb
+2016-10-28 11:07:25,869 INFO 	Name: bam2fasta_Lung Adenocarcinoma_21_task_2_files_571.16Gb
+2016-10-28 11:07:29,951 INFO Task 22: 3 files, 559.01 Gb
+2016-10-28 11:07:29,952 INFO 	Name: bam2fasta_Lung Adenocarcinoma_22_task_3_files_559.01Gb
+2016-10-28 11:07:34,121 INFO Task 23: 3 files, 528.67 Gb
+2016-10-28 11:07:34,121 INFO 	Name: bam2fasta_Lung Adenocarcinoma_23_task_3_files_528.67Gb
+2016-10-28 11:07:38,155 INFO Task 24: 3 files, 560.85 Gb
+2016-10-28 11:07:38,155 INFO 	Name: bam2fasta_Lung Adenocarcinoma_24_task_3_files_560.85Gb
+2016-10-28 11:07:42,242 INFO Task 25: 2 files, 451.49 Gb
+2016-10-28 11:07:42,242 INFO 	Name: bam2fasta_Lung Adenocarcinoma_25_task_2_files_451.49Gb
+2016-10-28 11:07:46,410 INFO Task 26: 3 files, 539.33 Gb
+2016-10-28 11:07:46,410 INFO 	Name: bam2fasta_Lung Adenocarcinoma_26_task_3_files_539.33Gb
+2016-10-28 11:07:50,732 INFO Task 27: 3 files, 532.85 Gb
+2016-10-28 11:07:50,732 INFO 	Name: bam2fasta_Lung Adenocarcinoma_27_task_3_files_532.85Gb
+2016-10-28 11:07:54,761 INFO Task 28: 2 files, 508.74 Gb
+2016-10-28 11:07:54,761 INFO 	Name: bam2fasta_Lung Adenocarcinoma_28_task_2_files_508.74Gb
+2016-10-28 11:07:59,006 INFO Task 29: 3 files, 515.88 Gb
+2016-10-28 11:07:59,006 INFO 	Name: bam2fasta_Lung Adenocarcinoma_29_task_3_files_515.88Gb
+2016-10-28 11:08:03,598 INFO Task 30: 3 files, 579.52 Gb
+2016-10-28 11:08:03,598 INFO 	Name: bam2fasta_Lung Adenocarcinoma_30_task_3_files_579.52Gb
+2016-10-28 11:08:07,940 INFO Task 31: 3 files, 584.56 Gb
+2016-10-28 11:08:07,940 INFO 	Name: bam2fasta_Lung Adenocarcinoma_31_task_3_files_584.56Gb
+2016-10-28 11:08:12,135 INFO Task 32: 2 files, 512.85 Gb
+2016-10-28 11:08:12,135 INFO 	Name: bam2fasta_Lung Adenocarcinoma_32_task_2_files_512.85Gb
+2016-10-28 11:08:16,303 INFO Task 33: 3 files, 529.32 Gb
+2016-10-28 11:08:16,304 INFO 	Name: bam2fasta_Lung Adenocarcinoma_33_task_3_files_529.32Gb
+2016-10-28 11:08:20,650 INFO Task 34: 2 files, 443.92 Gb
+2016-10-28 11:08:20,650 INFO 	Name: bam2fasta_Lung Adenocarcinoma_34_task_2_files_443.92Gb
+2016-10-28 11:08:25,656 INFO Task 35: 3 files, 538.38 Gb
+2016-10-28 11:08:25,656 INFO 	Name: bam2fasta_Lung Adenocarcinoma_35_task_3_files_538.38Gb
+2016-10-28 11:08:29,861 INFO Task 36: 3 files, 516.04 Gb
+2016-10-28 11:08:29,861 INFO 	Name: bam2fasta_Lung Adenocarcinoma_36_task_3_files_516.04Gb
+2016-10-28 11:08:33,778 INFO Task 37: 2 files, 362.74 Gb
+2016-10-28 11:08:33,778 INFO 	Name: bam2fasta_Lung Adenocarcinoma_37_task_2_files_362.74Gb
+2016-10-28 11:08:37,842 INFO Task 38: 2 files, 548.02 Gb
+2016-10-28 11:08:37,842 INFO 	Name: bam2fasta_Lung Adenocarcinoma_38_task_2_files_548.02Gb
+2016-10-28 11:08:42,038 INFO Task 39: 3 files, 500.22 Gb
+2016-10-28 11:08:42,038 INFO 	Name: bam2fasta_Lung Adenocarcinoma_39_task_3_files_500.22Gb
+2016-10-28 11:08:46,058 INFO Task 40: 23 files, 402.97 Gb
+2016-10-28 11:08:46,058 INFO 	Name: bam2fasta_Lung Adenocarcinoma_40_task_23_files_402.97Gb
+2016-10-28 11:08:50,155 INFO Task 41: 24 files, 408.23 Gb
+2016-10-28 11:08:50,155 INFO 	Name: bam2fasta_Lung Adenocarcinoma_41_task_24_files_408.23Gb
+2016-10-28 11:08:54,091 INFO Task 42: 24 files, 426.65 Gb
+2016-10-28 11:08:54,091 INFO 	Name: bam2fasta_Lung Adenocarcinoma_42_task_24_files_426.65Gb
+2016-10-28 11:08:58,229 INFO Task 43: 22 files, 420.82 Gb
+2016-10-28 11:08:58,229 INFO 	Name: bam2fasta_Lung Adenocarcinoma_43_task_22_files_420.82Gb
+2016-10-28 11:09:02,298 INFO Task 44: 25 files, 418.03 Gb
+2016-10-28 11:09:02,298 INFO 	Name: bam2fasta_Lung Adenocarcinoma_44_task_25_files_418.03Gb
+2016-10-28 11:09:07,126 INFO Task 45: 25 files, 418.46 Gb
+2016-10-28 11:09:07,126 INFO 	Name: bam2fasta_Lung Adenocarcinoma_45_task_25_files_418.46Gb
+2016-10-28 11:09:11,425 INFO Task 46: 22 files, 412.97 Gb
+2016-10-28 11:09:11,425 INFO 	Name: bam2fasta_Lung Adenocarcinoma_46_task_22_files_412.97Gb
+2016-10-28 11:09:16,040 INFO Task 47: 20 files, 409.62 Gb
+2016-10-28 11:09:16,040 INFO 	Name: bam2fasta_Lung Adenocarcinoma_47_task_20_files_409.62Gb
+2016-10-28 11:09:20,248 INFO Task 48: 22 files, 402.53 Gb
+2016-10-28 11:09:20,248 INFO 	Name: bam2fasta_Lung Adenocarcinoma_48_task_22_files_402.53Gb
+2016-10-28 11:09:24,336 INFO Task 49: 20 files, 403.20 Gb
+2016-10-28 11:09:24,336 INFO 	Name: bam2fasta_Lung Adenocarcinoma_49_task_20_files_403.20Gb
+2016-10-28 11:09:28,530 INFO Task 50: 22 files, 411.55 Gb
+2016-10-28 11:09:28,530 INFO 	Name: bam2fasta_Lung Adenocarcinoma_50_task_22_files_411.55Gb
+2016-10-28 11:09:32,771 INFO Task 51: 66 files, 404.13 Gb
+2016-10-28 11:09:32,771 INFO 	Name: bam2fasta_Lung Adenocarcinoma_51_task_66_files_404.13Gb
+2016-10-28 11:09:37,269 INFO Task 52: 87 files, 400.73 Gb
+2016-10-28 11:09:37,269 INFO 	Name: bam2fasta_Lung Adenocarcinoma_52_task_87_files_400.73Gb
+2016-10-28 11:09:41,776 INFO Task 53: 71 files, 401.95 Gb
+2016-10-28 11:09:41,776 INFO 	Name: bam2fasta_Lung Adenocarcinoma_53_task_71_files_401.95Gb
+2016-10-28 11:09:46,283 INFO Task 54: 68 files, 407.06 Gb
+2016-10-28 11:09:46,283 INFO 	Name: bam2fasta_Lung Adenocarcinoma_54_task_68_files_407.06Gb
+2016-10-28 11:09:50,783 INFO Task 55: 51 files, 403.41 Gb
+2016-10-28 11:09:50,783 INFO 	Name: bam2fasta_Lung Adenocarcinoma_55_task_51_files_403.41Gb
+2016-10-28 11:09:55,766 INFO Task 56: 55 files, 401.68 Gb
+2016-10-28 11:09:55,766 INFO 	Name: bam2fasta_Lung Adenocarcinoma_56_task_55_files_401.68Gb
+2016-10-28 11:09:59,981 INFO Task 57: 70 files, 402.09 Gb
+2016-10-28 11:09:59,981 INFO 	Name: bam2fasta_Lung Adenocarcinoma_57_task_70_files_402.09Gb
+2016-10-28 11:10:04,422 INFO Task 58: 74 files, 411.93 Gb
+2016-10-28 11:10:04,422 INFO 	Name: bam2fasta_Lung Adenocarcinoma_58_task_74_files_411.93Gb
+2016-10-28 11:10:09,626 INFO Task 59: 57 files, 403.63 Gb
+2016-10-28 11:10:09,626 INFO 	Name: bam2fasta_Lung Adenocarcinoma_59_task_57_files_403.63Gb
+2016-10-28 11:10:13,815 INFO Task 60: 4 files, 26.07 Gb
+2016-10-28 11:10:13,815 INFO 	Name: bam2fasta_Lung Adenocarcinoma_60_task_4_files_26.07Gb
+2016-10-28 11:10:18,067 INFO Total tasks created: 60
+2016-10-28 11:10:18,067 INFO Total files tasked: 951
+2016-10-28 11:10:18,067 INFO Total files for disease type: 951
+2016-10-28 11:10:18,067 INFO Total WGS files: 351
+2016-10-28 11:10:18,067 INFO Total RNA-Seq files: 600

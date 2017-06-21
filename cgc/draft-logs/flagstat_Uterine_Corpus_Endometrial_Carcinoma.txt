@@ -1,0 +1,92 @@
+2017-04-04 12:16:33,007 INFO Creating draft tasks.
+2017-04-04 12:16:43,948 INFO Task 1: 4 files, 445.35 Gb
+2017-04-04 12:16:43,948 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_1_task_4_files_445.35Gb
+2017-04-04 12:16:45,424 INFO Task 2: 4 files, 481.19 Gb
+2017-04-04 12:16:45,424 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_2_task_4_files_481.19Gb
+2017-04-04 12:16:46,429 INFO Task 3: 3 files, 459.00 Gb
+2017-04-04 12:16:46,430 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_3_task_3_files_459.00Gb
+2017-04-04 12:16:47,424 INFO Task 4: 5 files, 444.64 Gb
+2017-04-04 12:16:47,424 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_4_task_5_files_444.64Gb
+2017-04-04 12:16:48,552 INFO Task 5: 5 files, 499.51 Gb
+2017-04-04 12:16:48,552 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_5_task_5_files_499.51Gb
+2017-04-04 12:16:49,575 INFO Task 6: 4 files, 460.15 Gb
+2017-04-04 12:16:49,576 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_6_task_4_files_460.15Gb
+2017-04-04 12:16:50,486 INFO Task 7: 4 files, 450.67 Gb
+2017-04-04 12:16:50,486 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_7_task_4_files_450.67Gb
+2017-04-04 12:16:51,623 INFO Task 8: 4 files, 537.70 Gb
+2017-04-04 12:16:51,624 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_8_task_4_files_537.70Gb
+2017-04-04 12:16:52,856 INFO Task 9: 4 files, 505.42 Gb
+2017-04-04 12:16:52,856 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_9_task_4_files_505.42Gb
+2017-04-04 12:16:53,774 INFO Task 10: 4 files, 485.10 Gb
+2017-04-04 12:16:53,774 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_10_task_4_files_485.10Gb
+2017-04-04 12:16:54,731 INFO Task 11: 3 files, 404.53 Gb
+2017-04-04 12:16:54,732 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_11_task_3_files_404.53Gb
+2017-04-04 12:16:55,735 INFO Task 12: 4 files, 463.50 Gb
+2017-04-04 12:16:55,736 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_12_task_4_files_463.50Gb
+2017-04-04 12:16:56,848 INFO Task 13: 4 files, 465.08 Gb
+2017-04-04 12:16:56,848 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_13_task_4_files_465.08Gb
+2017-04-04 12:16:57,870 INFO Task 14: 5 files, 422.91 Gb
+2017-04-04 12:16:57,871 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_14_task_5_files_422.91Gb
+2017-04-04 12:16:58,895 INFO Task 15: 20 files, 400.44 Gb
+2017-04-04 12:16:58,895 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_15_task_20_files_400.44Gb
+2017-04-04 12:17:00,001 INFO Task 16: 22 files, 413.51 Gb
+2017-04-04 12:17:00,001 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_16_task_22_files_413.51Gb
+2017-04-04 12:17:01,113 INFO Task 17: 18 files, 403.21 Gb
+2017-04-04 12:17:01,113 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_17_task_18_files_403.21Gb
+2017-04-04 12:17:02,377 INFO Task 18: 24 files, 411.04 Gb
+2017-04-04 12:17:02,377 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_18_task_24_files_411.04Gb
+2017-04-04 12:17:03,608 INFO Task 19: 20 files, 408.38 Gb
+2017-04-04 12:17:03,608 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_19_task_20_files_408.38Gb
+2017-04-04 12:17:04,747 INFO Task 20: 23 files, 413.46 Gb
+2017-04-04 12:17:04,747 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_20_task_23_files_413.46Gb
+2017-04-04 12:17:05,963 INFO Task 21: 23 files, 411.38 Gb
+2017-04-04 12:17:05,963 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_21_task_23_files_411.38Gb
+2017-04-04 12:17:07,041 INFO Task 22: 21 files, 419.10 Gb
+2017-04-04 12:17:07,042 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_22_task_21_files_419.10Gb
+2017-04-04 12:17:08,384 INFO Task 23: 22 files, 412.00 Gb
+2017-04-04 12:17:08,384 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_23_task_22_files_412.00Gb
+2017-04-04 12:17:09,548 INFO Task 24: 19 files, 406.75 Gb
+2017-04-04 12:17:09,548 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_24_task_19_files_406.75Gb
+2017-04-04 12:17:10,675 INFO Task 25: 72 files, 401.95 Gb
+2017-04-04 12:17:10,675 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_25_task_72_files_401.95Gb
+2017-04-04 12:17:12,030 INFO Task 26: 205 files, 400.96 Gb
+2017-04-04 12:17:12,030 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_26_task_205_files_400.96Gb
+2017-04-04 12:17:13,868 INFO Task 27: 173 files, 402.03 Gb
+2017-04-04 12:17:13,868 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_27_task_173_files_402.03Gb
+2017-04-04 12:17:15,404 INFO Task 28: 92 files, 401.42 Gb
+2017-04-04 12:17:15,404 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_28_task_92_files_401.42Gb
+2017-04-04 12:17:16,934 INFO Task 29: 77 files, 401.92 Gb
+2017-04-04 12:17:16,934 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_29_task_77_files_401.92Gb
+2017-04-04 12:17:18,206 INFO Task 30: 69 files, 400.00 Gb
+2017-04-04 12:17:18,206 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_30_task_69_files_400.00Gb
+2017-04-04 12:17:19,529 INFO Task 31: 225 files, 401.98 Gb
+2017-04-04 12:17:19,529 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_31_task_225_files_401.98Gb
+2017-04-04 12:17:21,151 INFO Task 32: 13 files, 422.21 Gb
+2017-04-04 12:17:21,152 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_32_task_13_files_422.21Gb
+2017-04-04 12:17:22,246 INFO Task 33: 4 files, 482.85 Gb
+2017-04-04 12:17:22,246 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_33_task_4_files_482.85Gb
+2017-04-04 12:17:23,266 INFO Task 34: 5 files, 489.07 Gb
+2017-04-04 12:17:23,266 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_34_task_5_files_489.07Gb
+2017-04-04 12:17:24,392 INFO Task 35: 4 files, 563.05 Gb
+2017-04-04 12:17:24,392 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_35_task_4_files_563.05Gb
+2017-04-04 12:17:25,858 INFO Task 36: 4 files, 407.35 Gb
+2017-04-04 12:17:25,858 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_36_task_4_files_407.35Gb
+2017-04-04 12:17:26,964 INFO Task 37: 4 files, 501.15 Gb
+2017-04-04 12:17:26,965 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_37_task_4_files_501.15Gb
+2017-04-04 12:17:28,038 INFO Task 38: 3 files, 405.92 Gb
+2017-04-04 12:17:28,038 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_38_task_3_files_405.92Gb
+2017-04-04 12:17:29,078 INFO Task 39: 4 files, 424.73 Gb
+2017-04-04 12:17:29,078 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_39_task_4_files_424.73Gb
+2017-04-04 12:17:30,126 INFO Task 40: 4 files, 453.48 Gb
+2017-04-04 12:17:30,126 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_40_task_4_files_453.48Gb
+2017-04-04 12:17:31,310 INFO Task 41: 4 files, 426.43 Gb
+2017-04-04 12:17:31,310 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_41_task_4_files_426.43Gb
+2017-04-04 12:17:32,289 INFO Task 42: 4 files, 525.97 Gb
+2017-04-04 12:17:32,289 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_42_task_4_files_525.97Gb
+2017-04-04 12:17:33,404 INFO Task 43: 4 files, 435.69 Gb
+2017-04-04 12:17:33,404 INFO 	Name: flagstat_Uterine Corpus Endometrial Carcinoma_43_task_4_files_435.69Gb
+2017-04-04 12:17:35,144 INFO Total tasks created: 43
+2017-04-04 12:17:35,144 INFO Total files tasked: 1239
+2017-04-04 12:17:35,144 INFO Total files for disease type: 1239
+2017-04-04 12:17:35,144 INFO Total WGS files: 332
+2017-04-04 12:17:35,144 INFO Total RNA-Seq files: 907

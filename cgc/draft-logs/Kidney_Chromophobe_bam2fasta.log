@@ -1,0 +1,110 @@
+2017-01-25 15:54:46,424 INFO Creating draft tasks.
+2017-01-25 15:54:57,197 INFO Task 1: 2 files, 430.82 Gb
+2017-01-25 15:54:57,200 INFO 	Name: bam2fasta_Kidney Chromophobe_1_task_2_files_430.82Gb
+2017-01-25 15:55:01,184 INFO Task 2: 2 files, 426.02 Gb
+2017-01-25 15:55:01,185 INFO 	Name: bam2fasta_Kidney Chromophobe_2_task_2_files_426.02Gb
+2017-01-25 15:55:04,050 INFO Task 3: 1 files, 570.48 Gb
+2017-01-25 15:55:04,050 INFO 	Name: bam2fasta_Kidney Chromophobe_3_task_1_files_570.48Gb
+2017-01-25 15:55:07,023 INFO Task 4: 2 files, 855.46 Gb
+2017-01-25 15:55:07,023 INFO 	Name: bam2fasta_Kidney Chromophobe_4_task_2_files_855.46Gb
+2017-01-25 15:55:09,887 INFO Task 5: 2 files, 694.62 Gb
+2017-01-25 15:55:09,887 INFO 	Name: bam2fasta_Kidney Chromophobe_5_task_2_files_694.62Gb
+2017-01-25 15:55:12,755 INFO Task 6: 2 files, 862.30 Gb
+2017-01-25 15:55:12,756 INFO 	Name: bam2fasta_Kidney Chromophobe_6_task_2_files_862.30Gb
+2017-01-25 15:55:15,742 INFO Task 7: 2 files, 790.46 Gb
+2017-01-25 15:55:15,743 INFO 	Name: bam2fasta_Kidney Chromophobe_7_task_2_files_790.46Gb
+2017-01-25 15:55:18,796 INFO Task 8: 2 files, 833.74 Gb
+2017-01-25 15:55:18,796 INFO 	Name: bam2fasta_Kidney Chromophobe_8_task_2_files_833.74Gb
+2017-01-25 15:55:21,765 INFO Task 9: 2 files, 828.27 Gb
+2017-01-25 15:55:21,765 INFO 	Name: bam2fasta_Kidney Chromophobe_9_task_2_files_828.27Gb
+2017-01-25 15:55:24,633 INFO Task 10: 2 files, 817.35 Gb
+2017-01-25 15:55:24,633 INFO 	Name: bam2fasta_Kidney Chromophobe_10_task_2_files_817.35Gb
+2017-01-25 15:55:28,037 INFO Task 11: 2 files, 760.23 Gb
+2017-01-25 15:55:28,037 INFO 	Name: bam2fasta_Kidney Chromophobe_11_task_2_files_760.23Gb
+2017-01-25 15:55:30,960 INFO Task 12: 2 files, 814.20 Gb
+2017-01-25 15:55:30,960 INFO 	Name: bam2fasta_Kidney Chromophobe_12_task_2_files_814.20Gb
+2017-01-25 15:55:34,053 INFO Task 13: 2 files, 563.29 Gb
+2017-01-25 15:55:34,053 INFO 	Name: bam2fasta_Kidney Chromophobe_13_task_2_files_563.29Gb
+2017-01-25 15:55:37,037 INFO Task 14: 2 files, 411.29 Gb
+2017-01-25 15:55:37,037 INFO 	Name: bam2fasta_Kidney Chromophobe_14_task_2_files_411.29Gb
+2017-01-25 15:55:40,358 INFO Task 15: 2 files, 616.58 Gb
+2017-01-25 15:55:40,358 INFO 	Name: bam2fasta_Kidney Chromophobe_15_task_2_files_616.58Gb
+2017-01-25 15:55:43,346 INFO Task 16: 2 files, 715.22 Gb
+2017-01-25 15:55:43,346 INFO 	Name: bam2fasta_Kidney Chromophobe_16_task_2_files_715.22Gb
+2017-01-25 15:55:46,461 INFO Task 17: 2 files, 709.01 Gb
+2017-01-25 15:55:46,461 INFO 	Name: bam2fasta_Kidney Chromophobe_17_task_2_files_709.01Gb
+2017-01-25 15:55:49,823 INFO Task 18: 2 files, 734.54 Gb
+2017-01-25 15:55:49,823 INFO 	Name: bam2fasta_Kidney Chromophobe_18_task_2_files_734.54Gb
+2017-01-25 15:55:52,896 INFO Task 19: 2 files, 683.67 Gb
+2017-01-25 15:55:52,896 INFO 	Name: bam2fasta_Kidney Chromophobe_19_task_2_files_683.67Gb
+2017-01-25 15:55:55,865 INFO Task 20: 2 files, 615.93 Gb
+2017-01-25 15:55:55,865 INFO 	Name: bam2fasta_Kidney Chromophobe_20_task_2_files_615.93Gb
+2017-01-25 15:55:58,900 INFO Task 21: 2 files, 717.34 Gb
+2017-01-25 15:55:58,900 INFO 	Name: bam2fasta_Kidney Chromophobe_21_task_2_files_717.34Gb
+2017-01-25 15:56:01,739 INFO Task 22: 2 files, 749.40 Gb
+2017-01-25 15:56:01,739 INFO 	Name: bam2fasta_Kidney Chromophobe_22_task_2_files_749.40Gb
+2017-01-25 15:56:04,645 INFO Task 23: 2 files, 762.12 Gb
+2017-01-25 15:56:04,645 INFO 	Name: bam2fasta_Kidney Chromophobe_23_task_2_files_762.12Gb
+2017-01-25 15:56:07,666 INFO Task 24: 2 files, 730.54 Gb
+2017-01-25 15:56:07,666 INFO 	Name: bam2fasta_Kidney Chromophobe_24_task_2_files_730.54Gb
+2017-01-25 15:56:10,509 INFO Task 25: 2 files, 718.06 Gb
+2017-01-25 15:56:10,509 INFO 	Name: bam2fasta_Kidney Chromophobe_25_task_2_files_718.06Gb
+2017-01-25 15:56:13,476 INFO Task 26: 2 files, 803.63 Gb
+2017-01-25 15:56:13,477 INFO 	Name: bam2fasta_Kidney Chromophobe_26_task_2_files_803.63Gb
+2017-01-25 15:56:16,372 INFO Task 27: 2 files, 581.59 Gb
+2017-01-25 15:56:16,372 INFO 	Name: bam2fasta_Kidney Chromophobe_27_task_2_files_581.59Gb
+2017-01-25 15:56:19,212 INFO Task 28: 2 files, 618.11 Gb
+2017-01-25 15:56:19,212 INFO 	Name: bam2fasta_Kidney Chromophobe_28_task_2_files_618.11Gb
+2017-01-25 15:56:22,183 INFO Task 29: 2 files, 741.52 Gb
+2017-01-25 15:56:22,183 INFO 	Name: bam2fasta_Kidney Chromophobe_29_task_2_files_741.52Gb
+2017-01-25 15:56:25,378 INFO Task 30: 2 files, 748.93 Gb
+2017-01-25 15:56:25,379 INFO 	Name: bam2fasta_Kidney Chromophobe_30_task_2_files_748.93Gb
+2017-01-25 15:56:28,839 INFO Task 31: 2 files, 558.57 Gb
+2017-01-25 15:56:28,839 INFO 	Name: bam2fasta_Kidney Chromophobe_31_task_2_files_558.57Gb
+2017-01-25 15:56:31,812 INFO Task 32: 2 files, 588.01 Gb
+2017-01-25 15:56:31,812 INFO 	Name: bam2fasta_Kidney Chromophobe_32_task_2_files_588.01Gb
+2017-01-25 15:56:34,686 INFO Task 33: 2 files, 684.31 Gb
+2017-01-25 15:56:34,687 INFO 	Name: bam2fasta_Kidney Chromophobe_33_task_2_files_684.31Gb
+2017-01-25 15:56:37,745 INFO Task 34: 2 files, 724.34 Gb
+2017-01-25 15:56:37,746 INFO 	Name: bam2fasta_Kidney Chromophobe_34_task_2_files_724.34Gb
+2017-01-25 15:56:40,615 INFO Task 35: 2 files, 752.15 Gb
+2017-01-25 15:56:40,616 INFO 	Name: bam2fasta_Kidney Chromophobe_35_task_2_files_752.15Gb
+2017-01-25 15:56:43,850 INFO Task 36: 2 files, 560.70 Gb
+2017-01-25 15:56:43,850 INFO 	Name: bam2fasta_Kidney Chromophobe_36_task_2_files_560.70Gb
+2017-01-25 15:56:46,759 INFO Task 37: 2 files, 674.78 Gb
+2017-01-25 15:56:46,759 INFO 	Name: bam2fasta_Kidney Chromophobe_37_task_2_files_674.78Gb
+2017-01-25 15:56:50,127 INFO Task 38: 2 files, 713.20 Gb
+2017-01-25 15:56:50,127 INFO 	Name: bam2fasta_Kidney Chromophobe_38_task_2_files_713.20Gb
+2017-01-25 15:56:53,210 INFO Task 39: 2 files, 705.52 Gb
+2017-01-25 15:56:53,210 INFO 	Name: bam2fasta_Kidney Chromophobe_39_task_2_files_705.52Gb
+2017-01-25 15:56:56,304 INFO Task 40: 2 files, 529.78 Gb
+2017-01-25 15:56:56,304 INFO 	Name: bam2fasta_Kidney Chromophobe_40_task_2_files_529.78Gb
+2017-01-25 15:56:58,968 INFO Task 41: 2 files, 444.95 Gb
+2017-01-25 15:56:58,968 INFO 	Name: bam2fasta_Kidney Chromophobe_41_task_2_files_444.95Gb
+2017-01-25 15:57:02,025 INFO Task 42: 2 files, 758.99 Gb
+2017-01-25 15:57:02,025 INFO 	Name: bam2fasta_Kidney Chromophobe_42_task_2_files_758.99Gb
+2017-01-25 15:57:04,886 INFO Task 43: 2 files, 784.37 Gb
+2017-01-25 15:57:04,886 INFO 	Name: bam2fasta_Kidney Chromophobe_43_task_2_files_784.37Gb
+2017-01-25 15:57:07,852 INFO Task 44: 2 files, 545.06 Gb
+2017-01-25 15:57:07,853 INFO 	Name: bam2fasta_Kidney Chromophobe_44_task_2_files_545.06Gb
+2017-01-25 15:57:11,131 INFO Task 45: 2 files, 469.84 Gb
+2017-01-25 15:57:11,131 INFO 	Name: bam2fasta_Kidney Chromophobe_45_task_2_files_469.84Gb
+2017-01-25 15:57:14,098 INFO Task 46: 2 files, 601.55 Gb
+2017-01-25 15:57:14,098 INFO 	Name: bam2fasta_Kidney Chromophobe_46_task_2_files_601.55Gb
+2017-01-25 15:57:16,853 INFO Task 47: 2 files, 792.72 Gb
+2017-01-25 15:57:16,854 INFO 	Name: bam2fasta_Kidney Chromophobe_47_task_2_files_792.72Gb
+2017-01-25 15:57:19,628 INFO Task 48: 2 files, 604.42 Gb
+2017-01-25 15:57:19,628 INFO 	Name: bam2fasta_Kidney Chromophobe_48_task_2_files_604.42Gb
+2017-01-25 15:57:22,494 INFO Task 49: 2 files, 518.10 Gb
+2017-01-25 15:57:22,495 INFO 	Name: bam2fasta_Kidney Chromophobe_49_task_2_files_518.10Gb
+2017-01-25 15:57:25,466 INFO Task 50: 2 files, 440.41 Gb
+2017-01-25 15:57:25,467 INFO 	Name: bam2fasta_Kidney Chromophobe_50_task_2_files_440.41Gb
+2017-01-25 15:57:28,537 INFO Task 51: 40 files, 403.48 Gb
+2017-01-25 15:57:28,537 INFO 	Name: bam2fasta_Kidney Chromophobe_51_task_40_files_403.48Gb
+2017-01-25 15:57:31,516 INFO Task 52: 52 files, 374.79 Gb
+2017-01-25 15:57:31,517 INFO 	Name: bam2fasta_Kidney Chromophobe_52_task_52_files_374.79Gb
+2017-01-25 15:57:34,479 INFO Total tasks created: 52
+2017-01-25 15:57:34,479 INFO Total files tasked: 191
+2017-01-25 15:57:34,480 INFO Total files for disease type: 191
+2017-01-25 15:57:34,480 INFO Total WGS files: 100
+2017-01-25 15:57:34,480 INFO Total RNA-Seq files: 91
