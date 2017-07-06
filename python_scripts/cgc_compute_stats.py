@@ -71,7 +71,7 @@ def create_task_flagstat_cgc(all_files,
         Api       
     """
     inputs = {"BAM_FILE_TO_COUNT" : all_files}
-    task_name = "flagstat_%s" % task_name
+    task_name = "flagstat_all_%s" % task_name
     logger.info('\tName: %s' % task_name)
     my_project = api.projects.get(id = config['project'])
     try:
@@ -214,7 +214,7 @@ def run_tasks(api,
     logger.info('Running tasks!')
     project = config['project']
     max_task_number = config['task_max_per_run']
-    app = config['app-bam2fasta']
+    app = config['app-flagstat']
     running_tasks = list(
         api.tasks.query(project=project, limit=100, status='RUNNING').all()
     )
@@ -229,7 +229,6 @@ def run_tasks(api,
             (active=len(running_tasks) + len(queued_tasks)))
     draft_tasks = list(
         api.tasks.query(project=project,
-                        limit=100,
                         status='DRAFT').all())
     if len(draft_tasks) == 0:
         print('No draft tasks left to be run!')
@@ -239,8 +238,13 @@ def run_tasks(api,
     for task in draft_tasks:
         if app not in task.app:
             draft_tasks_app.remove(task)
-    executable_tasks = draft_tasks_app[0:max_task_number - len(running_tasks)]
-    for task in executable_tasks:
+    # executable tasks
+    executable_tasks = []
+    for task in draft_tasks_app:
+        if "flagstat" in task.name:
+            executable_tasks.append(task)
+    executable_tasks_2 = executable_tasks[0:max_task_number - len(running_tasks)]
+    for task in executable_tasks_2: 
         # Sanity check only current app draft tasks are run
         if app in task.app:
             try:

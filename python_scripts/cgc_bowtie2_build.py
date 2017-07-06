@@ -14,7 +14,7 @@ Build Bowtie2 database on all reference genomes in Kraken report.
 
 import click
 from os import listdir
-from os.path import join
+from os.path import join, dirname
 
 
 def load_kraken_mpa_report(kraken_mpa_report_fp,
@@ -41,17 +41,17 @@ def load_kraken_mpa_report(kraken_mpa_report_fp,
     """
     taxa_levels = {"domain": "d__", "phylum": "|p__", "class": "|c__",
                    "order": "|o__", "family": "|f__", "genus": "|g__",
-                   "species": "|s__"}
+                   "species": "|s__", "strain": "|t__"}
 
     taxa_levels_idx = {"d__": 0, "|p__": 1, "|c__": 2, "|o__": 3, "|f__": 4,
-                       "|g__": 5, "|s__": 6, "6": "|s__", "5": "|g__",
-                       "4": "|f__", "3": "|o__", "2": "|c__",
-                       "1": "|p__", "0": "d__"}
+                       "|g__": 5, "|s__": 6, "|t__": 7, "7": "|t__",
+                       "6": "|s__", "5": "|g__", "4": "|f__", "3": "|o__",
+                       "2": "|c__", "1": "|p__", "0": "d__"}
 
     taxa_levels_str = taxa_levels[taxonomic_rank]
     taxa_levels_idx_int = taxa_levels_idx[taxa_levels_str]
 
-    if taxa_levels_idx_int < 6:
+    if taxa_levels_idx_int < 7:
         split_on_level = taxa_levels_idx[str(taxa_levels_idx_int + 1)]
     else:
         split_on_level = '\t'
@@ -66,6 +66,19 @@ def load_kraken_mpa_report(kraken_mpa_report_fp,
                     # keep taxonomy string up to specified level
                     taxonomy_parse = taxonomy.split(split_on_level)[0]
                     taxonomy_parse = taxonomy_parse.replace('d__', 'k__')
+                    # format taxonomy strings to RepoPhlAn's style
+                    if '.' in taxonomy_parse:
+                        taxonomy_parse = taxonomy_parse.replace('.', '')
+                    if '(' in taxonomy_parse:
+                        taxonomy_parse = taxonomy_parse.replace('(', '_')
+                    if ')' in taxonomy_parse:
+                        taxonomy_parse = taxonomy_parse.replace(')', '')
+                    if '-' in taxonomy_parse:
+                        taxonomy_parse = taxonomy_parse.replace('-', '_')
+                    if '[' in taxonomy_parse:
+                        taxonomy_parse = taxonomy_parse.replace('[', '')
+                    if ']' in taxonomy_parse:
+                        taxonomy_parse = taxonomy_parse.replace(']', '')
                     if taxonomy_parse not in taxonomic_abundances:
                         taxonomic_abundances[taxonomy_parse] = 1
                     else:
@@ -99,8 +112,9 @@ def parse_repophlan_genome_ids(repophlan_genome_id_taxonomy_fp,
     # assign genome IDs to taxonomies truncated at desired level
     with open(repophlan_genome_id_taxonomy_fp) as genome_id_taxonomy_f:
         for line in genome_id_taxonomy_f:
-            genome_id, taxonomy =\
+            genome_id, path, taxonomy =\
                 line.strip().split('\t')
+            run = 0
             taxonomy = taxonomy.split(split_on_level)[0]
             # remove "noname" filler from RepoPhlAn's taxonomy
             if "_noname" in taxonomy:
@@ -134,35 +148,35 @@ def collect_candidate_repophlan_genomes(taxonomic_set,
     -------
     genomes_to_align_to: list
         list of genome IDs
-    genome_fps_str: str
-        bt2 input index files str
+    genome_fps: list
+        bt2 input index files
     """
     genomes_to_align_to = []
     for taxa in taxonomic_set:
         if taxa in repophlan_taxa_and_genomes:
             genomes_to_align_to.extend(repophlan_taxa_and_genomes[taxa])
         else:
-            print("[WARNING] %s not found in RepoPhlAn taxonomies")
+            print("[WARNING] %s not found in RepoPhlAn taxonomies" % taxa)
     # Generate bt2 command
-    genome_fps_str = ""
+    genome_fps = []
     candidate_genomes = []
     for filename in listdir(genome_dir):
         if filename.endswith('.fna'):
             genome_id = filename.split('.fna')[0]
             if genome_id in genomes_to_align_to:
-                genome_fps_str = "%s,%s" % (
-                    genome_fps_str, join(genome_dir, filename))
+                genome_fps.append(join(genome_dir, filename))
                 candidate_genomes.append(genome_id)
     if set(candidate_genomes) != set(genomes_to_align_to):
         raise ValueError('Missing genomes: %s' % (
             set(candidate_genomes) - set(genomes_to_align_to)))
-    return genomes_to_align_to, genome_fps_str
+    return genomes_to_align_to, genome_fps
 
 
 def output_candidate_repophlan_genomes(genomes_to_align_to,
-                                       genome_fps_str,
+                                       genome_fps,
                                        output_fp,
-                                       bt2_index_base):
+                                       bt2_index_base,
+                                       threads):
     """
     Parameters
     ----------
@@ -175,10 +189,23 @@ def output_candidate_repophlan_genomes(genomes_to_align_to,
     bt2_index_base: str
         Bowtie2 index dir/basename
     """
-    with open(output_fp) as output_f:
-        output_f.write("Total genomes: %s\n" % len(genomes_to_align_to))
-        for genome_id in genomes_to_align_to:
-            output_f.write("%s\n" % genome_id)
+    # write genomes file
+    output_dp = dirname(output_fp)
+    output_genomes_fp = join(output_dp, "reference_db.fasta")
+    with open(output_genomes_fp, 'w') as f:
+        for fname in genomes_fps:
+            with open(fname) as infile:
+                for line in infile:
+                    f.write(line)
+    genomes_fps_str = ",".join(genome_fps)
+    print("Total genomes: %s\n" % len(genomes_to_align_to))
+    #with open(output_fp, 'w+') as output_f:
+    #    output_f.write("echo '")
+    #    output_f.write("bowtie2-build ")
+    #    output_f.write(genomes_fps_str)
+    #    output_f.write(" %s" % bt2_index_base)
+    #    output_f.write(" --threads %s" % threads)
+    #    output_f.write(" ' | qsub -l nodes=1:ppn=32 -q highmem -l walltime=72:00:00 -N bowtie2_build_%s_genomes" % len(genomes_to_align_to))
 
 
 @click.command()
@@ -202,6 +229,8 @@ def output_candidate_repophlan_genomes(genomes_to_align_to,
 @click.option('--read-per-taxa', required=False, type=int,
               default=10, show_default=True,
               help="Minimum number of reads for each taxa")
+@click.option('--threads', required=False, type=int, default=1, show_default=True,
+              help="Bowtie2-build threads option")
 @click.option('--output-fp', required=False,
               default='subset_repophlan_genomeID_taxonomy.good',
               show_default=True,
@@ -214,6 +243,7 @@ def main(kraken_mpa_report_fp,
          genome_dir,
          taxonomic_rank,
          read_per_taxa,
+         threads,
          output_fp,
          bt2_index_base):
 
@@ -227,7 +257,7 @@ def main(kraken_mpa_report_fp,
         repophlan_genome_id_taxonomy_fp=repophlan_genome_id_taxonomy_fp,
         split_on_level=split_on_level)
 
-    genomes_to_align_to, genome_fps_str =\
+    genomes_to_align_to, genome_fps =\
         collect_candidate_repophlan_genomes(
             taxonomic_set=taxonomic_set,
             repophlan_taxa_and_genomes=repophlan_taxa_and_genomes,
@@ -235,9 +265,10 @@ def main(kraken_mpa_report_fp,
 
     output_candidate_repophlan_genomes(
         genomes_to_align_to=genomes_to_align_to,
-        genome_fps_str=genome_fps_str,
+        genome_fps=genome_fps,
         output_fp=output_fp,
-        bt2_index_base=bt2_index_base)
+        bt2_index_base=bt2_index_base,
+        threads=threads)
 
 
 if __name__ == "__main__":
