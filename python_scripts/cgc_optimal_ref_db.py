@@ -14,7 +14,7 @@ Build Bowtie2 database on all reference genomes in Kraken report.
 
 import click
 from os import listdir
-from os.path import join, dirname
+from os.path import join
 
 
 def load_kraken_mpa_report(kraken_mpa_report_fp,
@@ -57,6 +57,8 @@ def load_kraken_mpa_report(kraken_mpa_report_fp,
         split_on_level = '\t'
 
     taxonomic_abundances = {}
+    total_reads = 0
+    reads_assigned_to_higher_taxa_level = []
     for report_fp in kraken_mpa_report_fp:
         with open(report_fp) as report_f:
             for line in report_f:
@@ -80,14 +82,22 @@ def load_kraken_mpa_report(kraken_mpa_report_fp,
                     if ']' in taxonomy_parse:
                         taxonomy_parse = taxonomy_parse.replace(']', '')
                     if taxonomy_parse not in taxonomic_abundances:
-                        taxonomic_abundances[taxonomy_parse] = 1
-                    else:
-                        taxonomic_abundances[taxonomy_parse] += 1
+                        taxonomic_abundances[taxonomy_parse] = []
+                    taxonomic_abundances[taxonomy_parse].append(label)
+                    total_reads += 1
+                else:
+                    reads_assigned_to_higher_taxa_level.append(label)
 
-    taxonomic_set = set([k for k, v in taxonomic_abundances.items()
-                         if v > read_per_taxa])
+    taxonomic_set = []
+    reads_to_remove = []
+    for taxa, reads in taxonomic_abundances.items():
+        if len(reads) > read_per_taxa:
+            taxonomic_set.append(taxa)
+        else:
+            reads_to_remove.extend(reads)
+    reads_to_keep = total_reads-len(reads_to_remove)
 
-    return taxonomic_set, split_on_level
+    return set(taxonomic_set), split_on_level, reads_to_remove, reads_to_keep, reads_assigned_to_higher_taxa_level
 
 
 def parse_repophlan_genome_ids(repophlan_genome_id_taxonomy_fp,
@@ -190,15 +200,8 @@ def output_candidate_repophlan_genomes(genomes_to_align_to,
         Bowtie2 index dir/basename
     """
     # write genomes file
-    output_dp = dirname(output_fp)
-    output_genomes_fp = join(output_dp, "reference_db.fasta")
-    with open(output_genomes_fp, 'w') as f:
-        for fname in genomes_fps:
-            with open(fname) as infile:
-                for line in infile:
-                    f.write(line)
     genomes_fps_str = ",".join(genome_fps)
-    print("Total genomes: %s\n" % len(genomes_to_align_to))
+    print("Total genomes to align to: %s\n" % len(genomes_to_align_to))
     #with open(output_fp, 'w+') as output_f:
     #    output_f.write("echo '")
     #    output_f.write("bowtie2-build ")
@@ -247,11 +250,15 @@ def main(kraken_mpa_report_fp,
          output_fp,
          bt2_index_base):
 
-    taxonomic_set, split_on_level =\
+    taxonomic_set, split_on_level, reads_to_remove, reads_to_keep, reads_assigned_to_higher_taxa_level =\
         load_kraken_mpa_report(
             kraken_mpa_report_fp=kraken_mpa_report_fp,
             read_per_taxa=read_per_taxa,
             taxonomic_rank=taxonomic_rank)
+
+    print("reads to remove: %s" % len(reads_to_remove))
+    print("reads to align: %s" % reads_to_keep)
+    print("reads assigned to higher taxa level: %s" % len(reads_assigned_to_higher_taxa_level))
 
     repophlan_taxa_and_genomes = parse_repophlan_genome_ids(
         repophlan_genome_id_taxonomy_fp=repophlan_genome_id_taxonomy_fp,
