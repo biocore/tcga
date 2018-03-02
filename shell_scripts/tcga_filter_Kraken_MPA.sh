@@ -31,7 +31,7 @@ do
 		# SAM alignment file with same file number
 		sam_fp=${bwa_dp}/Bacterial_${disease}_Classified_$fn.fasta.sam
 		if [ -f ${sam_fp} ] then;
-			# TODO: modify command to run filtering
+			# TODO: add command to run filtering
 			echo "run_filter.py --mpa-report ${mpa_report} \
 				  --sam ${sam_fp} \
 				  --output-fp ${tcga_clean_dp}/${bn%.*}_clean.txt" | qsub -m abe -M jenya.kopylov@gmail.com -l nodes=1:ppn=1 -l pmem=100gb -l mem=100gb -N ${bn%.*} -l walltime=48:00:00

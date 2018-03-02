@@ -13,4 +13,4 @@ COPY test_parse_kraken_to_biom.py /usr/src/app
 
 ADD parse_kraken_to_biom.py /usr/src/app/parse_kraken_to_biom.py
 
-CMD ["python", "/usr/src/app/parse_kraken_to_biom.py"]
+CMD ["python", "/usr/src/app/parse_kraken_to_biom.py”]

@@ -8,9 +8,13 @@ tcga_clean_dir=/projects/tcga-data/human_filter
 #disease_of_interest=("Bacterial_Cervical_Squamous_Cell_Carcinoma_and_Endocervical_Adenocarcinoma_Classified" \
 #					 "Viral_Cervical_Squamous_Cell_Carcinoma_and_Endocervical_Adenocarcinoma_Classified" \
 #					 "Bacterial_Stomach_Adenocarcinoma_Classified" \
-#					 "Viral_Stomach_Adenocarcinoma_Classified")
-disease_of_interest=("Bacterial_Ovarian_Serous_Cystadenocarcinoma_Classified" \
-					 "Viral_Ovarian_Serous_Cystadenocarcinoma_Classified")
+#					 "Viral_Stomach_Adenocarcinoma_Classified" \
+#					 "Bacterial_Ovarian_Serous_Cystadenocarcinoma_Classified" \
+#					 "Viral_Ovarian_Serous_Cystadenocarcinoma_Classified")
+#disease_of_interest=("Bacterial_Lung_Adenocarcinoma_Classified" \
+#					 "Viral_Lung_Adenocarcinoma_Classified")
+disease_of_interest=("Bacterial_Colon_Adenocarcinoma_Classified" \
+					 "Viral_Colon_Adenocarcinoma_Classified")
 output_dp=/projects/tcga-data/bwa_alignments
 threads=15
 

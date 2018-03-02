@@ -1,0 +1,150 @@
+2017-04-08 20:29:27,259 INFO Creating draft tasks.
+2017-04-08 20:29:38,784 INFO Task 1: 3 files, 448.65 Gb
+2017-04-08 20:29:38,785 INFO 	Name: flagstat_Stomach Adenocarcinoma_1_task_3_files_448.65Gb
+2017-04-08 20:29:40,521 INFO Task 2: 3 files, 415.22 Gb
+2017-04-08 20:29:40,521 INFO 	Name: flagstat_Stomach Adenocarcinoma_2_task_3_files_415.22Gb
+2017-04-08 20:29:41,524 INFO Task 3: 2 files, 510.49 Gb
+2017-04-08 20:29:41,525 INFO 	Name: flagstat_Stomach Adenocarcinoma_3_task_2_files_510.49Gb
+2017-04-08 20:29:42,568 INFO Task 4: 2 files, 529.87 Gb
+2017-04-08 20:29:42,568 INFO 	Name: flagstat_Stomach Adenocarcinoma_4_task_2_files_529.87Gb
+2017-04-08 20:29:43,677 INFO Task 5: 3 files, 469.58 Gb
+2017-04-08 20:29:43,678 INFO 	Name: flagstat_Stomach Adenocarcinoma_5_task_3_files_469.58Gb
+2017-04-08 20:29:44,821 INFO Task 6: 2 files, 455.93 Gb
+2017-04-08 20:29:44,821 INFO 	Name: flagstat_Stomach Adenocarcinoma_6_task_2_files_455.93Gb
+2017-04-08 20:29:45,947 INFO Task 7: 2 files, 463.68 Gb
+2017-04-08 20:29:45,947 INFO 	Name: flagstat_Stomach Adenocarcinoma_7_task_2_files_463.68Gb
+2017-04-08 20:29:47,082 INFO Task 8: 2 files, 539.33 Gb
+2017-04-08 20:29:47,082 INFO 	Name: flagstat_Stomach Adenocarcinoma_8_task_2_files_539.33Gb
+2017-04-08 20:29:48,097 INFO Task 9: 2 files, 507.30 Gb
+2017-04-08 20:29:48,098 INFO 	Name: flagstat_Stomach Adenocarcinoma_9_task_2_files_507.30Gb
+2017-04-08 20:29:49,122 INFO Task 10: 1 files, 409.84 Gb
+2017-04-08 20:29:49,122 INFO 	Name: flagstat_Stomach Adenocarcinoma_10_task_1_files_409.84Gb
+2017-04-08 20:29:52,295 INFO Task 11: 2 files, 448.14 Gb
+2017-04-08 20:29:52,295 INFO 	Name: flagstat_Stomach Adenocarcinoma_11_task_2_files_448.14Gb
+2017-04-08 20:29:53,527 INFO Task 12: 2 files, 448.41 Gb
+2017-04-08 20:29:53,528 INFO 	Name: flagstat_Stomach Adenocarcinoma_12_task_2_files_448.41Gb
+2017-04-08 20:29:54,663 INFO Task 13: 2 files, 489.70 Gb
+2017-04-08 20:29:54,663 INFO 	Name: flagstat_Stomach Adenocarcinoma_13_task_2_files_489.70Gb
+2017-04-08 20:29:55,880 INFO Task 14: 2 files, 580.96 Gb
+2017-04-08 20:29:55,880 INFO 	Name: flagstat_Stomach Adenocarcinoma_14_task_2_files_580.96Gb
+2017-04-08 20:29:57,520 INFO Task 15: 3 files, 498.53 Gb
+2017-04-08 20:29:57,520 INFO 	Name: flagstat_Stomach Adenocarcinoma_15_task_3_files_498.53Gb
+2017-04-08 20:29:58,646 INFO Task 16: 3 files, 555.14 Gb
+2017-04-08 20:29:58,646 INFO 	Name: flagstat_Stomach Adenocarcinoma_16_task_3_files_555.14Gb
+2017-04-08 20:29:59,464 INFO Task 17: 2 files, 435.25 Gb
+2017-04-08 20:29:59,464 INFO 	Name: flagstat_Stomach Adenocarcinoma_17_task_2_files_435.25Gb
+2017-04-08 20:30:00,592 INFO Task 18: 3 files, 594.75 Gb
+2017-04-08 20:30:00,592 INFO 	Name: flagstat_Stomach Adenocarcinoma_18_task_3_files_594.75Gb
+2017-04-08 20:30:01,514 INFO Task 19: 3 files, 575.84 Gb
+2017-04-08 20:30:01,515 INFO 	Name: flagstat_Stomach Adenocarcinoma_19_task_3_files_575.84Gb
+2017-04-08 20:30:02,640 INFO Task 20: 2 files, 523.79 Gb
+2017-04-08 20:30:02,640 INFO 	Name: flagstat_Stomach Adenocarcinoma_20_task_2_files_523.79Gb
+2017-04-08 20:30:03,620 INFO Task 21: 3 files, 520.63 Gb
+2017-04-08 20:30:03,620 INFO 	Name: flagstat_Stomach Adenocarcinoma_21_task_3_files_520.63Gb
+2017-04-08 20:30:04,684 INFO Task 22: 2 files, 552.20 Gb
+2017-04-08 20:30:04,684 INFO 	Name: flagstat_Stomach Adenocarcinoma_22_task_2_files_552.20Gb
+2017-04-08 20:30:05,918 INFO Task 23: 3 files, 481.67 Gb
+2017-04-08 20:30:05,918 INFO 	Name: flagstat_Stomach Adenocarcinoma_23_task_3_files_481.67Gb
+2017-04-08 20:30:06,734 INFO Task 24: 2 files, 470.83 Gb
+2017-04-08 20:30:06,734 INFO 	Name: flagstat_Stomach Adenocarcinoma_24_task_2_files_470.83Gb
+2017-04-08 20:30:07,761 INFO Task 25: 2 files, 435.36 Gb
+2017-04-08 20:30:07,761 INFO 	Name: flagstat_Stomach Adenocarcinoma_25_task_2_files_435.36Gb
+2017-04-08 20:30:08,798 INFO Task 26: 2 files, 422.33 Gb
+2017-04-08 20:30:08,798 INFO 	Name: flagstat_Stomach Adenocarcinoma_26_task_2_files_422.33Gb
+2017-04-08 20:30:10,014 INFO Task 27: 2 files, 525.21 Gb
+2017-04-08 20:30:10,014 INFO 	Name: flagstat_Stomach Adenocarcinoma_27_task_2_files_525.21Gb
+2017-04-08 20:30:11,036 INFO Task 28: 3 files, 442.65 Gb
+2017-04-08 20:30:11,036 INFO 	Name: flagstat_Stomach Adenocarcinoma_28_task_3_files_442.65Gb
+2017-04-08 20:30:12,060 INFO Task 29: 2 files, 522.35 Gb
+2017-04-08 20:30:12,060 INFO 	Name: flagstat_Stomach Adenocarcinoma_29_task_2_files_522.35Gb
+2017-04-08 20:30:13,163 INFO Task 30: 2 files, 465.76 Gb
+2017-04-08 20:30:13,163 INFO 	Name: flagstat_Stomach Adenocarcinoma_30_task_2_files_465.76Gb
+2017-04-08 20:30:14,185 INFO Task 31: 2 files, 347.32 Gb
+2017-04-08 20:30:14,185 INFO 	Name: flagstat_Stomach Adenocarcinoma_31_task_2_files_347.32Gb
+2017-04-08 20:30:15,147 INFO Task 32: 2 files, 459.02 Gb
+2017-04-08 20:30:15,147 INFO 	Name: flagstat_Stomach Adenocarcinoma_32_task_2_files_459.02Gb
+2017-04-08 20:30:16,273 INFO Task 33: 2 files, 486.25 Gb
+2017-04-08 20:30:16,273 INFO 	Name: flagstat_Stomach Adenocarcinoma_33_task_2_files_486.25Gb
+2017-04-08 20:30:17,283 INFO Task 34: 2 files, 437.98 Gb
+2017-04-08 20:30:17,283 INFO 	Name: flagstat_Stomach Adenocarcinoma_34_task_2_files_437.98Gb
+2017-04-08 20:30:18,347 INFO Task 35: 2 files, 497.59 Gb
+2017-04-08 20:30:18,347 INFO 	Name: flagstat_Stomach Adenocarcinoma_35_task_2_files_497.59Gb
+2017-04-08 20:30:19,383 INFO Task 36: 2 files, 512.80 Gb
+2017-04-08 20:30:19,383 INFO 	Name: flagstat_Stomach Adenocarcinoma_36_task_2_files_512.80Gb
+2017-04-08 20:30:20,466 INFO Task 37: 26 files, 409.45 Gb
+2017-04-08 20:30:20,466 INFO 	Name: flagstat_Stomach Adenocarcinoma_37_task_26_files_409.45Gb
+2017-04-08 20:30:21,621 INFO Task 38: 24 files, 411.54 Gb
+2017-04-08 20:30:21,621 INFO 	Name: flagstat_Stomach Adenocarcinoma_38_task_24_files_411.54Gb
+2017-04-08 20:30:22,728 INFO Task 39: 25 files, 400.46 Gb
+2017-04-08 20:30:22,728 INFO 	Name: flagstat_Stomach Adenocarcinoma_39_task_25_files_400.46Gb
+2017-04-08 20:30:23,889 INFO Task 40: 30 files, 407.42 Gb
+2017-04-08 20:30:23,890 INFO 	Name: flagstat_Stomach Adenocarcinoma_40_task_30_files_407.42Gb
+2017-04-08 20:30:25,072 INFO Task 41: 21 files, 411.87 Gb
+2017-04-08 20:30:25,072 INFO 	Name: flagstat_Stomach Adenocarcinoma_41_task_21_files_411.87Gb
+2017-04-08 20:30:26,296 INFO Task 42: 22 files, 404.23 Gb
+2017-04-08 20:30:26,296 INFO 	Name: flagstat_Stomach Adenocarcinoma_42_task_22_files_404.23Gb
+2017-04-08 20:30:27,525 INFO Task 43: 32 files, 405.50 Gb
+2017-04-08 20:30:27,525 INFO 	Name: flagstat_Stomach Adenocarcinoma_43_task_32_files_405.50Gb
+2017-04-08 20:30:29,414 INFO Task 44: 38 files, 409.34 Gb
+2017-04-08 20:30:29,414 INFO 	Name: flagstat_Stomach Adenocarcinoma_44_task_38_files_409.34Gb
+2017-04-08 20:30:30,715 INFO Task 45: 25 files, 403.97 Gb
+2017-04-08 20:30:30,715 INFO 	Name: flagstat_Stomach Adenocarcinoma_45_task_25_files_403.97Gb
+2017-04-08 20:30:31,825 INFO Task 46: 27 files, 402.05 Gb
+2017-04-08 20:30:31,826 INFO 	Name: flagstat_Stomach Adenocarcinoma_46_task_27_files_402.05Gb
+2017-04-08 20:30:33,070 INFO Task 47: 28 files, 420.47 Gb
+2017-04-08 20:30:33,071 INFO 	Name: flagstat_Stomach Adenocarcinoma_47_task_28_files_420.47Gb
+2017-04-08 20:30:34,261 INFO Task 48: 29 files, 408.88 Gb
+2017-04-08 20:30:34,261 INFO 	Name: flagstat_Stomach Adenocarcinoma_48_task_29_files_408.88Gb
+2017-04-08 20:30:35,467 INFO Task 49: 22 files, 411.28 Gb
+2017-04-08 20:30:35,467 INFO 	Name: flagstat_Stomach Adenocarcinoma_49_task_22_files_411.28Gb
+2017-04-08 20:30:36,620 INFO Task 50: 19 files, 409.53 Gb
+2017-04-08 20:30:36,620 INFO 	Name: flagstat_Stomach Adenocarcinoma_50_task_19_files_409.53Gb
+2017-04-08 20:30:37,828 INFO Task 51: 25 files, 404.85 Gb
+2017-04-08 20:30:37,828 INFO 	Name: flagstat_Stomach Adenocarcinoma_51_task_25_files_404.85Gb
+2017-04-08 20:30:38,908 INFO Task 52: 23 files, 405.05 Gb
+2017-04-08 20:30:38,908 INFO 	Name: flagstat_Stomach Adenocarcinoma_52_task_23_files_405.05Gb
+2017-04-08 20:30:39,956 INFO Task 53: 22 files, 411.98 Gb
+2017-04-08 20:30:39,956 INFO 	Name: flagstat_Stomach Adenocarcinoma_53_task_22_files_411.98Gb
+2017-04-08 20:30:41,159 INFO Task 54: 21 files, 418.64 Gb
+2017-04-08 20:30:41,159 INFO 	Name: flagstat_Stomach Adenocarcinoma_54_task_21_files_418.64Gb
+2017-04-08 20:30:42,271 INFO Task 55: 19 files, 411.59 Gb
+2017-04-08 20:30:42,272 INFO 	Name: flagstat_Stomach Adenocarcinoma_55_task_19_files_411.59Gb
+2017-04-08 20:30:43,412 INFO Task 56: 29 files, 404.27 Gb
+2017-04-08 20:30:43,412 INFO 	Name: flagstat_Stomach Adenocarcinoma_56_task_29_files_404.27Gb
+2017-04-08 20:30:44,631 INFO Task 57: 29 files, 400.16 Gb
+2017-04-08 20:30:44,631 INFO 	Name: flagstat_Stomach Adenocarcinoma_57_task_29_files_400.16Gb
+2017-04-08 20:30:45,873 INFO Task 58: 32 files, 414.20 Gb
+2017-04-08 20:30:45,873 INFO 	Name: flagstat_Stomach Adenocarcinoma_58_task_32_files_414.20Gb
+2017-04-08 20:30:47,089 INFO Task 59: 33 files, 406.67 Gb
+2017-04-08 20:30:47,089 INFO 	Name: flagstat_Stomach Adenocarcinoma_59_task_33_files_406.67Gb
+2017-04-08 20:30:48,256 INFO Task 60: 34 files, 415.27 Gb
+2017-04-08 20:30:48,256 INFO 	Name: flagstat_Stomach Adenocarcinoma_60_task_34_files_415.27Gb
+2017-04-08 20:30:49,314 INFO Task 61: 30 files, 404.98 Gb
+2017-04-08 20:30:49,314 INFO 	Name: flagstat_Stomach Adenocarcinoma_61_task_30_files_404.98Gb
+2017-04-08 20:30:51,420 INFO Task 62: 29 files, 405.52 Gb
+2017-04-08 20:30:51,420 INFO 	Name: flagstat_Stomach Adenocarcinoma_62_task_29_files_405.52Gb
+2017-04-08 20:30:52,619 INFO Task 63: 38 files, 409.28 Gb
+2017-04-08 20:30:52,619 INFO 	Name: flagstat_Stomach Adenocarcinoma_63_task_38_files_409.28Gb
+2017-04-08 20:30:53,861 INFO Task 64: 35 files, 400.46 Gb
+2017-04-08 20:30:53,861 INFO 	Name: flagstat_Stomach Adenocarcinoma_64_task_35_files_400.46Gb
+2017-04-08 20:30:55,029 INFO Task 65: 31 files, 402.13 Gb
+2017-04-08 20:30:55,029 INFO 	Name: flagstat_Stomach Adenocarcinoma_65_task_31_files_402.13Gb
+2017-04-08 20:30:56,200 INFO Task 66: 34 files, 411.13 Gb
+2017-04-08 20:30:56,200 INFO 	Name: flagstat_Stomach Adenocarcinoma_66_task_34_files_411.13Gb
+2017-04-08 20:30:57,268 INFO Task 67: 31 files, 401.51 Gb
+2017-04-08 20:30:57,268 INFO 	Name: flagstat_Stomach Adenocarcinoma_67_task_31_files_401.51Gb
+2017-04-08 20:30:58,675 INFO Task 68: 43 files, 407.90 Gb
+2017-04-08 20:30:58,675 INFO 	Name: flagstat_Stomach Adenocarcinoma_68_task_43_files_407.90Gb
+2017-04-08 20:30:59,765 INFO Task 69: 31 files, 407.22 Gb
+2017-04-08 20:30:59,765 INFO 	Name: flagstat_Stomach Adenocarcinoma_69_task_31_files_407.22Gb
+2017-04-08 20:31:00,914 INFO Task 70: 31 files, 408.42 Gb
+2017-04-08 20:31:00,914 INFO 	Name: flagstat_Stomach Adenocarcinoma_70_task_31_files_408.42Gb
+2017-04-08 20:31:02,137 INFO Task 71: 30 files, 400.20 Gb
+2017-04-08 20:31:02,137 INFO 	Name: flagstat_Stomach Adenocarcinoma_71_task_30_files_400.20Gb
+2017-04-08 20:31:03,269 INFO Task 72: 13 files, 161.40 Gb
+2017-04-08 20:31:03,269 INFO 	Name: flagstat_Stomach Adenocarcinoma_72_task_13_files_161.40Gb
+2017-04-08 20:31:04,388 INFO Total tasks created: 72
+2017-04-08 20:31:04,388 INFO Total files tasked: 1092
+2017-04-08 20:31:04,388 INFO Total files for disease type: 1092
+2017-04-08 20:31:04,388 INFO Total WGS files: 322
+2017-04-08 20:31:04,388 INFO Total RNA-Seq files: 770

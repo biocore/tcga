@@ -1,0 +1,4 @@
+# CREATE WORKFLOW TASKS
+((tcga_seven_bridges_env)) Jenyas-MacBook-Pro-3:python_scripts ekopylova$ python cgc_create_tcga_workflow_task.py --mapping-fp ../metadata/meta2qiime_mapping_file/cgc_qiime_mapping_file_18154_files.txt --yaml-fp ./yaml_test_config.yaml --create-draft-tasks=True --output-dp ~/Desktop/tmp/tcga --count-start 1099
+
+# CREATE BAM2FASTA TASKS

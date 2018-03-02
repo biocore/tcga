@@ -1,46 +1,46 @@
-2016-10-22 18:08:37,984 INFO Creating draft tasks.
-2016-10-22 18:09:01,439 INFO Task 1: 7 files, 468.50 Gb
-2016-10-22 18:09:01,440 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_1_task_7_files_468.50Gb
-2016-10-22 18:09:06,551 INFO Task 2: 5 files, 461.46 Gb
-2016-10-22 18:09:06,552 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_2_task_5_files_461.46Gb
-2016-10-22 18:09:10,674 INFO Task 3: 5 files, 433.59 Gb
-2016-10-22 18:09:10,674 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_3_task_5_files_433.59Gb
-2016-10-22 18:09:13,867 INFO Task 4: 11 files, 462.74 Gb
-2016-10-22 18:09:13,867 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_4_task_11_files_462.74Gb
-2016-10-22 18:09:16,893 INFO Task 5: 5 files, 493.47 Gb
-2016-10-22 18:09:16,894 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_5_task_5_files_493.47Gb
-2016-10-22 18:09:20,068 INFO Task 6: 5 files, 476.10 Gb
-2016-10-22 18:09:20,069 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_6_task_5_files_476.10Gb
-2016-10-22 18:09:23,242 INFO Task 7: 7 files, 516.21 Gb
-2016-10-22 18:09:23,242 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_7_task_7_files_516.21Gb
-2016-10-22 18:09:26,445 INFO Task 8: 8 files, 408.99 Gb
-2016-10-22 18:09:26,445 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_8_task_8_files_408.99Gb
-2016-10-22 18:09:29,601 INFO Task 9: 19 files, 404.69 Gb
-2016-10-22 18:09:29,601 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_9_task_19_files_404.69Gb
-2016-10-22 18:09:32,807 INFO Task 10: 19 files, 410.32 Gb
-2016-10-22 18:09:32,808 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_10_task_19_files_410.32Gb
-2016-10-22 18:09:35,751 INFO Task 11: 24 files, 402.04 Gb
-2016-10-22 18:09:35,751 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_11_task_24_files_402.04Gb
-2016-10-22 18:09:38,935 INFO Task 12: 29 files, 402.00 Gb
-2016-10-22 18:09:38,935 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_12_task_29_files_402.00Gb
-2016-10-22 18:09:42,904 INFO Task 13: 45 files, 400.76 Gb
-2016-10-22 18:09:42,906 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_13_task_45_files_400.76Gb
-2016-10-22 18:09:45,876 INFO Task 14: 50 files, 406.46 Gb
-2016-10-22 18:09:45,876 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_14_task_50_files_406.46Gb
-2016-10-22 18:09:49,063 INFO Task 15: 62 files, 401.86 Gb
-2016-10-22 18:09:49,063 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_15_task_62_files_401.86Gb
-2016-10-22 18:09:52,227 INFO Task 16: 70 files, 404.24 Gb
-2016-10-22 18:09:52,230 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_16_task_70_files_404.24Gb
-2016-10-22 18:09:55,438 INFO Task 17: 45 files, 465.92 Gb
-2016-10-22 18:09:55,438 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_17_task_45_files_465.92Gb
-2016-10-22 18:09:58,568 INFO Task 18: 16 files, 549.46 Gb
-2016-10-22 18:09:58,568 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_18_task_16_files_549.46Gb
-2016-10-22 18:10:01,746 INFO Task 19: 10 files, 460.33 Gb
-2016-10-22 18:10:01,746 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_19_task_10_files_460.33Gb
-2016-10-22 18:10:05,381 INFO Task 20: 9 files, 207.28 Gb
-2016-10-22 18:10:05,381 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_20_task_9_files_207.28Gb
-2016-10-22 18:10:08,536 INFO Total tasks created: 20
-2016-10-22 18:10:08,536 INFO Total files tasked: 451
-2016-10-22 18:10:08,536 INFO Total files for disease type: 451
-2016-10-22 18:10:08,536 INFO Total WGS files: 142
-2016-10-22 18:10:08,536 INFO Total RNA-Seq files: 309
+2017-01-31 13:38:49,479 INFO Creating draft tasks.
+2017-01-31 13:39:17,991 INFO Task 1: 4 files, 456.97 Gb
+2017-01-31 13:39:17,993 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_1_task_4_files_456.97Gb
+2017-01-31 13:39:21,547 INFO Task 2: 4 files, 424.59 Gb
+2017-01-31 13:39:21,547 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_2_task_4_files_424.59Gb
+2017-01-31 13:39:24,514 INFO Task 3: 4 files, 439.34 Gb
+2017-01-31 13:39:24,514 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_3_task_4_files_439.34Gb
+2017-01-31 13:39:27,498 INFO Task 4: 4 files, 475.41 Gb
+2017-01-31 13:39:27,498 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_4_task_4_files_475.41Gb
+2017-01-31 13:39:30,557 INFO Task 5: 3 files, 459.49 Gb
+2017-01-31 13:39:30,557 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_5_task_3_files_459.49Gb
+2017-01-31 13:39:33,526 INFO Task 6: 4 files, 463.11 Gb
+2017-01-31 13:39:33,526 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_6_task_4_files_463.11Gb
+2017-01-31 13:39:36,612 INFO Task 7: 3 files, 457.85 Gb
+2017-01-31 13:39:36,613 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_7_task_3_files_457.85Gb
+2017-01-31 13:39:39,671 INFO Task 8: 20 files, 418.31 Gb
+2017-01-31 13:39:39,671 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_8_task_20_files_418.31Gb
+2017-01-31 13:39:43,129 INFO Task 9: 20 files, 418.23 Gb
+2017-01-31 13:39:43,129 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_9_task_20_files_418.23Gb
+2017-01-31 13:39:46,326 INFO Task 10: 21 files, 413.60 Gb
+2017-01-31 13:39:46,326 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_10_task_21_files_413.60Gb
+2017-01-31 13:39:49,358 INFO Task 11: 19 files, 418.28 Gb
+2017-01-31 13:39:49,358 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_11_task_19_files_418.28Gb
+2017-01-31 13:39:52,371 INFO Task 12: 20 files, 402.71 Gb
+2017-01-31 13:39:52,371 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_12_task_20_files_402.71Gb
+2017-01-31 13:39:56,025 INFO Task 13: 51 files, 400.73 Gb
+2017-01-31 13:39:56,025 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_13_task_51_files_400.73Gb
+2017-01-31 13:39:59,198 INFO Task 14: 51 files, 404.75 Gb
+2017-01-31 13:39:59,198 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_14_task_51_files_404.75Gb
+2017-01-31 13:40:02,172 INFO Task 15: 58 files, 404.92 Gb
+2017-01-31 13:40:02,172 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_15_task_58_files_404.92Gb
+2017-01-31 13:40:05,170 INFO Task 16: 68 files, 403.33 Gb
+2017-01-31 13:40:05,170 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_16_task_68_files_403.33Gb
+2017-01-31 13:40:08,240 INFO Task 17: 64 files, 400.37 Gb
+2017-01-31 13:40:08,240 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_17_task_64_files_400.37Gb
+2017-01-31 13:40:11,437 INFO Task 18: 24 files, 450.72 Gb
+2017-01-31 13:40:11,437 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_18_task_24_files_450.72Gb
+2017-01-31 13:40:14,548 INFO Task 19: 4 files, 409.95 Gb
+2017-01-31 13:40:14,548 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_19_task_4_files_409.95Gb
+2017-01-31 13:40:17,453 INFO Task 20: 5 files, 513.78 Gb
+2017-01-31 13:40:17,453 INFO 	Name: bam2fasta_Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma_20_task_5_files_513.78Gb
+2017-01-31 13:40:21,110 INFO Total tasks created: 20
+2017-01-31 13:40:21,110 INFO Total files tasked: 451
+2017-01-31 13:40:21,110 INFO Total files for disease type: 451
+2017-01-31 13:40:21,110 INFO Total WGS files: 142
+2017-01-31 13:40:21,110 INFO Total RNA-Seq files: 309

@@ -1,0 +1,128 @@
+2017-04-08 20:42:43,299 INFO Creating draft tasks.
+2017-04-08 20:42:50,540 INFO Task 1: 2 files, 547.90 Gb
+2017-04-08 20:42:50,540 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_1_task_2_files_547.90Gb
+2017-04-08 20:42:53,309 INFO Task 2: 2 files, 711.80 Gb
+2017-04-08 20:42:53,309 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_2_task_2_files_711.80Gb
+2017-04-08 20:42:54,633 INFO Task 3: 2 files, 755.45 Gb
+2017-04-08 20:42:54,633 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_3_task_2_files_755.45Gb
+2017-04-08 20:42:55,759 INFO Task 4: 2 files, 628.90 Gb
+2017-04-08 20:42:55,759 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_4_task_2_files_628.90Gb
+2017-04-08 20:42:57,007 INFO Task 5: 2 files, 850.97 Gb
+2017-04-08 20:42:57,007 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_5_task_2_files_850.97Gb
+2017-04-08 20:42:58,076 INFO Task 6: 2 files, 839.16 Gb
+2017-04-08 20:42:58,076 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_6_task_2_files_839.16Gb
+2017-04-08 20:42:59,253 INFO Task 7: 2 files, 832.30 Gb
+2017-04-08 20:42:59,254 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_7_task_2_files_832.30Gb
+2017-04-08 20:43:00,468 INFO Task 8: 2 files, 779.10 Gb
+2017-04-08 20:43:00,469 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_8_task_2_files_779.10Gb
+2017-04-08 20:43:01,495 INFO Task 9: 2 files, 744.15 Gb
+2017-04-08 20:43:01,495 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_9_task_2_files_744.15Gb
+2017-04-08 20:43:02,415 INFO Task 10: 2 files, 671.68 Gb
+2017-04-08 20:43:02,415 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_10_task_2_files_671.68Gb
+2017-04-08 20:43:03,542 INFO Task 11: 2 files, 795.24 Gb
+2017-04-08 20:43:03,542 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_11_task_2_files_795.24Gb
+2017-04-08 20:43:04,485 INFO Task 12: 2 files, 753.02 Gb
+2017-04-08 20:43:04,485 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_12_task_2_files_753.02Gb
+2017-04-08 20:43:05,761 INFO Task 13: 2 files, 798.13 Gb
+2017-04-08 20:43:05,761 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_13_task_2_files_798.13Gb
+2017-04-08 20:43:08,661 INFO Task 14: 2 files, 788.98 Gb
+2017-04-08 20:43:08,661 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_14_task_2_files_788.98Gb
+2017-04-08 20:43:10,197 INFO Task 15: 2 files, 774.87 Gb
+2017-04-08 20:43:10,197 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_15_task_2_files_774.87Gb
+2017-04-08 20:43:11,324 INFO Task 16: 2 files, 806.38 Gb
+2017-04-08 20:43:11,324 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_16_task_2_files_806.38Gb
+2017-04-08 20:43:12,348 INFO Task 17: 2 files, 800.03 Gb
+2017-04-08 20:43:12,348 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_17_task_2_files_800.03Gb
+2017-04-08 20:43:13,474 INFO Task 18: 2 files, 704.12 Gb
+2017-04-08 20:43:13,475 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_18_task_2_files_704.12Gb
+2017-04-08 20:43:14,702 INFO Task 19: 2 files, 761.09 Gb
+2017-04-08 20:43:14,703 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_19_task_2_files_761.09Gb
+2017-04-08 20:43:15,760 INFO Task 20: 2 files, 771.94 Gb
+2017-04-08 20:43:15,760 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_20_task_2_files_771.94Gb
+2017-04-08 20:43:16,705 INFO Task 21: 2 files, 750.88 Gb
+2017-04-08 20:43:16,705 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_21_task_2_files_750.88Gb
+2017-04-08 20:43:17,775 INFO Task 22: 2 files, 765.13 Gb
+2017-04-08 20:43:17,775 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_22_task_2_files_765.13Gb
+2017-04-08 20:43:18,799 INFO Task 23: 2 files, 755.29 Gb
+2017-04-08 20:43:18,799 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_23_task_2_files_755.29Gb
+2017-04-08 20:43:19,823 INFO Task 24: 2 files, 783.50 Gb
+2017-04-08 20:43:19,823 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_24_task_2_files_783.50Gb
+2017-04-08 20:43:20,950 INFO Task 25: 2 files, 805.32 Gb
+2017-04-08 20:43:20,950 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_25_task_2_files_805.32Gb
+2017-04-08 20:43:22,178 INFO Task 26: 2 files, 826.26 Gb
+2017-04-08 20:43:22,179 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_26_task_2_files_826.26Gb
+2017-04-08 20:43:23,100 INFO Task 27: 2 files, 683.16 Gb
+2017-04-08 20:43:23,100 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_27_task_2_files_683.16Gb
+2017-04-08 20:43:24,226 INFO Task 28: 2 files, 835.57 Gb
+2017-04-08 20:43:24,226 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_28_task_2_files_835.57Gb
+2017-04-08 20:43:25,250 INFO Task 29: 2 files, 785.55 Gb
+2017-04-08 20:43:25,250 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_29_task_2_files_785.55Gb
+2017-04-08 20:43:26,274 INFO Task 30: 2 files, 751.50 Gb
+2017-04-08 20:43:26,275 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_30_task_2_files_751.50Gb
+2017-04-08 20:43:27,363 INFO Task 31: 2 files, 805.60 Gb
+2017-04-08 20:43:27,364 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_31_task_2_files_805.60Gb
+2017-04-08 20:43:28,322 INFO Task 32: 2 files, 740.80 Gb
+2017-04-08 20:43:28,322 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_32_task_2_files_740.80Gb
+2017-04-08 20:43:29,346 INFO Task 33: 2 files, 792.03 Gb
+2017-04-08 20:43:29,346 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_33_task_2_files_792.03Gb
+2017-04-08 20:43:30,370 INFO Task 34: 2 files, 791.95 Gb
+2017-04-08 20:43:30,370 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_34_task_2_files_791.95Gb
+2017-04-08 20:43:31,599 INFO Task 35: 2 files, 744.49 Gb
+2017-04-08 20:43:31,599 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_35_task_2_files_744.49Gb
+2017-04-08 20:43:32,624 INFO Task 36: 2 files, 773.00 Gb
+2017-04-08 20:43:32,624 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_36_task_2_files_773.00Gb
+2017-04-08 20:43:33,647 INFO Task 37: 2 files, 777.25 Gb
+2017-04-08 20:43:33,647 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_37_task_2_files_777.25Gb
+2017-04-08 20:43:34,705 INFO Task 38: 2 files, 814.37 Gb
+2017-04-08 20:43:34,705 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_38_task_2_files_814.37Gb
+2017-04-08 20:43:35,797 INFO Task 39: 2 files, 798.28 Gb
+2017-04-08 20:43:35,797 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_39_task_2_files_798.28Gb
+2017-04-08 20:43:36,866 INFO Task 40: 2 files, 828.81 Gb
+2017-04-08 20:43:36,867 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_40_task_2_files_828.81Gb
+2017-04-08 20:43:37,949 INFO Task 41: 2 files, 796.03 Gb
+2017-04-08 20:43:37,949 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_41_task_2_files_796.03Gb
+2017-04-08 20:43:39,082 INFO Task 42: 2 files, 817.29 Gb
+2017-04-08 20:43:39,082 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_42_task_2_files_817.29Gb
+2017-04-08 20:43:40,098 INFO Task 43: 2 files, 762.71 Gb
+2017-04-08 20:43:40,098 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_43_task_2_files_762.71Gb
+2017-04-08 20:43:41,146 INFO Task 44: 2 files, 752.35 Gb
+2017-04-08 20:43:41,147 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_44_task_2_files_752.35Gb
+2017-04-08 20:43:42,147 INFO Task 45: 2 files, 758.24 Gb
+2017-04-08 20:43:42,147 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_45_task_2_files_758.24Gb
+2017-04-08 20:43:43,170 INFO Task 46: 2 files, 759.55 Gb
+2017-04-08 20:43:43,170 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_46_task_2_files_759.55Gb
+2017-04-08 20:43:44,399 INFO Task 47: 2 files, 812.05 Gb
+2017-04-08 20:43:44,400 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_47_task_2_files_812.05Gb
+2017-04-08 20:43:46,057 INFO Task 48: 2 files, 761.61 Gb
+2017-04-08 20:43:46,057 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_48_task_2_files_761.61Gb
+2017-04-08 20:43:47,054 INFO Task 49: 2 files, 731.56 Gb
+2017-04-08 20:43:47,055 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_49_task_2_files_731.56Gb
+2017-04-08 20:43:48,188 INFO Task 50: 2 files, 777.38 Gb
+2017-04-08 20:43:48,188 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_50_task_2_files_777.38Gb
+2017-04-08 20:43:49,212 INFO Task 51: 2 files, 809.49 Gb
+2017-04-08 20:43:49,212 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_51_task_2_files_809.49Gb
+2017-04-08 20:43:51,181 INFO Task 52: 2 files, 894.88 Gb
+2017-04-08 20:43:51,181 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_52_task_2_files_894.88Gb
+2017-04-08 20:43:52,732 INFO Task 53: 2 files, 776.38 Gb
+2017-04-08 20:43:52,732 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_53_task_2_files_776.38Gb
+2017-04-08 20:43:53,623 INFO Task 54: 2 files, 849.92 Gb
+2017-04-08 20:43:53,624 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_54_task_2_files_849.92Gb
+2017-04-08 20:43:54,640 INFO Task 55: 17 files, 406.32 Gb
+2017-04-08 20:43:54,640 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_55_task_17_files_406.32Gb
+2017-04-08 20:43:55,667 INFO Task 56: 69 files, 400.75 Gb
+2017-04-08 20:43:55,667 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_56_task_69_files_400.75Gb
+2017-04-08 20:43:57,130 INFO Task 57: 71 files, 402.65 Gb
+2017-04-08 20:43:57,130 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_57_task_71_files_402.65Gb
+2017-04-08 20:43:58,455 INFO Task 58: 67 files, 402.35 Gb
+2017-04-08 20:43:58,455 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_58_task_67_files_402.35Gb
+2017-04-08 20:43:59,935 INFO Task 59: 70 files, 402.48 Gb
+2017-04-08 20:43:59,935 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_59_task_70_files_402.48Gb
+2017-04-08 20:44:01,212 INFO Task 60: 88 files, 400.32 Gb
+2017-04-08 20:44:01,212 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_60_task_88_files_400.32Gb
+2017-04-08 20:44:02,645 INFO Task 61: 42 files, 202.37 Gb
+2017-04-08 20:44:02,645 INFO 	Name: flagstat_Liver Hepatocellular Carcinoma_61_task_42_files_202.37Gb
+2017-04-08 20:44:03,757 INFO Total tasks created: 61
+2017-04-08 20:44:03,757 INFO Total files tasked: 532
+2017-04-08 20:44:03,757 INFO Total files for disease type: 532
+2017-04-08 20:44:03,757 INFO Total WGS files: 108
+2017-04-08 20:44:03,757 INFO Total RNA-Seq files: 424

@@ -1,0 +1,14 @@
+# Creates Dockerfile for kraken_to_fasta.py
+FROM python:3
+MAINTAINER Evguenia Kopylova <jenya.kopylov@gmail.com>
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+RUN pip install --no-cache-dir scikit-bio click
+COPY kraken_to_fasta.py /usr/src/app
+COPY test_kraken_to_fasta.py /usr/src/app
+
+ADD kraken_to_fasta.py /usr/src/app/kraken_to_fasta.py
+
+CMD ["python", "/usr/src/app/kraken_to_fasta.py"]
