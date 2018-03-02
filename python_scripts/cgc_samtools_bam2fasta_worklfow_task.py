@@ -73,15 +73,15 @@ def create_task_bam2fasta_cgc(all_files,
     task_name = "bam2fasta_%s" % task_name
     logger.info('\tName: %s' % task_name)
     my_project = api.projects.get(id = config['project'])
-    try:
-        api.tasks.create(name=task_name,
-                         project=my_project.id,
-                         app=config['app-bam2fasta'],
-                         inputs=inputs,
-                         description=task_name)
-    except SbgError as e:
-        logger.error("Draft task was not created!", exc_info=e)
-        raise SbgError("Draft task was not created!")
+    #try:
+    #    api.tasks.create(name=task_name,
+    #                     project=my_project.id,
+    #                     app=config['app-bam2fasta'],
+    #                     inputs=inputs,
+    #                     description=task_name)
+    #except SbgError as e:
+    #    logger.error("Draft task was not created!", exc_info=e)
+    #    raise SbgError("Draft task was not created!")
 
 
 def create_tasks(api,

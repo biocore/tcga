@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #-----------------------------------------------------------------------------
-# Copyright (c) 2016--, Evguenia Kopylova, Jad Kanbar, SevenBridges dev team.
+# Copyright (c) 2017--, Evguenia Kopylova, Jad Kanbar, SevenBridges dev team.
 #
 # Distributed under the terms of the Modified BSD License.
 #
@@ -9,7 +9,18 @@
 #-----------------------------------------------------------------------------
 
 """
-Create tasks for tcga-workflow-fasta-input-full-kraken-test workflow.
+Create tasks for:
+Viral_Kraken_to_Standard_Output_and_Classified_and Unclassified_Fasta_disease_type_Worklow
+and
+Viral_Kraken_mpa_report_AND_Biom_Workflow
+
+Purpose:
+For disease types:
+
+
+
+the workflow 'tcga-workflow-fasta-input-full-kraken-test' did not produce
+a FASTA classified output file, BIOM table
 """
 
 from __future__ import print_function
@@ -83,13 +94,13 @@ def create_task_workflow_cgc(local_mapping_fp,
     """
     project = config['project']
     # Upload local mapping file to project
-    #try:
-    #    api.files.upload(project=project, path=local_mapping_fp)
+    try:
+        api.files.upload(project=project, path=local_mapping_fp)
     # File already exists
-    #except SbgError as e:
-    #    logger.error(
-    #        "Could not upload file, trying to query for it", exc_info=e)
-    #    pass
+    except SbgError as e:
+        logger.error(
+            "Could not upload file, trying to query for it", exc_info=e)
+        pass
     # Retrieve File object for mapping file
     local_mapping_file = list(
         api.files.query(
@@ -136,15 +147,15 @@ def create_task_workflow_cgc(local_mapping_fp,
                 "File %s not assigned to any input argument." % name)
     task_name = "workflow_%s" % task_name
     my_project = api.projects.get(id = config['project'])
-    #try:
-    #    api.tasks.create(name=task_name,
-    #                    project=my_project.id,
-    #                     app=config['app-workflow'],
-    #                     inputs=inputs,
-    #                     description=task_name)
-    #except SbgError as e:
-    #    logger.error("Draft task was not created!", exc_info=e)
-    #    raise SbgError("Draft task was not created!")
+    try:
+        api.tasks.create(name=task_name,
+                         project=my_project.id,
+                         app=config['app-workflow'],
+                         inputs=inputs,
+                         description=task_name)
+    except SbgError as e:
+        logger.error("Draft task was not created!", exc_info=e)
+        raise SbgError("Draft task was not created!")
     # Initialize files array and total size
     all_files = []
     total_size_gb = 0.0

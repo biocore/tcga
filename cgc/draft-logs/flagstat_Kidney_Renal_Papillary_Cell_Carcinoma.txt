@@ -1,0 +1,123 @@
+2017-04-05 15:38:21,532 INFO Running tasks!
+2017-04-05 19:42:18,264 INFO Running tasks!
+2017-04-05 22:16:28,898 INFO Running tasks!
+2017-04-05 22:16:54,562 INFO Running tasks!
+2017-04-05 22:18:00,146 INFO Running tasks!
+2017-04-05 22:18:04,255 INFO Maximum number of active tasks reached!
+2017-04-05 22:18:16,528 INFO Running tasks!
+2017-04-05 22:18:20,690 INFO Maximum number of active tasks reached!
+2017-04-06 06:49:40,463 INFO Running tasks!
+2017-04-06 08:19:39,723 INFO Running tasks!
+2017-04-06 10:54:04,228 INFO Running tasks!
+2017-04-06 14:34:19,940 INFO Running tasks!
+2017-04-06 21:19:44,482 INFO Running tasks!
+2017-04-06 21:43:26,189 INFO Running tasks!
+2017-04-06 21:43:30,727 INFO Maximum number of active tasks reached!
+2017-04-07 00:43:30,724 INFO Running tasks!
+2017-04-07 06:50:42,870 INFO Running tasks!
+2017-04-07 13:20:49,724 INFO Running tasks!
+2017-04-07 17:45:01,928 INFO Running tasks!
+2017-04-07 22:18:09,752 INFO Running tasks!
+2017-04-07 22:21:22,246 INFO Running tasks!
+2017-04-07 22:21:26,628 INFO Maximum number of active tasks reached!
+2017-04-08 01:21:26,428 INFO Running tasks!
+2017-04-08 07:42:21,049 INFO Running tasks!
+2017-04-08 10:30:14,747 INFO Running tasks!
+2017-04-08 13:21:15,465 INFO Running tasks!
+2017-04-08 19:56:53,065 INFO Running tasks!
+2017-04-08 19:58:38,818 INFO Creating draft tasks.
+2017-04-08 19:58:48,817 INFO Task 1: 3 files, 570.09 Gb
+2017-04-08 19:58:48,818 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_1_task_3_files_570.09Gb
+2017-04-08 19:58:50,442 INFO Task 2: 1 files, 495.73 Gb
+2017-04-08 19:58:50,443 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_2_task_1_files_495.73Gb
+2017-04-08 19:58:52,976 INFO Task 3: 2 files, 777.34 Gb
+2017-04-08 19:58:52,977 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_3_task_2_files_777.34Gb
+2017-04-08 19:58:54,157 INFO Task 4: 2 files, 731.22 Gb
+2017-04-08 19:58:54,157 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_4_task_2_files_731.22Gb
+2017-04-08 19:58:55,276 INFO Task 5: 2 files, 658.17 Gb
+2017-04-08 19:58:55,276 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_5_task_2_files_658.17Gb
+2017-04-08 19:58:56,420 INFO Task 6: 2 files, 688.79 Gb
+2017-04-08 19:58:56,420 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_6_task_2_files_688.79Gb
+2017-04-08 19:58:57,378 INFO Task 7: 2 files, 627.47 Gb
+2017-04-08 19:58:57,378 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_7_task_2_files_627.47Gb
+2017-04-08 19:58:58,373 INFO Task 8: 2 files, 750.82 Gb
+2017-04-08 19:58:58,373 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_8_task_2_files_750.82Gb
+2017-04-08 19:58:59,287 INFO Task 9: 2 files, 852.58 Gb
+2017-04-08 19:58:59,287 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_9_task_2_files_852.58Gb
+2017-04-08 19:59:00,294 INFO Task 10: 2 files, 517.86 Gb
+2017-04-08 19:59:00,294 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_10_task_2_files_517.86Gb
+2017-04-08 19:59:02,548 INFO Task 11: 2 files, 453.83 Gb
+2017-04-08 19:59:02,548 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_11_task_2_files_453.83Gb
+2017-04-08 19:59:03,574 INFO Task 12: 2 files, 556.27 Gb
+2017-04-08 19:59:03,575 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_12_task_2_files_556.27Gb
+2017-04-08 19:59:04,492 INFO Task 13: 2 files, 547.37 Gb
+2017-04-08 19:59:04,492 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_13_task_2_files_547.37Gb
+2017-04-08 19:59:05,619 INFO Task 14: 1 files, 415.68 Gb
+2017-04-08 19:59:05,620 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_14_task_1_files_415.68Gb
+2017-04-08 19:59:06,750 INFO Task 15: 2 files, 620.33 Gb
+2017-04-08 19:59:06,750 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_15_task_2_files_620.33Gb
+2017-04-08 19:59:07,667 INFO Task 16: 2 files, 712.61 Gb
+2017-04-08 19:59:07,667 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_16_task_2_files_712.61Gb
+2017-04-08 19:59:08,706 INFO Task 17: 2 files, 652.37 Gb
+2017-04-08 19:59:08,706 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_17_task_2_files_652.37Gb
+2017-04-08 19:59:09,511 INFO Task 18: 2 files, 781.10 Gb
+2017-04-08 19:59:09,511 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_18_task_2_files_781.10Gb
+2017-04-08 19:59:11,457 INFO Task 19: 2 files, 672.20 Gb
+2017-04-08 19:59:11,457 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_19_task_2_files_672.20Gb
+2017-04-08 19:59:12,479 INFO Task 20: 2 files, 714.29 Gb
+2017-04-08 19:59:12,479 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_20_task_2_files_714.29Gb
+2017-04-08 19:59:13,606 INFO Task 21: 2 files, 719.82 Gb
+2017-04-08 19:59:13,606 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_21_task_2_files_719.82Gb
+2017-04-08 19:59:14,630 INFO Task 22: 2 files, 796.93 Gb
+2017-04-08 19:59:14,630 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_22_task_2_files_796.93Gb
+2017-04-08 19:59:15,670 INFO Task 23: 2 files, 784.46 Gb
+2017-04-08 19:59:15,670 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_23_task_2_files_784.46Gb
+2017-04-08 19:59:16,678 INFO Task 24: 2 files, 607.85 Gb
+2017-04-08 19:59:16,678 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_24_task_2_files_607.85Gb
+2017-04-08 19:59:17,704 INFO Task 25: 2 files, 725.34 Gb
+2017-04-08 19:59:17,704 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_25_task_2_files_725.34Gb
+2017-04-08 19:59:18,830 INFO Task 26: 2 files, 793.11 Gb
+2017-04-08 19:59:18,830 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_26_task_2_files_793.11Gb
+2017-04-08 19:59:19,719 INFO Task 27: 2 files, 736.02 Gb
+2017-04-08 19:59:19,719 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_27_task_2_files_736.02Gb
+2017-04-08 19:59:20,799 INFO Task 28: 2 files, 832.90 Gb
+2017-04-08 19:59:20,799 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_28_task_2_files_832.90Gb
+2017-04-08 19:59:21,696 INFO Task 29: 2 files, 635.74 Gb
+2017-04-08 19:59:21,696 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_29_task_2_files_635.74Gb
+2017-04-08 19:59:22,720 INFO Task 30: 2 files, 781.89 Gb
+2017-04-08 19:59:22,720 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_30_task_2_files_781.89Gb
+2017-04-08 19:59:23,725 INFO Task 31: 2 files, 686.31 Gb
+2017-04-08 19:59:23,725 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_31_task_2_files_686.31Gb
+2017-04-08 19:59:24,644 INFO Task 32: 2 files, 682.75 Gb
+2017-04-08 19:59:24,644 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_32_task_2_files_682.75Gb
+2017-04-08 19:59:25,690 INFO Task 33: 2 files, 672.31 Gb
+2017-04-08 19:59:25,690 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_33_task_2_files_672.31Gb
+2017-04-08 19:59:26,816 INFO Task 34: 2 files, 788.19 Gb
+2017-04-08 19:59:26,817 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_34_task_2_files_788.19Gb
+2017-04-08 19:59:27,793 INFO Task 35: 2 files, 766.23 Gb
+2017-04-08 19:59:27,794 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_35_task_2_files_766.23Gb
+2017-04-08 19:59:28,744 INFO Task 36: 2 files, 787.78 Gb
+2017-04-08 19:59:28,744 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_36_task_2_files_787.78Gb
+2017-04-08 19:59:29,888 INFO Task 37: 2 files, 744.70 Gb
+2017-04-08 19:59:29,888 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_37_task_2_files_744.70Gb
+2017-04-08 19:59:30,858 INFO Task 38: 2 files, 804.71 Gb
+2017-04-08 19:59:30,858 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_38_task_2_files_804.71Gb
+2017-04-08 19:59:32,038 INFO Task 39: 2 files, 778.34 Gb
+2017-04-08 19:59:32,038 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_39_task_2_files_778.34Gb
+2017-04-08 19:59:33,066 INFO Task 40: 21 files, 402.94 Gb
+2017-04-08 19:59:33,066 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_40_task_21_files_402.94Gb
+2017-04-08 19:59:34,090 INFO Task 41: 54 files, 404.45 Gb
+2017-04-08 19:59:34,090 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_41_task_54_files_404.45Gb
+2017-04-08 19:59:35,319 INFO Task 42: 66 files, 401.77 Gb
+2017-04-08 19:59:35,320 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_42_task_66_files_401.77Gb
+2017-04-08 19:59:37,282 INFO Task 43: 67 files, 406.46 Gb
+2017-04-08 19:59:37,283 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_43_task_67_files_406.46Gb
+2017-04-08 19:59:38,421 INFO Task 44: 69 files, 403.70 Gb
+2017-04-08 19:59:38,421 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_44_task_69_files_403.70Gb
+2017-04-08 19:59:39,761 INFO Task 45: 46 files, 281.04 Gb
+2017-04-08 19:59:39,761 INFO 	Name: flagstat_Kidney Renal Papillary Cell Carcinoma_45_task_46_files_281.04Gb
+2017-04-08 19:59:41,665 INFO Total tasks created: 45
+2017-04-08 19:59:41,665 INFO Total files tasked: 400
+2017-04-08 19:59:41,665 INFO Total files for disease type: 400
+2017-04-08 19:59:41,665 INFO Total WGS files: 77
+2017-04-08 19:59:41,665 INFO Total RNA-Seq files: 323

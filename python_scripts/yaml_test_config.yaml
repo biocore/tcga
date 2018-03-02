@@ -1,0 +1,23 @@
+# File path for logging details.
+log_file : cgc.log
+
+# Target project identifier where analysis will be executed
+# Can be obtained from the API or the project URL
+project : jkanbar/tcga-kraken-reference
+
+# Target app on which to execute analysis
+# Can be obtained from the API or the project URL
+app-workflow : jkanbar/tcga-kraken-reference/tcga-fasta-input-disease-type-workflow
+app-bam2fasta : jkanbar/tcga-kraken-reference/samtools-bam2fasta-worklfow-v7
+app-flagstat : jkanbar/tcga-kraken-reference/samtools-flagstat-workflow
+
+# Max task numbers per run! Please be careful when using this option!
+task_max_per_run: 30
+
+# CGC API Token
+token : a358029987d6460c8adaeda0ccb5d64e
+
+disease : Ovarian Serous Cystadenocarcinoma
+
+# CGC Api URL
+api-url : https://cgc-api.sbgenomics.com/v2

@@ -1,0 +1,110 @@
+2017-04-08 20:31:48,499 INFO Creating draft tasks.
+2017-04-08 20:31:52,109 INFO Task 1: 2 files, 430.82 Gb
+2017-04-08 20:31:52,110 INFO 	Name: flagstat_Kidney Chromophobe_1_task_2_files_430.82Gb
+2017-04-08 20:31:53,668 INFO Task 2: 2 files, 426.02 Gb
+2017-04-08 20:31:53,668 INFO 	Name: flagstat_Kidney Chromophobe_2_task_2_files_426.02Gb
+2017-04-08 20:31:54,785 INFO Task 3: 1 files, 570.48 Gb
+2017-04-08 20:31:54,785 INFO 	Name: flagstat_Kidney Chromophobe_3_task_1_files_570.48Gb
+2017-04-08 20:31:55,894 INFO Task 4: 2 files, 855.46 Gb
+2017-04-08 20:31:55,894 INFO 	Name: flagstat_Kidney Chromophobe_4_task_2_files_855.46Gb
+2017-04-08 20:31:57,021 INFO Task 5: 2 files, 694.62 Gb
+2017-04-08 20:31:57,021 INFO 	Name: flagstat_Kidney Chromophobe_5_task_2_files_694.62Gb
+2017-04-08 20:31:58,045 INFO Task 6: 2 files, 862.30 Gb
+2017-04-08 20:31:58,045 INFO 	Name: flagstat_Kidney Chromophobe_6_task_2_files_862.30Gb
+2017-04-08 20:31:59,176 INFO Task 7: 2 files, 790.46 Gb
+2017-04-08 20:31:59,176 INFO 	Name: flagstat_Kidney Chromophobe_7_task_2_files_790.46Gb
+2017-04-08 20:32:00,400 INFO Task 8: 2 files, 833.74 Gb
+2017-04-08 20:32:00,400 INFO 	Name: flagstat_Kidney Chromophobe_8_task_2_files_833.74Gb
+2017-04-08 20:32:01,372 INFO Task 9: 2 files, 828.27 Gb
+2017-04-08 20:32:01,372 INFO 	Name: flagstat_Kidney Chromophobe_9_task_2_files_828.27Gb
+2017-04-08 20:32:02,448 INFO Task 10: 2 files, 817.35 Gb
+2017-04-08 20:32:02,448 INFO 	Name: flagstat_Kidney Chromophobe_10_task_2_files_817.35Gb
+2017-04-08 20:32:03,471 INFO Task 11: 2 files, 760.23 Gb
+2017-04-08 20:32:03,471 INFO 	Name: flagstat_Kidney Chromophobe_11_task_2_files_760.23Gb
+2017-04-08 20:32:04,496 INFO Task 12: 2 files, 814.20 Gb
+2017-04-08 20:32:04,496 INFO 	Name: flagstat_Kidney Chromophobe_12_task_2_files_814.20Gb
+2017-04-08 20:32:05,449 INFO Task 13: 2 files, 563.29 Gb
+2017-04-08 20:32:05,449 INFO 	Name: flagstat_Kidney Chromophobe_13_task_2_files_563.29Gb
+2017-04-08 20:32:06,339 INFO Task 14: 2 files, 411.29 Gb
+2017-04-08 20:32:06,339 INFO 	Name: flagstat_Kidney Chromophobe_14_task_2_files_411.29Gb
+2017-04-08 20:32:07,466 INFO Task 15: 2 files, 616.58 Gb
+2017-04-08 20:32:07,466 INFO 	Name: flagstat_Kidney Chromophobe_15_task_2_files_616.58Gb
+2017-04-08 20:32:08,498 INFO Task 16: 2 files, 715.22 Gb
+2017-04-08 20:32:08,498 INFO 	Name: flagstat_Kidney Chromophobe_16_task_2_files_715.22Gb
+2017-04-08 20:32:09,615 INFO Task 17: 2 files, 709.01 Gb
+2017-04-08 20:32:09,615 INFO 	Name: flagstat_Kidney Chromophobe_17_task_2_files_709.01Gb
+2017-04-08 20:32:10,681 INFO Task 18: 2 files, 734.54 Gb
+2017-04-08 20:32:10,681 INFO 	Name: flagstat_Kidney Chromophobe_18_task_2_files_734.54Gb
+2017-04-08 20:32:11,783 INFO Task 19: 2 files, 683.67 Gb
+2017-04-08 20:32:11,784 INFO 	Name: flagstat_Kidney Chromophobe_19_task_2_files_683.67Gb
+2017-04-08 20:32:12,904 INFO Task 20: 2 files, 615.93 Gb
+2017-04-08 20:32:12,904 INFO 	Name: flagstat_Kidney Chromophobe_20_task_2_files_615.93Gb
+2017-04-08 20:32:14,019 INFO Task 21: 2 files, 717.34 Gb
+2017-04-08 20:32:14,019 INFO 	Name: flagstat_Kidney Chromophobe_21_task_2_files_717.34Gb
+2017-04-08 20:32:15,044 INFO Task 22: 2 files, 749.40 Gb
+2017-04-08 20:32:15,044 INFO 	Name: flagstat_Kidney Chromophobe_22_task_2_files_749.40Gb
+2017-04-08 20:32:16,067 INFO Task 23: 2 files, 762.12 Gb
+2017-04-08 20:32:16,067 INFO 	Name: flagstat_Kidney Chromophobe_23_task_2_files_762.12Gb
+2017-04-08 20:32:17,198 INFO Task 24: 2 files, 730.54 Gb
+2017-04-08 20:32:17,198 INFO 	Name: flagstat_Kidney Chromophobe_24_task_2_files_730.54Gb
+2017-04-08 20:32:18,220 INFO Task 25: 2 files, 718.06 Gb
+2017-04-08 20:32:18,220 INFO 	Name: flagstat_Kidney Chromophobe_25_task_2_files_718.06Gb
+2017-04-08 20:32:19,242 INFO Task 26: 2 files, 803.63 Gb
+2017-04-08 20:32:19,242 INFO 	Name: flagstat_Kidney Chromophobe_26_task_2_files_803.63Gb
+2017-04-08 20:32:20,470 INFO Task 27: 2 files, 581.59 Gb
+2017-04-08 20:32:20,470 INFO 	Name: flagstat_Kidney Chromophobe_27_task_2_files_581.59Gb
+2017-04-08 20:32:21,403 INFO Task 28: 2 files, 618.11 Gb
+2017-04-08 20:32:21,403 INFO 	Name: flagstat_Kidney Chromophobe_28_task_2_files_618.11Gb
+2017-04-08 20:32:22,518 INFO Task 29: 2 files, 741.52 Gb
+2017-04-08 20:32:22,518 INFO 	Name: flagstat_Kidney Chromophobe_29_task_2_files_741.52Gb
+2017-04-08 20:32:23,558 INFO Task 30: 2 files, 748.93 Gb
+2017-04-08 20:32:23,558 INFO 	Name: flagstat_Kidney Chromophobe_30_task_2_files_748.93Gb
+2017-04-08 20:32:24,566 INFO Task 31: 2 files, 558.57 Gb
+2017-04-08 20:32:24,566 INFO 	Name: flagstat_Kidney Chromophobe_31_task_2_files_558.57Gb
+2017-04-08 20:32:25,590 INFO Task 32: 2 files, 588.01 Gb
+2017-04-08 20:32:25,590 INFO 	Name: flagstat_Kidney Chromophobe_32_task_2_files_588.01Gb
+2017-04-08 20:32:26,728 INFO Task 33: 2 files, 684.31 Gb
+2017-04-08 20:32:26,728 INFO 	Name: flagstat_Kidney Chromophobe_33_task_2_files_684.31Gb
+2017-04-08 20:32:27,842 INFO Task 34: 2 files, 724.34 Gb
+2017-04-08 20:32:27,843 INFO 	Name: flagstat_Kidney Chromophobe_34_task_2_files_724.34Gb
+2017-04-08 20:32:28,971 INFO Task 35: 2 files, 752.15 Gb
+2017-04-08 20:32:28,971 INFO 	Name: flagstat_Kidney Chromophobe_35_task_2_files_752.15Gb
+2017-04-08 20:32:30,097 INFO Task 36: 2 files, 560.70 Gb
+2017-04-08 20:32:30,097 INFO 	Name: flagstat_Kidney Chromophobe_36_task_2_files_560.70Gb
+2017-04-08 20:32:31,209 INFO Task 37: 2 files, 674.78 Gb
+2017-04-08 20:32:31,209 INFO 	Name: flagstat_Kidney Chromophobe_37_task_2_files_674.78Gb
+2017-04-08 20:32:32,246 INFO Task 38: 2 files, 713.20 Gb
+2017-04-08 20:32:32,246 INFO 	Name: flagstat_Kidney Chromophobe_38_task_2_files_713.20Gb
+2017-04-08 20:32:33,372 INFO Task 39: 2 files, 705.52 Gb
+2017-04-08 20:32:33,373 INFO 	Name: flagstat_Kidney Chromophobe_39_task_2_files_705.52Gb
+2017-04-08 20:32:34,397 INFO Task 40: 2 files, 529.78 Gb
+2017-04-08 20:32:34,397 INFO 	Name: flagstat_Kidney Chromophobe_40_task_2_files_529.78Gb
+2017-04-08 20:32:35,421 INFO Task 41: 2 files, 444.95 Gb
+2017-04-08 20:32:35,421 INFO 	Name: flagstat_Kidney Chromophobe_41_task_2_files_444.95Gb
+2017-04-08 20:32:36,425 INFO Task 42: 2 files, 758.99 Gb
+2017-04-08 20:32:36,425 INFO 	Name: flagstat_Kidney Chromophobe_42_task_2_files_758.99Gb
+2017-04-08 20:32:37,469 INFO Task 43: 2 files, 784.37 Gb
+2017-04-08 20:32:37,469 INFO 	Name: flagstat_Kidney Chromophobe_43_task_2_files_784.37Gb
+2017-04-08 20:32:38,479 INFO Task 44: 2 files, 545.06 Gb
+2017-04-08 20:32:38,479 INFO 	Name: flagstat_Kidney Chromophobe_44_task_2_files_545.06Gb
+2017-04-08 20:32:39,371 INFO Task 45: 2 files, 469.84 Gb
+2017-04-08 20:32:39,371 INFO 	Name: flagstat_Kidney Chromophobe_45_task_2_files_469.84Gb
+2017-04-08 20:32:40,540 INFO Task 46: 2 files, 601.55 Gb
+2017-04-08 20:32:40,541 INFO 	Name: flagstat_Kidney Chromophobe_46_task_2_files_601.55Gb
+2017-04-08 20:32:41,565 INFO Task 47: 2 files, 792.72 Gb
+2017-04-08 20:32:41,565 INFO 	Name: flagstat_Kidney Chromophobe_47_task_2_files_792.72Gb
+2017-04-08 20:32:42,567 INFO Task 48: 2 files, 604.42 Gb
+2017-04-08 20:32:42,567 INFO 	Name: flagstat_Kidney Chromophobe_48_task_2_files_604.42Gb
+2017-04-08 20:32:43,712 INFO Task 49: 2 files, 518.10 Gb
+2017-04-08 20:32:43,712 INFO 	Name: flagstat_Kidney Chromophobe_49_task_2_files_518.10Gb
+2017-04-08 20:32:44,738 INFO Task 50: 2 files, 440.41 Gb
+2017-04-08 20:32:44,738 INFO 	Name: flagstat_Kidney Chromophobe_50_task_2_files_440.41Gb
+2017-04-08 20:32:45,741 INFO Task 51: 40 files, 403.48 Gb
+2017-04-08 20:32:45,742 INFO 	Name: flagstat_Kidney Chromophobe_51_task_40_files_403.48Gb
+2017-04-08 20:32:47,001 INFO Task 52: 52 files, 374.79 Gb
+2017-04-08 20:32:47,002 INFO 	Name: flagstat_Kidney Chromophobe_52_task_52_files_374.79Gb
+2017-04-08 20:32:48,342 INFO Total tasks created: 52
+2017-04-08 20:32:48,342 INFO Total files tasked: 191
+2017-04-08 20:32:48,343 INFO Total files for disease type: 191
+2017-04-08 20:32:48,343 INFO Total WGS files: 100
+2017-04-08 20:32:48,343 INFO Total RNA-Seq files: 91

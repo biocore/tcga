@@ -1,0 +1,134 @@
+2017-04-08 20:11:33,299 INFO Creating draft tasks.
+2017-04-08 20:11:39,381 INFO Task 1: 3 files, 424.69 Gb
+2017-04-08 20:11:39,382 INFO 	Name: flagstat_Glioblastoma Multiforme_1_task_3_files_424.69Gb
+2017-04-08 20:11:41,108 INFO Task 2: 5 files, 496.10 Gb
+2017-04-08 20:11:41,108 INFO 	Name: flagstat_Glioblastoma Multiforme_2_task_5_files_496.10Gb
+2017-04-08 20:11:42,131 INFO Task 3: 5 files, 499.20 Gb
+2017-04-08 20:11:42,132 INFO 	Name: flagstat_Glioblastoma Multiforme_3_task_5_files_499.20Gb
+2017-04-08 20:11:43,155 INFO Task 4: 5 files, 477.78 Gb
+2017-04-08 20:11:43,155 INFO 	Name: flagstat_Glioblastoma Multiforme_4_task_5_files_477.78Gb
+2017-04-08 20:11:44,284 INFO Task 5: 25 files, 406.42 Gb
+2017-04-08 20:11:44,284 INFO 	Name: flagstat_Glioblastoma Multiforme_5_task_25_files_406.42Gb
+2017-04-08 20:11:45,615 INFO Task 6: 25 files, 471.15 Gb
+2017-04-08 20:11:45,615 INFO 	Name: flagstat_Glioblastoma Multiforme_6_task_25_files_471.15Gb
+2017-04-08 20:11:46,945 INFO Task 7: 1 files, 461.31 Gb
+2017-04-08 20:11:46,946 INFO 	Name: flagstat_Glioblastoma Multiforme_7_task_1_files_461.31Gb
+2017-04-08 20:11:48,097 INFO Task 8: 53 files, 404.45 Gb
+2017-04-08 20:11:48,098 INFO 	Name: flagstat_Glioblastoma Multiforme_8_task_53_files_404.45Gb
+2017-04-08 20:11:49,406 INFO Task 9: 47 files, 405.74 Gb
+2017-04-08 20:11:49,406 INFO 	Name: flagstat_Glioblastoma Multiforme_9_task_47_files_405.74Gb
+2017-04-08 20:11:51,555 INFO Task 10: 24 files, 541.14 Gb
+2017-04-08 20:11:51,555 INFO 	Name: flagstat_Glioblastoma Multiforme_10_task_24_files_541.14Gb
+2017-04-08 20:11:52,586 INFO Task 11: 2 files, 616.84 Gb
+2017-04-08 20:11:52,586 INFO 	Name: flagstat_Glioblastoma Multiforme_11_task_2_files_616.84Gb
+2017-04-08 20:11:53,804 INFO Task 12: 2 files, 474.84 Gb
+2017-04-08 20:11:53,804 INFO 	Name: flagstat_Glioblastoma Multiforme_12_task_2_files_474.84Gb
+2017-04-08 20:11:54,841 INFO Task 13: 2 files, 499.51 Gb
+2017-04-08 20:11:54,841 INFO 	Name: flagstat_Glioblastoma Multiforme_13_task_2_files_499.51Gb
+2017-04-08 20:11:56,364 INFO Task 14: 1 files, 401.07 Gb
+2017-04-08 20:11:56,364 INFO 	Name: flagstat_Glioblastoma Multiforme_14_task_1_files_401.07Gb
+2017-04-08 20:11:57,391 INFO Task 15: 3 files, 494.38 Gb
+2017-04-08 20:11:57,391 INFO 	Name: flagstat_Glioblastoma Multiforme_15_task_3_files_494.38Gb
+2017-04-08 20:11:58,516 INFO Task 16: 3 files, 507.34 Gb
+2017-04-08 20:11:58,516 INFO 	Name: flagstat_Glioblastoma Multiforme_16_task_3_files_507.34Gb
+2017-04-08 20:11:59,556 INFO Task 17: 3 files, 520.70 Gb
+2017-04-08 20:11:59,556 INFO 	Name: flagstat_Glioblastoma Multiforme_17_task_3_files_520.70Gb
+2017-04-08 20:12:00,666 INFO Task 18: 3 files, 506.48 Gb
+2017-04-08 20:12:00,667 INFO 	Name: flagstat_Glioblastoma Multiforme_18_task_3_files_506.48Gb
+2017-04-08 20:12:01,793 INFO Task 19: 3 files, 528.80 Gb
+2017-04-08 20:12:01,793 INFO 	Name: flagstat_Glioblastoma Multiforme_19_task_3_files_528.80Gb
+2017-04-08 20:12:02,817 INFO Task 20: 3 files, 480.02 Gb
+2017-04-08 20:12:02,817 INFO 	Name: flagstat_Glioblastoma Multiforme_20_task_3_files_480.02Gb
+2017-04-08 20:12:03,943 INFO Task 21: 3 files, 509.53 Gb
+2017-04-08 20:12:03,944 INFO 	Name: flagstat_Glioblastoma Multiforme_21_task_3_files_509.53Gb
+2017-04-08 20:12:04,992 INFO Task 22: 3 files, 526.83 Gb
+2017-04-08 20:12:04,992 INFO 	Name: flagstat_Glioblastoma Multiforme_22_task_3_files_526.83Gb
+2017-04-08 20:12:06,195 INFO Task 23: 3 files, 503.64 Gb
+2017-04-08 20:12:06,195 INFO 	Name: flagstat_Glioblastoma Multiforme_23_task_3_files_503.64Gb
+2017-04-08 20:12:09,061 INFO Task 24: 3 files, 457.93 Gb
+2017-04-08 20:12:09,061 INFO 	Name: flagstat_Glioblastoma Multiforme_24_task_3_files_457.93Gb
+2017-04-08 20:12:10,120 INFO Task 25: 3 files, 529.74 Gb
+2017-04-08 20:12:10,120 INFO 	Name: flagstat_Glioblastoma Multiforme_25_task_3_files_529.74Gb
+2017-04-08 20:12:11,214 INFO Task 26: 3 files, 549.61 Gb
+2017-04-08 20:12:11,214 INFO 	Name: flagstat_Glioblastoma Multiforme_26_task_3_files_549.61Gb
+2017-04-08 20:12:13,262 INFO Task 27: 3 files, 522.31 Gb
+2017-04-08 20:12:13,262 INFO 	Name: flagstat_Glioblastoma Multiforme_27_task_3_files_522.31Gb
+2017-04-08 20:12:14,317 INFO Task 28: 3 files, 540.49 Gb
+2017-04-08 20:12:14,318 INFO 	Name: flagstat_Glioblastoma Multiforme_28_task_3_files_540.49Gb
+2017-04-08 20:12:15,229 INFO Task 29: 3 files, 526.38 Gb
+2017-04-08 20:12:15,230 INFO 	Name: flagstat_Glioblastoma Multiforme_29_task_3_files_526.38Gb
+2017-04-08 20:12:16,213 INFO Task 30: 3 files, 494.40 Gb
+2017-04-08 20:12:16,214 INFO 	Name: flagstat_Glioblastoma Multiforme_30_task_3_files_494.40Gb
+2017-04-08 20:12:17,129 INFO Task 31: 2 files, 487.02 Gb
+2017-04-08 20:12:17,129 INFO 	Name: flagstat_Glioblastoma Multiforme_31_task_2_files_487.02Gb
+2017-04-08 20:12:18,117 INFO Task 32: 2 files, 528.41 Gb
+2017-04-08 20:12:18,117 INFO 	Name: flagstat_Glioblastoma Multiforme_32_task_2_files_528.41Gb
+2017-04-08 20:12:19,098 INFO Task 33: 2 files, 678.14 Gb
+2017-04-08 20:12:19,098 INFO 	Name: flagstat_Glioblastoma Multiforme_33_task_2_files_678.14Gb
+2017-04-08 20:12:20,207 INFO Task 34: 2 files, 550.34 Gb
+2017-04-08 20:12:20,207 INFO 	Name: flagstat_Glioblastoma Multiforme_34_task_2_files_550.34Gb
+2017-04-08 20:12:21,194 INFO Task 35: 2 files, 608.00 Gb
+2017-04-08 20:12:21,194 INFO 	Name: flagstat_Glioblastoma Multiforme_35_task_2_files_608.00Gb
+2017-04-08 20:12:22,274 INFO Task 36: 2 files, 453.02 Gb
+2017-04-08 20:12:22,275 INFO 	Name: flagstat_Glioblastoma Multiforme_36_task_2_files_453.02Gb
+2017-04-08 20:12:23,399 INFO Task 37: 2 files, 450.58 Gb
+2017-04-08 20:12:23,399 INFO 	Name: flagstat_Glioblastoma Multiforme_37_task_2_files_450.58Gb
+2017-04-08 20:12:24,423 INFO Task 38: 2 files, 624.27 Gb
+2017-04-08 20:12:24,423 INFO 	Name: flagstat_Glioblastoma Multiforme_38_task_2_files_624.27Gb
+2017-04-08 20:12:25,550 INFO Task 39: 2 files, 516.00 Gb
+2017-04-08 20:12:25,550 INFO 	Name: flagstat_Glioblastoma Multiforme_39_task_2_files_516.00Gb
+2017-04-08 20:12:26,574 INFO Task 40: 2 files, 424.20 Gb
+2017-04-08 20:12:26,574 INFO 	Name: flagstat_Glioblastoma Multiforme_40_task_2_files_424.20Gb
+2017-04-08 20:12:27,641 INFO Task 41: 2 files, 598.23 Gb
+2017-04-08 20:12:27,641 INFO 	Name: flagstat_Glioblastoma Multiforme_41_task_2_files_598.23Gb
+2017-04-08 20:12:28,623 INFO Task 42: 2 files, 495.42 Gb
+2017-04-08 20:12:28,623 INFO 	Name: flagstat_Glioblastoma Multiforme_42_task_2_files_495.42Gb
+2017-04-08 20:12:29,748 INFO Task 43: 2 files, 511.13 Gb
+2017-04-08 20:12:29,748 INFO 	Name: flagstat_Glioblastoma Multiforme_43_task_2_files_511.13Gb
+2017-04-08 20:12:30,946 INFO Task 44: 2 files, 721.45 Gb
+2017-04-08 20:12:30,946 INFO 	Name: flagstat_Glioblastoma Multiforme_44_task_2_files_721.45Gb
+2017-04-08 20:12:31,928 INFO Task 45: 20 files, 428.30 Gb
+2017-04-08 20:12:31,928 INFO 	Name: flagstat_Glioblastoma Multiforme_45_task_20_files_428.30Gb
+2017-04-08 20:12:33,085 INFO Task 46: 3 files, 358.92 Gb
+2017-04-08 20:12:33,085 INFO 	Name: flagstat_Glioblastoma Multiforme_46_task_3_files_358.92Gb
+2017-04-08 20:12:34,254 INFO Task 47: 2 files, 665.09 Gb
+2017-04-08 20:12:34,254 INFO 	Name: flagstat_Glioblastoma Multiforme_47_task_2_files_665.09Gb
+2017-04-08 20:12:36,007 INFO Task 48: 2 files, 614.59 Gb
+2017-04-08 20:12:36,007 INFO 	Name: flagstat_Glioblastoma Multiforme_48_task_2_files_614.59Gb
+2017-04-08 20:12:37,121 INFO Task 49: 3 files, 407.94 Gb
+2017-04-08 20:12:37,121 INFO 	Name: flagstat_Glioblastoma Multiforme_49_task_3_files_407.94Gb
+2017-04-08 20:12:38,062 INFO Task 50: 2 files, 533.74 Gb
+2017-04-08 20:12:38,063 INFO 	Name: flagstat_Glioblastoma Multiforme_50_task_2_files_533.74Gb
+2017-04-08 20:12:39,202 INFO Task 51: 2 files, 444.92 Gb
+2017-04-08 20:12:39,202 INFO 	Name: flagstat_Glioblastoma Multiforme_51_task_2_files_444.92Gb
+2017-04-08 20:12:40,293 INFO Task 52: 3 files, 498.84 Gb
+2017-04-08 20:12:40,293 INFO 	Name: flagstat_Glioblastoma Multiforme_52_task_3_files_498.84Gb
+2017-04-08 20:12:41,331 INFO Task 53: 2 files, 515.02 Gb
+2017-04-08 20:12:41,331 INFO 	Name: flagstat_Glioblastoma Multiforme_53_task_2_files_515.02Gb
+2017-04-08 20:12:42,446 INFO Task 54: 4 files, 452.32 Gb
+2017-04-08 20:12:42,447 INFO 	Name: flagstat_Glioblastoma Multiforme_54_task_4_files_452.32Gb
+2017-04-08 20:12:43,573 INFO Task 55: 5 files, 470.40 Gb
+2017-04-08 20:12:43,573 INFO 	Name: flagstat_Glioblastoma Multiforme_55_task_5_files_470.40Gb
+2017-04-08 20:12:44,608 INFO Task 56: 5 files, 457.88 Gb
+2017-04-08 20:12:44,608 INFO 	Name: flagstat_Glioblastoma Multiforme_56_task_5_files_457.88Gb
+2017-04-08 20:12:45,723 INFO Task 57: 5 files, 452.75 Gb
+2017-04-08 20:12:45,723 INFO 	Name: flagstat_Glioblastoma Multiforme_57_task_5_files_452.75Gb
+2017-04-08 20:12:46,852 INFO Task 58: 42 files, 404.53 Gb
+2017-04-08 20:12:46,852 INFO 	Name: flagstat_Glioblastoma Multiforme_58_task_42_files_404.53Gb
+2017-04-08 20:12:48,089 INFO Task 59: 50 files, 406.07 Gb
+2017-04-08 20:12:48,089 INFO 	Name: flagstat_Glioblastoma Multiforme_59_task_50_files_406.07Gb
+2017-04-08 20:12:49,519 INFO Task 60: 52 files, 409.98 Gb
+2017-04-08 20:12:49,520 INFO 	Name: flagstat_Glioblastoma Multiforme_60_task_52_files_409.98Gb
+2017-04-08 20:12:52,696 INFO Task 61: 33 files, 404.80 Gb
+2017-04-08 20:12:52,696 INFO 	Name: flagstat_Glioblastoma Multiforme_61_task_33_files_404.80Gb
+2017-04-08 20:12:54,448 INFO Task 62: 4 files, 430.55 Gb
+2017-04-08 20:12:54,449 INFO 	Name: flagstat_Glioblastoma Multiforme_62_task_4_files_430.55Gb
+2017-04-08 20:12:55,657 INFO Task 63: 4 files, 432.19 Gb
+2017-04-08 20:12:55,657 INFO 	Name: flagstat_Glioblastoma Multiforme_63_task_4_files_432.19Gb
+2017-04-08 20:12:56,475 INFO Task 64: 1 files, 119.38 Gb
+2017-04-08 20:12:56,475 INFO 	Name: flagstat_Glioblastoma Multiforme_64_task_1_files_119.38Gb
+2017-04-08 20:12:57,601 INFO Total tasks created: 64
+2017-04-08 20:12:57,601 INFO Total files tasked: 520
+2017-04-08 20:12:57,601 INFO Total files for disease type: 520
+2017-04-08 20:12:57,601 INFO Total WGS files: 159
+2017-04-08 20:12:57,601 INFO Total RNA-Seq files: 361
