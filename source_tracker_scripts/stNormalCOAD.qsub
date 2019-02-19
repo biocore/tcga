@@ -1,0 +1,20 @@
+#PBS -N source-tracker-run
+# request the queue (enter the possible names, if omitted, serial is the default)
+#PBS -l nodes=1:ppn=8
+# Request 8:30 hr of cpu time before job terminates
+#PBS -l cput=8:30:00
+# Request 32 GB memory
+#PBS -l mem=32gb
+# Specify that emails get sent when job
+# - aborts
+# - begins
+# - executes
+#PBS -m abe
+# Specify email
+#PBS -M gregpoore@ucsd.edu
+
+cd $PBS_O_WORKDIR
+
+source activate st2
+
+sourcetracker2 gibbs -i hmpcSubsetCOADDataBIOM.biom -m hmpcSubsetCOADMetadata.txt -o subsetCOADR1/
