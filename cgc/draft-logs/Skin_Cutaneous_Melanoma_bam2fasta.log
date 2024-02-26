@@ -1,0 +1,105 @@
+2016-10-27 11:14:52,778 INFO Running tasks!
+2016-10-27 11:15:43,226 INFO Creating draft tasks.
+2016-10-27 11:16:32,244 INFO Task 1: 3 files, 434.07 Gb
+2016-10-27 11:16:32,244 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_1_task_3_files_434.07Gb
+2016-10-27 11:16:36,425 INFO Task 2: 3 files, 422.74 Gb
+2016-10-27 11:16:36,425 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_2_task_3_files_422.74Gb
+2016-10-27 11:16:40,028 INFO Task 3: 2 files, 460.50 Gb
+2016-10-27 11:16:40,028 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_3_task_2_files_460.50Gb
+2016-10-27 11:16:43,895 INFO Task 4: 3 files, 574.93 Gb
+2016-10-27 11:16:43,895 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_4_task_3_files_574.93Gb
+2016-10-27 11:16:47,488 INFO Task 5: 3 files, 582.49 Gb
+2016-10-27 11:16:47,488 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_5_task_3_files_582.49Gb
+2016-10-27 11:16:51,127 INFO Task 6: 3 files, 457.84 Gb
+2016-10-27 11:16:51,127 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_6_task_3_files_457.84Gb
+2016-10-27 11:16:54,612 INFO Task 7: 3 files, 456.07 Gb
+2016-10-27 11:16:54,613 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_7_task_3_files_456.07Gb
+2016-10-27 11:16:58,141 INFO Task 8: 3 files, 378.30 Gb
+2016-10-27 11:16:58,141 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_8_task_3_files_378.30Gb
+2016-10-27 11:17:01,972 INFO Task 9: 2 files, 419.12 Gb
+2016-10-27 11:17:01,973 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_9_task_2_files_419.12Gb
+2016-10-27 11:17:05,613 INFO Task 10: 3 files, 422.92 Gb
+2016-10-27 11:17:05,613 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_10_task_3_files_422.92Gb
+2016-10-27 11:17:09,194 INFO Task 11: 3 files, 435.00 Gb
+2016-10-27 11:17:09,194 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_11_task_3_files_435.00Gb
+2016-10-27 11:17:12,646 INFO Task 12: 3 files, 575.02 Gb
+2016-10-27 11:17:12,646 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_12_task_3_files_575.02Gb
+2016-10-27 11:17:16,088 INFO Task 13: 3 files, 532.92 Gb
+2016-10-27 11:17:16,088 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_13_task_3_files_532.92Gb
+2016-10-27 11:17:19,595 INFO Task 14: 3 files, 484.21 Gb
+2016-10-27 11:17:19,595 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_14_task_3_files_484.21Gb
+2016-10-27 11:17:23,247 INFO Task 15: 3 files, 460.11 Gb
+2016-10-27 11:17:23,247 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_15_task_3_files_460.11Gb
+2016-10-27 11:17:26,773 INFO Task 16: 3 files, 450.46 Gb
+2016-10-27 11:17:26,773 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_16_task_3_files_450.46Gb
+2016-10-27 11:17:30,392 INFO Task 17: 3 files, 426.53 Gb
+2016-10-27 11:17:30,392 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_17_task_3_files_426.53Gb
+2016-10-27 11:17:34,077 INFO Task 18: 4 files, 501.76 Gb
+2016-10-27 11:17:34,077 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_18_task_4_files_501.76Gb
+2016-10-27 11:17:37,638 INFO Task 19: 3 files, 407.31 Gb
+2016-10-27 11:17:37,638 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_19_task_3_files_407.31Gb
+2016-10-27 11:17:42,133 INFO Task 20: 5 files, 549.24 Gb
+2016-10-27 11:17:42,133 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_20_task_5_files_549.24Gb
+2016-10-27 11:17:46,135 INFO Task 21: 4 files, 504.22 Gb
+2016-10-27 11:17:46,135 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_21_task_4_files_504.22Gb
+2016-10-27 11:17:49,588 INFO Task 22: 3 files, 535.80 Gb
+2016-10-27 11:17:49,588 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_22_task_3_files_535.80Gb
+2016-10-27 11:17:53,095 INFO Task 23: 6 files, 465.45 Gb
+2016-10-27 11:17:53,095 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_23_task_6_files_465.45Gb
+2016-10-27 11:17:56,707 INFO Task 24: 3 files, 529.30 Gb
+2016-10-27 11:17:56,709 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_24_task_3_files_529.30Gb
+2016-10-27 11:18:00,747 INFO Task 25: 2 files, 463.86 Gb
+2016-10-27 11:18:00,748 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_25_task_2_files_463.86Gb
+2016-10-27 11:18:04,849 INFO Task 26: 3 files, 371.20 Gb
+2016-10-27 11:18:04,850 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_26_task_3_files_371.20Gb
+2016-10-27 11:18:08,399 INFO Task 27: 2 files, 420.33 Gb
+2016-10-27 11:18:08,399 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_27_task_2_files_420.33Gb
+2016-10-27 11:18:12,067 INFO Task 28: 5 files, 559.42 Gb
+2016-10-27 11:18:12,067 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_28_task_5_files_559.42Gb
+2016-10-27 11:18:15,588 INFO Task 29: 2 files, 407.15 Gb
+2016-10-27 11:18:15,589 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_29_task_2_files_407.15Gb
+2016-10-27 11:18:19,134 INFO Task 30: 2 files, 389.90 Gb
+2016-10-27 11:18:19,134 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_30_task_2_files_389.90Gb
+2016-10-27 11:18:22,648 INFO Task 31: 2 files, 436.34 Gb
+2016-10-27 11:18:22,648 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_31_task_2_files_436.34Gb
+2016-10-27 11:18:26,186 INFO Task 32: 17 files, 404.14 Gb
+2016-10-27 11:18:26,186 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_32_task_17_files_404.14Gb
+2016-10-27 11:18:29,860 INFO Task 33: 23 files, 413.66 Gb
+2016-10-27 11:18:29,861 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_33_task_23_files_413.66Gb
+2016-10-27 11:18:33,573 INFO Task 34: 23 files, 412.10 Gb
+2016-10-27 11:18:33,573 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_34_task_23_files_412.10Gb
+2016-10-27 11:18:37,608 INFO Task 35: 20 files, 406.68 Gb
+2016-10-27 11:18:37,608 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_35_task_20_files_406.68Gb
+2016-10-27 11:18:41,253 INFO Task 36: 21 files, 405.06 Gb
+2016-10-27 11:18:41,253 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_36_task_21_files_405.06Gb
+2016-10-27 11:18:44,587 INFO Task 37: 20 files, 401.02 Gb
+2016-10-27 11:18:44,587 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_37_task_20_files_401.02Gb
+2016-10-27 11:18:48,430 INFO Task 38: 24 files, 413.81 Gb
+2016-10-27 11:18:48,431 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_38_task_24_files_413.81Gb
+2016-10-27 11:18:52,655 INFO Task 39: 22 files, 420.33 Gb
+2016-10-27 11:18:52,655 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_39_task_22_files_420.33Gb
+2016-10-27 11:18:56,307 INFO Task 40: 24 files, 405.59 Gb
+2016-10-27 11:18:56,308 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_40_task_24_files_405.59Gb
+2016-10-27 11:18:59,965 INFO Task 41: 30 files, 406.05 Gb
+2016-10-27 11:18:59,965 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_41_task_30_files_406.05Gb
+2016-10-27 11:19:04,092 INFO Task 42: 42 files, 400.29 Gb
+2016-10-27 11:19:04,092 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_42_task_42_files_400.29Gb
+2016-10-27 11:19:08,597 INFO Task 43: 61 files, 406.47 Gb
+2016-10-27 11:19:08,597 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_43_task_61_files_406.47Gb
+2016-10-27 11:19:12,739 INFO Task 44: 54 files, 403.06 Gb
+2016-10-27 11:19:12,739 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_44_task_54_files_403.06Gb
+2016-10-27 11:19:17,027 INFO Task 45: 59 files, 405.71 Gb
+2016-10-27 11:19:17,027 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_45_task_59_files_405.71Gb
+2016-10-27 11:19:20,989 INFO Task 46: 59 files, 400.48 Gb
+2016-10-27 11:19:20,989 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_46_task_59_files_400.48Gb
+2016-10-27 11:19:24,573 INFO Task 47: 66 files, 405.73 Gb
+2016-10-27 11:19:24,573 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_47_task_66_files_405.73Gb
+2016-10-27 11:19:28,377 INFO Task 48: 67 files, 400.49 Gb
+2016-10-27 11:19:28,377 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_48_task_67_files_400.49Gb
+2016-10-27 11:19:32,428 INFO Task 49: 66 files, 378.85 Gb
+2016-10-27 11:19:32,428 INFO 	Name: bam2fasta_Skin Cutaneous Melanoma_49_task_66_files_378.85Gb
+2016-10-27 11:19:36,037 INFO Total tasks created: 49
+2016-10-27 11:19:36,037 INFO Total files tasked: 793
+2016-10-27 11:19:36,037 INFO Total files for disease type: 793
+2016-10-27 11:19:36,037 INFO Total WGS files: 320
+2016-10-27 11:19:36,037 INFO Total RNA-Seq files: 473
